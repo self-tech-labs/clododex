@@ -1,0 +1,27 @@
+{
+  "name": "agent-arena",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "test": "node --test",
+    "intel:backfill": "node scripts/backfill-intel.mjs",
+    "intel:build": "node scripts/build-intel-snapshot.mjs",
+    "intel:offline": "node scripts/build-intel-snapshot.mjs --offline --no-xai"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "overrides": {
+    "postcss": "^8.5.15"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^16.2.6"
+  }
+}

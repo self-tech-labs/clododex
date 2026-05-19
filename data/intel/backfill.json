@@ -1,0 +1,991 @@
+{
+  "version": 1,
+  "researchedAt": "2026-05-19T00:00:00.000Z",
+  "researchMode": "seeded-official-sources",
+  "sources": [
+    {
+      "id": "anthropic-company",
+      "url": "https://www.anthropic.com/company?hsLang=en",
+      "publisher": "Anthropic",
+      "title": "Company",
+      "side": "c1",
+      "notes": [
+        "Anthropic describes itself as an AI safety and research company building reliable, interpretable, and steerable AI systems.",
+        "The company page lists board and long-term benefit trust governance context."
+      ]
+    },
+    {
+      "id": "anthropic-labs",
+      "url": "https://www.anthropic.com/news/introducing-anthropic-labs",
+      "publisher": "Anthropic",
+      "title": "Introducing Labs",
+      "side": "c1",
+      "publishedAt": "2026-01-13",
+      "notes": [
+        "Anthropic expanded Labs to incubate experimental products at the frontier of Claude capabilities.",
+        "The announcement says Mike Krieger moved into Labs with Ben Mann, and Ami Vora would lead Product with Rahul Patil."
+      ]
+    },
+    {
+      "id": "openai-capital-2026",
+      "url": "https://openai.com/index/accelerating-the-next-phase-ai/",
+      "publisher": "OpenAI",
+      "title": "OpenAI raises $122 billion to accelerate the next phase of AI",
+      "side": "c2",
+      "publishedAt": "2026-03-31",
+      "notes": [
+        "OpenAI announced $122 billion in committed capital at an $852 billion post-money valuation.",
+        "The announcement positions consumer adoption, enterprise deployment, developer usage, and compute as a reinforcing flywheel."
+      ]
+    },
+    {
+      "id": "openai-simplex-codex",
+      "url": "https://openai.com/index/simplex/",
+      "publisher": "OpenAI",
+      "title": "Simplex rethinks software development with Codex",
+      "side": "c2",
+      "publishedAt": "2026-05-07",
+      "notes": [
+        "OpenAI published an enterprise case study where Simplex selected Codex as its primary coding agent.",
+        "The case study frames agentic systems as moving beyond assistive coding into delegated development work."
+      ]
+    },
+    {
+      "id": "openai-tanstack-response",
+      "url": "https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack/",
+      "publisher": "OpenAI",
+      "title": "Our response to the TanStack npm supply chain attack",
+      "side": "c2",
+      "publishedAt": "2026-05-13",
+      "notes": [
+        "OpenAI warned users to avoid unexpected OpenAI, ChatGPT, or Codex installers from third-party links.",
+        "The response adds a security/comms signal around Codex distribution and desktop app trust."
+      ]
+    },
+    {
+      "id": "axios-karpathy-anthropic",
+      "url": "https://www.axios.com/2026/05/19/anthropic-openai-karpathy-andrej-claude",
+      "publisher": "Axios",
+      "title": "OpenAI co-founder Andrej Karpathy joins Anthropic",
+      "side": "c1",
+      "publishedAt": "2026-05-19",
+      "notes": [
+        "Axios reported that Andrej Karpathy joined Anthropic and would start on the pre-training team.",
+        "The report frames the hire as a major talent win in frontier AI."
+      ]
+    },
+    {
+      "id": "jason-liu-home",
+      "url": "https://jxnl.co/",
+      "publisher": "Jason Liu",
+      "title": "Introductions",
+      "side": "c2",
+      "notes": [
+        "Jason Liu says he is a Developer Experience Engineer on the Codex team at OpenAI.",
+        "He describes himself as the creator of Instructor, a Python library for structured LLM outputs."
+      ]
+    },
+    {
+      "id": "instructor-structured-outputs",
+      "url": "https://python.useinstructor.com/blog/2024/03/05/zero-cost-abstractions/",
+      "publisher": "Instructor",
+      "title": "Why Instructor is the Best Library for Structured LLM Outputs",
+      "side": "c2",
+      "publishedAt": "2024-03-05",
+      "notes": [
+        "The Instructor article explains mapping LLM outputs into Pydantic models through a response_model parameter.",
+        "It emphasizes low-abstraction, SDK-compatible structured output workflows."
+      ]
+    },
+    {
+      "id": "wandb-structured-outputs-course",
+      "url": "https://wandb.ai/site/courses/structured-outputs/",
+      "publisher": "Weights & Biases",
+      "title": "LLM engineering course: Master structured outputs and data validation",
+      "side": "c2",
+      "notes": [
+        "Weights & Biases lists Jason Liu as course instructor and creator of the Instructor library.",
+        "The course focuses on structured outputs and data validation."
+      ]
+    },
+    {
+      "id": "techcrunch-openclaw-openai",
+      "url": "https://techcrunch.com/2026/02/15/openclaw-creator-peter-steinberger-joins-openai/",
+      "publisher": "TechCrunch",
+      "title": "OpenClaw creator Peter Steinberger joins OpenAI",
+      "side": "c2",
+      "publishedAt": "2026-02-15",
+      "notes": [
+        "TechCrunch reported that Peter Steinberger, creator of OpenClaw, joined OpenAI.",
+        "The report says Sam Altman framed the role around the next generation of personal agents."
+      ]
+    },
+    {
+      "id": "pcgamer-openclaw-codex-usage",
+      "url": "https://www.pcgamer.com/software/ai/the-creator-of-openclaw-used-usd1-300-000-of-openai-tokens-in-30-days-which-is-a-hell-of-a-perk/",
+      "publisher": "PC Gamer",
+      "title": "The creator of OpenClaw used $1,300,000+ of OpenAI tokens in 30 days",
+      "side": "c2",
+      "publishedAt": "2026-05-18",
+      "notes": [
+        "PC Gamer reported on Steinberger's posted OpenAI usage: 603 billion tokens across 7.6 million requests.",
+        "The report links the usage to around 100 Codex instances and continued OpenClaw development."
+      ]
+    }
+  ],
+  "dashboard": {
+    "claudeTeam": [
+      {
+        "id": "dario",
+        "name": "DARIO",
+        "surname": "AMODEI",
+        "handle": "@DarioAmodei",
+        "cls": "THE STRATEGIST",
+        "stats": { "ATK": 92, "DEF": 96, "SPD": 78, "COMBO": 88, "HP": 95 },
+        "special": "SAFETY THESIS",
+        "combo": ["DOWN", "RIGHT", "SAFETY"],
+        "lore": "Anthropic CEO. Anchors the Claude side around frontier-model safety, governance, and strategic clarity.",
+        "threatScore": 94,
+        "lastActivity": "n/a",
+        "dossier": {
+          "lastReviewedAt": "2026-05-19",
+          "tagline": "Safety-first macro player for Team Claude.",
+          "background": [
+            {
+              "text": "Anthropic describes its company mission around reliable, interpretable, and steerable AI systems; Dario Amodei is the executive face of that safety-first posture.",
+              "evidenceUrls": ["https://www.anthropic.com/company?hsLang=en"],
+              "confidence": 0.86
+            }
+          ],
+          "keyProjects": [
+            {
+              "name": "Anthropic safety and governance frame",
+              "description": "The Claude-side narrative is built on Anthropic's public positioning around responsible frontier AI.",
+              "tags": ["safety", "strategy"],
+              "evidenceUrls": ["https://www.anthropic.com/company?hsLang=en"]
+            }
+          ],
+          "strengths": [
+            {
+              "label": "Strategic framing",
+              "description": "Turns model competition into a governance and safety argument rather than a pure feature race.",
+              "evidenceUrls": ["https://www.anthropic.com/company?hsLang=en"]
+            }
+          ],
+          "narrative": {
+            "title": "Defensive Supercycle",
+            "text": "A boss character built around patience, policy terrain, and long-horizon scaling discipline.",
+            "evidenceUrls": ["https://www.anthropic.com/company?hsLang=en"]
+          },
+          "sourceUrls": ["https://www.anthropic.com/company?hsLang=en"]
+        }
+      },
+      {
+        "id": "daniela",
+        "name": "DANIELA",
+        "surname": "AMODEI",
+        "handle": "@DanielaAmodei",
+        "cls": "THE OPERATOR",
+        "stats": { "ATK": 78, "DEF": 92, "SPD": 86, "COMBO": 90, "HP": 92 },
+        "special": "ORG VELOCITY",
+        "combo": ["UP", "RIGHT", "ENT"],
+        "lore": "Anthropic president. Public company materials put her close to product and operating structure decisions.",
+        "threatScore": 88,
+        "lastActivity": "n/a",
+        "dossier": {
+          "lastReviewedAt": "2026-05-19",
+          "tagline": "The operating spine behind Claude's enterprise posture.",
+          "background": [
+            {
+              "text": "Anthropic's company materials place Daniela Amodei in the public leadership layer of the organization.",
+              "evidenceUrls": ["https://www.anthropic.com/company?hsLang=en"],
+              "confidence": 0.84
+            }
+          ],
+          "keyProjects": [
+            {
+              "name": "Anthropic operating model",
+              "description": "A leadership role tied to converting frontier research into a durable company and customer platform.",
+              "tags": ["operations", "enterprise"],
+              "evidenceUrls": ["https://www.anthropic.com/company?hsLang=en"]
+            }
+          ],
+          "strengths": [
+            {
+              "label": "Org translation",
+              "description": "Connects the lab's safety thesis to the operating structure needed for enterprise adoption.",
+              "evidenceUrls": ["https://www.anthropic.com/company?hsLang=en"]
+            }
+          ],
+          "narrative": {
+            "title": "Org Velocity",
+            "text": "A support-class fighter whose buffs come from coordination, process, and keeping the lab's field position coherent.",
+            "evidenceUrls": ["https://www.anthropic.com/company?hsLang=en"]
+          },
+          "sourceUrls": ["https://www.anthropic.com/company?hsLang=en"]
+        }
+      },
+      {
+        "id": "krieger",
+        "name": "MIKE",
+        "surname": "KRIEGER",
+        "handle": "@mikeyk",
+        "cls": "THE LABS BUILDER",
+        "stats": { "ATK": 88, "DEF": 82, "SPD": 94, "COMBO": 86, "HP": 88 },
+        "special": "EXPERIMENT LOOP",
+        "combo": ["RIGHT", "RIGHT", "SHIP"],
+        "lore": "Anthropic Labs builder. Anthropic says he moved from CPO into Labs to build experimental Claude products with Ben Mann.",
+        "threatScore": 91,
+        "lastActivity": "n/a",
+        "dossier": {
+          "lastReviewedAt": "2026-05-19",
+          "tagline": "Product experimenter turning Claude capability into new surfaces.",
+          "background": [
+            {
+              "text": "Anthropic's Labs announcement says Mike Krieger moved into Labs with Ben Mann to incubate experimental products at the frontier of Claude capabilities.",
+              "evidenceUrls": ["https://www.anthropic.com/news/introducing-anthropic-labs"],
+              "confidence": 0.95
+            }
+          ],
+          "keyProjects": [
+            {
+              "name": "Anthropic Labs",
+              "description": "A product incubation group for frontier Claude products, including experimental workflow surfaces.",
+              "tags": ["labs", "product"],
+              "evidenceUrls": ["https://www.anthropic.com/news/introducing-anthropic-labs"]
+            }
+          ],
+          "strengths": [
+            {
+              "label": "Prototype-to-product loop",
+              "description": "Works at the boundary between research capability and product experience.",
+              "evidenceUrls": ["https://www.anthropic.com/news/introducing-anthropic-labs"]
+            }
+          ],
+          "narrative": {
+            "title": "Experiment Loop",
+            "text": "A fast builder class that wins by finding the product shape before the rest of the field names the category.",
+            "evidenceUrls": ["https://www.anthropic.com/news/introducing-anthropic-labs"]
+          },
+          "sourceUrls": ["https://www.anthropic.com/news/introducing-anthropic-labs"]
+        }
+      },
+      {
+        "id": "karpathy",
+        "name": "ANDREJ",
+        "surname": "KARPATHY",
+        "handle": "@karpathy",
+        "cls": "THE PRETRAINING ACE",
+        "stats": { "ATK": 95, "DEF": 84, "SPD": 82, "COMBO": 91, "HP": 92 },
+        "special": "TOKENMAXXING ARC",
+        "combo": ["EDU", "PRETRAIN", "R&D"],
+        "lore": "OpenAI founding member and public AI educator. Axios reports he joined Anthropic's pre-training team in May 2026.",
+        "threatScore": 95,
+        "lastActivity": "n/a",
+        "dossier": {
+          "lastReviewedAt": "2026-05-19",
+          "tagline": "New Anthropic research pickup with OpenAI, Tesla, and education credibility.",
+          "background": [
+            {
+              "text": "Axios reported on May 19, 2026 that Andrej Karpathy announced he was joining Anthropic and would start on the pre-training team.",
+              "evidenceUrls": ["https://www.axios.com/2026/05/19/anthropic-openai-karpathy-andrej-claude"],
+              "confidence": 0.96
+            },
+            {
+              "text": "Axios describes Karpathy as a founding member of OpenAI, former Tesla AI leader, and influential public educator.",
+              "evidenceUrls": ["https://www.axios.com/2026/05/19/anthropic-openai-karpathy-andrej-claude"],
+              "confidence": 0.92
+            }
+          ],
+          "keyProjects": [
+            {
+              "name": "Anthropic pre-training research",
+              "description": "Axios says he is joining the team responsible for massive training runs that give Claude its core knowledge and capabilities.",
+              "tags": ["research", "pretraining"],
+              "evidenceUrls": ["https://www.axios.com/2026/05/19/anthropic-openai-karpathy-andrej-claude"]
+            },
+            {
+              "name": "Public AI education",
+              "description": "Axios notes that he built a large following through technical explainers and educational content.",
+              "tags": ["education", "research"],
+              "evidenceUrls": ["https://www.axios.com/2026/05/19/anthropic-openai-karpathy-andrej-claude"]
+            }
+          ],
+          "strengths": [
+            {
+              "label": "Frontier credibility",
+              "description": "Carries rare status across research, industry, and public education.",
+              "evidenceUrls": ["https://www.axios.com/2026/05/19/anthropic-openai-karpathy-andrej-claude"]
+            }
+          ],
+          "narrative": {
+            "title": "The Transfer Window Shock",
+            "text": "A late-season unlock for Team Claude: research prestige, educator aura, and a pre-training questline aimed straight at the model core.",
+            "evidenceUrls": ["https://www.axios.com/2026/05/19/anthropic-openai-karpathy-andrej-claude"]
+          },
+          "sourceUrls": ["https://www.axios.com/2026/05/19/anthropic-openai-karpathy-andrej-claude"]
+        }
+      },
+      {
+        "id": "boris",
+        "name": "BORIS",
+        "surname": "CHERNY",
+        "handle": "@bcherny",
+        "cls": "THE CODE LEAD",
+        "stats": { "ATK": 90, "DEF": 82, "SPD": 91, "COMBO": 93, "HP": 90 },
+        "special": "CLAUDE CODE COMBO",
+        "combo": ["TERM", "PLAN", "RUN"],
+        "lore": "Claude Code lead and high-signal product voice. Useful for spotting workflow changes before they become official copy.",
+        "threatScore": 92,
+        "lastActivity": "n/a",
+        "dossier": {
+          "lastReviewedAt": "2026-05-19",
+          "tagline": "Claude Code signal source for developer workflow changes.",
+          "background": [
+            {
+              "text": "Anthropic's Labs announcement identifies Claude Code as a major product pillar, making Claude Code builders high-value roster signals.",
+              "evidenceUrls": ["https://www.anthropic.com/news/introducing-anthropic-labs", "https://x.com/bcherny"],
+              "confidence": 0.78
+            }
+          ],
+          "keyProjects": [
+            {
+              "name": "Claude Code watchpoint",
+              "description": "Tracked for developer workflow clues around terminals, agent plans, and code execution loops.",
+              "tags": ["devtools", "signals"],
+              "evidenceUrls": ["https://www.anthropic.com/news/introducing-anthropic-labs", "https://x.com/bcherny"]
+            }
+          ],
+          "strengths": [
+            {
+              "label": "Workflow radar",
+              "description": "Useful for spotting practical Claude Code direction before it appears in polished launch copy.",
+              "evidenceUrls": ["https://x.com/bcherny"]
+            }
+          ],
+          "narrative": {
+            "title": "Terminal Pressure",
+            "text": "A code-side striker whose meter fills when Claude moves from chat into the repo.",
+            "evidenceUrls": ["https://www.anthropic.com/news/introducing-anthropic-labs", "https://x.com/bcherny"]
+          },
+          "sourceUrls": ["https://www.anthropic.com/news/introducing-anthropic-labs", "https://x.com/bcherny"]
+        }
+      },
+      {
+        "id": "noah",
+        "name": "NOAH",
+        "surname": "ZWEBEN",
+        "handle": "@noahzweben",
+        "cls": "THE PM RADAR",
+        "stats": { "ATK": 82, "DEF": 84, "SPD": 90, "COMBO": 88, "HP": 86 },
+        "special": "ROADMAP TELL",
+        "combo": ["PM", "USER", "SHIP"],
+        "lore": "Claude Code PM. Watch for product framing, launch sequencing, and user-workflow clues.",
+        "threatScore": 87,
+        "lastActivity": "n/a",
+        "dossier": {
+          "lastReviewedAt": "2026-05-19",
+          "tagline": "Roadmap scout for Claude Code product framing.",
+          "background": [
+            {
+              "text": "The platform tracks Noah Zweben as a Claude Code product signal, anchored to Anthropic's public Claude Code product context.",
+              "evidenceUrls": ["https://www.anthropic.com/news/introducing-anthropic-labs", "https://x.com/noahzweben"],
+              "confidence": 0.76
+            }
+          ],
+          "keyProjects": [
+            {
+              "name": "Claude Code product sequencing",
+              "description": "Monitored for user-workflow clues and launch framing around Claude Code.",
+              "tags": ["product", "devtools"],
+              "evidenceUrls": ["https://www.anthropic.com/news/introducing-anthropic-labs", "https://x.com/noahzweben"]
+            }
+          ],
+          "strengths": [
+            {
+              "label": "User workflow read",
+              "description": "Frames technical capability through what developers can actually do next.",
+              "evidenceUrls": ["https://x.com/noahzweben"]
+            }
+          ],
+          "narrative": {
+            "title": "Roadmap Tell",
+            "text": "A scout class that turns small product-language changes into early map reveals.",
+            "evidenceUrls": ["https://www.anthropic.com/news/introducing-anthropic-labs", "https://x.com/noahzweben"]
+          },
+          "sourceUrls": ["https://www.anthropic.com/news/introducing-anthropic-labs", "https://x.com/noahzweben"]
+        }
+      }
+    ],
+    "codexTeam": [
+      {
+        "id": "sama",
+        "name": "SAM",
+        "surname": "ALTMAN",
+        "handle": "@sama",
+        "cls": "THE DISTRIBUTOR",
+        "stats": { "ATK": 96, "DEF": 72, "SPD": 95, "COMBO": 92, "HP": 94 },
+        "special": "MARKET GRAVITY",
+        "combo": ["UP", "UP", "GPU"],
+        "lore": "OpenAI CEO. The Codex side inherits OpenAI's consumer distribution, capital stack, and compute narrative.",
+        "threatScore": 97,
+        "lastActivity": "n/a",
+        "dossier": {
+          "lastReviewedAt": "2026-05-19",
+          "tagline": "Distribution and capital gravity for Team Codex.",
+          "background": [
+            {
+              "text": "OpenAI's capital announcement frames consumer adoption, enterprise deployment, developer usage, and compute as a reinforcing flywheel.",
+              "evidenceUrls": ["https://openai.com/index/accelerating-the-next-phase-ai/", "https://x.com/sama"],
+              "confidence": 0.9
+            }
+          ],
+          "keyProjects": [
+            {
+              "name": "OpenAI distribution flywheel",
+              "description": "The Codex side inherits the reach of ChatGPT, the API, and OpenAI's capital and compute narrative.",
+              "tags": ["distribution", "capital"],
+              "evidenceUrls": ["https://openai.com/index/accelerating-the-next-phase-ai/"]
+            }
+          ],
+          "strengths": [
+            {
+              "label": "Market gravity",
+              "description": "Turns company-level momentum into product attention for Codex and adjacent developer workflows.",
+              "evidenceUrls": ["https://openai.com/index/accelerating-the-next-phase-ai/", "https://x.com/sama"]
+            }
+          ],
+          "narrative": {
+            "title": "Market Gravity",
+            "text": "A commander class whose special meter charges through distribution, capital, and public narrative pressure.",
+            "evidenceUrls": ["https://openai.com/index/accelerating-the-next-phase-ai/"]
+          },
+          "sourceUrls": ["https://openai.com/index/accelerating-the-next-phase-ai/", "https://x.com/sama"]
+        }
+      },
+      {
+        "id": "greg",
+        "name": "GREG",
+        "surname": "BROCKMAN",
+        "handle": "@gdb",
+        "cls": "THE ENGINEER",
+        "stats": { "ATK": 90, "DEF": 80, "SPD": 88, "COMBO": 94, "HP": 91 },
+        "special": "DEMO PRESSURE",
+        "combo": ["RIGHT", "DOWN", "RUN"],
+        "lore": "OpenAI president and co-founder. A technical and launch-adjacent signal source for platform shifts.",
+        "threatScore": 90,
+        "lastActivity": "n/a",
+        "dossier": {
+          "lastReviewedAt": "2026-05-19",
+          "tagline": "Launch-adjacent technical pressure source.",
+          "background": [
+            {
+              "text": "The platform tracks Greg Brockman as a technical and launch-adjacent OpenAI signal source for Codex-side shifts.",
+              "evidenceUrls": ["https://openai.com/index/accelerating-the-next-phase-ai/", "https://x.com/gdb"],
+              "confidence": 0.78
+            }
+          ],
+          "keyProjects": [
+            {
+              "name": "Codex launch signal",
+              "description": "Monitored for engineering demos, product claims, and platform direction around OpenAI developer workflows.",
+              "tags": ["engineering", "launch"],
+              "evidenceUrls": ["https://x.com/gdb"]
+            }
+          ],
+          "strengths": [
+            {
+              "label": "Technical demo pressure",
+              "description": "Makes capability feel concrete through demos and engineering-forward framing.",
+              "evidenceUrls": ["https://x.com/gdb"]
+            }
+          ],
+          "narrative": {
+            "title": "Baremetal Combo",
+            "text": "A hands-on fighter whose attacks land hardest when the demo is live and the repo is open.",
+            "evidenceUrls": ["https://x.com/gdb"]
+          },
+          "sourceUrls": ["https://openai.com/index/accelerating-the-next-phase-ai/", "https://x.com/gdb"]
+        }
+      },
+      {
+        "id": "fidji",
+        "name": "FIDJI",
+        "surname": "SIMO",
+        "handle": "@fidjissimo",
+        "cls": "THE APPLICATIONS CEO",
+        "stats": { "ATK": 84, "DEF": 82, "SPD": 90, "COMBO": 88, "HP": 89 },
+        "special": "APPLICATIONS SCALE",
+        "combo": ["APP", "OPS", "GROW"],
+        "lore": "CEO of Applications at OpenAI. Important for how Codex and ChatGPT turn research into product and business workflows.",
+        "threatScore": 88,
+        "lastActivity": "n/a",
+        "dossier": {
+          "lastReviewedAt": "2026-05-19",
+          "tagline": "Applications-side scale operator for OpenAI products.",
+          "background": [
+            {
+              "text": "OpenAI's public company narrative emphasizes moving capability into consumer, enterprise, and developer products; Fidji Simo is tracked as an applications-side roster signal.",
+              "evidenceUrls": ["https://openai.com/index/accelerating-the-next-phase-ai/", "https://x.com/fidjissimo"],
+              "confidence": 0.76
+            }
+          ],
+          "keyProjects": [
+            {
+              "name": "Applications scale",
+              "description": "A product and business-workflow lens for ChatGPT, Codex, and OpenAI's broader applications layer.",
+              "tags": ["applications", "product"],
+              "evidenceUrls": ["https://openai.com/index/accelerating-the-next-phase-ai/", "https://x.com/fidjissimo"]
+            }
+          ],
+          "strengths": [
+            {
+              "label": "Product scaling",
+              "description": "Converts model capability into repeatable product surfaces and business workflows.",
+              "evidenceUrls": ["https://x.com/fidjissimo"]
+            }
+          ],
+          "narrative": {
+            "title": "Applications Scale",
+            "text": "A growth-class fighter who turns research unlocks into surfaces people actually use.",
+            "evidenceUrls": ["https://openai.com/index/accelerating-the-next-phase-ai/", "https://x.com/fidjissimo"]
+          },
+          "sourceUrls": ["https://openai.com/index/accelerating-the-next-phase-ai/", "https://x.com/fidjissimo"]
+        }
+      },
+      {
+        "id": "jakub",
+        "name": "JAKUB",
+        "surname": "PACHOCKI",
+        "handle": "@merettm",
+        "cls": "THE CHIEF SCIENTIST",
+        "stats": { "ATK": 94, "DEF": 90, "SPD": 74, "COMBO": 86, "HP": 93 },
+        "special": "REASONING OVERDRIVE",
+        "combo": ["DOWN", "RIGHT", "RL"],
+        "lore": "OpenAI chief scientist. Rare posts matter because research direction changes the Codex capability curve.",
+        "threatScore": 89,
+        "lastActivity": "n/a",
+        "dossier": {
+          "lastReviewedAt": "2026-05-19",
+          "tagline": "Research direction pressure behind the Codex curve.",
+          "background": [
+            {
+              "text": "The roster tracks Jakub Pachocki as a high-impact OpenAI research signal whose sparse public activity can still change the Codex capability read.",
+              "evidenceUrls": ["https://openai.com/index/accelerating-the-next-phase-ai/", "https://x.com/merettm"],
+              "confidence": 0.76
+            }
+          ],
+          "keyProjects": [
+            {
+              "name": "Reasoning-model watchpoint",
+              "description": "Monitored for research direction that can later show up as stronger agentic coding behavior.",
+              "tags": ["research", "reasoning"],
+              "evidenceUrls": ["https://x.com/merettm"]
+            }
+          ],
+          "strengths": [
+            {
+              "label": "Capability curve",
+              "description": "Research-side influence over the models that developer agents rely on.",
+              "evidenceUrls": ["https://openai.com/index/accelerating-the-next-phase-ai/", "https://x.com/merettm"]
+            }
+          ],
+          "narrative": {
+            "title": "Reasoning Overdrive",
+            "text": "A research-class fighter who buffs Codex from below the visible product layer.",
+            "evidenceUrls": ["https://x.com/merettm"]
+          },
+          "sourceUrls": ["https://openai.com/index/accelerating-the-next-phase-ai/", "https://x.com/merettm"]
+        }
+      },
+      {
+        "id": "tibo",
+        "name": "TIBO",
+        "surname": "SOTTIAUX",
+        "handle": "@thsottiaux",
+        "cls": "THE CODEX BUILDER",
+        "stats": { "ATK": 91, "DEF": 78, "SPD": 93, "COMBO": 92, "HP": 88 },
+        "special": "CODEX SHIP LOOP",
+        "combo": ["PLAN", "PATCH", "PR"],
+        "lore": "Codex builder at OpenAI. High-signal account for practical product direction and developer workflow changes.",
+        "threatScore": 92,
+        "lastActivity": "n/a",
+        "dossier": {
+          "lastReviewedAt": "2026-05-19",
+          "tagline": "Practical Codex workflow builder.",
+          "background": [
+            {
+              "text": "OpenAI's Simplex case study frames Codex as delegated development work, making Codex builders important product-direction signals.",
+              "evidenceUrls": ["https://openai.com/index/simplex/", "https://x.com/thsottiaux"],
+              "confidence": 0.8
+            }
+          ],
+          "keyProjects": [
+            {
+              "name": "Codex ship loop",
+              "description": "Tracked for signals around planning, patches, review, and end-to-end developer agent workflows.",
+              "tags": ["codex", "devtools"],
+              "evidenceUrls": ["https://openai.com/index/simplex/", "https://x.com/thsottiaux"]
+            }
+          ],
+          "strengths": [
+            {
+              "label": "Implementation signal",
+              "description": "Close to practical developer workflow changes where product claims become usable routines.",
+              "evidenceUrls": ["https://x.com/thsottiaux"]
+            }
+          ],
+          "narrative": {
+            "title": "Patch Chain",
+            "text": "A combo fighter whose pressure comes from turning plan into diff into shipped work.",
+            "evidenceUrls": ["https://openai.com/index/simplex/", "https://x.com/thsottiaux"]
+          },
+          "sourceUrls": ["https://openai.com/index/simplex/", "https://x.com/thsottiaux"]
+        }
+      },
+      {
+        "id": "romain",
+        "name": "ROMAIN",
+        "surname": "HUET",
+        "handle": "@romainhuet",
+        "cls": "THE DEVEX WIZARD",
+        "stats": { "ATK": 86, "DEF": 78, "SPD": 92, "COMBO": 88, "HP": 87 },
+        "special": "JUST BUILD THINGS",
+        "combo": ["API", "DOCS", "DEVS"],
+        "lore": "Head of Developer Experience at OpenAI, working on Codex and the API. Useful for developer-platform positioning.",
+        "threatScore": 86,
+        "lastActivity": "n/a",
+        "dossier": {
+          "lastReviewedAt": "2026-05-19",
+          "tagline": "Developer-experience amplifier for OpenAI's platform surface.",
+          "background": [
+            {
+              "text": "OpenAI's Codex customer story positions developer workflow as a strategic platform surface; Romain Huet is tracked as a developer-experience roster signal.",
+              "evidenceUrls": ["https://openai.com/index/simplex/", "https://x.com/romainhuet"],
+              "confidence": 0.78
+            }
+          ],
+          "keyProjects": [
+            {
+              "name": "Developer experience channel",
+              "description": "Monitored for Codex, API, docs, and developer-platform positioning signals.",
+              "tags": ["devex", "platform"],
+              "evidenceUrls": ["https://openai.com/index/simplex/", "https://x.com/romainhuet"]
+            }
+          ],
+          "strengths": [
+            {
+              "label": "Developer translation",
+              "description": "Turns platform capability into examples, docs, and adoption hooks.",
+              "evidenceUrls": ["https://x.com/romainhuet"]
+            }
+          ],
+          "narrative": {
+            "title": "Just Build Things",
+            "text": "A developer-relations caster whose buffs make Codex feel closer to the terminal.",
+            "evidenceUrls": ["https://openai.com/index/simplex/", "https://x.com/romainhuet"]
+          },
+          "sourceUrls": ["https://openai.com/index/simplex/", "https://x.com/romainhuet"]
+        }
+      },
+      {
+        "id": "jason",
+        "name": "JASON",
+        "surname": "LIU",
+        "handle": "@jxnlco",
+        "cls": "THE SCHEMA MAGE",
+        "stats": { "ATK": 88, "DEF": 82, "SPD": 89, "COMBO": 95, "HP": 86 },
+        "special": "PYDANTIC LOCK",
+        "combo": ["JSON", "MODEL", "PARSE"],
+        "lore": "Developer Experience Engineer on the Codex team at OpenAI. Creator of Instructor, a Python library for structured LLM outputs.",
+        "threatScore": 90,
+        "lastActivity": "n/a",
+        "dossier": {
+          "lastReviewedAt": "2026-05-19",
+          "tagline": "Structured-output specialist bringing schema discipline to Codex.",
+          "background": [
+            {
+              "text": "Jason Liu says he is a Developer Experience Engineer on the Codex team at OpenAI.",
+              "evidenceUrls": ["https://jxnl.co/"],
+              "confidence": 0.96
+            },
+            {
+              "text": "His site says he created Instructor, a Python library for structured LLM outputs that OpenAI cited as inspiration for structured outputs.",
+              "evidenceUrls": ["https://jxnl.co/"],
+              "confidence": 0.94
+            }
+          ],
+          "keyProjects": [
+            {
+              "name": "Instructor",
+              "description": "Instructor maps LLM outputs to Pydantic models through a response_model workflow and keeps close compatibility with the OpenAI Python SDK.",
+              "tags": ["structured-outputs", "pydantic"],
+              "evidenceUrls": ["https://python.useinstructor.com/blog/2024/03/05/zero-cost-abstractions/"]
+            },
+            {
+              "name": "Structured outputs education",
+              "description": "Weights & Biases lists Jason as the instructor for a course on structured outputs and data validation.",
+              "tags": ["education", "validation"],
+              "evidenceUrls": ["https://wandb.ai/site/courses/structured-outputs/"]
+            }
+          ],
+          "strengths": [
+            {
+              "label": "Schema-first product sense",
+              "description": "Makes LLM behavior legible to developers by turning freeform text into typed, validated outputs.",
+              "evidenceUrls": ["https://python.useinstructor.com/blog/2024/03/05/zero-cost-abstractions/", "https://wandb.ai/site/courses/structured-outputs/"]
+            }
+          ],
+          "narrative": {
+            "title": "Pydantic Lock",
+            "text": "A control-class fighter who wins by forcing messy model output into typed lanes before the next combo starts.",
+            "evidenceUrls": ["https://jxnl.co/", "https://python.useinstructor.com/blog/2024/03/05/zero-cost-abstractions/"]
+          },
+          "sourceUrls": [
+            "https://jxnl.co/",
+            "https://python.useinstructor.com/blog/2024/03/05/zero-cost-abstractions/",
+            "https://wandb.ai/site/courses/structured-outputs/"
+          ]
+        }
+      },
+      {
+        "id": "peter",
+        "name": "PETER",
+        "surname": "STEINBERGER",
+        "handle": "@steipete",
+        "cls": "THE AGENT HACKER",
+        "stats": { "ATK": 92, "DEF": 76, "SPD": 94, "COMBO": 94, "HP": 88 },
+        "special": "OPENCLAW SWARM",
+        "combo": ["AGENT", "DESKTOP", "CHAOS"],
+        "lore": "Creator of OpenClaw, the viral AI personal assistant. TechCrunch reported he joined OpenAI to work on next-generation personal agents.",
+        "threatScore": 93,
+        "lastActivity": "n/a",
+        "dossier": {
+          "lastReviewedAt": "2026-05-19",
+          "tagline": "Viral agent hacker turned OpenAI personal-agents builder.",
+          "background": [
+            {
+              "text": "TechCrunch reported that Peter Steinberger, creator of OpenClaw, joined OpenAI in February 2026.",
+              "evidenceUrls": ["https://techcrunch.com/2026/02/15/openclaw-creator-peter-steinberger-joins-openai/"],
+              "confidence": 0.96
+            },
+            {
+              "text": "TechCrunch describes OpenClaw as an AI personal assistant, previously known as Clawdbot and Moltbot, that achieved viral popularity.",
+              "evidenceUrls": ["https://techcrunch.com/2026/02/15/openclaw-creator-peter-steinberger-joins-openai/"],
+              "confidence": 0.92
+            }
+          ],
+          "keyProjects": [
+            {
+              "name": "OpenClaw",
+              "description": "A viral open-source personal-agent project that OpenAI said would live in a foundation while Steinberger worked on personal agents.",
+              "tags": ["agents", "open-source"],
+              "evidenceUrls": ["https://techcrunch.com/2026/02/15/openclaw-creator-peter-steinberger-joins-openai/"]
+            },
+            {
+              "name": "Codex swarm usage",
+              "description": "PC Gamer reported that a posted dashboard showed 603 billion tokens across 7.6 million requests handled by around 100 Codex instances.",
+              "tags": ["codex", "scale"],
+              "evidenceUrls": ["https://www.pcgamer.com/software/ai/the-creator-of-openclaw-used-usd1-300-000-of-openai-tokens-in-30-days-which-is-a-hell-of-a-perk/"]
+            }
+          ],
+          "strengths": [
+            {
+              "label": "Agent-native experimentation",
+              "description": "Builds by stress-testing multi-agent workflows at unusual scale and speed.",
+              "evidenceUrls": ["https://techcrunch.com/2026/02/15/openclaw-creator-peter-steinberger-joins-openai/", "https://www.pcgamer.com/software/ai/the-creator-of-openclaw-used-usd1-300-000-of-openai-tokens-in-30-days-which-is-a-hell-of-a-perk/"]
+            }
+          ],
+          "narrative": {
+            "title": "OpenClaw Swarm",
+            "text": "A chaos-engineer class: weird side project, viral agent loop, then a direct jump into OpenAI's personal-agent lane.",
+            "evidenceUrls": ["https://techcrunch.com/2026/02/15/openclaw-creator-peter-steinberger-joins-openai/", "https://www.pcgamer.com/software/ai/the-creator-of-openclaw-used-usd1-300-000-of-openai-tokens-in-30-days-which-is-a-hell-of-a-perk/"]
+          },
+          "sourceUrls": [
+            "https://techcrunch.com/2026/02/15/openclaw-creator-peter-steinberger-joins-openai/",
+            "https://www.pcgamer.com/software/ai/the-creator-of-openclaw-used-usd1-300-000-of-openai-tokens-in-30-days-which-is-a-hell-of-a-perk/"
+          ]
+        }
+      }
+    ],
+    "announcements": [
+      {
+        "date": "MAY 19",
+        "c1": { "tag": "HIRE", "title": "Andrej Karpathy joins Anthropic pre-training", "impact": "Frontier talent gain" },
+        "c2": null
+      },
+      {
+        "date": "MAY 13",
+        "c1": null,
+        "c2": { "tag": "SECURITY", "title": "OpenAI responds to TanStack supply-chain attack", "impact": "Codex installer trust" }
+      },
+      {
+        "date": "MAY 07",
+        "c1": null,
+        "c2": { "tag": "CUSTOMER", "title": "Simplex adopts Codex as primary coding agent", "impact": "Enterprise devtools proof" }
+      },
+      {
+        "date": "MAR 31",
+        "c1": null,
+        "c2": { "tag": "FUNDING", "title": "OpenAI announces $122B committed capital", "impact": "Compute and distribution flywheel" }
+      },
+      {
+        "date": "JAN 13",
+        "c1": { "tag": "ORG", "title": "Anthropic expands Labs around frontier Claude products", "impact": "Experiment velocity" },
+        "c2": null
+      },
+      {
+        "date": "JAN 13",
+        "c1": { "tag": "PRODUCT", "title": "Anthropic cites Claude Code as billion-dollar product", "impact": "Devtools validation" },
+        "c2": null
+      }
+    ],
+    "verticals": [
+      { "key": "DEV", "name": "DEVELOPERS", "sub": "ide, cli, code review", "c1": 84, "c2": 92 },
+      { "key": "LAW", "name": "LEGAL", "sub": "discovery, contracts", "c1": 82, "c2": 56 },
+      { "key": "FIN", "name": "FINANCE", "sub": "ib, pe, hedge", "c1": 84, "c2": 72 },
+      { "key": "MED", "name": "HEALTHCARE", "sub": "clinical, biotech", "c1": 72, "c2": 68 },
+      { "key": "EDU", "name": "EDUCATION", "sub": "tutoring, research", "c1": 64, "c2": 88 },
+      { "key": "CRE", "name": "CREATIVE", "sub": "writing, design", "c1": 66, "c2": 82 },
+      { "key": "CS", "name": "CUSTOMER OPS", "sub": "support, sales", "c1": 78, "c2": 82 },
+      { "key": "GOV", "name": "GOVERNMENT", "sub": "defense, civic", "c1": 74, "c2": 62 },
+      { "key": "ENT", "name": "ENTERPRISE IT", "sub": "knowledge ops", "c1": 84, "c2": 80 },
+      { "key": "SCI", "name": "SCIENCE", "sub": "research agents", "c1": 82, "c2": 84 }
+    ],
+    "power": {
+      "c1": { "momentum": 86, "mindshare": 34, "enterprise": 43, "ship": 15 },
+      "c2": { "momentum": 93, "mindshare": 52, "enterprise": 41, "ship": 23 }
+    }
+  },
+  "intel": [
+    {
+      "id": "seed-anthropic-karpathy-hire",
+      "side": "c1",
+      "type": "fact",
+      "confidence": 0.96,
+      "author": "Axios",
+      "handle": "@karpathy",
+      "createdAt": "2026-05-19T00:00:00.000Z",
+      "text": "Axios reported that Andrej Karpathy joined Anthropic and would start on the pre-training team.",
+      "insight": "Anthropic gains a high-credibility researcher and public educator in the team that shapes Claude's core model capability.",
+      "tags": [{ "l": "TALENT", "t": "hot" }, { "l": "RESEARCH", "t": "move" }],
+      "impact": "Strategic: strengthens Anthropic's frontier research bench and talent narrative.",
+      "evidenceUrls": ["https://www.axios.com/2026/05/19/anthropic-openai-karpathy-andrej-claude"]
+    },
+    {
+      "id": "seed-openai-jason-liu",
+      "side": "c2",
+      "type": "fact",
+      "confidence": 0.94,
+      "author": "Jason Liu",
+      "handle": "@jxnlco",
+      "createdAt": "2026-05-19T00:00:00.000Z",
+      "text": "Jason Liu says he is a Developer Experience Engineer on the Codex team at OpenAI and creator of Instructor.",
+      "insight": "Codex gains a developer-experience voice associated with structured LLM outputs, Pydantic workflows, and practical AI engineering education.",
+      "tags": [{ "l": "DEVTOOLS", "t": "move" }, { "l": "TALENT", "t": "info" }],
+      "impact": "Tactical: stronger schema-first developer education around Codex workflows.",
+      "evidenceUrls": ["https://jxnl.co/", "https://python.useinstructor.com/blog/2024/03/05/zero-cost-abstractions/"]
+    },
+    {
+      "id": "seed-openai-peter-openclaw",
+      "side": "c2",
+      "type": "fact",
+      "confidence": 0.94,
+      "author": "TechCrunch",
+      "handle": "@steipete",
+      "createdAt": "2026-02-15T00:00:00.000Z",
+      "text": "TechCrunch reported that OpenClaw creator Peter Steinberger joined OpenAI to work on next-generation personal agents.",
+      "insight": "OpenAI is absorbing agent-native, open-source experimentation directly into its personal-agent push.",
+      "tags": [{ "l": "AGENTS", "t": "hot" }, { "l": "TALENT", "t": "move" }],
+      "impact": "Strategic: turns a viral hacker project into an OpenAI agent-platform signal.",
+      "evidenceUrls": ["https://techcrunch.com/2026/02/15/openclaw-creator-peter-steinberger-joins-openai/"]
+    },
+    {
+      "id": "seed-anthropic-labs",
+      "side": "c1",
+      "type": "fact",
+      "confidence": 0.96,
+      "author": "Anthropic",
+      "handle": "@AnthropicAI",
+      "createdAt": "2026-01-13T00:00:00.000Z",
+      "text": "Anthropic expanded Labs as a team for experimental Claude products and moved Mike Krieger into Labs alongside Ben Mann.",
+      "insight": "Claude's product motion is explicitly split between frontier experimentation and scaled product operations.",
+      "tags": [{ "l": "ORG", "t": "info" }, { "l": "PRODUCT", "t": "move" }],
+      "impact": "Labs becomes the place to watch for Claude Code, Skills, Chrome, and Cowork style experiments.",
+      "evidenceUrls": ["https://www.anthropic.com/news/introducing-anthropic-labs"]
+    },
+    {
+      "id": "seed-anthropic-claude-code",
+      "side": "c1",
+      "type": "fact",
+      "confidence": 0.94,
+      "author": "Anthropic",
+      "handle": "@AnthropicAI",
+      "createdAt": "2026-01-13T00:00:00.000Z",
+      "text": "Anthropic said Claude Code grew from research preview to a billion-dollar product in six months.",
+      "insight": "Claude Code is no longer only a developer tool experiment; it is a validated product pillar.",
+      "tags": [{ "l": "DEVTOOLS", "t": "move" }, { "l": "REVENUE", "t": "warn" }],
+      "impact": "Expect more Claude workflow bets to be judged by productized revenue, not just model quality.",
+      "evidenceUrls": ["https://www.anthropic.com/news/introducing-anthropic-labs"]
+    },
+    {
+      "id": "seed-openai-capital",
+      "side": "c2",
+      "type": "fact",
+      "confidence": 0.96,
+      "author": "OpenAI",
+      "handle": "@OpenAI",
+      "createdAt": "2026-03-31T00:00:00.000Z",
+      "text": "OpenAI announced $122 billion in committed capital at an $852 billion post-money valuation.",
+      "insight": "The Codex side has a capital and compute flywheel that can keep widening product distribution.",
+      "tags": [{ "l": "FUNDING", "t": "hot" }, { "l": "COMPUTE", "t": "info" }],
+      "impact": "Large-scale compute access remains a structural advantage for Codex and ChatGPT workflows.",
+      "evidenceUrls": ["https://openai.com/index/accelerating-the-next-phase-ai/"]
+    },
+    {
+      "id": "seed-openai-simplex",
+      "side": "c2",
+      "type": "fact",
+      "confidence": 0.94,
+      "author": "OpenAI",
+      "handle": "@OpenAI",
+      "createdAt": "2026-05-07T00:00:00.000Z",
+      "text": "OpenAI published a Simplex case study saying the company selected Codex as its primary coding agent.",
+      "insight": "Codex is being sold as an enterprise development workflow, not only a coding assistant.",
+      "tags": [{ "l": "ENTERPRISE", "t": "info" }, { "l": "DEVTOOLS", "t": "move" }],
+      "impact": "Customer stories are likely to become a major wedge against Claude Code in enterprise devtools.",
+      "evidenceUrls": ["https://openai.com/index/simplex/"]
+    },
+    {
+      "id": "seed-openai-security",
+      "side": "c2",
+      "type": "fact",
+      "confidence": 0.92,
+      "author": "OpenAI",
+      "handle": "@OpenAI",
+      "createdAt": "2026-05-13T00:00:00.000Z",
+      "text": "OpenAI warned users not to install unexpected OpenAI, ChatGPT, or Codex installers from third-party links after the TanStack supply-chain attack.",
+      "insight": "Codex distribution and desktop trust are now explicit security communication surfaces.",
+      "tags": [{ "l": "SECURITY", "t": "warn" }, { "l": "CODEX", "t": "info" }],
+      "impact": "Monitor for signing, installer, and package-integrity changes around Codex and desktop apps.",
+      "evidenceUrls": ["https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack/"]
+    },
+    {
+      "id": "seed-codex-enterprise-inference",
+      "side": "c2",
+      "type": "inference",
+      "confidence": 0.88,
+      "author": "Intel model",
+      "handle": "@OpenAI",
+      "createdAt": "2026-05-07T00:00:00.000Z",
+      "text": "Codex is being framed through customer deployment and platform capital, not just launch announcements.",
+      "insight": "Tactical shift: expect OpenAI to keep translating Codex capability into enterprise proof points and developer-platform distribution.",
+      "tags": [{ "l": "STRATEGY", "t": "hot" }, { "l": "ENTERPRISE", "t": "info" }],
+      "impact": "Watch OpenAIDevs, Romain Huet, and Codex builders for repeatable-workflow and enterprise-seat signals.",
+      "evidenceUrls": [
+        "https://openai.com/index/accelerating-the-next-phase-ai/",
+        "https://openai.com/index/simplex/"
+      ]
+    }
+  ]
+}

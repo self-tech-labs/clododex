@@ -1,0 +1,1379 @@
+{
+  "generatedAt": "2026-05-19T19:13:52.521Z",
+  "configVersion": 1,
+  "raw": {
+    "accountPosts": [],
+    "listPosts": []
+  },
+  "analysis": {
+    "xaiItems": [
+      {
+        "id": "anthro-acq-stainless-0526",
+        "side": "c1",
+        "type": "fact",
+        "confidence": 1,
+        "author": "Anthropic",
+        "handle": "@AnthropicAI",
+        "createdAt": "2026-05-18T17:00:18Z",
+        "text": "Anthropic is acquiring @stainlessapi, an SDK and MCP server platform that has powered every Anthropic SDK since the earliest days of our API.",
+        "insight": "Strengthens internal tooling and MCP ecosystem control",
+        "impact": "Tactical: accelerates agent and SDK development velocity",
+        "tags": [
+          {
+            "l": "ACQUISITION",
+            "t": "move"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/AnthropicAI/status/2056419620643541012"
+        ]
+      },
+      {
+        "id": "anthro-china-paper-0526",
+        "side": "c1",
+        "type": "fact",
+        "confidence": 1,
+        "author": "Anthropic",
+        "handle": "@AnthropicAI",
+        "createdAt": "2026-05-14T18:09:21Z",
+        "text": "We've published a paper that explains our views on AI competition between the US and China.",
+        "insight": "Positions Anthropic as thought leader on geopolitical AI strategy",
+        "impact": "Strategic: shapes policy narratives and US ally coordination",
+        "tags": [
+          {
+            "l": "GEOPOLITICS",
+            "t": "info"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/AnthropicAI/status/2054987444664377374"
+        ]
+      },
+      {
+        "id": "claude-mcp-sandboxes-0526",
+        "side": "c1",
+        "type": "fact",
+        "confidence": 1,
+        "author": "Claude",
+        "handle": "@claudeai",
+        "createdAt": "2026-05-19T07:57:50Z",
+        "text": "Try self-hosted sandboxes today on the Claude Platform, and request access to MCP tunnels.",
+        "insight": "Enables secure private-network agent deployment",
+        "impact": "Tactical: lowers barriers for enterprise agent adoption",
+        "tags": [
+          {
+            "l": "AGENTS",
+            "t": "move"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/claudeai/status/2056645493493575681"
+        ]
+      },
+      {
+        "id": "claude-cognition-devin-0526",
+        "side": "c1",
+        "type": "fact",
+        "confidence": 1,
+        "author": "Claude",
+        "handle": "@claudeai",
+        "createdAt": "2026-05-19T18:34:33Z",
+        "text": "Scott Wu (@ScottWu46) runs @cognition, the team behind Devin, an AI software engineer built on Claude.",
+        "insight": "Highlights real-world production use of Claude for frontier coding agents",
+        "impact": "Strategic: demonstrates competitive edge in AI software engineering",
+        "tags": [
+          {
+            "l": "PARTNERS",
+            "t": "hot"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/claudeai/status/2056805728774402428"
+        ]
+      },
+      {
+        "id": "openai-synthid-2026",
+        "side": "c1",
+        "type": "fact",
+        "confidence": 1,
+        "author": "OpenAI",
+        "handle": "@OpenAI",
+        "createdAt": "2026-05-19T17:46:33Z",
+        "text": "We’re adding new ways for people to identify AI-generated images... images now also contain a SynthID watermark, and can be identified using a public verification tool.",
+        "insight": "OpenAI is shipping technical watermarking + verification for provenance.",
+        "impact": "Tactical: strengthens trust & compliance story ahead of regulation; strategic: positions OpenAI as responsible frontier lab.",
+        "tags": [
+          {
+            "l": "provenance",
+            "t": "move"
+          },
+          {
+            "l": "safety",
+            "t": "info"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/OpenAI/status/2056793648571011232"
+        ]
+      },
+      {
+        "id": "openai-codex-mobile-2026",
+        "side": "c1",
+        "type": "fact",
+        "confidence": 1,
+        "author": "OpenAI",
+        "handle": "@OpenAI",
+        "createdAt": "2026-05-14T20:06:12Z",
+        "text": "Now in preview: Codex in the ChatGPT mobile app. Start new work, review outputs... all from the ChatGPT mobile app.",
+        "insight": "Codex agents now controllable from phone while running on desktop.",
+        "impact": "Tactical: improves developer UX and agent adoption; strategic: accelerates Codex as always-on productivity layer.",
+        "tags": [
+          {
+            "l": "agents",
+            "t": "move"
+          },
+          {
+            "l": "mobile",
+            "t": "info"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/OpenAI/status/2055016850849993072",
+          "https://x.com/ChatGPTapp/status/2055317612687675545"
+        ]
+      },
+      {
+        "id": "janleike-alignment-stepback",
+        "side": "c2",
+        "type": "fact",
+        "confidence": 1,
+        "author": "Jan Leike",
+        "handle": "@janleike",
+        "createdAt": "2026-05-08T17:48:04Z",
+        "text": "To focus on this, I’ve stepped away from running alignment at Anthropic. @EthanJPerez and @sprice354_ are leading the team going forward.",
+        "insight": "Former OpenAI safety lead shifts focus away from day-to-day alignment leadership at Anthropic.",
+        "impact": "Strategic: signals continued emphasis on alignment but hands operational reins to next-gen team; tactical: frees Leike for new research project.",
+        "tags": [
+          {
+            "l": "alignment",
+            "t": "move"
+          },
+          {
+            "l": "leadership",
+            "t": "info"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/janleike/status/2052807761290002775",
+          "https://x.com/janleike/status/2052807760291733505"
+        ]
+      },
+      {
+        "id": "karpathy-anthropic-join",
+        "side": "c2",
+        "type": "fact",
+        "confidence": 1,
+        "author": "Avital Balwit",
+        "handle": "@AvitalBalwit",
+        "createdAt": "2026-05-19T15:22:37Z",
+        "text": "Welcome to the team! We’re so excited",
+        "insight": "Andrej Karpathy joins Anthropic, announced same day.",
+        "impact": "Strategic: major talent acquisition for frontier research; tactical: boosts Anthropic’s R&D credibility and education focus.",
+        "tags": [
+          {
+            "l": "talent",
+            "t": "hot"
+          },
+          {
+            "l": "frontier",
+            "t": "move"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/AvitalBalwit/status/2056757423105572946",
+          "https://x.com/giansegato/status/2056757437013619092"
+        ]
+      },
+      {
+        "id": "sama-20260518-update",
+        "side": "c1",
+        "type": "fact",
+        "confidence": 1,
+        "author": "Sam Altman",
+        "handle": "@sama",
+        "createdAt": "2026-05-18T18:04:44Z",
+        "text": "chatgpt has gotten soooo much better with the latest update. really proud of the team for this one.",
+        "insight": "Official signal of major ChatGPT improvement rollout",
+        "impact": "tactical: boosts user retention and sets expectation for frequent model upgrades",
+        "tags": [
+          {
+            "l": "PRODUCT",
+            "t": "hot"
+          },
+          {
+            "l": "SHIP",
+            "t": "move"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/sama/status/2056435834333934051"
+        ]
+      },
+      {
+        "id": "gdb-20260518-codex-goal",
+        "side": "c1",
+        "type": "fact",
+        "confidence": 1,
+        "author": "Greg Brockman",
+        "handle": "@gdb",
+        "createdAt": "2026-05-18T17:44:39Z",
+        "text": "how to use /goal in codex — keep Codex working on a persistent objective until it's solved",
+        "insight": "Highlights persistent agentic capabilities in Codex",
+        "impact": "strategic: positions Codex as autonomous workflow tool vs. one-shot assistants",
+        "tags": [
+          {
+            "l": "CODEX",
+            "t": "hot"
+          },
+          {
+            "l": "FEATURE",
+            "t": "move"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/gdb/status/2056430780809892252"
+        ]
+      },
+      {
+        "id": "romain-20260514-mobile",
+        "side": "c1",
+        "type": "fact",
+        "confidence": 1,
+        "author": "Romain Huet",
+        "handle": "@romainhuet",
+        "createdAt": "2026-05-14T21:26:40Z",
+        "text": "Now you can step away from your laptop and keep building with Codex from your phone. Available in ChatGPT iOS and Android now!",
+        "insight": "Mobile-first agentic coding experience launched",
+        "impact": "tactical: expands Codex usage beyond desktop developers to on-the-go workflows",
+        "tags": [
+          {
+            "l": "MOBILE",
+            "t": "move"
+          },
+          {
+            "l": "CODEX",
+            "t": "hot"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/romainhuet/status/2055037101041909846"
+        ]
+      },
+      {
+        "id": "newsroom-20260507-trusted",
+        "side": "c1",
+        "type": "fact",
+        "confidence": 1,
+        "author": "OpenAI Newsroom",
+        "handle": "@OpenAINewsroom",
+        "createdAt": "2026-05-07T18:03:20Z",
+        "text": "We’re rolling out Trusted Contact in ChatGPT, a new optional safety feature that helps eligible users connect with someone they trust during moments of emotional crisis.",
+        "insight": "Safety feature expansion for emotional support scenarios",
+        "impact": "strategic: mitigates risk in consumer AI while demonstrating responsible deployment",
+        "tags": [
+          {
+            "l": "SAFETY",
+            "t": "info"
+          },
+          {
+            "l": "FEATURE",
+            "t": "move"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/OpenAINewsroom/status/2052449215322964411"
+        ]
+      },
+      {
+        "id": "codex-windows-focus-2026-05",
+        "side": "c1",
+        "type": "fact",
+        "confidence": 0.95,
+        "author": "Alexander Embiricos",
+        "handle": "@embirico",
+        "createdAt": "2026-05-08T20:49:05Z",
+        "text": "windows isn't at the quality we want yet, and we're making it a focus!",
+        "insight": "OpenAI Codex team prioritizing Windows parity and quality improvements",
+        "impact": "tactical: signals near-term engineering resource allocation to desktop platform expansion",
+        "tags": [
+          {
+            "l": "CODEX",
+            "t": "move"
+          },
+          {
+            "l": "WINDOWS",
+            "t": "info"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/embirico/status/2052853316422697064"
+        ]
+      },
+      {
+        "id": "codex-dictation-desktop-2026-04",
+        "side": "c1",
+        "type": "fact",
+        "confidence": 0.9,
+        "author": "Guinness Chen",
+        "handle": "@guinnesschen",
+        "createdAt": "2026-04-24T19:28:07Z",
+        "text": "You can now use your ChatGPT subscription to dictate anywhere on your desktop now!",
+        "insight": "New voice dictation feature rolled out for Codex desktop app",
+        "impact": "strategic: expands accessibility and productivity use cases for Codex beyond keyboard",
+        "tags": [
+          {
+            "l": "CODEX",
+            "t": "move"
+          },
+          {
+            "l": "VOICE",
+            "t": "info"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/guinnesschen/status/2047759512321319396"
+        ]
+      },
+      {
+        "id": "gpt55-android-sota-2026-05",
+        "side": "c1",
+        "type": "fact",
+        "confidence": 0.85,
+        "author": "Abhishek Bhardwaj",
+        "handle": "@abshkbh",
+        "createdAt": "2026-05-08T01:20:10Z",
+        "text": "GPT-5.5 is now SOTA on Google's own Android Bench",
+        "insight": "GPT-5.5 leads on Android programming benchmarks per official eval",
+        "impact": "tactical: strengthens Codex positioning for mobile/app dev workflows",
+        "tags": [
+          {
+            "l": "GPT-5.5",
+            "t": "hot"
+          },
+          {
+            "l": "BENCHMARK",
+            "t": "info"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/abshkbh/status/2052559150794912179"
+        ]
+      },
+      {
+        "id": "codex-carpentry-use-2026-05",
+        "side": "c1",
+        "type": "inference",
+        "confidence": 0.7,
+        "author": "Brent Traut",
+        "handle": "@btraut",
+        "createdAt": "2026-05-19T17:24:45Z",
+        "text": "Using Codex to help me with carpentry this week... Pushed it all into a Notion doc",
+        "insight": "Internal OpenAI engineer publicly demonstrates non-coding real-world task automation with Codex",
+        "impact": "strategic: hints at broadening agentic capabilities beyond software dev to general productivity",
+        "tags": [
+          {
+            "l": "CODEX",
+            "t": "info"
+          },
+          {
+            "l": "AGENT",
+            "t": "hot"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/btraut/status/2056788162337477111",
+          "https://x.com/btraut/status/2056747027267281215"
+        ]
+      },
+      {
+        "id": "jxnlco-codex-fix-20260519",
+        "side": "c1",
+        "type": "fact",
+        "confidence": 1,
+        "author": "jason",
+        "handle": "@jxnlco",
+        "createdAt": "2026-05-19T19:02:10Z",
+        "text": "will be fixed in the next release",
+        "insight": "OpenAI Codex weekly limit bug from excessive merge outputs will ship fix soon",
+        "impact": "reduces user friction for heavy Codex users in dev workflows",
+        "tags": [
+          {
+            "l": "CODEX",
+            "t": "hot"
+          },
+          {
+            "l": "BUGFIX",
+            "t": "move"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/jxnlco/status/2056812678442598803"
+        ]
+      },
+      {
+        "id": "jxnlco-autoresearch-20260519",
+        "side": "c1",
+        "type": "fact",
+        "confidence": 0.9,
+        "author": "jason",
+        "handle": "@jxnlco",
+        "createdAt": "2026-05-19T17:03:45Z",
+        "text": "wow they acquired autoresearch",
+        "insight": "signals competitive M&A activity around autonomous research tooling",
+        "impact": "may accelerate feature parity or defensive product moves at OpenAI",
+        "tags": [
+          {
+            "l": "M&A",
+            "t": "hot"
+          },
+          {
+            "l": "RESEARCH",
+            "t": "info"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/jxnlco/status/2056782877048590562"
+        ]
+      },
+      {
+        "id": "steipete-codex-server-20260519",
+        "side": "c2",
+        "type": "fact",
+        "confidence": 1,
+        "author": "Peter Steinberger",
+        "handle": "@steipete",
+        "createdAt": "2026-05-19T12:16:52Z",
+        "text": "no because on GB300 wouldn’t be able to parallelize requests and also give an inferior model",
+        "insight": "Codex app server integration on GB300 hardware prioritizes model quality over parallel requests",
+        "impact": "tactical limit on scaling concurrent Codex usage in production",
+        "tags": [
+          {
+            "l": "CODEX",
+            "t": "warn"
+          },
+          {
+            "l": "INFRA",
+            "t": "info"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/steipete/status/2056710678606381075"
+        ]
+      },
+      {
+        "id": "steipete-macos-only-20260519",
+        "side": "c2",
+        "type": "fact",
+        "confidence": 1,
+        "author": "Peter Steinberger",
+        "handle": "@steipete",
+        "createdAt": "2026-05-19T12:00:22Z",
+        "text": "It’s macOS only, you can port it to Windows",
+        "insight": "current Codex tooling remains macOS-first with manual Windows porting required",
+        "impact": "limits cross-platform adoption for Windows-heavy dev teams",
+        "tags": [
+          {
+            "l": "PLATFORM",
+            "t": "warn"
+          },
+          {
+            "l": "CODEX",
+            "t": "info"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/steipete/status/2056706528724316304"
+        ]
+      }
+    ],
+    "visibleSignals": 23,
+    "archivedSignals": 26,
+    "lowConfidence": [
+      {
+        "id": "jxnlco-codex-fix-20260519",
+        "side": "c1",
+        "type": "fact",
+        "sourceTier": "",
+        "confidence": 0.78,
+        "author": "jason",
+        "handle": "@jxnlco",
+        "createdAt": "2026-05-19T19:02:10Z",
+        "stamp": "12m",
+        "text": "will be fixed in the next release",
+        "insight": "OpenAI Codex weekly limit bug from excessive merge outputs will ship fix soon",
+        "impact": "reduces user friction for heavy Codex users in dev workflows",
+        "tags": [
+          {
+            "l": "CODEX",
+            "t": "hot"
+          },
+          {
+            "l": "BUGFIX",
+            "t": "move"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/jxnlco/status/2056812678442598803"
+        ],
+        "metrics": {}
+      },
+      {
+        "id": "codex-carpentry-use-2026-05",
+        "side": "c1",
+        "type": "inference",
+        "sourceTier": "",
+        "confidence": 0.7,
+        "author": "Brent Traut",
+        "handle": "@btraut",
+        "createdAt": "2026-05-19T17:24:45Z",
+        "stamp": "2h",
+        "text": "Using Codex to help me with carpentry this week... Pushed it all into a Notion doc",
+        "insight": "Internal OpenAI engineer publicly demonstrates non-coding real-world task automation with Codex",
+        "impact": "strategic: hints at broadening agentic capabilities beyond software dev to general productivity",
+        "tags": [
+          {
+            "l": "CODEX",
+            "t": "info"
+          },
+          {
+            "l": "AGENT",
+            "t": "hot"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/btraut/status/2056788162337477111",
+          "https://x.com/btraut/status/2056747027267281215"
+        ],
+        "metrics": {}
+      },
+      {
+        "id": "jxnlco-autoresearch-20260519",
+        "side": "c1",
+        "type": "fact",
+        "sourceTier": "",
+        "confidence": 0.72,
+        "author": "jason",
+        "handle": "@jxnlco",
+        "createdAt": "2026-05-19T17:03:45Z",
+        "stamp": "2h",
+        "text": "wow they acquired autoresearch",
+        "insight": "signals competitive M&A activity around autonomous research tooling",
+        "impact": "may accelerate feature parity or defensive product moves at OpenAI",
+        "tags": [
+          {
+            "l": "M&A",
+            "t": "hot"
+          },
+          {
+            "l": "RESEARCH",
+            "t": "info"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/jxnlco/status/2056782877048590562"
+        ],
+        "metrics": {}
+      }
+    ]
+  },
+  "snapshot": {
+    "meta": {
+      "generatedAt": "2026-05-19T19:13:52.521Z",
+      "configVersion": 1,
+      "backfillVersion": 1,
+      "dataMode": "backfill-only",
+      "evidencePolicy": "Facts require source URLs. Inferences require confidence and multiple or official evidence.",
+      "errors": []
+    },
+    "claudeTeam": [
+      {
+        "id": "dario",
+        "name": "DARIO",
+        "surname": "AMODEI",
+        "handle": "@DarioAmodei",
+        "cls": "THE STRATEGIST",
+        "stats": {
+          "ATK": 92,
+          "DEF": 96,
+          "SPD": 78,
+          "COMBO": 88,
+          "HP": 95
+        },
+        "special": "SAFETY THESIS",
+        "combo": [
+          "DOWN",
+          "RIGHT",
+          "SAFETY"
+        ],
+        "lore": "Anthropic CEO. Anchors the Claude side around frontier-model safety, governance, and strategic clarity.",
+        "threatScore": 94,
+        "lastActivity": "n/a"
+      },
+      {
+        "id": "daniela",
+        "name": "DANIELA",
+        "surname": "AMODEI",
+        "handle": "@DanielaAmodei",
+        "cls": "THE OPERATOR",
+        "stats": {
+          "ATK": 78,
+          "DEF": 92,
+          "SPD": 86,
+          "COMBO": 90,
+          "HP": 92
+        },
+        "special": "ORG VELOCITY",
+        "combo": [
+          "UP",
+          "RIGHT",
+          "ENT"
+        ],
+        "lore": "Anthropic president. Public company materials put her close to product and operating structure decisions.",
+        "threatScore": 88,
+        "lastActivity": "n/a"
+      },
+      {
+        "id": "krieger",
+        "name": "MIKE",
+        "surname": "KRIEGER",
+        "handle": "@mikeyk",
+        "cls": "THE LABS BUILDER",
+        "stats": {
+          "ATK": 88,
+          "DEF": 82,
+          "SPD": 94,
+          "COMBO": 86,
+          "HP": 88
+        },
+        "special": "EXPERIMENT LOOP",
+        "combo": [
+          "RIGHT",
+          "RIGHT",
+          "SHIP"
+        ],
+        "lore": "Anthropic Labs builder. Anthropic says he moved from CPO into Labs to build experimental Claude products with Ben Mann.",
+        "threatScore": 91,
+        "lastActivity": "n/a"
+      },
+      {
+        "id": "boris",
+        "name": "BORIS",
+        "surname": "CHERNY",
+        "handle": "@bcherny",
+        "cls": "THE CODE LEAD",
+        "stats": {
+          "ATK": 90,
+          "DEF": 82,
+          "SPD": 91,
+          "COMBO": 93,
+          "HP": 90
+        },
+        "special": "CLAUDE CODE COMBO",
+        "combo": [
+          "TERM",
+          "PLAN",
+          "RUN"
+        ],
+        "lore": "Claude Code lead and high-signal product voice. Useful for spotting workflow changes before they become official copy.",
+        "threatScore": 92,
+        "lastActivity": "n/a"
+      },
+      {
+        "id": "noah",
+        "name": "NOAH",
+        "surname": "ZWEBEN",
+        "handle": "@noahzweben",
+        "cls": "THE PM RADAR",
+        "stats": {
+          "ATK": 82,
+          "DEF": 84,
+          "SPD": 90,
+          "COMBO": 88,
+          "HP": 86
+        },
+        "special": "ROADMAP TELL",
+        "combo": [
+          "PM",
+          "USER",
+          "SHIP"
+        ],
+        "lore": "Claude Code PM. Watch for product framing, launch sequencing, and user-workflow clues.",
+        "threatScore": 87,
+        "lastActivity": "n/a"
+      }
+    ],
+    "codexTeam": [
+      {
+        "id": "sama",
+        "name": "SAM",
+        "surname": "ALTMAN",
+        "handle": "@sama",
+        "cls": "THE DISTRIBUTOR",
+        "stats": {
+          "ATK": 96,
+          "DEF": 72,
+          "SPD": 95,
+          "COMBO": 92,
+          "HP": 94
+        },
+        "special": "MARKET GRAVITY",
+        "combo": [
+          "UP",
+          "UP",
+          "GPU"
+        ],
+        "lore": "OpenAI CEO. The Codex side inherits OpenAI's consumer distribution, capital stack, and compute narrative.",
+        "threatScore": 97,
+        "lastActivity": "n/a"
+      },
+      {
+        "id": "greg",
+        "name": "GREG",
+        "surname": "BROCKMAN",
+        "handle": "@gdb",
+        "cls": "THE ENGINEER",
+        "stats": {
+          "ATK": 90,
+          "DEF": 80,
+          "SPD": 88,
+          "COMBO": 94,
+          "HP": 91
+        },
+        "special": "DEMO PRESSURE",
+        "combo": [
+          "RIGHT",
+          "DOWN",
+          "RUN"
+        ],
+        "lore": "OpenAI president and co-founder. A technical and launch-adjacent signal source for platform shifts.",
+        "threatScore": 90,
+        "lastActivity": "n/a"
+      },
+      {
+        "id": "fidji",
+        "name": "FIDJI",
+        "surname": "SIMO",
+        "handle": "@fidjissimo",
+        "cls": "THE APPLICATIONS CEO",
+        "stats": {
+          "ATK": 84,
+          "DEF": 82,
+          "SPD": 90,
+          "COMBO": 88,
+          "HP": 89
+        },
+        "special": "APPLICATIONS SCALE",
+        "combo": [
+          "APP",
+          "OPS",
+          "GROW"
+        ],
+        "lore": "CEO of Applications at OpenAI. Important for how Codex and ChatGPT turn research into product and business workflows.",
+        "threatScore": 88,
+        "lastActivity": "n/a"
+      },
+      {
+        "id": "jakub",
+        "name": "JAKUB",
+        "surname": "PACHOCKI",
+        "handle": "@merettm",
+        "cls": "THE CHIEF SCIENTIST",
+        "stats": {
+          "ATK": 94,
+          "DEF": 90,
+          "SPD": 74,
+          "COMBO": 86,
+          "HP": 93
+        },
+        "special": "REASONING OVERDRIVE",
+        "combo": [
+          "DOWN",
+          "RIGHT",
+          "RL"
+        ],
+        "lore": "OpenAI chief scientist. Rare posts matter because research direction changes the Codex capability curve.",
+        "threatScore": 89,
+        "lastActivity": "n/a"
+      },
+      {
+        "id": "tibo",
+        "name": "TIBO",
+        "surname": "SOTTIAUX",
+        "handle": "@thsottiaux",
+        "cls": "THE CODEX BUILDER",
+        "stats": {
+          "ATK": 91,
+          "DEF": 78,
+          "SPD": 93,
+          "COMBO": 92,
+          "HP": 88
+        },
+        "special": "CODEX SHIP LOOP",
+        "combo": [
+          "PLAN",
+          "PATCH",
+          "PR"
+        ],
+        "lore": "Codex builder at OpenAI. High-signal account for practical product direction and developer workflow changes.",
+        "threatScore": 92,
+        "lastActivity": "n/a"
+      },
+      {
+        "id": "romain",
+        "name": "ROMAIN",
+        "surname": "HUET",
+        "handle": "@romainhuet",
+        "cls": "THE DEVEX WIZARD",
+        "stats": {
+          "ATK": 86,
+          "DEF": 78,
+          "SPD": 92,
+          "COMBO": 88,
+          "HP": 87
+        },
+        "special": "JUST BUILD THINGS",
+        "combo": [
+          "API",
+          "DOCS",
+          "DEVS"
+        ],
+        "lore": "Head of Developer Experience at OpenAI, working on Codex and the API. Useful for developer-platform positioning.",
+        "threatScore": 86,
+        "lastActivity": "n/a"
+      }
+    ],
+    "tweets": [
+      {
+        "side": "c1",
+        "author": "Claude",
+        "handle": "@claudeai",
+        "stamp": "39m",
+        "text": "Scott Wu (@ScottWu46) runs @cognition, the team behind Devin, an AI software engineer built on Claude.",
+        "insight": "Highlights real-world production use of Claude for frontier coding agents",
+        "tags": [
+          {
+            "l": "PARTNERS",
+            "t": "hot"
+          }
+        ],
+        "type": "fact",
+        "confidence": 0.96,
+        "evidenceUrls": [
+          "https://x.com/claudeai/status/2056805728774402428"
+        ],
+        "impact": "Strategic: demonstrates competitive edge in AI software engineering"
+      },
+      {
+        "side": "c1",
+        "author": "OpenAI",
+        "handle": "@OpenAI",
+        "stamp": "1h",
+        "text": "We’re adding new ways for people to identify AI-generated images... images now also contain a SynthID watermark, and can be identified using a public verification tool.",
+        "insight": "OpenAI is shipping technical watermarking + verification for provenance.",
+        "tags": [
+          {
+            "l": "provenance",
+            "t": "move"
+          },
+          {
+            "l": "safety",
+            "t": "info"
+          }
+        ],
+        "type": "fact",
+        "confidence": 0.96,
+        "evidenceUrls": [
+          "https://x.com/OpenAI/status/2056793648571011232"
+        ],
+        "impact": "Tactical: strengthens trust & compliance story ahead of regulation; strategic: positions OpenAI as responsible frontier lab."
+      },
+      {
+        "side": "c2",
+        "author": "Avital Balwit",
+        "handle": "@AvitalBalwit",
+        "stamp": "4h",
+        "text": "Welcome to the team! We’re so excited",
+        "insight": "Andrej Karpathy joins Anthropic, announced same day.",
+        "tags": [
+          {
+            "l": "talent",
+            "t": "hot"
+          },
+          {
+            "l": "frontier",
+            "t": "move"
+          }
+        ],
+        "type": "fact",
+        "confidence": 0.96,
+        "evidenceUrls": [
+          "https://x.com/AvitalBalwit/status/2056757423105572946",
+          "https://x.com/giansegato/status/2056757437013619092"
+        ],
+        "impact": "Strategic: major talent acquisition for frontier research; tactical: boosts Anthropic’s R&D credibility and education focus."
+      },
+      {
+        "side": "c2",
+        "author": "Peter Steinberger",
+        "handle": "@steipete",
+        "stamp": "7h",
+        "text": "no because on GB300 wouldn’t be able to parallelize requests and also give an inferior model",
+        "insight": "Codex app server integration on GB300 hardware prioritizes model quality over parallel requests",
+        "tags": [
+          {
+            "l": "CODEX",
+            "t": "warn"
+          },
+          {
+            "l": "INFRA",
+            "t": "info"
+          }
+        ],
+        "type": "fact",
+        "confidence": 0.96,
+        "evidenceUrls": [
+          "https://x.com/steipete/status/2056710678606381075"
+        ],
+        "impact": "tactical limit on scaling concurrent Codex usage in production"
+      },
+      {
+        "side": "c2",
+        "author": "Peter Steinberger",
+        "handle": "@steipete",
+        "stamp": "7h",
+        "text": "It’s macOS only, you can port it to Windows",
+        "insight": "current Codex tooling remains macOS-first with manual Windows porting required",
+        "tags": [
+          {
+            "l": "PLATFORM",
+            "t": "warn"
+          },
+          {
+            "l": "CODEX",
+            "t": "info"
+          }
+        ],
+        "type": "fact",
+        "confidence": 0.96,
+        "evidenceUrls": [
+          "https://x.com/steipete/status/2056706528724316304"
+        ],
+        "impact": "limits cross-platform adoption for Windows-heavy dev teams"
+      },
+      {
+        "side": "c1",
+        "author": "Claude",
+        "handle": "@claudeai",
+        "stamp": "11h",
+        "text": "Try self-hosted sandboxes today on the Claude Platform, and request access to MCP tunnels.",
+        "insight": "Enables secure private-network agent deployment",
+        "tags": [
+          {
+            "l": "AGENTS",
+            "t": "move"
+          }
+        ],
+        "type": "fact",
+        "confidence": 0.96,
+        "evidenceUrls": [
+          "https://x.com/claudeai/status/2056645493493575681"
+        ],
+        "impact": "Tactical: lowers barriers for enterprise agent adoption"
+      },
+      {
+        "side": "c1",
+        "author": "Sam Altman",
+        "handle": "@sama",
+        "stamp": "1d",
+        "text": "chatgpt has gotten soooo much better with the latest update. really proud of the team for this one.",
+        "insight": "Official signal of major ChatGPT improvement rollout",
+        "tags": [
+          {
+            "l": "PRODUCT",
+            "t": "hot"
+          },
+          {
+            "l": "SHIP",
+            "t": "move"
+          }
+        ],
+        "type": "fact",
+        "confidence": 0.96,
+        "evidenceUrls": [
+          "https://x.com/sama/status/2056435834333934051"
+        ],
+        "impact": "tactical: boosts user retention and sets expectation for frequent model upgrades"
+      },
+      {
+        "side": "c1",
+        "author": "Greg Brockman",
+        "handle": "@gdb",
+        "stamp": "1d",
+        "text": "how to use /goal in codex — keep Codex working on a persistent objective until it's solved",
+        "insight": "Highlights persistent agentic capabilities in Codex",
+        "tags": [
+          {
+            "l": "CODEX",
+            "t": "hot"
+          },
+          {
+            "l": "FEATURE",
+            "t": "move"
+          }
+        ],
+        "type": "fact",
+        "confidence": 0.96,
+        "evidenceUrls": [
+          "https://x.com/gdb/status/2056430780809892252"
+        ],
+        "impact": "strategic: positions Codex as autonomous workflow tool vs. one-shot assistants"
+      },
+      {
+        "side": "c1",
+        "author": "Anthropic",
+        "handle": "@AnthropicAI",
+        "stamp": "1d",
+        "text": "Anthropic is acquiring @stainlessapi, an SDK and MCP server platform that has powered every Anthropic SDK since the earliest days of our API.",
+        "insight": "Strengthens internal tooling and MCP ecosystem control",
+        "tags": [
+          {
+            "l": "ACQUISITION",
+            "t": "move"
+          }
+        ],
+        "type": "fact",
+        "confidence": 0.96,
+        "evidenceUrls": [
+          "https://x.com/AnthropicAI/status/2056419620643541012"
+        ],
+        "impact": "Tactical: accelerates agent and SDK development velocity"
+      },
+      {
+        "side": "c1",
+        "author": "Romain Huet",
+        "handle": "@romainhuet",
+        "stamp": "5d",
+        "text": "Now you can step away from your laptop and keep building with Codex from your phone. Available in ChatGPT iOS and Android now!",
+        "insight": "Mobile-first agentic coding experience launched",
+        "tags": [
+          {
+            "l": "MOBILE",
+            "t": "move"
+          },
+          {
+            "l": "CODEX",
+            "t": "hot"
+          }
+        ],
+        "type": "fact",
+        "confidence": 0.96,
+        "evidenceUrls": [
+          "https://x.com/romainhuet/status/2055037101041909846"
+        ],
+        "impact": "tactical: expands Codex usage beyond desktop developers to on-the-go workflows"
+      },
+      {
+        "side": "c1",
+        "author": "OpenAI",
+        "handle": "@OpenAI",
+        "stamp": "5d",
+        "text": "Now in preview: Codex in the ChatGPT mobile app. Start new work, review outputs... all from the ChatGPT mobile app.",
+        "insight": "Codex agents now controllable from phone while running on desktop.",
+        "tags": [
+          {
+            "l": "agents",
+            "t": "move"
+          },
+          {
+            "l": "mobile",
+            "t": "info"
+          }
+        ],
+        "type": "fact",
+        "confidence": 0.96,
+        "evidenceUrls": [
+          "https://x.com/OpenAI/status/2055016850849993072",
+          "https://x.com/ChatGPTapp/status/2055317612687675545"
+        ],
+        "impact": "Tactical: improves developer UX and agent adoption; strategic: accelerates Codex as always-on productivity layer."
+      },
+      {
+        "side": "c1",
+        "author": "Anthropic",
+        "handle": "@AnthropicAI",
+        "stamp": "5d",
+        "text": "We've published a paper that explains our views on AI competition between the US and China.",
+        "insight": "Positions Anthropic as thought leader on geopolitical AI strategy",
+        "tags": [
+          {
+            "l": "GEOPOLITICS",
+            "t": "info"
+          }
+        ],
+        "type": "fact",
+        "confidence": 0.96,
+        "evidenceUrls": [
+          "https://x.com/AnthropicAI/status/2054987444664377374"
+        ],
+        "impact": "Strategic: shapes policy narratives and US ally coordination"
+      }
+    ],
+    "announcements": [
+      {
+        "date": "MAY 13",
+        "c1": null,
+        "c2": {
+          "tag": "SECURITY",
+          "title": "OpenAI responds to TanStack supply-chain attack",
+          "impact": "Codex installer trust"
+        }
+      },
+      {
+        "date": "MAY 07",
+        "c1": null,
+        "c2": {
+          "tag": "CUSTOMER",
+          "title": "Simplex adopts Codex as primary coding agent",
+          "impact": "Enterprise devtools proof"
+        }
+      },
+      {
+        "date": "MAR 31",
+        "c1": null,
+        "c2": {
+          "tag": "FUNDING",
+          "title": "OpenAI announces $122B committed capital",
+          "impact": "Compute and distribution flywheel"
+        }
+      },
+      {
+        "date": "JAN 13",
+        "c1": {
+          "tag": "ORG",
+          "title": "Anthropic expands Labs around frontier Claude products",
+          "impact": "Experiment velocity"
+        },
+        "c2": null
+      },
+      {
+        "date": "JAN 13",
+        "c1": {
+          "tag": "PRODUCT",
+          "title": "Anthropic cites Claude Code as billion-dollar product",
+          "impact": "Devtools validation"
+        },
+        "c2": null
+      }
+    ],
+    "verticals": [
+      {
+        "key": "DEV",
+        "name": "DEVELOPERS",
+        "sub": "ide, cli, code review",
+        "c1": 87,
+        "c2": 93
+      },
+      {
+        "key": "LAW",
+        "name": "LEGAL",
+        "sub": "discovery, contracts",
+        "c1": 82,
+        "c2": 59
+      },
+      {
+        "key": "FIN",
+        "name": "FINANCE",
+        "sub": "ib, pe, hedge",
+        "c1": 84,
+        "c2": 76
+      },
+      {
+        "key": "MED",
+        "name": "HEALTHCARE",
+        "sub": "clinical, biotech",
+        "c1": 72,
+        "c2": 68
+      },
+      {
+        "key": "EDU",
+        "name": "EDUCATION",
+        "sub": "tutoring, research",
+        "c1": 66,
+        "c2": 88
+      },
+      {
+        "key": "CRE",
+        "name": "CREATIVE",
+        "sub": "writing, design",
+        "c1": 68,
+        "c2": 82
+      },
+      {
+        "key": "CS",
+        "name": "CUSTOMER OPS",
+        "sub": "support, sales",
+        "c1": 80,
+        "c2": 85
+      },
+      {
+        "key": "GOV",
+        "name": "GOVERNMENT",
+        "sub": "defense, civic",
+        "c1": 74,
+        "c2": 63
+      },
+      {
+        "key": "ENT",
+        "name": "ENTERPRISE IT",
+        "sub": "knowledge ops",
+        "c1": 84,
+        "c2": 84
+      },
+      {
+        "key": "SCI",
+        "name": "SCIENCE",
+        "sub": "research agents",
+        "c1": 82,
+        "c2": 84
+      }
+    ],
+    "power": {
+      "c1": {
+        "momentum": 94,
+        "mindshare": 34,
+        "enterprise": 43,
+        "ship": 18
+      },
+      "c2": {
+        "momentum": 100,
+        "mindshare": 52,
+        "enterprise": 43,
+        "ship": 24
+      },
+      "trends": {
+        "c1": {
+          "momentum": "+8",
+          "mindshare": "+0",
+          "enterprise": "+0",
+          "ship": "+3"
+        },
+        "c2": {
+          "momentum": "+7",
+          "mindshare": "+0",
+          "enterprise": "+2",
+          "ship": "+1"
+        }
+      }
+    },
+    "status": {
+      "streamOk": true,
+      "xPostsToday": 0,
+      "xAccounts": 42,
+      "xLists": 1,
+      "newsSources": 5,
+      "githubRepos": 0,
+      "archivedSignals": 26,
+      "visibleSignals": 23
+    },
+    "archive": {
+      "lowConfidence": [
+        {
+          "id": "jxnlco-codex-fix-20260519",
+          "side": "c1",
+          "type": "fact",
+          "sourceTier": "",
+          "confidence": 0.78,
+          "author": "jason",
+          "handle": "@jxnlco",
+          "createdAt": "2026-05-19T19:02:10Z",
+          "stamp": "12m",
+          "text": "will be fixed in the next release",
+          "insight": "OpenAI Codex weekly limit bug from excessive merge outputs will ship fix soon",
+          "impact": "reduces user friction for heavy Codex users in dev workflows",
+          "tags": [
+            {
+              "l": "CODEX",
+              "t": "hot"
+            },
+            {
+              "l": "BUGFIX",
+              "t": "move"
+            }
+          ],
+          "evidenceUrls": [
+            "https://x.com/jxnlco/status/2056812678442598803"
+          ],
+          "metrics": {}
+        },
+        {
+          "id": "codex-carpentry-use-2026-05",
+          "side": "c1",
+          "type": "inference",
+          "sourceTier": "",
+          "confidence": 0.7,
+          "author": "Brent Traut",
+          "handle": "@btraut",
+          "createdAt": "2026-05-19T17:24:45Z",
+          "stamp": "2h",
+          "text": "Using Codex to help me with carpentry this week... Pushed it all into a Notion doc",
+          "insight": "Internal OpenAI engineer publicly demonstrates non-coding real-world task automation with Codex",
+          "impact": "strategic: hints at broadening agentic capabilities beyond software dev to general productivity",
+          "tags": [
+            {
+              "l": "CODEX",
+              "t": "info"
+            },
+            {
+              "l": "AGENT",
+              "t": "hot"
+            }
+          ],
+          "evidenceUrls": [
+            "https://x.com/btraut/status/2056788162337477111",
+            "https://x.com/btraut/status/2056747027267281215"
+          ],
+          "metrics": {}
+        },
+        {
+          "id": "jxnlco-autoresearch-20260519",
+          "side": "c1",
+          "type": "fact",
+          "sourceTier": "",
+          "confidence": 0.72,
+          "author": "jason",
+          "handle": "@jxnlco",
+          "createdAt": "2026-05-19T17:03:45Z",
+          "stamp": "2h",
+          "text": "wow they acquired autoresearch",
+          "insight": "signals competitive M&A activity around autonomous research tooling",
+          "impact": "may accelerate feature parity or defensive product moves at OpenAI",
+          "tags": [
+            {
+              "l": "M&A",
+              "t": "hot"
+            },
+            {
+              "l": "RESEARCH",
+              "t": "info"
+            }
+          ],
+          "evidenceUrls": [
+            "https://x.com/jxnlco/status/2056782877048590562"
+          ],
+          "metrics": {}
+        }
+      ],
+      "rawPostCount": 0
+    }
+  }
+}
