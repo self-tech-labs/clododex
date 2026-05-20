@@ -36,6 +36,11 @@ export default function DashboardApp() {
       <div className="app-bg"></div>
       <ArcadeBar round={round} credits={2} highScore={1287430} />
       <div className="app">
+        <a className="repo-callout" href="https://github.com/self-tech-labs/clododex" target="_blank" rel="noreferrer">
+          <span className="repo-callout-kicker">OPEN SOURCE · HACKABLE BY DESIGN</span>
+          <span className="repo-callout-main">Fork the file-first arena, remix manifests, and ship your own agent meta.</span>
+          <span className="repo-callout-cta">self-tech-labs/clododex</span>
+        </a>
 
         {/* HERO MATCHUP */}
         <VSBanner power={power} contenders={contenders} />

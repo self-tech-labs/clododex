@@ -57,6 +57,9 @@ export function ArcadeBar({ round, credits, highScore }) {
         <span className="label">ARCADE</span>
         <span className="label">CREDITS</span><span className="high">{credits}</span>
         <span style={{ color: "var(--fg-mid)" }}>v0.1</span>
+        <a className="arcade-repo-link" href="https://github.com/self-tech-labs/clododex" target="_blank" rel="noreferrer">
+          GitHub repo
+        </a>
       </div>
       <div className="grp">
         <span className="blink">▶ INSERT COIN TO CHALLENGE</span>
