@@ -111,6 +111,19 @@ XAI_API_KEY=...
 
 The daily run writes `data/intel/daily/YYYY-MM-DD.json` and updates `data/intel/current-snapshot.json`.
 
+## Scheduled Fresh Intel PRs
+
+The official deployment can stay current through reviewable data PRs instead of direct production writes. Configure these GitHub repository secrets:
+
+```bash
+X_BEARER_TOKEN=...
+XAI_API_KEY=...
+```
+
+The `Fresh Intel PR` GitHub Actions workflow runs twice daily and can also be triggered manually. It fetches recent X data, runs xAI enrichment, rebuilds `data/intel/current-snapshot.json`, `data/intel/daily/YYYY-MM-DD.json`, and `data/arena/snapshots/current.json`, validates the arena data, runs tests, then opens or updates a single `automation/fresh-intel` pull request.
+
+Review the generated claims and source links before merging. Once merged to `main`, Vercel redeploys the reviewed snapshot.
+
 ## Status
 
 Agent Arena is early. That is the point.

@@ -54,7 +54,6 @@ The baseline app can build from seeded/offline data. A maintainer with local cre
 
 ```bash
 npm run intel:build
-npm run arena:build
 ```
 
 Expected local environment variables:
@@ -65,6 +64,8 @@ XAI_API_KEY=...
 ```
 
 Do not commit `.env` or fetched secrets. Commit only reviewed snapshot/data changes that should become part of the public dashboard.
+
+For scheduled updates, `.github/workflows/fresh-intel.yml` uses repository secrets to run `npm run intel:build`, validates the generated arena data, runs tests, and opens or updates a reviewable `automation/fresh-intel` pull request. Do not run `npm run arena:build` after `npm run intel:build` for fresh X updates, because `intel:build` already writes the X/xAI-backed arena snapshot.
 
 ## PR Notes
 
