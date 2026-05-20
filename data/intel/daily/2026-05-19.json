@@ -1473,8 +1473,8 @@
       "rawPostCount": 0
     },
     "arena": {
-      "id": "agent-arena",
-      "title": "Agent Arena",
+      "id": "clododex",
+      "title": "Clododex",
       "summary": "A file-first arcade intelligence engine for remixable AI-agent competition concepts."
     },
     "contenders": [
@@ -1879,7 +1879,7 @@
           {
             "id": "ios-widget",
             "slot": "daily-recap",
-            "label": "Daily Agent Arena"
+            "label": "Daily Clododex"
           }
         ],
         "dataSources": [

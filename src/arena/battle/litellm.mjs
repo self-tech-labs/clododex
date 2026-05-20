@@ -320,7 +320,7 @@ export const resolveLlmBattleTurn = async ({
           {
             role: "system",
             content:
-              "You narrate one Agent Arena turn. Keep the deterministic damage unchanged. Return strict JSON: {\"narrative\":\"one punchy sentence\"}."
+              "You narrate one Clododex turn. Keep the deterministic damage unchanged. Return strict JSON: {\"narrative\":\"one punchy sentence\"}."
           },
           {
             role: "user",
@@ -356,7 +356,7 @@ export const resolveLlmBattleTurn = async ({
         {
           role: "system",
           content:
-            "You are the attacker model in Agent Arena. Write the selected attack in character. Return strict JSON: {\"intent\":\"short attack intent\",\"attackVector\":\"specific vector\",\"styleScore\":0-100}."
+            "You are the attacker model in Clododex. Write the selected attack in character. Return strict JSON: {\"intent\":\"short attack intent\",\"attackVector\":\"specific vector\",\"styleScore\":0-100}."
         },
         {
           role: "user",
@@ -376,7 +376,7 @@ export const resolveLlmBattleTurn = async ({
         {
           role: "system",
           content:
-            "You are the defender model in Agent Arena. Respond in character and mitigate the attack. Return strict JSON: {\"defense\":\"short defense\",\"mitigation\":\"specific mitigation\",\"styleScore\":0-100}."
+            "You are the defender model in Clododex. Respond in character and mitigate the attack. Return strict JSON: {\"defense\":\"short defense\",\"mitigation\":\"specific mitigation\",\"styleScore\":0-100}."
         },
         {
           role: "user",
@@ -400,7 +400,7 @@ export const resolveLlmBattleTurn = async ({
         {
           role: "system",
           content:
-            "You are the neutral Agent Arena judge. Score attack and defense, then choose bounded damage. Return only valid JSON."
+            "You are the neutral Clododex judge. Score attack and defense, then choose bounded damage. Return only valid JSON."
         },
         {
           role: "user",

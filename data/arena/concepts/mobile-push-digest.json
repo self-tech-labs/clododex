@@ -26,7 +26,7 @@
     {
       "id": "ios-widget",
       "slot": "daily-recap",
-      "label": "Daily Agent Arena"
+      "label": "Daily Clododex"
     }
   ],
   "dataSources": [
