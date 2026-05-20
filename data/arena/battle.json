@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "tokenBudget": {
+    "defaultTokens": 3000,
+    "maxTokens": 50000,
+    "warningThreshold": 500
+  },
+  "provider": {
+    "baseUrl": "http://127.0.0.1:4000",
+    "endpoint": "/v1/chat/completions",
+    "attackerModel": "gpt-5-mini",
+    "defenderModel": "gpt-5-mini",
+    "judgeModel": "gpt-5-mini",
+    "narratorModel": "gpt-5-mini",
+    "temperature": 0.75,
+    "maxTokensPerCall": 450
+  },
+  "modes": [
+    {
+      "id": "random-1v1",
+      "label": "Random 1v1",
+      "teamSize": 1,
+      "selection": "random",
+      "allowWildcards": true
+    },
+    {
+      "id": "select-1v1",
+      "label": "Select 1v1",
+      "teamSize": 1,
+      "selection": "select",
+      "allowWildcards": false
+    },
+    {
+      "id": "random-5v5",
+      "label": "Random 5v5",
+      "teamSize": 5,
+      "selection": "random",
+      "allowWildcards": true
+    },
+    {
+      "id": "select-5v5",
+      "label": "Select 5v5",
+      "teamSize": 5,
+      "selection": "select",
+      "allowWildcards": false
+    }
+  ],
+  "styles": [
+    {
+      "id": "classic",
+      "label": "JSON Card Engine",
+      "description": "Deterministic battle cards compare character qualities, matchup edges, stats, and shields."
+    },
+    {
+      "id": "model-duel",
+      "label": "BYO LLM Duel",
+      "description": "Optional attacker, defender, and judge model roles produce and score each exchange."
+    }
+  ],
+  "controls": [
+    {
+      "id": "human",
+      "label": "Human"
+    },
+    {
+      "id": "cpu-random",
+      "label": "CPU Random"
+    },
+    {
+      "id": "cpu-llm",
+      "label": "BYO LLM"
+    }
+  ],
+  "attacks": [
+    {
+      "id": "quick",
+      "label": "Meme Jab",
+      "kind": "attack",
+      "stat": "SPD",
+      "power": 18,
+      "accuracy": 0.94,
+      "qualityTags": ["communicator", "product"],
+      "description": "Fast pressure that turns a character's loudest quality into a punchline."
+    },
+    {
+      "id": "heavy",
+      "label": "Whitepaper Haymaker",
+      "kind": "attack",
+      "stat": "ATK",
+      "power": 30,
+      "accuracy": 0.82,
+      "qualityTags": ["researcher", "strategist"],
+      "description": "A slower argument with enough footnotes to dent the floor."
+    },
+    {
+      "id": "counter",
+      "label": "Adorable Guard Counter",
+      "kind": "defend",
+      "stat": "DEF",
+      "power": 13,
+      "accuracy": 1,
+      "shield": 0.38,
+      "qualityTags": ["safety", "operator"],
+      "description": "Reduce the next incoming hit and return a tiny, petty counter."
+    },
+    {
+      "id": "special",
+      "label": "Signature Bit",
+      "kind": "special",
+      "stat": "COMBO",
+      "power": 36,
+      "accuracy": 0.88,
+      "description": "Character-specific signature pressure, chosen by their strongest qualities."
+    }
+  ],
+  "judgeCriteria": [
+    {
+      "id": "characterFit",
+      "label": "Character Fit",
+      "weight": 0.3
+    },
+    {
+      "id": "tacticalLogic",
+      "label": "Tactical Logic",
+      "weight": 0.3
+    },
+    {
+      "id": "defenseResponse",
+      "label": "Defense Response",
+      "weight": 0.25
+    },
+    {
+      "id": "comedy",
+      "label": "Arena Comedy",
+      "weight": 0.15
+    }
+  ],
+  "wildcards": {
+    "enabledModes": [
+      "random-1v1",
+      "random-5v5"
+    ],
+    "spawnChance": 0.18,
+    "entries": [
+      {
+        "characterId": "lecun",
+        "weight": 9
+      },
+      {
+        "characterId": "chollet",
+        "weight": 8
+      },
+      {
+        "characterId": "sutton",
+        "weight": 6
+      },
+      {
+        "characterId": "schmidhuber",
+        "weight": 1,
+        "rule": "lstm-lock"
+      }
+    ]
+  }
+}

@@ -7,13 +7,17 @@ import {
   asNumber,
   asRecord,
   asString,
+  buildArenaSnapshot,
   buildDashboardSnapshot,
   getCompanyEntries,
+  loadArena,
   loadEnvFile,
+  makeIntelItemFromPost,
   normalizeHandle,
   normalizePost,
   parseXaiIntelResponse,
   readJsonFile,
+  toDashboardView,
   writeJsonFile
 } from "./intel-lib.mjs";
 
@@ -22,6 +26,7 @@ const dataDir = path.resolve(rootDir, "data/intel");
 const configPath = path.join(dataDir, "config.json");
 const backfillPath = path.join(dataDir, "backfill.json");
 const currentSnapshotPath = path.join(dataDir, "current-snapshot.json");
+const arenaSnapshotPath = path.resolve(rootDir, "data/arena/snapshots/current.json");
 const fetchListScript = path.resolve(rootDir, "scripts/fetch-x-list-posts.py");
 const args = new Set(process.argv.slice(2));
 
@@ -400,11 +405,12 @@ const main = async () => {
   const accountPosts = token ? await fetchAccountPosts(token, errors) : [];
   const listPosts = fetchListPosts(Boolean(token), errors);
   const xaiItems = await analyzeWithXai(errors);
+  const posts = [...accountPosts, ...listPosts];
   const now = new Date();
   const snapshot = buildDashboardSnapshot({
     config,
     backfill,
-    posts: [...accountPosts, ...listPosts],
+    posts,
     xaiItems,
     now,
     errors
@@ -437,10 +443,34 @@ const main = async () => {
     snapshot
   };
 
-  writeJsonFile(currentSnapshotPath, snapshot);
+  const arena = await loadArena(rootDir);
+  const postSignals = posts.map((post) => makeIntelItemFromPost(post, config, now)).filter(Boolean);
+  const arenaSnapshot = buildArenaSnapshot({
+    arena,
+    signals: [...postSignals, ...xaiItems],
+    now,
+    adapters: {
+      posts,
+      dashboardView: snapshot,
+      dataMode: snapshot.meta.dataMode,
+      streamOk: snapshot.status.streamOk
+    }
+  });
+  const dashboardView = toDashboardView(arenaSnapshot);
+  dailyPayload.snapshot = dashboardView;
+  dailyPayload.arenaSnapshot = {
+    path: path.relative(rootDir, arenaSnapshotPath),
+    concepts: arenaSnapshot.primitives.concepts.length,
+    visibleSignals: arenaSnapshot.status.visibleSignals,
+    archivedSignals: arenaSnapshot.status.archivedSignals
+  };
+
+  writeJsonFile(currentSnapshotPath, dashboardView);
+  writeJsonFile(arenaSnapshotPath, arenaSnapshot);
   writeJsonFile(path.join(dataDir, "daily", `${day}.json`), dailyPayload);
 
   console.log(`Snapshot written: ${path.relative(rootDir, currentSnapshotPath)}`);
+  console.log(`Arena snapshot written: ${path.relative(rootDir, arenaSnapshotPath)}`);
   console.log(`Daily archive written: ${path.relative(rootDir, path.join(dataDir, "daily", `${day}.json`))}`);
   console.log(`Visible signals: ${snapshot.status.visibleSignals}; raw X posts: ${snapshot.status.xPostsToday}`);
   if (errors.length) {

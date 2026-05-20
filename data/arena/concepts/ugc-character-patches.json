@@ -1,0 +1,40 @@
+{
+  "id": "ugc-character-patches",
+  "kind": "ugc",
+  "title": "UGC Character Patches",
+  "description": "Allow contributors and character owners to propose sourced updates to character dossiers without changing renderer code.",
+  "entities": [
+    {
+      "id": "patch",
+      "type": "submission",
+      "fields": [
+        "characterId",
+        "claim",
+        "evidenceUrls",
+        "proposedBy"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "from": "patch",
+      "to": "character",
+      "type": "updates-dossier"
+    }
+  ],
+  "surfaces": [
+    {
+      "id": "character-dossier",
+      "slot": "review-queue",
+      "label": "Community Patches"
+    }
+  ],
+  "dataSources": [
+    {
+      "id": "repo-pr",
+      "kind": "pull-request",
+      "description": "File-first PRs against data/arena/characters."
+    }
+  ],
+  "status": "dormant"
+}

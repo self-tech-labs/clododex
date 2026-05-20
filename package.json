@@ -10,7 +10,11 @@
     "test": "node --test",
     "intel:backfill": "node scripts/backfill-intel.mjs",
     "intel:build": "node scripts/build-intel-snapshot.mjs",
-    "intel:offline": "node scripts/build-intel-snapshot.mjs --offline --no-xai"
+    "intel:offline": "node scripts/build-intel-snapshot.mjs --offline --no-xai",
+    "arena:validate": "node scripts/validate-arena.mjs",
+    "arena:build": "node scripts/build-arena-snapshot.mjs",
+    "arena:offline": "node scripts/build-arena-snapshot.mjs --offline",
+    "concept:new": "node scripts/create-concept.mjs"
   },
   "dependencies": {
     "next": "latest",

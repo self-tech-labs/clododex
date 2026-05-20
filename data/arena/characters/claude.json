@@ -1,0 +1,754 @@
+[
+  {
+    "id": "dario",
+    "name": "DARIO",
+    "surname": "AMODEI",
+    "handle": "@DarioAmodei",
+    "cls": "THE STRATEGIST",
+    "stats": {
+      "ATK": 92,
+      "DEF": 96,
+      "SPD": 78,
+      "COMBO": 88,
+      "HP": 95
+    },
+    "special": "SAFETY THESIS",
+    "combo": [
+      "DOWN",
+      "RIGHT",
+      "SAFETY"
+    ],
+    "lore": "Anthropic CEO. Anchors the Claude side around frontier-model safety, governance, and strategic clarity.",
+    "threatScore": 94,
+    "lastActivity": "n/a",
+    "dossier": {
+      "lastReviewedAt": "2026-05-19",
+      "tagline": "Safety-first macro player for Team Claude.",
+      "background": [
+        {
+          "text": "Anthropic describes its company mission around reliable, interpretable, and steerable AI systems; Dario Amodei is the executive face of that safety-first posture.",
+          "evidenceUrls": [
+            "https://www.anthropic.com/company?hsLang=en"
+          ],
+          "confidence": 0.86
+        }
+      ],
+      "keyProjects": [
+        {
+          "name": "Anthropic safety and governance frame",
+          "description": "The Claude-side narrative is built on Anthropic's public positioning around responsible frontier AI.",
+          "tags": [
+            "safety",
+            "strategy"
+          ],
+          "evidenceUrls": [
+            "https://www.anthropic.com/company?hsLang=en"
+          ]
+        }
+      ],
+      "strengths": [
+        {
+          "label": "Strategic framing",
+          "description": "Turns model competition into a governance and safety argument rather than a pure feature race.",
+          "evidenceUrls": [
+            "https://www.anthropic.com/company?hsLang=en"
+          ]
+        }
+      ],
+      "narrative": {
+        "title": "Defensive Supercycle",
+        "text": "A boss character built around patience, policy terrain, and long-horizon scaling discipline.",
+        "evidenceUrls": [
+          "https://www.anthropic.com/company?hsLang=en"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.anthropic.com/company?hsLang=en"
+      ]
+    },
+    "contenderId": "claude",
+    "side": "c1",
+    "displayName": "DARIO AMODEI",
+    "roleClass": "THE STRATEGIST",
+    "scoreRationale": {
+      "rubricVersion": "2026-05-20",
+      "stats": {
+        "ATK": {
+          "rationale": "CEO-level strategy turns Anthropic safety, reliability, and compute posture into market pressure.",
+          "evidenceUrls": [
+            "https://www.anthropic.com/company?hsLang=en"
+          ],
+          "confidence": 0.84
+        },
+        "DEF": {
+          "rationale": "The Claude side is anchored by safety, governance, and trust-first company positioning.",
+          "evidenceUrls": [
+            "https://www.anthropic.com/company?hsLang=en"
+          ],
+          "confidence": 0.84
+        },
+        "SPD": {
+          "rationale": "Strategic cadence is deliberate rather than launch-maximal, so speed is strong but not his main stat.",
+          "evidenceUrls": [
+            "https://www.anthropic.com/company?hsLang=en"
+          ],
+          "confidence": 0.84
+        },
+        "COMBO": {
+          "rationale": "Connects frontier research, governance, enterprise trust, and infrastructure commitments.",
+          "evidenceUrls": [
+            "https://www.anthropic.com/company?hsLang=en"
+          ],
+          "confidence": 0.84
+        },
+        "HP": {
+          "rationale": "Leadership, safety narrative, and AWS capacity give Claude long-horizon durability.",
+          "evidenceUrls": [
+            "https://www.anthropic.com/company?hsLang=en"
+          ],
+          "confidence": 0.84
+        }
+      },
+      "threatScore": {
+        "rationale": "High threat because he defines the macro frame that makes Claude more than a model comparison.",
+        "evidenceUrls": [
+          "https://www.anthropic.com/company?hsLang=en"
+        ],
+        "confidence": 0.85
+      }
+    }
+  },
+  {
+    "id": "daniela",
+    "name": "DANIELA",
+    "surname": "AMODEI",
+    "handle": "@DanielaAmodei",
+    "cls": "THE OPERATOR",
+    "stats": {
+      "ATK": 78,
+      "DEF": 92,
+      "SPD": 86,
+      "COMBO": 90,
+      "HP": 92
+    },
+    "special": "ORG VELOCITY",
+    "combo": [
+      "UP",
+      "RIGHT",
+      "ENT"
+    ],
+    "lore": "Anthropic president. Public company materials put her close to product and operating structure decisions.",
+    "threatScore": 88,
+    "lastActivity": "n/a",
+    "dossier": {
+      "lastReviewedAt": "2026-05-19",
+      "tagline": "The operating spine behind Claude's enterprise posture.",
+      "background": [
+        {
+          "text": "Anthropic's company materials place Daniela Amodei in the public leadership layer of the organization.",
+          "evidenceUrls": [
+            "https://www.anthropic.com/company?hsLang=en"
+          ],
+          "confidence": 0.84
+        }
+      ],
+      "keyProjects": [
+        {
+          "name": "Anthropic operating model",
+          "description": "A leadership role tied to converting frontier research into a durable company and customer platform.",
+          "tags": [
+            "operations",
+            "enterprise"
+          ],
+          "evidenceUrls": [
+            "https://www.anthropic.com/company?hsLang=en"
+          ]
+        }
+      ],
+      "strengths": [
+        {
+          "label": "Org translation",
+          "description": "Connects the lab's safety thesis to the operating structure needed for enterprise adoption.",
+          "evidenceUrls": [
+            "https://www.anthropic.com/company?hsLang=en"
+          ]
+        }
+      ],
+      "narrative": {
+        "title": "Org Velocity",
+        "text": "A support-class fighter whose buffs come from coordination, process, and keeping the lab's field position coherent.",
+        "evidenceUrls": [
+          "https://www.anthropic.com/company?hsLang=en"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.anthropic.com/company?hsLang=en"
+      ]
+    },
+    "contenderId": "claude",
+    "side": "c1",
+    "displayName": "DANIELA AMODEI",
+    "roleClass": "THE OPERATOR",
+    "scoreRationale": {
+      "rubricVersion": "2026-05-20",
+      "stats": {
+        "ATK": {
+          "rationale": "Operational leadership turns enterprise demand into concrete customer motion.",
+          "evidenceUrls": [
+            "https://www.anthropic.com/company?hsLang=en"
+          ],
+          "confidence": 0.84
+        },
+        "DEF": {
+          "rationale": "KPMG-style trust, governance, and accuracy-heavy deployments map directly to defensive strength.",
+          "evidenceUrls": [
+            "https://www.anthropic.com/company?hsLang=en"
+          ],
+          "confidence": 0.84
+        },
+        "SPD": {
+          "rationale": "Org execution improves launch and partnership velocity without needing to be the loudest public voice.",
+          "evidenceUrls": [
+            "https://www.anthropic.com/company?hsLang=en"
+          ],
+          "confidence": 0.84
+        },
+        "COMBO": {
+          "rationale": "Coordinates product, enterprise, and partner lanes across the Claude operating model.",
+          "evidenceUrls": [
+            "https://www.anthropic.com/company?hsLang=en"
+          ],
+          "confidence": 0.84
+        },
+        "HP": {
+          "rationale": "Enterprise deployment depth gives the team staying power beyond launch cycles.",
+          "evidenceUrls": [
+            "https://www.anthropic.com/company?hsLang=en"
+          ],
+          "confidence": 0.84
+        }
+      },
+      "threatScore": {
+        "rationale": "Threat comes from converting Anthropic positioning into durable customer adoption.",
+        "evidenceUrls": [
+          "https://www.anthropic.com/company?hsLang=en"
+        ],
+        "confidence": 0.85
+      }
+    }
+  },
+  {
+    "id": "krieger",
+    "name": "MIKE",
+    "surname": "KRIEGER",
+    "handle": "@mikeyk",
+    "cls": "THE LABS BUILDER",
+    "stats": {
+      "ATK": 88,
+      "DEF": 82,
+      "SPD": 94,
+      "COMBO": 86,
+      "HP": 88
+    },
+    "special": "EXPERIMENT LOOP",
+    "combo": [
+      "RIGHT",
+      "RIGHT",
+      "SHIP"
+    ],
+    "lore": "Anthropic Labs builder. Anthropic says he moved from CPO into Labs to build experimental Claude products with Ben Mann.",
+    "threatScore": 91,
+    "lastActivity": "n/a",
+    "dossier": {
+      "lastReviewedAt": "2026-05-19",
+      "tagline": "Product experimenter turning Claude capability into new surfaces.",
+      "background": [
+        {
+          "text": "Anthropic's Labs announcement says Mike Krieger moved into Labs with Ben Mann to incubate experimental products at the frontier of Claude capabilities.",
+          "evidenceUrls": [
+            "https://www.anthropic.com/news/introducing-anthropic-labs"
+          ],
+          "confidence": 0.95
+        }
+      ],
+      "keyProjects": [
+        {
+          "name": "Anthropic Labs",
+          "description": "A product incubation group for frontier Claude products, including experimental workflow surfaces.",
+          "tags": [
+            "labs",
+            "product"
+          ],
+          "evidenceUrls": [
+            "https://www.anthropic.com/news/introducing-anthropic-labs"
+          ]
+        }
+      ],
+      "strengths": [
+        {
+          "label": "Prototype-to-product loop",
+          "description": "Works at the boundary between research capability and product experience.",
+          "evidenceUrls": [
+            "https://www.anthropic.com/news/introducing-anthropic-labs"
+          ]
+        }
+      ],
+      "narrative": {
+        "title": "Experiment Loop",
+        "text": "A fast builder class that wins by finding the product shape before the rest of the field names the category.",
+        "evidenceUrls": [
+          "https://www.anthropic.com/news/introducing-anthropic-labs"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.anthropic.com/news/introducing-anthropic-labs"
+      ]
+    },
+    "contenderId": "claude",
+    "side": "c1",
+    "displayName": "MIKE KRIEGER",
+    "roleClass": "THE LABS BUILDER",
+    "scoreRationale": {
+      "rubricVersion": "2026-05-20",
+      "stats": {
+        "ATK": {
+          "rationale": "Labs, Claude Code, Bun, and Stainless give him high product-offense pressure.",
+          "evidenceUrls": [
+            "https://www.anthropic.com/news/introducing-anthropic-labs"
+          ],
+          "confidence": 0.84
+        },
+        "DEF": {
+          "rationale": "Product polish and enterprise reliability matter, though his profile is more offensive than defensive.",
+          "evidenceUrls": [
+            "https://www.anthropic.com/news/introducing-anthropic-labs"
+          ],
+          "confidence": 0.84
+        },
+        "SPD": {
+          "rationale": "Labs is explicitly designed for fast product experimentation at the frontier of Claude capability.",
+          "evidenceUrls": [
+            "https://www.anthropic.com/news/introducing-anthropic-labs"
+          ],
+          "confidence": 0.84
+        },
+        "COMBO": {
+          "rationale": "MCP, Skills, Stainless, and Claude Code stack into a strong tool-connectivity combo.",
+          "evidenceUrls": [
+            "https://www.anthropic.com/news/introducing-anthropic-labs"
+          ],
+          "confidence": 0.84
+        },
+        "HP": {
+          "rationale": "Product leadership plus acquired infrastructure gives Claude Code durability.",
+          "evidenceUrls": [
+            "https://www.anthropic.com/news/introducing-anthropic-labs"
+          ],
+          "confidence": 0.84
+        }
+      },
+      "threatScore": {
+        "rationale": "Threat comes from turning Claude capability into new product surfaces before competitors can name the category.",
+        "evidenceUrls": [
+          "https://www.anthropic.com/news/introducing-anthropic-labs"
+        ],
+        "confidence": 0.85
+      }
+    }
+  },
+  {
+    "id": "karpathy",
+    "name": "ANDREJ",
+    "surname": "KARPATHY",
+    "handle": "@karpathy",
+    "cls": "THE PRETRAINING ACE",
+    "stats": {
+      "ATK": 95,
+      "DEF": 84,
+      "SPD": 82,
+      "COMBO": 91,
+      "HP": 92
+    },
+    "special": "TOKENMAXXING ARC",
+    "combo": [
+      "EDU",
+      "PRETRAIN",
+      "R&D"
+    ],
+    "lore": "OpenAI founding member and public AI educator. Axios reports he joined Anthropic's pre-training team in May 2026.",
+    "threatScore": 95,
+    "lastActivity": "n/a",
+    "dossier": {
+      "lastReviewedAt": "2026-05-19",
+      "tagline": "New Anthropic research pickup with OpenAI, Tesla, and education credibility.",
+      "background": [
+        {
+          "text": "Axios reported on May 19, 2026 that Andrej Karpathy announced he was joining Anthropic and would start on the pre-training team.",
+          "evidenceUrls": [
+            "https://www.axios.com/2026/05/19/anthropic-openai-karpathy-andrej-claude"
+          ],
+          "confidence": 0.96
+        },
+        {
+          "text": "Axios describes Karpathy as a founding member of OpenAI, former Tesla AI leader, and influential public educator.",
+          "evidenceUrls": [
+            "https://www.axios.com/2026/05/19/anthropic-openai-karpathy-andrej-claude"
+          ],
+          "confidence": 0.92
+        }
+      ],
+      "keyProjects": [
+        {
+          "name": "Anthropic pre-training research",
+          "description": "Axios says he is joining the team responsible for massive training runs that give Claude its core knowledge and capabilities.",
+          "tags": [
+            "research",
+            "pretraining"
+          ],
+          "evidenceUrls": [
+            "https://www.axios.com/2026/05/19/anthropic-openai-karpathy-andrej-claude"
+          ]
+        },
+        {
+          "name": "Public AI education",
+          "description": "Axios notes that he built a large following through technical explainers and educational content.",
+          "tags": [
+            "education",
+            "research"
+          ],
+          "evidenceUrls": [
+            "https://www.axios.com/2026/05/19/anthropic-openai-karpathy-andrej-claude"
+          ]
+        }
+      ],
+      "strengths": [
+        {
+          "label": "Frontier credibility",
+          "description": "Carries rare status across research, industry, and public education.",
+          "evidenceUrls": [
+            "https://www.axios.com/2026/05/19/anthropic-openai-karpathy-andrej-claude"
+          ]
+        }
+      ],
+      "narrative": {
+        "title": "The Transfer Window Shock",
+        "text": "A late-season unlock for Team Claude: research prestige, educator aura, and a pre-training questline aimed straight at the model core.",
+        "evidenceUrls": [
+          "https://www.axios.com/2026/05/19/anthropic-openai-karpathy-andrej-claude"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.axios.com/2026/05/19/anthropic-openai-karpathy-andrej-claude"
+      ]
+    },
+    "contenderId": "claude",
+    "side": "c1",
+    "displayName": "ANDREJ KARPATHY",
+    "roleClass": "THE PRETRAINING ACE",
+    "scoreRationale": {
+      "rubricVersion": "2026-05-20",
+      "stats": {
+        "ATK": {
+          "rationale": "Pre-training credibility and public education energy create research-offense pressure.",
+          "evidenceUrls": [
+            "https://www.axios.com/2026/05/19/anthropic-openai-karpathy-andrej-claude"
+          ],
+          "confidence": 0.84
+        },
+        "DEF": {
+          "rationale": "His profile strengthens research rigor but is less directly tied to compliance or enterprise trust.",
+          "evidenceUrls": [
+            "https://www.axios.com/2026/05/19/anthropic-openai-karpathy-andrej-claude"
+          ],
+          "confidence": 0.84
+        },
+        "SPD": {
+          "rationale": "Research impact is slower than product shipping, but public signal velocity is unusually high.",
+          "evidenceUrls": [
+            "https://www.axios.com/2026/05/19/anthropic-openai-karpathy-andrej-claude"
+          ],
+          "confidence": 0.84
+        },
+        "COMBO": {
+          "rationale": "OpenAI, Tesla, education, and Anthropic pre-training history create cross-domain leverage.",
+          "evidenceUrls": [
+            "https://www.axios.com/2026/05/19/anthropic-openai-karpathy-andrej-claude"
+          ],
+          "confidence": 0.84
+        },
+        "HP": {
+          "rationale": "Deep research reputation adds durable bench strength to Claude.",
+          "evidenceUrls": [
+            "https://www.axios.com/2026/05/19/anthropic-openai-karpathy-andrej-claude"
+          ],
+          "confidence": 0.84
+        }
+      },
+      "threatScore": {
+        "rationale": "Threat comes from a high-credibility research pickup aimed at the model core.",
+        "evidenceUrls": [
+          "https://www.axios.com/2026/05/19/anthropic-openai-karpathy-andrej-claude"
+        ],
+        "confidence": 0.85
+      }
+    }
+  },
+  {
+    "id": "boris",
+    "name": "BORIS",
+    "surname": "CHERNY",
+    "handle": "@bcherny",
+    "cls": "THE CODE LEAD",
+    "stats": {
+      "ATK": 90,
+      "DEF": 82,
+      "SPD": 91,
+      "COMBO": 93,
+      "HP": 90
+    },
+    "special": "CLAUDE CODE COMBO",
+    "combo": [
+      "TERM",
+      "PLAN",
+      "RUN"
+    ],
+    "lore": "Claude Code lead and high-signal product voice. Useful for spotting workflow changes before they become official copy.",
+    "threatScore": 92,
+    "lastActivity": "n/a",
+    "dossier": {
+      "lastReviewedAt": "2026-05-19",
+      "tagline": "Claude Code signal source for developer workflow changes.",
+      "background": [
+        {
+          "text": "Anthropic's Labs announcement identifies Claude Code as a major product pillar, making Claude Code builders high-value roster signals.",
+          "evidenceUrls": [
+            "https://www.anthropic.com/news/introducing-anthropic-labs",
+            "https://x.com/bcherny"
+          ],
+          "confidence": 0.78
+        }
+      ],
+      "keyProjects": [
+        {
+          "name": "Claude Code watchpoint",
+          "description": "Tracked for developer workflow clues around terminals, agent plans, and code execution loops.",
+          "tags": [
+            "devtools",
+            "signals"
+          ],
+          "evidenceUrls": [
+            "https://www.anthropic.com/news/introducing-anthropic-labs",
+            "https://x.com/bcherny"
+          ]
+        }
+      ],
+      "strengths": [
+        {
+          "label": "Workflow radar",
+          "description": "Useful for spotting practical Claude Code direction before it appears in polished launch copy.",
+          "evidenceUrls": [
+            "https://x.com/bcherny"
+          ]
+        }
+      ],
+      "narrative": {
+        "title": "Terminal Pressure",
+        "text": "A code-side striker whose meter fills when Claude moves from chat into the repo.",
+        "evidenceUrls": [
+          "https://www.anthropic.com/news/introducing-anthropic-labs",
+          "https://x.com/bcherny"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.anthropic.com/news/introducing-anthropic-labs",
+        "https://x.com/bcherny"
+      ]
+    },
+    "contenderId": "claude",
+    "side": "c1",
+    "displayName": "BORIS CHERNY",
+    "roleClass": "THE CODE LEAD",
+    "scoreRationale": {
+      "rubricVersion": "2026-05-20",
+      "stats": {
+        "ATK": {
+          "rationale": "Claude Code leadership maps directly to developer-workflow offense.",
+          "evidenceUrls": [
+            "https://www.anthropic.com/news/introducing-anthropic-labs",
+            "https://x.com/bcherny"
+          ],
+          "confidence": 0.84
+        },
+        "DEF": {
+          "rationale": "Code tooling still needs reliability and review discipline, giving him a solid defensive baseline.",
+          "evidenceUrls": [
+            "https://www.anthropic.com/news/introducing-anthropic-labs",
+            "https://x.com/bcherny"
+          ],
+          "confidence": 0.84
+        },
+        "SPD": {
+          "rationale": "Developer workflow changes surface quickly through Claude Code product motion.",
+          "evidenceUrls": [
+            "https://www.anthropic.com/news/introducing-anthropic-labs",
+            "https://x.com/bcherny"
+          ],
+          "confidence": 0.84
+        },
+        "COMBO": {
+          "rationale": "Claude Code, MCP, Skills, and runtime/tooling moves compound into repo-level leverage.",
+          "evidenceUrls": [
+            "https://www.anthropic.com/news/introducing-anthropic-labs",
+            "https://x.com/bcherny"
+          ],
+          "confidence": 0.84
+        },
+        "HP": {
+          "rationale": "A validated Claude Code product pillar gives his score staying power.",
+          "evidenceUrls": [
+            "https://www.anthropic.com/news/introducing-anthropic-labs",
+            "https://x.com/bcherny"
+          ],
+          "confidence": 0.84
+        }
+      },
+      "threatScore": {
+        "rationale": "Threat comes from making Claude feel native in the repo, not only in chat.",
+        "evidenceUrls": [
+          "https://www.anthropic.com/news/introducing-anthropic-labs",
+          "https://x.com/bcherny"
+        ],
+        "confidence": 0.85
+      }
+    }
+  },
+  {
+    "id": "noah",
+    "name": "NOAH",
+    "surname": "ZWEBEN",
+    "handle": "@noahzweben",
+    "cls": "THE PM RADAR",
+    "stats": {
+      "ATK": 82,
+      "DEF": 84,
+      "SPD": 90,
+      "COMBO": 88,
+      "HP": 86
+    },
+    "special": "ROADMAP TELL",
+    "combo": [
+      "PM",
+      "USER",
+      "SHIP"
+    ],
+    "lore": "Claude Code PM. Watch for product framing, launch sequencing, and user-workflow clues.",
+    "threatScore": 87,
+    "lastActivity": "n/a",
+    "dossier": {
+      "lastReviewedAt": "2026-05-19",
+      "tagline": "Roadmap scout for Claude Code product framing.",
+      "background": [
+        {
+          "text": "The platform tracks Noah Zweben as a Claude Code product signal, anchored to Anthropic's public Claude Code product context.",
+          "evidenceUrls": [
+            "https://www.anthropic.com/news/introducing-anthropic-labs",
+            "https://x.com/noahzweben"
+          ],
+          "confidence": 0.76
+        }
+      ],
+      "keyProjects": [
+        {
+          "name": "Claude Code product sequencing",
+          "description": "Monitored for user-workflow clues and launch framing around Claude Code.",
+          "tags": [
+            "product",
+            "devtools"
+          ],
+          "evidenceUrls": [
+            "https://www.anthropic.com/news/introducing-anthropic-labs",
+            "https://x.com/noahzweben"
+          ]
+        }
+      ],
+      "strengths": [
+        {
+          "label": "User workflow read",
+          "description": "Frames technical capability through what developers can actually do next.",
+          "evidenceUrls": [
+            "https://x.com/noahzweben"
+          ]
+        }
+      ],
+      "narrative": {
+        "title": "Roadmap Tell",
+        "text": "A scout class that turns small product-language changes into early map reveals.",
+        "evidenceUrls": [
+          "https://www.anthropic.com/news/introducing-anthropic-labs",
+          "https://x.com/noahzweben"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.anthropic.com/news/introducing-anthropic-labs",
+        "https://x.com/noahzweben"
+      ]
+    },
+    "contenderId": "claude",
+    "side": "c1",
+    "displayName": "NOAH ZWEBEN",
+    "roleClass": "THE PM RADAR",
+    "scoreRationale": {
+      "rubricVersion": "2026-05-20",
+      "stats": {
+        "ATK": {
+          "rationale": "Product-management signal drives roadmap pressure rather than raw research offense.",
+          "evidenceUrls": [
+            "https://www.anthropic.com/news/introducing-anthropic-labs",
+            "https://x.com/noahzweben"
+          ],
+          "confidence": 0.84
+        },
+        "DEF": {
+          "rationale": "PM discipline supports trustworthy sequencing and enterprise-ready surfaces.",
+          "evidenceUrls": [
+            "https://www.anthropic.com/news/introducing-anthropic-labs",
+            "https://x.com/noahzweben"
+          ],
+          "confidence": 0.84
+        },
+        "SPD": {
+          "rationale": "Roadmap and launch framing are speed-sensitive by nature.",
+          "evidenceUrls": [
+            "https://www.anthropic.com/news/introducing-anthropic-labs",
+            "https://x.com/noahzweben"
+          ],
+          "confidence": 0.84
+        },
+        "COMBO": {
+          "rationale": "Connects user workflow, launch packaging, and Claude Code adoption loops.",
+          "evidenceUrls": [
+            "https://www.anthropic.com/news/introducing-anthropic-labs",
+            "https://x.com/noahzweben"
+          ],
+          "confidence": 0.84
+        },
+        "HP": {
+          "rationale": "Product process helps keep Claude Code useful after the first hype cycle.",
+          "evidenceUrls": [
+            "https://www.anthropic.com/news/introducing-anthropic-labs",
+            "https://x.com/noahzweben"
+          ],
+          "confidence": 0.84
+        }
+      },
+      "threatScore": {
+        "rationale": "Threat comes from spotting and shaping the next Claude Code workflow before it becomes obvious.",
+        "evidenceUrls": [
+          "https://www.anthropic.com/news/introducing-anthropic-labs",
+          "https://x.com/noahzweben"
+        ],
+        "confidence": 0.85
+      }
+    }
+  }
+]

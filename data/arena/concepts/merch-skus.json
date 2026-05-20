@@ -1,0 +1,41 @@
+{
+  "id": "merch-skus",
+  "kind": "commerce",
+  "title": "Merch SKUs",
+  "description": "Represent character merch, skins, and drops as structured arena entities before any checkout integration exists.",
+  "entities": [
+    {
+      "id": "sku",
+      "type": "product",
+      "fields": [
+        "characterId",
+        "name",
+        "price",
+        "imageUrl",
+        "inventoryState"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "from": "sku",
+      "to": "character",
+      "type": "commercializes"
+    }
+  ],
+  "surfaces": [
+    {
+      "id": "character-dossier",
+      "slot": "commerce",
+      "label": "Merch"
+    }
+  ],
+  "dataSources": [
+    {
+      "id": "manual-catalog",
+      "kind": "manifest",
+      "description": "File-first product catalog until a commerce provider is chosen."
+    }
+  ],
+  "status": "dormant"
+}

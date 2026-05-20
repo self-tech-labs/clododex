@@ -1,0 +1,40 @@
+{
+  "id": "token-reputation",
+  "kind": "tokenization",
+  "title": "Token Reputation",
+  "description": "Model contribution points, reputation, and governance experiments as arena state without committing to a live token.",
+  "entities": [
+    {
+      "id": "reputation-account",
+      "type": "ledger-entry",
+      "fields": [
+        "contributorId",
+        "points",
+        "reason",
+        "evidenceUrls"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "from": "reputation-account",
+      "to": "concept",
+      "type": "earns-from"
+    }
+  ],
+  "surfaces": [
+    {
+      "id": "extension-lab",
+      "slot": "concept-card",
+      "label": "Reputation"
+    }
+  ],
+  "dataSources": [
+    {
+      "id": "repo-history",
+      "kind": "git",
+      "description": "Future adapter for PR and commit contribution signals."
+    }
+  ],
+  "status": "dormant"
+}

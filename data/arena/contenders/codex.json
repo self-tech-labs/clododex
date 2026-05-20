@@ -1,0 +1,266 @@
+{
+  "id": "codex",
+  "side": "c2",
+  "name": "Codex",
+  "organization": "OpenAI",
+  "product": "Codex",
+  "stance": "distribution-first",
+  "teamLabel": "TEAM CODEX",
+  "colors": {
+    "base": "#10B981",
+    "bright": "#34E5A8"
+  },
+  "sourceUrls": [
+    "https://openai.com/index/accelerating-the-next-phase-ai/",
+    "https://openai.com/index/simplex/",
+    "https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack/"
+  ],
+  "officialAccounts": [
+    {
+      "handle": "@OpenAI",
+      "name": "OpenAI",
+      "weight": 1.5
+    },
+    {
+      "handle": "@OpenAIDevs",
+      "name": "OpenAI Developers",
+      "weight": 1.45
+    },
+    {
+      "handle": "@ChatGPTapp",
+      "name": "ChatGPT",
+      "weight": 1.25
+    },
+    {
+      "handle": "@OpenAINewsroom",
+      "name": "OpenAI Newsroom",
+      "weight": 1.25
+    }
+  ],
+  "productAccounts": [],
+  "people": [
+    {
+      "handle": "@sama",
+      "name": "Sam Altman",
+      "role": "CEO",
+      "weight": 1.4,
+      "roster": true
+    },
+    {
+      "handle": "@gdb",
+      "name": "Greg Brockman",
+      "role": "President and co-founder",
+      "weight": 1.35,
+      "roster": true
+    },
+    {
+      "handle": "@fidjissimo",
+      "name": "Fidji Simo",
+      "role": "CEO of Applications",
+      "weight": 1.25,
+      "roster": true
+    },
+    {
+      "handle": "@merettm",
+      "name": "Jakub Pachocki",
+      "role": "Chief Scientist",
+      "weight": 1.25,
+      "roster": true
+    },
+    {
+      "handle": "@thsottiaux",
+      "name": "Tibo",
+      "role": "Codex",
+      "weight": 1.3,
+      "roster": true
+    },
+    {
+      "handle": "@romainhuet",
+      "name": "Romain Huet",
+      "role": "Developer Experience",
+      "weight": 1.25,
+      "roster": true
+    },
+    {
+      "handle": "@btaylor",
+      "name": "Bret Taylor",
+      "role": "Board",
+      "weight": 1
+    },
+    {
+      "handle": "@ajambrosino",
+      "name": "Andrew Ambrosino",
+      "role": "Codex App",
+      "weight": 1.2
+    },
+    {
+      "handle": "@pashmerepat",
+      "name": "Pash",
+      "role": "Codex",
+      "weight": 1.2
+    },
+    {
+      "handle": "@embirico",
+      "name": "Alexander Embiricos",
+      "role": "Codex",
+      "weight": 1.2
+    },
+    {
+      "handle": "@guinnesschen",
+      "name": "Guinness Chen",
+      "role": "Codex",
+      "weight": 1.1
+    },
+    {
+      "handle": "@kiritibadam",
+      "name": "Kiriti Badam",
+      "role": "Codex",
+      "weight": 1.05
+    },
+    {
+      "handle": "@GavVerma",
+      "name": "Gav Verma",
+      "role": "Codex",
+      "weight": 1.05
+    },
+    {
+      "handle": "@JonathanAbrams",
+      "name": "Jon Abrams",
+      "role": "Codex",
+      "weight": 1.05
+    },
+    {
+      "handle": "@btraut",
+      "name": "Brent Traut",
+      "role": "OpenAI engineering",
+      "weight": 1
+    },
+    {
+      "handle": "@abshkbh",
+      "name": "Abhishek Bhardwaj",
+      "role": "Agent and RL infrastructure",
+      "weight": 1
+    },
+    {
+      "handle": "@sulmanrc",
+      "name": "Sulman Choudhry",
+      "role": "Head of engineering, ChatGPT",
+      "weight": 1
+    },
+    {
+      "handle": "@mobav0",
+      "name": "Mo Bavarian",
+      "role": "RL research",
+      "weight": 1
+    },
+    {
+      "handle": "@Yuf_Zh",
+      "name": "Yufeng Zhang",
+      "role": "Research",
+      "weight": 1
+    },
+    {
+      "handle": "@jxnlco",
+      "name": "Jason Liu",
+      "role": "Developer Experience, Codex",
+      "weight": 1.25,
+      "roster": true
+    },
+    {
+      "handle": "@steipete",
+      "name": "Peter Steinberger",
+      "role": "Personal agents and OpenClaw",
+      "weight": 1.25,
+      "roster": true
+    }
+  ],
+  "unverifiedPeople": [],
+  "fatalities": [
+    {
+      "id": "rust-codex-harness",
+      "title": "RUST CODEX HARNESS",
+      "subtitle": "open-source terminal weapon",
+      "type": "fact",
+      "unlockTrigger": "Local dev, terminal, auditability, or community-mod matchup.",
+      "arenaEffect": "+9 COMBO for transparent developer trust; the public repo exposes a Rust-heavy local agent harness.",
+      "confidence": 0.93,
+      "evidenceUrls": [
+        "https://github.com/openai/codex",
+        "https://openai.com/index/introducing-codex/?video=1084810944"
+      ],
+      "tags": [
+        "open-source",
+        "rust",
+        "cli"
+      ]
+    },
+    {
+      "id": "codex-security",
+      "title": "CODEX SECURITY",
+      "subtitle": "validated vuln finisher",
+      "type": "fact",
+      "unlockTrigger": "AppSec, threat-model, or secure-code review matchup.",
+      "arenaEffect": "+10 DEF in security rounds by pairing repository context, validation, and patch proposals.",
+      "confidence": 0.92,
+      "evidenceUrls": [
+        "https://openai.com/index/codex-security-now-in-research-preview/"
+      ],
+      "tags": [
+        "security",
+        "validation"
+      ]
+    },
+    {
+      "id": "codex-workflow-mesh",
+      "title": "SDK / SLACK / GITHUB WORKFLOW MESH",
+      "subtitle": "assign-work-anywhere combo",
+      "type": "fact",
+      "unlockTrigger": "Developer workflow, async delegation, or enterprise collaboration fight.",
+      "arenaEffect": "+8 SPD when work can be assigned from ChatGPT, CLI, GitHub, Slack-like collaboration, or other product surfaces.",
+      "confidence": 0.86,
+      "evidenceUrls": [
+        "https://openai.com/index/codex-now-generally-available/",
+        "https://openai.com/index/introducing-upgrades-to-codex/",
+        "https://openai.com/index/introducing-codex/?video=1084810944"
+      ],
+      "tags": [
+        "workflow",
+        "developer"
+      ]
+    },
+    {
+      "id": "stargate-compute",
+      "title": "STARGATE COMPUTE",
+      "subtitle": "infrastructure super meter",
+      "type": "fact",
+      "unlockTrigger": "Scale, model-cadence, or cost-curve matchup.",
+      "arenaEffect": "+10 HP when product distribution needs frontier compute to keep compounding.",
+      "confidence": 0.88,
+      "evidenceUrls": [
+        "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age/",
+        "https://openai.com/index/accelerating-the-next-phase-ai/"
+      ],
+      "tags": [
+        "compute",
+        "capital"
+      ]
+    },
+    {
+      "id": "internal-codex-loop",
+      "title": "OPENAI INTERNAL CODEX LOOP",
+      "subtitle": "dogfood telemetry",
+      "type": "inference",
+      "unlockTrigger": "Ship-speed, product-feedback, or refactor-grind matchup.",
+      "arenaEffect": "+7 ATK and SPD when internal OpenAI use turns repetitive SWE work into product feedback for Codex.",
+      "confidence": 0.82,
+      "evidenceUrls": [
+        "https://openai.com/index/introducing-codex/?video=1084810944",
+        "https://openai.com/index/running-codex-safely/"
+      ],
+      "tags": [
+        "dogfood",
+        "ship"
+      ]
+    }
+  ]
+}

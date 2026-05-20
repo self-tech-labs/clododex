@@ -1,5 +1,20 @@
 /* Announcements timeline — power-moves ledger, side-by-side */
 
+function SourceLinks({ urls }) {
+  const evidenceUrls = Array.isArray(urls) ? urls.filter((url) => typeof url === "string" && url.startsWith("http")) : [];
+  if (!evidenceUrls.length) return null;
+
+  return (
+    <div className="move-evidence">
+      {evidenceUrls.slice(0, 3).map((url, index) => (
+        <a key={`${url}-${index}`} href={url} target="_blank" rel="noreferrer">
+          source {index + 1}
+        </a>
+      ))}
+    </div>
+  );
+}
+
 function MoveCell({ move, side }) {
   if (!move) return <div className={`tl-cell empty`}></div>;
   return (
@@ -7,6 +22,14 @@ function MoveCell({ move, side }) {
       <span className="move-tag">{move.tag}</span>
       <div>{move.title}</div>
       <span className="impact">→ {move.impact}</span>
+      {move.rationale && (
+        <details className="score-why move-why">
+          <summary>WHY?</summary>
+          <p>{move.rationale}</p>
+          {typeof move.confidence === "number" && <span>CONF {Math.round(move.confidence * 100)}%</span>}
+          <SourceLinks urls={move.evidenceUrls} />
+        </details>
+      )}
     </div>
   );
 }

@@ -1,0 +1,238 @@
+{
+  "id": "claude",
+  "side": "c1",
+  "name": "Claude",
+  "organization": "Anthropic",
+  "product": "Claude",
+  "stance": "safety-first",
+  "teamLabel": "TEAM CLAUDE",
+  "colors": {
+    "base": "#E07A53",
+    "bright": "#FF9469"
+  },
+  "sourceUrls": [
+    "https://www.anthropic.com/company?hsLang=en",
+    "https://www.anthropic.com/news/introducing-anthropic-labs"
+  ],
+  "officialAccounts": [
+    {
+      "handle": "@AnthropicAI",
+      "name": "Anthropic",
+      "weight": 1.5
+    },
+    {
+      "handle": "@claudeai",
+      "name": "Claude",
+      "weight": 1.4
+    }
+  ],
+  "productAccounts": [],
+  "people": [
+    {
+      "handle": "@DarioAmodei",
+      "name": "Dario Amodei",
+      "role": "CEO",
+      "weight": 1.4,
+      "roster": true
+    },
+    {
+      "handle": "@DanielaAmodei",
+      "name": "Daniela Amodei",
+      "role": "President",
+      "weight": 1.3,
+      "roster": true
+    },
+    {
+      "handle": "@mikeyk",
+      "name": "Mike Krieger",
+      "role": "Anthropic Labs",
+      "weight": 1.3,
+      "roster": true
+    },
+    {
+      "handle": "@karpathy",
+      "name": "Andrej Karpathy",
+      "role": "Pre-training research",
+      "weight": 1.35,
+      "roster": true
+    },
+    {
+      "handle": "@bcherny",
+      "name": "Boris Cherny",
+      "role": "Claude Code",
+      "weight": 1.35,
+      "roster": true
+    },
+    {
+      "handle": "@noahzweben",
+      "name": "Noah Zweben",
+      "role": "Claude Code PM",
+      "weight": 1.25,
+      "roster": true
+    },
+    {
+      "handle": "@dmwlff",
+      "name": "Adam Wolff",
+      "role": "Claude Code",
+      "weight": 1.15
+    },
+    {
+      "handle": "@DavidChouinard",
+      "name": "David Chouinard",
+      "role": "Claude Code",
+      "weight": 1.05
+    },
+    {
+      "handle": "@jackclarkSF",
+      "name": "Jack Clark",
+      "role": "Policy and strategy",
+      "weight": 1.2
+    },
+    {
+      "handle": "@janleike",
+      "name": "Jan Leike",
+      "role": "AI research",
+      "weight": 1.2
+    },
+    {
+      "handle": "@AmandaAskell",
+      "name": "Amanda Askell",
+      "role": "AI ethics",
+      "weight": 1.05
+    },
+    {
+      "handle": "@nikiparmar09",
+      "name": "Niki Parmar",
+      "role": "Research",
+      "weight": 1
+    },
+    {
+      "handle": "@andy_l_jones",
+      "name": "Andy Jones",
+      "role": "Engineering and research",
+      "weight": 1
+    },
+    {
+      "handle": "@AvitalBalwit",
+      "name": "Avital Balwit",
+      "role": "Chief of Staff",
+      "weight": 1
+    },
+    {
+      "handle": "@giansegato",
+      "name": "Gian Segato",
+      "role": "Research",
+      "weight": 1
+    },
+    {
+      "handle": "@benkuhn",
+      "name": "Ben Kuhn",
+      "role": "AI safety",
+      "weight": 1
+    }
+  ],
+  "unverifiedPeople": [
+    {
+      "name": "Ami Vora",
+      "role": "Product organization"
+    },
+    {
+      "name": "Rahul Patil",
+      "role": "CTO"
+    },
+    {
+      "name": "Ben Mann",
+      "role": "Anthropic Labs"
+    },
+    {
+      "name": "Cat Wu",
+      "role": "Claude Code product"
+    }
+  ],
+  "fatalities": [
+    {
+      "id": "mythos-glasswing",
+      "title": "MYTHOS / PROJECT GLASSWING",
+      "subtitle": "security boss phase",
+      "type": "fact",
+      "unlockTrigger": "Security round, exploit-defense storyline, or any matchup where DEF and ATK both matter.",
+      "arenaEffect": "+10 DEF in cyber/legal/government lanes; converts scary frontier capability into defender coalition aura.",
+      "confidence": 0.92,
+      "evidenceUrls": [
+        "https://red.anthropic.com/2026/mythos-preview/"
+      ],
+      "tags": [
+        "security",
+        "research",
+        "defense"
+      ]
+    },
+    {
+      "id": "claude-code-security",
+      "title": "CLAUDE CODE SECURITY",
+      "subtitle": "defensive agent kit",
+      "type": "fact",
+      "unlockTrigger": "Repository-risk, code-review, or enterprise-trust matchup.",
+      "arenaEffect": "Raises Claude trust posture by making code security a productized workflow instead of only a policy slogan.",
+      "confidence": 0.9,
+      "evidenceUrls": [
+        "https://www.anthropic.com/news/claude-code-security?via=aitoolzs"
+      ],
+      "tags": [
+        "security",
+        "code"
+      ]
+    },
+    {
+      "id": "mcp-stainless-skills",
+      "title": "MCP + STAINLESS + SKILLS",
+      "subtitle": "agent connectivity combo",
+      "type": "fact",
+      "unlockTrigger": "Tool-use, enterprise data, or API-connectivity matchup.",
+      "arenaEffect": "+8 COMBO when Claude needs to reach real systems; Stainless turns MCP/SDK plumbing into a sharper platform weapon.",
+      "confidence": 0.91,
+      "evidenceUrls": [
+        "https://www.anthropic.com/news/introducing-anthropic-labs?via=geekflare",
+        "https://www.anthropic.com/news/anthropic-acquires-stainless?s=09"
+      ],
+      "tags": [
+        "platform",
+        "mcp",
+        "sdk"
+      ]
+    },
+    {
+      "id": "claude-for-legal",
+      "title": "CLAUDE FOR LEGAL",
+      "subtitle": "regulated-work wedge",
+      "type": "fact",
+      "unlockTrigger": "Legal, compliance, contracts, or professional-services territory fight.",
+      "arenaEffect": "Gives Claude a clean LAW lane through CoCounsel Legal and trust-heavy workflows.",
+      "confidence": 0.9,
+      "evidenceUrls": [
+        "https://www.thomsonreuters.com/en/press-releases/2026/may/thomson-reuters-and-anthropic-expand-partnership-to-connect-claude-with-cocounsel-legal",
+        "https://www.anthropic.com/news/anthropic-kpmg?s=08"
+      ],
+      "tags": [
+        "legal",
+        "enterprise"
+      ]
+    },
+    {
+      "id": "aws-trainium-bank",
+      "title": "AWS / TRAINIUM COMPUTE BANK",
+      "subtitle": "durability reserve",
+      "type": "fact",
+      "unlockTrigger": "Scale, uptime, cost, or frontier-training durability matchup.",
+      "arenaEffect": "+9 HP when the fight becomes infrastructure-heavy; up to 5GW of planned capacity backs Claude demand.",
+      "confidence": 0.91,
+      "evidenceUrls": [
+        "https://www.anthropic.com/news/anthropic-amazon-compute?pubDate=20260225"
+      ],
+      "tags": [
+        "compute",
+        "hp"
+      ]
+    }
+  ]
+}
