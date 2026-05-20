@@ -1,17 +1,15 @@
 {
   "meta": {
-    "generatedAt": "2026-05-20T08:14:42.394Z",
+    "generatedAt": "2026-05-20T11:33:49.489Z",
     "schemaVersion": 1,
     "arenaVersion": 1,
-    "dataMode": "arena-offline",
+    "dataMode": "arena-manifest",
     "evidencePolicy": "Facts require source URLs. Inferences require confidence and multiple or official evidence.",
-    "warnings": [
-      "Offline arena build requested; generated from file manifests only."
-    ]
+    "warnings": []
   },
   "arena": {
-    "id": "agent-arena",
-    "title": "Agent Arena",
+    "id": "clododex",
+    "title": "Clododex",
     "summary": "A file-first arcade intelligence engine for remixable AI-agent competition concepts."
   },
   "contenders": [
@@ -2387,7 +2385,7 @@
       "side": "c2",
       "author": "c2",
       "handle": "",
-      "stamp": "8h",
+      "stamp": "12h",
       "text": "The public openai/codex repository exposes the local Codex agent and shows a Rust-heavy implementation footprint.",
       "insight": "The open-source harness is a hidden weapon for trust, local workflows, and community inspection.",
       "tags": [
@@ -2405,14 +2403,14 @@
       "evidenceUrls": [
         "https://github.com/openai/codex"
       ],
-      "rationale": "Shown because this sourced public item changes the Claude vs Codex arena narrative.",
+      "rationale": "Shown because this sourced public item changes the Clododex arena narrative.",
       "impact": "Tactical: boosts Codex developer combo and credibility."
     },
     {
       "side": "c2",
       "author": "c2",
       "handle": "",
-      "stamp": "8h",
+      "stamp": "12h",
       "text": "OpenAI frames Stargate and large-scale compute infrastructure as the foundation for compounding frontier AI products, including Codex-side workflows.",
       "insight": "Codex inherits OpenAI compute gravity even when a specific Codex feature does not mention infrastructure.",
       "tags": [
@@ -2431,7 +2429,7 @@
         "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age/",
         "https://openai.com/index/accelerating-the-next-phase-ai/"
       ],
-      "rationale": "Shown because this sourced public item changes the Claude vs Codex arena narrative.",
+      "rationale": "Shown because this sourced public item changes the Clododex arena narrative.",
       "impact": "Structural: raises Codex HP, ship cadence, and model-cadence confidence."
     },
     {
@@ -2456,7 +2454,7 @@
       "evidenceUrls": [
         "https://www.axios.com/2026/05/19/anthropic-openai-karpathy-andrej-claude"
       ],
-      "rationale": "Shown because this is a sourced public fact that changes the Claude vs Codex arena narrative.",
+      "rationale": "Shown because this is a sourced public fact that changes the Clododex arena narrative.",
       "impact": "Strategic: strengthens Anthropic's frontier research bench and talent narrative."
     },
     {
@@ -2481,7 +2479,7 @@
       "evidenceUrls": [
         "https://www.anthropic.com/news/anthropic-kpmg?s=08"
       ],
-      "rationale": "Shown because this sourced public item changes the Claude vs Codex arena narrative.",
+      "rationale": "Shown because this sourced public item changes the Clododex arena narrative.",
       "impact": "Strategic: reinforces Claude as a trust-heavy enterprise workflow agent."
     },
     {
@@ -2507,7 +2505,7 @@
         "https://jxnl.co/",
         "https://python.useinstructor.com/blog/2024/03/05/zero-cost-abstractions/"
       ],
-      "rationale": "Shown because this is a sourced public fact that changes the Claude vs Codex arena narrative.",
+      "rationale": "Shown because this is a sourced public fact that changes the Clododex arena narrative.",
       "impact": "Tactical: stronger schema-first developer education around Codex workflows."
     },
     {
@@ -2532,7 +2530,7 @@
       "evidenceUrls": [
         "https://www.anthropic.com/news/anthropic-acquires-stainless?s=09"
       ],
-      "rationale": "Shown because this sourced public item changes the Claude vs Codex arena narrative.",
+      "rationale": "Shown because this sourced public item changes the Clododex arena narrative.",
       "impact": "Tactical: raises Claude platform combo through MCP and SDK infrastructure."
     },
     {
@@ -2557,7 +2555,7 @@
       "evidenceUrls": [
         "https://openai.com/index/dell-codex-enterprise-partnership/"
       ],
-      "rationale": "Shown because this sourced public item changes the Claude vs Codex arena narrative.",
+      "rationale": "Shown because this sourced public item changes the Clododex arena narrative.",
       "impact": "Strategic: improves Codex enterprise IT and regulated-deployment posture."
     },
     {
@@ -2582,7 +2580,7 @@
       "evidenceUrls": [
         "https://openai.com/index/codex-now-generally-available/"
       ],
-      "rationale": "Shown because this sourced public item changes the Claude vs Codex arena narrative.",
+      "rationale": "Shown because this sourced public item changes the Clododex arena narrative.",
       "impact": "Tactical: boosts Codex momentum and ship cadence."
     },
     {
@@ -2607,7 +2605,7 @@
       "evidenceUrls": [
         "https://www.anthropic.com/news/pwc-expanded-partnership?gspk=dGFyYXNrcmFzbm92MjY1NA&gsxid=oyxgI6EUao8iLv&ps_partner_key=dGFyYXNrcmFzbm92MjY1NA&ps_xid=oyxgI6EUao8iLv&pscd=partners.triplewhale.com&source=taraskrasnov2654"
       ],
-      "rationale": "Shown because this sourced public item changes the Claude vs Codex arena narrative.",
+      "rationale": "Shown because this sourced public item changes the Clododex arena narrative.",
       "impact": "Strategic: pushes Claude deeper into finance, enterprise IT, and knowledge-work operations."
     },
     {
@@ -2632,7 +2630,7 @@
       "evidenceUrls": [
         "https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack/"
       ],
-      "rationale": "Shown because this is a sourced public fact that changes the Claude vs Codex arena narrative.",
+      "rationale": "Shown because this is a sourced public fact that changes the Clododex arena narrative.",
       "impact": "Monitor for signing, installer, and package-integrity changes around Codex and desktop apps."
     },
     {
@@ -2657,7 +2655,7 @@
       "evidenceUrls": [
         "https://openai.com/index/simplex/"
       ],
-      "rationale": "Shown because this is a sourced public fact that changes the Claude vs Codex arena narrative.",
+      "rationale": "Shown because this is a sourced public fact that changes the Clododex arena narrative.",
       "impact": "Customer stories are likely to become a major wedge against Claude Code in enterprise devtools."
     },
     {
@@ -3222,7 +3220,7 @@
     }
   },
   "status": {
-    "streamOk": false,
+    "streamOk": true,
     "xPostsToday": 0,
     "xAccounts": 43,
     "xLists": 1,
@@ -3319,7 +3317,7 @@
         {
           "id": "ios-widget",
           "slot": "daily-recap",
-          "label": "Daily Agent Arena"
+          "label": "Daily Clododex"
         }
       ],
       "dataSources": [

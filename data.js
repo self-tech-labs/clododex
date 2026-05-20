@@ -4,7 +4,7 @@ import ArenaSnapshot from "./data/arena/snapshots/current.json";
 import { hasDashboardShape, toDashboardView } from "./src/arena/dashboard.mjs";
 
 /* ============================================================
-   Fallback sample data for the CLAUDE vs CODEX intel dashboard.
+   Fallback sample data for the Clododex intel dashboard.
    The app normally reads data/intel/current-snapshot.json, generated
    by scripts/build-intel-snapshot.mjs.
    ============================================================ */

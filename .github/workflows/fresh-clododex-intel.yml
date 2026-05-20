@@ -1,4 +1,4 @@
-name: Fresh Intel PR
+name: Fresh Clododex Intel PR
 
 on:
   workflow_dispatch:
@@ -21,7 +21,7 @@ jobs:
       NEXT_TELEMETRY_DISABLED: "1"
       X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
       XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
-      REFRESH_BRANCH: automation/fresh-intel
+      REFRESH_BRANCH: automation/fresh-clododex-intel
       BASE_BRANCH: main
 
     steps:
@@ -99,7 +99,7 @@ jobs:
           body_file="$(mktemp)"
           cat > "$body_file" <<'BODY'
           ## Summary
-          - refreshes Agent Arena intel from X
+          - refreshes Clododex intel from X
           - runs xAI enrichment
           - rebuilds the dashboard and arena snapshots
 
@@ -115,7 +115,7 @@ jobs:
           if [ -n "$pr_number" ]; then
             gh pr edit "$pr_number" \
               --repo "$GITHUB_REPOSITORY" \
-              --title "Refresh Agent Arena intel" \
+              --title "Refresh Clododex intel" \
               --body-file "$body_file"
             gh pr comment "$pr_number" \
               --repo "$GITHUB_REPOSITORY" \
@@ -125,6 +125,6 @@ jobs:
               --repo "$GITHUB_REPOSITORY" \
               --base "$BASE_BRANCH" \
               --head "$REFRESH_BRANCH" \
-              --title "Refresh Agent Arena intel" \
+              --title "Refresh Clododex intel" \
               --body-file "$body_file"
           fi

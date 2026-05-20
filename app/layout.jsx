@@ -28,7 +28,7 @@ const vt323 = VT323({
 });
 
 export const metadata = {
-  title: "Agent Arena - Claude vs Codex",
+  title: "Clododex",
   description: "An open-source arcade intelligence layer for the AI agent race."
 };
 

@@ -23,7 +23,7 @@
     "evidenceUrls": [
       "https://www.axios.com/2026/05/19/anthropic-openai-karpathy-andrej-claude"
     ],
-    "rationale": "Shown because this is a sourced public fact that changes the Claude vs Codex arena narrative."
+    "rationale": "Shown because this is a sourced public fact that changes the Clododex arena narrative."
   },
   {
     "id": "seed-openai-jason-liu",
@@ -50,7 +50,7 @@
       "https://jxnl.co/",
       "https://python.useinstructor.com/blog/2024/03/05/zero-cost-abstractions/"
     ],
-    "rationale": "Shown because this is a sourced public fact that changes the Claude vs Codex arena narrative."
+    "rationale": "Shown because this is a sourced public fact that changes the Clododex arena narrative."
   },
   {
     "id": "seed-openai-peter-openclaw",
@@ -76,7 +76,7 @@
     "evidenceUrls": [
       "https://techcrunch.com/2026/02/15/openclaw-creator-peter-steinberger-joins-openai/"
     ],
-    "rationale": "Shown because this is a sourced public fact that changes the Claude vs Codex arena narrative."
+    "rationale": "Shown because this is a sourced public fact that changes the Clododex arena narrative."
   },
   {
     "id": "seed-anthropic-labs",
@@ -102,7 +102,7 @@
     "evidenceUrls": [
       "https://www.anthropic.com/news/introducing-anthropic-labs"
     ],
-    "rationale": "Shown because this is a sourced public fact that changes the Claude vs Codex arena narrative."
+    "rationale": "Shown because this is a sourced public fact that changes the Clododex arena narrative."
   },
   {
     "id": "seed-anthropic-claude-code",
@@ -128,7 +128,7 @@
     "evidenceUrls": [
       "https://www.anthropic.com/news/introducing-anthropic-labs"
     ],
-    "rationale": "Shown because this is a sourced public fact that changes the Claude vs Codex arena narrative."
+    "rationale": "Shown because this is a sourced public fact that changes the Clododex arena narrative."
   },
   {
     "id": "seed-openai-capital",
@@ -154,7 +154,7 @@
     "evidenceUrls": [
       "https://openai.com/index/accelerating-the-next-phase-ai/"
     ],
-    "rationale": "Shown because this is a sourced public fact that changes the Claude vs Codex arena narrative."
+    "rationale": "Shown because this is a sourced public fact that changes the Clododex arena narrative."
   },
   {
     "id": "seed-openai-simplex",
@@ -180,7 +180,7 @@
     "evidenceUrls": [
       "https://openai.com/index/simplex/"
     ],
-    "rationale": "Shown because this is a sourced public fact that changes the Claude vs Codex arena narrative."
+    "rationale": "Shown because this is a sourced public fact that changes the Clododex arena narrative."
   },
   {
     "id": "seed-openai-security",
@@ -206,7 +206,7 @@
     "evidenceUrls": [
       "https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack/"
     ],
-    "rationale": "Shown because this is a sourced public fact that changes the Claude vs Codex arena narrative."
+    "rationale": "Shown because this is a sourced public fact that changes the Clododex arena narrative."
   },
   {
     "id": "seed-codex-enterprise-inference",
@@ -257,7 +257,7 @@
       "https://www.anthropic.com/news/anthropic-kpmg?s=08"
     ],
     "publishedAt": "2026-05-19T00:00:00.000Z",
-    "rationale": "Shown because this sourced public item changes the Claude vs Codex arena narrative."
+    "rationale": "Shown because this sourced public item changes the Clododex arena narrative."
   },
   {
     "type": "fact",
@@ -281,7 +281,7 @@
       "https://www.anthropic.com/news/anthropic-acquires-stainless?s=09"
     ],
     "publishedAt": "2026-05-18T00:00:00.000Z",
-    "rationale": "Shown because this sourced public item changes the Claude vs Codex arena narrative."
+    "rationale": "Shown because this sourced public item changes the Clododex arena narrative."
   },
   {
     "type": "fact",
@@ -305,7 +305,7 @@
       "https://www.anthropic.com/news/pwc-expanded-partnership?gspk=dGFyYXNrcmFzbm92MjY1NA&gsxid=oyxgI6EUao8iLv&ps_partner_key=dGFyYXNrcmFzbm92MjY1NA&ps_xid=oyxgI6EUao8iLv&pscd=partners.triplewhale.com&source=taraskrasnov2654"
     ],
     "publishedAt": "2026-05-14T00:00:00.000Z",
-    "rationale": "Shown because this sourced public item changes the Claude vs Codex arena narrative."
+    "rationale": "Shown because this sourced public item changes the Clododex arena narrative."
   },
   {
     "type": "fact",
@@ -329,7 +329,7 @@
       "https://red.anthropic.com/2026/mythos-preview/"
     ],
     "publishedAt": "2026-04-07T00:00:00.000Z",
-    "rationale": "Shown because this sourced public item changes the Claude vs Codex arena narrative."
+    "rationale": "Shown because this sourced public item changes the Clododex arena narrative."
   },
   {
     "type": "fact",
@@ -353,7 +353,7 @@
       "https://www.anthropic.com/news/anthropic-amazon-compute?pubDate=20260225"
     ],
     "publishedAt": "2026-04-20T00:00:00.000Z",
-    "rationale": "Shown because this sourced public item changes the Claude vs Codex arena narrative."
+    "rationale": "Shown because this sourced public item changes the Clododex arena narrative."
   },
   {
     "type": "fact",
@@ -377,7 +377,7 @@
       "https://openai.com/index/codex-now-generally-available/"
     ],
     "publishedAt": "2026-05-16T00:00:00.000Z",
-    "rationale": "Shown because this sourced public item changes the Claude vs Codex arena narrative."
+    "rationale": "Shown because this sourced public item changes the Clododex arena narrative."
   },
   {
     "type": "fact",
@@ -401,7 +401,7 @@
       "https://openai.com/index/codex-security-now-in-research-preview/"
     ],
     "publishedAt": "2026-03-06T00:00:00.000Z",
-    "rationale": "Shown because this sourced public item changes the Claude vs Codex arena narrative."
+    "rationale": "Shown because this sourced public item changes the Clododex arena narrative."
   },
   {
     "type": "fact",
@@ -425,7 +425,7 @@
       "https://github.com/openai/codex"
     ],
     "publishedAt": "2026-05-20T00:00:00.000Z",
-    "rationale": "Shown because this sourced public item changes the Claude vs Codex arena narrative."
+    "rationale": "Shown because this sourced public item changes the Clododex arena narrative."
   },
   {
     "type": "fact",
@@ -449,7 +449,7 @@
       "https://openai.com/index/dell-codex-enterprise-partnership/"
     ],
     "publishedAt": "2026-05-18T00:00:00.000Z",
-    "rationale": "Shown because this sourced public item changes the Claude vs Codex arena narrative."
+    "rationale": "Shown because this sourced public item changes the Clododex arena narrative."
   },
   {
     "type": "inference",
@@ -474,6 +474,6 @@
       "https://openai.com/index/accelerating-the-next-phase-ai/"
     ],
     "publishedAt": "2026-05-20T00:00:00.000Z",
-    "rationale": "Shown because this sourced public item changes the Claude vs Codex arena narrative."
+    "rationale": "Shown because this sourced public item changes the Clododex arena narrative."
   }
 ]
