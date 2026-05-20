@@ -1,5 +1,44 @@
 /* Vertical conquest — spider/radar chart + territory bars */
 
+function SourceLinks({ urls }) {
+  const evidenceUrls = Array.isArray(urls) ? urls.filter((url) => typeof url === "string" && url.startsWith("http")) : [];
+  if (!evidenceUrls.length) return null;
+
+  return (
+    <div className="score-evidence">
+      {evidenceUrls.slice(0, 3).map((url, index) => (
+        <a key={`${url}-${index}`} href={url} target="_blank" rel="noreferrer">
+          src {index + 1}
+        </a>
+      ))}
+    </div>
+  );
+}
+
+function TerritoryWhy({ rationale }) {
+  if (!rationale?.c1?.rationale && !rationale?.c2?.rationale) return null;
+
+  return (
+    <details className="score-why territory-why">
+      <summary>WHY THIS TERRITORY?</summary>
+      <div className="score-why-grid">
+        <div>
+          <strong>CLAUDE</strong>
+          <p>{rationale?.c1?.rationale || "No rationale recorded."}</p>
+          {typeof rationale?.c1?.confidence === "number" && <span>CONF {Math.round(rationale.c1.confidence * 100)}%</span>}
+          <SourceLinks urls={rationale?.c1?.evidenceUrls} />
+        </div>
+        <div>
+          <strong>CODEX</strong>
+          <p>{rationale?.c2?.rationale || "No rationale recorded."}</p>
+          {typeof rationale?.c2?.confidence === "number" && <span>CONF {Math.round(rationale.c2.confidence * 100)}%</span>}
+          <SourceLinks urls={rationale?.c2?.evidenceUrls} />
+        </div>
+      </div>
+    </details>
+  );
+}
+
 function SpiderChart({ verticals }) {
   const size = 560;
   const cx = size / 2;
@@ -126,7 +165,8 @@ function SpiderChart({ verticals }) {
   );
 }
 
-export function VerticalSpider({ verticals }) {
+export function TerritorySpider({ territories, verticals }) {
+  const rows = Array.isArray(territories) ? territories : Array.isArray(verticals) ? verticals : [];
   return (
     <div className="panel spider-wrap">
       <div className="panel-head" style={{ margin: "-20px -20px 0", padding: "12px 16px" }}>
@@ -135,7 +175,7 @@ export function VerticalSpider({ verticals }) {
           MINDSHARE × DEPLOYMENT INDEX · 0–100
         </span>
       </div>
-      <SpiderChart verticals={verticals} />
+      <SpiderChart verticals={rows} />
       <div className="legend">
         <div className="c1"><span className="swatch"></span>CLAUDE</div>
         <div className="c2"><span className="swatch"></span>CODEX</div>
@@ -144,9 +184,14 @@ export function VerticalSpider({ verticals }) {
   );
 }
 
-export function TerritoryList({ verticals }) {
+export function VerticalSpider({ verticals }) {
+  return <TerritorySpider territories={verticals} />;
+}
+
+export function TerritoryList({ territories, verticals }) {
+  const rows = Array.isArray(territories) ? territories : Array.isArray(verticals) ? verticals : [];
   // sort by total contention
-  const sorted = [...verticals].sort((a,b) => (Math.abs(b.c1-b.c2) < 12 ? 1 : 0) - (Math.abs(a.c1-a.c2) < 12 ? 1 : 0));
+  const sorted = [...rows].sort((a,b) => (Math.abs(b.c1-b.c2) < 12 ? 1 : 0) - (Math.abs(a.c1-a.c2) < 12 ? 1 : 0));
   return (
     <div className="panel territories">
       <div className="panel-head" style={{ margin: "-16px -16px 12px", padding: "12px 16px" }}>
@@ -173,6 +218,7 @@ export function TerritoryList({ verticals }) {
               <div className="fill" style={{ width: v.c2 + "%" }}>{v.c2}</div>
               {!c1win && !contested && <span className="crown">★</span>}
             </div>
+            <TerritoryWhy rationale={v.rationale} />
           </div>
         );
       })}

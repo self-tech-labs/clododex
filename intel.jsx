@@ -28,6 +28,12 @@ function TweetRow({ tw }) {
           {tw.insight}
         </div>
         {tw.impact && <div className="impact">TACTICAL READ · {tw.impact}</div>}
+        {tw.rationale && (
+          <details className="score-why signal-why">
+            <summary>WHY SHOWN?</summary>
+            <p>{tw.rationale}</p>
+          </details>
+        )}
         {evidenceUrls.length > 0 && (
           <div className="evidence">
             <span>EVIDENCE</span>
@@ -48,8 +54,9 @@ function TweetRow({ tw }) {
   );
 }
 
-export function IntelFeed({ tweets, filter, setFilter }) {
-  const shown = tweets.filter((t) =>
+export function IntelFeed({ tweets, signals, filter, setFilter }) {
+  const rows = Array.isArray(signals) ? signals : Array.isArray(tweets) ? tweets : [];
+  const shown = rows.filter((t) =>
     filter === "all" ? true : t.side === filter
   );
   return (

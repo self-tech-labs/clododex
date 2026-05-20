@@ -1,0 +1,40 @@
+{
+  "id": "polymarket-market-links",
+  "kind": "integration",
+  "title": "Polymarket Market Links",
+  "description": "Attach prediction markets to contenders, signals, and territories so external odds can become arena context.",
+  "entities": [
+    {
+      "id": "market-link",
+      "type": "external-market",
+      "fields": [
+        "marketUrl",
+        "question",
+        "entityId",
+        "expiresAt"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "from": "market-link",
+      "to": "signal",
+      "type": "prices-outcome"
+    }
+  ],
+  "surfaces": [
+    {
+      "id": "intel-feed",
+      "slot": "signal-footer",
+      "label": "Market Odds"
+    }
+  ],
+  "dataSources": [
+    {
+      "id": "polymarket",
+      "kind": "third-party-api",
+      "description": "Future adapter for public market metadata."
+    }
+  ],
+  "status": "dormant"
+}

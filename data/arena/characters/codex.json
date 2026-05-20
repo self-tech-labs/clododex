@@ -1,0 +1,1071 @@
+[
+  {
+    "id": "sama",
+    "name": "SAM",
+    "surname": "ALTMAN",
+    "handle": "@sama",
+    "cls": "THE DISTRIBUTOR",
+    "stats": {
+      "ATK": 96,
+      "DEF": 72,
+      "SPD": 95,
+      "COMBO": 92,
+      "HP": 94
+    },
+    "special": "MARKET GRAVITY",
+    "combo": [
+      "UP",
+      "UP",
+      "GPU"
+    ],
+    "lore": "OpenAI CEO. The Codex side inherits OpenAI's consumer distribution, capital stack, and compute narrative.",
+    "threatScore": 97,
+    "lastActivity": "n/a",
+    "dossier": {
+      "lastReviewedAt": "2026-05-19",
+      "tagline": "Distribution and capital gravity for Team Codex.",
+      "background": [
+        {
+          "text": "OpenAI's capital announcement frames consumer adoption, enterprise deployment, developer usage, and compute as a reinforcing flywheel.",
+          "evidenceUrls": [
+            "https://openai.com/index/accelerating-the-next-phase-ai/",
+            "https://x.com/sama"
+          ],
+          "confidence": 0.9
+        }
+      ],
+      "keyProjects": [
+        {
+          "name": "OpenAI distribution flywheel",
+          "description": "The Codex side inherits the reach of ChatGPT, the API, and OpenAI's capital and compute narrative.",
+          "tags": [
+            "distribution",
+            "capital"
+          ],
+          "evidenceUrls": [
+            "https://openai.com/index/accelerating-the-next-phase-ai/"
+          ]
+        }
+      ],
+      "strengths": [
+        {
+          "label": "Market gravity",
+          "description": "Turns company-level momentum into product attention for Codex and adjacent developer workflows.",
+          "evidenceUrls": [
+            "https://openai.com/index/accelerating-the-next-phase-ai/",
+            "https://x.com/sama"
+          ]
+        }
+      ],
+      "narrative": {
+        "title": "Market Gravity",
+        "text": "A commander class whose special meter charges through distribution, capital, and public narrative pressure.",
+        "evidenceUrls": [
+          "https://openai.com/index/accelerating-the-next-phase-ai/"
+        ]
+      },
+      "sourceUrls": [
+        "https://openai.com/index/accelerating-the-next-phase-ai/",
+        "https://x.com/sama"
+      ]
+    },
+    "contenderId": "codex",
+    "side": "c2",
+    "displayName": "SAM ALTMAN",
+    "roleClass": "THE DISTRIBUTOR",
+    "scoreRationale": {
+      "rubricVersion": "2026-05-20",
+      "stats": {
+        "ATK": {
+          "rationale": "OpenAI distribution, capital, and compute strategy create maximum market offense.",
+          "evidenceUrls": [
+            "https://openai.com/index/accelerating-the-next-phase-ai/",
+            "https://x.com/sama"
+          ],
+          "confidence": 0.84
+        },
+        "DEF": {
+          "rationale": "OpenAI has security posture, but his visible role is more expansionary than defensive.",
+          "evidenceUrls": [
+            "https://openai.com/index/accelerating-the-next-phase-ai/",
+            "https://x.com/sama"
+          ],
+          "confidence": 0.84
+        },
+        "SPD": {
+          "rationale": "Public narrative and launch cadence keep OpenAI moving quickly across surfaces.",
+          "evidenceUrls": [
+            "https://openai.com/index/accelerating-the-next-phase-ai/",
+            "https://x.com/sama"
+          ],
+          "confidence": 0.84
+        },
+        "COMBO": {
+          "rationale": "Combines ChatGPT distribution, API, compute, enterprise, and developer funnels.",
+          "evidenceUrls": [
+            "https://openai.com/index/accelerating-the-next-phase-ai/",
+            "https://x.com/sama"
+          ],
+          "confidence": 0.84
+        },
+        "HP": {
+          "rationale": "Capital and compute commitments give Codex a huge durability reserve.",
+          "evidenceUrls": [
+            "https://openai.com/index/accelerating-the-next-phase-ai/",
+            "https://x.com/sama"
+          ],
+          "confidence": 0.84
+        }
+      },
+      "threatScore": {
+        "rationale": "Threat comes from market gravity: attention, capital, compute, and distribution moving together.",
+        "evidenceUrls": [
+          "https://openai.com/index/accelerating-the-next-phase-ai/",
+          "https://x.com/sama"
+        ],
+        "confidence": 0.85
+      }
+    }
+  },
+  {
+    "id": "greg",
+    "name": "GREG",
+    "surname": "BROCKMAN",
+    "handle": "@gdb",
+    "cls": "THE ENGINEER",
+    "stats": {
+      "ATK": 90,
+      "DEF": 80,
+      "SPD": 88,
+      "COMBO": 94,
+      "HP": 91
+    },
+    "special": "DEMO PRESSURE",
+    "combo": [
+      "RIGHT",
+      "DOWN",
+      "RUN"
+    ],
+    "lore": "OpenAI president and co-founder. A technical and launch-adjacent signal source for platform shifts.",
+    "threatScore": 90,
+    "lastActivity": "n/a",
+    "dossier": {
+      "lastReviewedAt": "2026-05-19",
+      "tagline": "Launch-adjacent technical pressure source.",
+      "background": [
+        {
+          "text": "The platform tracks Greg Brockman as a technical and launch-adjacent OpenAI signal source for Codex-side shifts.",
+          "evidenceUrls": [
+            "https://openai.com/index/accelerating-the-next-phase-ai/",
+            "https://x.com/gdb"
+          ],
+          "confidence": 0.78
+        }
+      ],
+      "keyProjects": [
+        {
+          "name": "Codex launch signal",
+          "description": "Monitored for engineering demos, product claims, and platform direction around OpenAI developer workflows.",
+          "tags": [
+            "engineering",
+            "launch"
+          ],
+          "evidenceUrls": [
+            "https://x.com/gdb"
+          ]
+        }
+      ],
+      "strengths": [
+        {
+          "label": "Technical demo pressure",
+          "description": "Makes capability feel concrete through demos and engineering-forward framing.",
+          "evidenceUrls": [
+            "https://x.com/gdb"
+          ]
+        }
+      ],
+      "narrative": {
+        "title": "Baremetal Combo",
+        "text": "A hands-on fighter whose attacks land hardest when the demo is live and the repo is open.",
+        "evidenceUrls": [
+          "https://x.com/gdb"
+        ]
+      },
+      "sourceUrls": [
+        "https://openai.com/index/accelerating-the-next-phase-ai/",
+        "https://x.com/gdb"
+      ]
+    },
+    "contenderId": "codex",
+    "side": "c2",
+    "displayName": "GREG BROCKMAN",
+    "roleClass": "THE ENGINEER",
+    "scoreRationale": {
+      "rubricVersion": "2026-05-20",
+      "stats": {
+        "ATK": {
+          "rationale": "Engineering demos and Codex launch signal create direct product-offense pressure.",
+          "evidenceUrls": [
+            "https://openai.com/index/accelerating-the-next-phase-ai/",
+            "https://x.com/gdb"
+          ],
+          "confidence": 0.84
+        },
+        "DEF": {
+          "rationale": "Technical rigor helps, though his role is weighted toward building and shipping.",
+          "evidenceUrls": [
+            "https://openai.com/index/accelerating-the-next-phase-ai/",
+            "https://x.com/gdb"
+          ],
+          "confidence": 0.84
+        },
+        "SPD": {
+          "rationale": "Launch-adjacent engineering communication tends to move fast.",
+          "evidenceUrls": [
+            "https://openai.com/index/accelerating-the-next-phase-ai/",
+            "https://x.com/gdb"
+          ],
+          "confidence": 0.84
+        },
+        "COMBO": {
+          "rationale": "Hands-on demos connect model capability, developer trust, and product proof.",
+          "evidenceUrls": [
+            "https://openai.com/index/accelerating-the-next-phase-ai/",
+            "https://x.com/gdb"
+          ],
+          "confidence": 0.84
+        },
+        "HP": {
+          "rationale": "Co-founder durability and engineering credibility keep him relevant across cycles.",
+          "evidenceUrls": [
+            "https://openai.com/index/accelerating-the-next-phase-ai/",
+            "https://x.com/gdb"
+          ],
+          "confidence": 0.84
+        }
+      },
+      "threatScore": {
+        "rationale": "Threat comes from making Codex capability tangible through engineering-forward demos.",
+        "evidenceUrls": [
+          "https://openai.com/index/accelerating-the-next-phase-ai/",
+          "https://x.com/gdb"
+        ],
+        "confidence": 0.85
+      }
+    }
+  },
+  {
+    "id": "fidji",
+    "name": "FIDJI",
+    "surname": "SIMO",
+    "handle": "@fidjissimo",
+    "cls": "THE APPLICATIONS CEO",
+    "stats": {
+      "ATK": 84,
+      "DEF": 82,
+      "SPD": 90,
+      "COMBO": 88,
+      "HP": 89
+    },
+    "special": "APPLICATIONS SCALE",
+    "combo": [
+      "APP",
+      "OPS",
+      "GROW"
+    ],
+    "lore": "CEO of Applications at OpenAI. Important for how Codex and ChatGPT turn research into product and business workflows.",
+    "threatScore": 88,
+    "lastActivity": "n/a",
+    "dossier": {
+      "lastReviewedAt": "2026-05-19",
+      "tagline": "Applications-side scale operator for OpenAI products.",
+      "background": [
+        {
+          "text": "OpenAI's public company narrative emphasizes moving capability into consumer, enterprise, and developer products; Fidji Simo is tracked as an applications-side roster signal.",
+          "evidenceUrls": [
+            "https://openai.com/index/accelerating-the-next-phase-ai/",
+            "https://x.com/fidjissimo"
+          ],
+          "confidence": 0.76
+        }
+      ],
+      "keyProjects": [
+        {
+          "name": "Applications scale",
+          "description": "A product and business-workflow lens for ChatGPT, Codex, and OpenAI's broader applications layer.",
+          "tags": [
+            "applications",
+            "product"
+          ],
+          "evidenceUrls": [
+            "https://openai.com/index/accelerating-the-next-phase-ai/",
+            "https://x.com/fidjissimo"
+          ]
+        }
+      ],
+      "strengths": [
+        {
+          "label": "Product scaling",
+          "description": "Converts model capability into repeatable product surfaces and business workflows.",
+          "evidenceUrls": [
+            "https://x.com/fidjissimo"
+          ]
+        }
+      ],
+      "narrative": {
+        "title": "Applications Scale",
+        "text": "A growth-class fighter who turns research unlocks into surfaces people actually use.",
+        "evidenceUrls": [
+          "https://openai.com/index/accelerating-the-next-phase-ai/",
+          "https://x.com/fidjissimo"
+        ]
+      },
+      "sourceUrls": [
+        "https://openai.com/index/accelerating-the-next-phase-ai/",
+        "https://x.com/fidjissimo"
+      ]
+    },
+    "contenderId": "codex",
+    "side": "c2",
+    "displayName": "FIDJI SIMO",
+    "roleClass": "THE APPLICATIONS CEO",
+    "scoreRationale": {
+      "rubricVersion": "2026-05-20",
+      "stats": {
+        "ATK": {
+          "rationale": "Applications leadership turns research into product surfaces and business workflows.",
+          "evidenceUrls": [
+            "https://openai.com/index/accelerating-the-next-phase-ai/",
+            "https://x.com/fidjissimo"
+          ],
+          "confidence": 0.84
+        },
+        "DEF": {
+          "rationale": "Scaling applications requires reliability and enterprise controls, but not primarily safety governance.",
+          "evidenceUrls": [
+            "https://openai.com/index/accelerating-the-next-phase-ai/",
+            "https://x.com/fidjissimo"
+          ],
+          "confidence": 0.84
+        },
+        "SPD": {
+          "rationale": "Application rollouts reward fast packaging, launch discipline, and feedback loops.",
+          "evidenceUrls": [
+            "https://openai.com/index/accelerating-the-next-phase-ai/",
+            "https://x.com/fidjissimo"
+          ],
+          "confidence": 0.84
+        },
+        "COMBO": {
+          "rationale": "Links ChatGPT, Codex, enterprise workflows, and product growth channels.",
+          "evidenceUrls": [
+            "https://openai.com/index/accelerating-the-next-phase-ai/",
+            "https://x.com/fidjissimo"
+          ],
+          "confidence": 0.84
+        },
+        "HP": {
+          "rationale": "Applications org depth gives Codex staying power beyond developer-only adoption.",
+          "evidenceUrls": [
+            "https://openai.com/index/accelerating-the-next-phase-ai/",
+            "https://x.com/fidjissimo"
+          ],
+          "confidence": 0.84
+        }
+      },
+      "threatScore": {
+        "rationale": "Threat comes from turning frontier capability into products users repeatedly touch.",
+        "evidenceUrls": [
+          "https://openai.com/index/accelerating-the-next-phase-ai/",
+          "https://x.com/fidjissimo"
+        ],
+        "confidence": 0.85
+      }
+    }
+  },
+  {
+    "id": "jakub",
+    "name": "JAKUB",
+    "surname": "PACHOCKI",
+    "handle": "@merettm",
+    "cls": "THE CHIEF SCIENTIST",
+    "stats": {
+      "ATK": 94,
+      "DEF": 90,
+      "SPD": 74,
+      "COMBO": 86,
+      "HP": 93
+    },
+    "special": "REASONING OVERDRIVE",
+    "combo": [
+      "DOWN",
+      "RIGHT",
+      "RL"
+    ],
+    "lore": "OpenAI chief scientist. Rare posts matter because research direction changes the Codex capability curve.",
+    "threatScore": 89,
+    "lastActivity": "n/a",
+    "dossier": {
+      "lastReviewedAt": "2026-05-19",
+      "tagline": "Research direction pressure behind the Codex curve.",
+      "background": [
+        {
+          "text": "The roster tracks Jakub Pachocki as a high-impact OpenAI research signal whose sparse public activity can still change the Codex capability read.",
+          "evidenceUrls": [
+            "https://openai.com/index/accelerating-the-next-phase-ai/",
+            "https://x.com/merettm"
+          ],
+          "confidence": 0.76
+        }
+      ],
+      "keyProjects": [
+        {
+          "name": "Reasoning-model watchpoint",
+          "description": "Monitored for research direction that can later show up as stronger agentic coding behavior.",
+          "tags": [
+            "research",
+            "reasoning"
+          ],
+          "evidenceUrls": [
+            "https://x.com/merettm"
+          ]
+        }
+      ],
+      "strengths": [
+        {
+          "label": "Capability curve",
+          "description": "Research-side influence over the models that developer agents rely on.",
+          "evidenceUrls": [
+            "https://openai.com/index/accelerating-the-next-phase-ai/",
+            "https://x.com/merettm"
+          ]
+        }
+      ],
+      "narrative": {
+        "title": "Reasoning Overdrive",
+        "text": "A research-class fighter who buffs Codex from below the visible product layer.",
+        "evidenceUrls": [
+          "https://x.com/merettm"
+        ]
+      },
+      "sourceUrls": [
+        "https://openai.com/index/accelerating-the-next-phase-ai/",
+        "https://x.com/merettm"
+      ]
+    },
+    "contenderId": "codex",
+    "side": "c2",
+    "displayName": "JAKUB PACHOCKI",
+    "roleClass": "THE CHIEF SCIENTIST",
+    "scoreRationale": {
+      "rubricVersion": "2026-05-20",
+      "stats": {
+        "ATK": {
+          "rationale": "Chief-scientist research direction pushes the Codex capability curve from below the product layer.",
+          "evidenceUrls": [
+            "https://openai.com/index/accelerating-the-next-phase-ai/",
+            "https://x.com/merettm"
+          ],
+          "confidence": 0.84
+        },
+        "DEF": {
+          "rationale": "Research discipline supports reliability and evaluation posture.",
+          "evidenceUrls": [
+            "https://openai.com/index/accelerating-the-next-phase-ai/",
+            "https://x.com/merettm"
+          ],
+          "confidence": 0.84
+        },
+        "SPD": {
+          "rationale": "Sparse public signal and long research cycles keep speed lower than builders.",
+          "evidenceUrls": [
+            "https://openai.com/index/accelerating-the-next-phase-ai/",
+            "https://x.com/merettm"
+          ],
+          "confidence": 0.84
+        },
+        "COMBO": {
+          "rationale": "Model research compounds with Codex agent loops and OpenAI infrastructure.",
+          "evidenceUrls": [
+            "https://openai.com/index/accelerating-the-next-phase-ai/",
+            "https://x.com/merettm"
+          ],
+          "confidence": 0.84
+        },
+        "HP": {
+          "rationale": "Frontier research leadership gives durable model-side health.",
+          "evidenceUrls": [
+            "https://openai.com/index/accelerating-the-next-phase-ai/",
+            "https://x.com/merettm"
+          ],
+          "confidence": 0.84
+        }
+      },
+      "threatScore": {
+        "rationale": "Threat comes from hidden model upgrades that change what Codex can do before the UI changes.",
+        "evidenceUrls": [
+          "https://openai.com/index/accelerating-the-next-phase-ai/",
+          "https://x.com/merettm"
+        ],
+        "confidence": 0.85
+      }
+    }
+  },
+  {
+    "id": "tibo",
+    "name": "TIBO",
+    "surname": "SOTTIAUX",
+    "handle": "@thsottiaux",
+    "cls": "THE CODEX BUILDER",
+    "stats": {
+      "ATK": 91,
+      "DEF": 78,
+      "SPD": 93,
+      "COMBO": 92,
+      "HP": 88
+    },
+    "special": "CODEX SHIP LOOP",
+    "combo": [
+      "PLAN",
+      "PATCH",
+      "PR"
+    ],
+    "lore": "Codex builder at OpenAI. High-signal account for practical product direction and developer workflow changes.",
+    "threatScore": 92,
+    "lastActivity": "n/a",
+    "dossier": {
+      "lastReviewedAt": "2026-05-19",
+      "tagline": "Practical Codex workflow builder.",
+      "background": [
+        {
+          "text": "OpenAI's Simplex case study frames Codex as delegated development work, making Codex builders important product-direction signals.",
+          "evidenceUrls": [
+            "https://openai.com/index/simplex/",
+            "https://x.com/thsottiaux"
+          ],
+          "confidence": 0.8
+        }
+      ],
+      "keyProjects": [
+        {
+          "name": "Codex ship loop",
+          "description": "Tracked for signals around planning, patches, review, and end-to-end developer agent workflows.",
+          "tags": [
+            "codex",
+            "devtools"
+          ],
+          "evidenceUrls": [
+            "https://openai.com/index/simplex/",
+            "https://x.com/thsottiaux"
+          ]
+        }
+      ],
+      "strengths": [
+        {
+          "label": "Implementation signal",
+          "description": "Close to practical developer workflow changes where product claims become usable routines.",
+          "evidenceUrls": [
+            "https://x.com/thsottiaux"
+          ]
+        }
+      ],
+      "narrative": {
+        "title": "Patch Chain",
+        "text": "A combo fighter whose pressure comes from turning plan into diff into shipped work.",
+        "evidenceUrls": [
+          "https://openai.com/index/simplex/",
+          "https://x.com/thsottiaux"
+        ]
+      },
+      "sourceUrls": [
+        "https://openai.com/index/simplex/",
+        "https://x.com/thsottiaux"
+      ]
+    },
+    "contenderId": "codex",
+    "side": "c2",
+    "displayName": "TIBO SOTTIAUX",
+    "roleClass": "THE CODEX BUILDER",
+    "scoreRationale": {
+      "rubricVersion": "2026-05-20",
+      "stats": {
+        "ATK": {
+          "rationale": "Direct Codex building gives him strong developer-workflow offense.",
+          "evidenceUrls": [
+            "https://openai.com/index/simplex/",
+            "https://x.com/thsottiaux"
+          ],
+          "confidence": 0.84
+        },
+        "DEF": {
+          "rationale": "Product engineering helps reliability, though security is not the main public signal.",
+          "evidenceUrls": [
+            "https://openai.com/index/simplex/",
+            "https://x.com/thsottiaux"
+          ],
+          "confidence": 0.84
+        },
+        "SPD": {
+          "rationale": "Codex workflow shipping and launch loops make speed a core stat.",
+          "evidenceUrls": [
+            "https://openai.com/index/simplex/",
+            "https://x.com/thsottiaux"
+          ],
+          "confidence": 0.84
+        },
+        "COMBO": {
+          "rationale": "Combines cloud delegation, CLI, GitHub, and app workflow surfaces.",
+          "evidenceUrls": [
+            "https://openai.com/index/simplex/",
+            "https://x.com/thsottiaux"
+          ],
+          "confidence": 0.84
+        },
+        "HP": {
+          "rationale": "OpenAI product infrastructure gives the builder lane durability.",
+          "evidenceUrls": [
+            "https://openai.com/index/simplex/",
+            "https://x.com/thsottiaux"
+          ],
+          "confidence": 0.84
+        }
+      },
+      "threatScore": {
+        "rationale": "Threat comes from practical Codex shipping pressure in the developer workflow.",
+        "evidenceUrls": [
+          "https://openai.com/index/simplex/",
+          "https://x.com/thsottiaux"
+        ],
+        "confidence": 0.85
+      }
+    }
+  },
+  {
+    "id": "romain",
+    "name": "ROMAIN",
+    "surname": "HUET",
+    "handle": "@romainhuet",
+    "cls": "THE DEVEX WIZARD",
+    "stats": {
+      "ATK": 86,
+      "DEF": 78,
+      "SPD": 92,
+      "COMBO": 88,
+      "HP": 87
+    },
+    "special": "JUST BUILD THINGS",
+    "combo": [
+      "API",
+      "DOCS",
+      "DEVS"
+    ],
+    "lore": "Head of Developer Experience at OpenAI, working on Codex and the API. Useful for developer-platform positioning.",
+    "threatScore": 86,
+    "lastActivity": "n/a",
+    "dossier": {
+      "lastReviewedAt": "2026-05-19",
+      "tagline": "Developer-experience amplifier for OpenAI's platform surface.",
+      "background": [
+        {
+          "text": "OpenAI's Codex customer story positions developer workflow as a strategic platform surface; Romain Huet is tracked as a developer-experience roster signal.",
+          "evidenceUrls": [
+            "https://openai.com/index/simplex/",
+            "https://x.com/romainhuet"
+          ],
+          "confidence": 0.78
+        }
+      ],
+      "keyProjects": [
+        {
+          "name": "Developer experience channel",
+          "description": "Monitored for Codex, API, docs, and developer-platform positioning signals.",
+          "tags": [
+            "devex",
+            "platform"
+          ],
+          "evidenceUrls": [
+            "https://openai.com/index/simplex/",
+            "https://x.com/romainhuet"
+          ]
+        }
+      ],
+      "strengths": [
+        {
+          "label": "Developer translation",
+          "description": "Turns platform capability into examples, docs, and adoption hooks.",
+          "evidenceUrls": [
+            "https://x.com/romainhuet"
+          ]
+        }
+      ],
+      "narrative": {
+        "title": "Just Build Things",
+        "text": "A developer-relations caster whose buffs make Codex feel closer to the terminal.",
+        "evidenceUrls": [
+          "https://openai.com/index/simplex/",
+          "https://x.com/romainhuet"
+        ]
+      },
+      "sourceUrls": [
+        "https://openai.com/index/simplex/",
+        "https://x.com/romainhuet"
+      ]
+    },
+    "contenderId": "codex",
+    "side": "c2",
+    "displayName": "ROMAIN HUET",
+    "roleClass": "THE DEVEX WIZARD",
+    "scoreRationale": {
+      "rubricVersion": "2026-05-20",
+      "stats": {
+        "ATK": {
+          "rationale": "Developer-experience leadership makes Codex easier to adopt and explain.",
+          "evidenceUrls": [
+            "https://openai.com/index/simplex/",
+            "https://x.com/romainhuet"
+          ],
+          "confidence": 0.84
+        },
+        "DEF": {
+          "rationale": "Docs, API clarity, and platform hygiene add trust even when not security-specific.",
+          "evidenceUrls": [
+            "https://openai.com/index/simplex/",
+            "https://x.com/romainhuet"
+          ],
+          "confidence": 0.84
+        },
+        "SPD": {
+          "rationale": "DevEx work moves quickly with launch, docs, demos, and community feedback.",
+          "evidenceUrls": [
+            "https://openai.com/index/simplex/",
+            "https://x.com/romainhuet"
+          ],
+          "confidence": 0.84
+        },
+        "COMBO": {
+          "rationale": "Connects APIs, docs, Codex, and developer education into adoption leverage.",
+          "evidenceUrls": [
+            "https://openai.com/index/simplex/",
+            "https://x.com/romainhuet"
+          ],
+          "confidence": 0.84
+        },
+        "HP": {
+          "rationale": "A strong platform surface keeps Codex useful after launch spikes fade.",
+          "evidenceUrls": [
+            "https://openai.com/index/simplex/",
+            "https://x.com/romainhuet"
+          ],
+          "confidence": 0.84
+        }
+      },
+      "threatScore": {
+        "rationale": "Threat comes from reducing friction until Codex feels like the default developer path.",
+        "evidenceUrls": [
+          "https://openai.com/index/simplex/",
+          "https://x.com/romainhuet"
+        ],
+        "confidence": 0.85
+      }
+    }
+  },
+  {
+    "id": "jason",
+    "name": "JASON",
+    "surname": "LIU",
+    "handle": "@jxnlco",
+    "cls": "THE SCHEMA MAGE",
+    "stats": {
+      "ATK": 88,
+      "DEF": 82,
+      "SPD": 89,
+      "COMBO": 95,
+      "HP": 86
+    },
+    "special": "PYDANTIC LOCK",
+    "combo": [
+      "JSON",
+      "MODEL",
+      "PARSE"
+    ],
+    "lore": "Developer Experience Engineer on the Codex team at OpenAI. Creator of Instructor, a Python library for structured LLM outputs.",
+    "threatScore": 90,
+    "lastActivity": "n/a",
+    "dossier": {
+      "lastReviewedAt": "2026-05-19",
+      "tagline": "Structured-output specialist bringing schema discipline to Codex.",
+      "background": [
+        {
+          "text": "Jason Liu says he is a Developer Experience Engineer on the Codex team at OpenAI.",
+          "evidenceUrls": [
+            "https://jxnl.co/"
+          ],
+          "confidence": 0.96
+        },
+        {
+          "text": "His site says he created Instructor, a Python library for structured LLM outputs that OpenAI cited as inspiration for structured outputs.",
+          "evidenceUrls": [
+            "https://jxnl.co/"
+          ],
+          "confidence": 0.94
+        }
+      ],
+      "keyProjects": [
+        {
+          "name": "Instructor",
+          "description": "Instructor maps LLM outputs to Pydantic models through a response_model workflow and keeps close compatibility with the OpenAI Python SDK.",
+          "tags": [
+            "structured-outputs",
+            "pydantic"
+          ],
+          "evidenceUrls": [
+            "https://python.useinstructor.com/blog/2024/03/05/zero-cost-abstractions/"
+          ]
+        },
+        {
+          "name": "Structured outputs education",
+          "description": "Weights & Biases lists Jason as the instructor for a course on structured outputs and data validation.",
+          "tags": [
+            "education",
+            "validation"
+          ],
+          "evidenceUrls": [
+            "https://wandb.ai/site/courses/structured-outputs/"
+          ]
+        }
+      ],
+      "strengths": [
+        {
+          "label": "Schema-first product sense",
+          "description": "Makes LLM behavior legible to developers by turning freeform text into typed, validated outputs.",
+          "evidenceUrls": [
+            "https://python.useinstructor.com/blog/2024/03/05/zero-cost-abstractions/",
+            "https://wandb.ai/site/courses/structured-outputs/"
+          ]
+        }
+      ],
+      "narrative": {
+        "title": "Pydantic Lock",
+        "text": "A control-class fighter who wins by forcing messy model output into typed lanes before the next combo starts.",
+        "evidenceUrls": [
+          "https://jxnl.co/",
+          "https://python.useinstructor.com/blog/2024/03/05/zero-cost-abstractions/"
+        ]
+      },
+      "sourceUrls": [
+        "https://jxnl.co/",
+        "https://python.useinstructor.com/blog/2024/03/05/zero-cost-abstractions/",
+        "https://wandb.ai/site/courses/structured-outputs/"
+      ]
+    },
+    "contenderId": "codex",
+    "side": "c2",
+    "displayName": "JASON LIU",
+    "roleClass": "THE SCHEMA MAGE",
+    "scoreRationale": {
+      "rubricVersion": "2026-05-20",
+      "stats": {
+        "ATK": {
+          "rationale": "Structured-output expertise turns messy LLM workflows into practical engineering patterns.",
+          "evidenceUrls": [
+            "https://jxnl.co/",
+            "https://python.useinstructor.com/blog/2024/03/05/zero-cost-abstractions/",
+            "https://wandb.ai/site/courses/structured-outputs/"
+          ],
+          "confidence": 0.84
+        },
+        "DEF": {
+          "rationale": "Schema validation and Pydantic-style discipline map strongly to reliability.",
+          "evidenceUrls": [
+            "https://jxnl.co/",
+            "https://python.useinstructor.com/blog/2024/03/05/zero-cost-abstractions/",
+            "https://wandb.ai/site/courses/structured-outputs/"
+          ],
+          "confidence": 0.84
+        },
+        "SPD": {
+          "rationale": "Developer education and practical examples move quickly through the community.",
+          "evidenceUrls": [
+            "https://jxnl.co/",
+            "https://python.useinstructor.com/blog/2024/03/05/zero-cost-abstractions/",
+            "https://wandb.ai/site/courses/structured-outputs/"
+          ],
+          "confidence": 0.84
+        },
+        "COMBO": {
+          "rationale": "Instructor, structured outputs, and OpenAI DevEx combine into schema-first agent leverage.",
+          "evidenceUrls": [
+            "https://jxnl.co/",
+            "https://python.useinstructor.com/blog/2024/03/05/zero-cost-abstractions/",
+            "https://wandb.ai/site/courses/structured-outputs/"
+          ],
+          "confidence": 0.84
+        },
+        "HP": {
+          "rationale": "Schema discipline makes workflows more maintainable under real production load.",
+          "evidenceUrls": [
+            "https://jxnl.co/",
+            "https://python.useinstructor.com/blog/2024/03/05/zero-cost-abstractions/",
+            "https://wandb.ai/site/courses/structured-outputs/"
+          ],
+          "confidence": 0.84
+        }
+      },
+      "threatScore": {
+        "rationale": "Threat comes from making Codex workflows more typed, validated, and production-friendly.",
+        "evidenceUrls": [
+          "https://jxnl.co/",
+          "https://python.useinstructor.com/blog/2024/03/05/zero-cost-abstractions/",
+          "https://wandb.ai/site/courses/structured-outputs/"
+        ],
+        "confidence": 0.85
+      }
+    }
+  },
+  {
+    "id": "peter",
+    "name": "PETER",
+    "surname": "STEINBERGER",
+    "handle": "@steipete",
+    "cls": "THE AGENT HACKER",
+    "stats": {
+      "ATK": 92,
+      "DEF": 76,
+      "SPD": 94,
+      "COMBO": 94,
+      "HP": 88
+    },
+    "special": "OPENCLAW SWARM",
+    "combo": [
+      "AGENT",
+      "DESKTOP",
+      "CHAOS"
+    ],
+    "lore": "Creator of OpenClaw, the viral AI personal assistant. TechCrunch reported he joined OpenAI to work on next-generation personal agents.",
+    "threatScore": 93,
+    "lastActivity": "n/a",
+    "dossier": {
+      "lastReviewedAt": "2026-05-19",
+      "tagline": "Viral agent hacker turned OpenAI personal-agents builder.",
+      "background": [
+        {
+          "text": "TechCrunch reported that Peter Steinberger, creator of OpenClaw, joined OpenAI in February 2026.",
+          "evidenceUrls": [
+            "https://techcrunch.com/2026/02/15/openclaw-creator-peter-steinberger-joins-openai/"
+          ],
+          "confidence": 0.96
+        },
+        {
+          "text": "TechCrunch describes OpenClaw as an AI personal assistant, previously known as Clawdbot and Moltbot, that achieved viral popularity.",
+          "evidenceUrls": [
+            "https://techcrunch.com/2026/02/15/openclaw-creator-peter-steinberger-joins-openai/"
+          ],
+          "confidence": 0.92
+        }
+      ],
+      "keyProjects": [
+        {
+          "name": "OpenClaw",
+          "description": "A viral open-source personal-agent project that OpenAI said would live in a foundation while Steinberger worked on personal agents.",
+          "tags": [
+            "agents",
+            "open-source"
+          ],
+          "evidenceUrls": [
+            "https://techcrunch.com/2026/02/15/openclaw-creator-peter-steinberger-joins-openai/"
+          ]
+        },
+        {
+          "name": "Codex swarm usage",
+          "description": "PC Gamer reported that a posted dashboard showed 603 billion tokens across 7.6 million requests handled by around 100 Codex instances.",
+          "tags": [
+            "codex",
+            "scale"
+          ],
+          "evidenceUrls": [
+            "https://www.pcgamer.com/software/ai/the-creator-of-openclaw-used-usd1-300-000-of-openai-tokens-in-30-days-which-is-a-hell-of-a-perk/"
+          ]
+        }
+      ],
+      "strengths": [
+        {
+          "label": "Agent-native experimentation",
+          "description": "Builds by stress-testing multi-agent workflows at unusual scale and speed.",
+          "evidenceUrls": [
+            "https://techcrunch.com/2026/02/15/openclaw-creator-peter-steinberger-joins-openai/",
+            "https://www.pcgamer.com/software/ai/the-creator-of-openclaw-used-usd1-300-000-of-openai-tokens-in-30-days-which-is-a-hell-of-a-perk/"
+          ]
+        }
+      ],
+      "narrative": {
+        "title": "OpenClaw Swarm",
+        "text": "A chaos-engineer class: weird side project, viral agent loop, then a direct jump into OpenAI's personal-agent lane.",
+        "evidenceUrls": [
+          "https://techcrunch.com/2026/02/15/openclaw-creator-peter-steinberger-joins-openai/",
+          "https://www.pcgamer.com/software/ai/the-creator-of-openclaw-used-usd1-300-000-of-openai-tokens-in-30-days-which-is-a-hell-of-a-perk/"
+        ]
+      },
+      "sourceUrls": [
+        "https://techcrunch.com/2026/02/15/openclaw-creator-peter-steinberger-joins-openai/",
+        "https://www.pcgamer.com/software/ai/the-creator-of-openclaw-used-usd1-300-000-of-openai-tokens-in-30-days-which-is-a-hell-of-a-perk/"
+      ]
+    },
+    "contenderId": "codex",
+    "side": "c2",
+    "displayName": "PETER STEINBERGER",
+    "roleClass": "THE AGENT HACKER",
+    "scoreRationale": {
+      "rubricVersion": "2026-05-20",
+      "stats": {
+        "ATK": {
+          "rationale": "OpenClaw and personal-agent work create high chaotic product offense.",
+          "evidenceUrls": [
+            "https://techcrunch.com/2026/02/15/openclaw-creator-peter-steinberger-joins-openai/",
+            "https://www.pcgamer.com/software/ai/the-creator-of-openclaw-used-usd1-300-000-of-openai-tokens-in-30-days-which-is-a-hell-of-a-perk/"
+          ],
+          "confidence": 0.84
+        },
+        "DEF": {
+          "rationale": "The profile is exploratory and agentic, with less public trust/compliance signal.",
+          "evidenceUrls": [
+            "https://techcrunch.com/2026/02/15/openclaw-creator-peter-steinberger-joins-openai/",
+            "https://www.pcgamer.com/software/ai/the-creator-of-openclaw-used-usd1-300-000-of-openai-tokens-in-30-days-which-is-a-hell-of-a-perk/"
+          ],
+          "confidence": 0.84
+        },
+        "SPD": {
+          "rationale": "Viral side-project velocity and large-scale Codex usage make speed a signature stat.",
+          "evidenceUrls": [
+            "https://techcrunch.com/2026/02/15/openclaw-creator-peter-steinberger-joins-openai/",
+            "https://www.pcgamer.com/software/ai/the-creator-of-openclaw-used-usd1-300-000-of-openai-tokens-in-30-days-which-is-a-hell-of-a-perk/"
+          ],
+          "confidence": 0.84
+        },
+        "COMBO": {
+          "rationale": "Personal-agent experiments, OpenClaw, and Codex swarms create unusually high combo pressure.",
+          "evidenceUrls": [
+            "https://techcrunch.com/2026/02/15/openclaw-creator-peter-steinberger-joins-openai/",
+            "https://www.pcgamer.com/software/ai/the-creator-of-openclaw-used-usd1-300-000-of-openai-tokens-in-30-days-which-is-a-hell-of-a-perk/"
+          ],
+          "confidence": 0.84
+        },
+        "HP": {
+          "rationale": "OpenAI absorption gives the hacker loop institutional staying power.",
+          "evidenceUrls": [
+            "https://techcrunch.com/2026/02/15/openclaw-creator-peter-steinberger-joins-openai/",
+            "https://www.pcgamer.com/software/ai/the-creator-of-openclaw-used-usd1-300-000-of-openai-tokens-in-30-days-which-is-a-hell-of-a-perk/"
+          ],
+          "confidence": 0.84
+        }
+      },
+      "threatScore": {
+        "rationale": "Threat comes from pulling viral agent experimentation directly into OpenAI product gravity.",
+        "evidenceUrls": [
+          "https://techcrunch.com/2026/02/15/openclaw-creator-peter-steinberger-joins-openai/",
+          "https://www.pcgamer.com/software/ai/the-creator-of-openclaw-used-usd1-300-000-of-openai-tokens-in-30-days-which-is-a-hell-of-a-perk/"
+        ],
+        "confidence": 0.85
+      }
+    }
+  }
+]

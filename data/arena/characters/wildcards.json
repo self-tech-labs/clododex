@@ -1,0 +1,299 @@
+[
+  {
+    "id": "lecun",
+    "name": "YANN",
+    "surname": "LECUN",
+    "handle": "@ylecun",
+    "cls": "THE CONVNET CONTRARIAN",
+    "stats": {
+      "ATK": 88,
+      "DEF": 82,
+      "SPD": 78,
+      "COMBO": 92,
+      "HP": 90
+    },
+    "special": "ENERGY-BASED COUNTER",
+    "combo": [
+      "LEFT",
+      "RIGHT",
+      "JEPA"
+    ],
+    "lore": "A bonus-round theorist who interrupts clean matchup charts with old-school conviction and a very heavy seminar slide.",
+    "threatScore": 91,
+    "lastActivity": "bonus",
+    "contenderId": "wildcards",
+    "side": "neutral",
+    "displayName": "YANN LECUN",
+    "roleClass": "THE CONVNET CONTRARIAN",
+    "scoreRationale": {
+      "rubricVersion": "2026-05-20",
+      "stats": {
+        "ATK": {
+          "rationale": "Bonus-round offense comes from public AI research stature and contrarian pressure.",
+          "evidenceUrls": [
+            "https://ai.meta.com/people/yann-lecun/"
+          ],
+          "confidence": 0.7
+        },
+        "DEF": {
+          "rationale": "Long-running research credibility gives solid defensive ballast.",
+          "evidenceUrls": [
+            "https://ai.meta.com/people/yann-lecun/"
+          ],
+          "confidence": 0.7
+        },
+        "SPD": {
+          "rationale": "The wildcard is more seminar pressure than shipping velocity.",
+          "evidenceUrls": [
+            "https://ai.meta.com/people/yann-lecun/"
+          ],
+          "confidence": 0.7
+        },
+        "COMBO": {
+          "rationale": "JEPA and energy-based-model narratives create high theory-combo disruption.",
+          "evidenceUrls": [
+            "https://ai.meta.com/people/yann-lecun/"
+          ],
+          "confidence": 0.7
+        },
+        "HP": {
+          "rationale": "Decades of research reputation give the wildcard staying power.",
+          "evidenceUrls": [
+            "https://ai.meta.com/people/yann-lecun/"
+          ],
+          "confidence": 0.7
+        }
+      },
+      "threatScore": {
+        "rationale": "Threat is parody-weighted: he can derail a clean arena storyline with one contrarian theory combo.",
+        "evidenceUrls": [
+          "https://ai.meta.com/people/yann-lecun/"
+        ],
+        "confidence": 0.7
+      }
+    }
+  },
+  {
+    "id": "chollet",
+    "name": "FRANCOIS",
+    "surname": "CHOLLET",
+    "handle": "@fchollet",
+    "cls": "THE ARC PUZZLER",
+    "stats": {
+      "ATK": 76,
+      "DEF": 86,
+      "SPD": 74,
+      "COMBO": 96,
+      "HP": 88
+    },
+    "special": "ABSTRACTION CONFUSION",
+    "combo": [
+      "ARC",
+      "ARC",
+      "WAIT"
+    ],
+    "lore": "A puzzle-class wildcard whose attacks look confused until the judge realizes the whole arena was the test set.",
+    "threatScore": 89,
+    "lastActivity": "bonus",
+    "contenderId": "wildcards",
+    "side": "neutral",
+    "displayName": "FRANCOIS CHOLLET",
+    "roleClass": "THE ARC PUZZLER",
+    "scoreRationale": {
+      "rubricVersion": "2026-05-20",
+      "stats": {
+        "ATK": {
+          "rationale": "ARC-style evaluation pressure is more precise than explosive.",
+          "evidenceUrls": [
+            "https://fchollet.com/"
+          ],
+          "confidence": 0.7
+        },
+        "DEF": {
+          "rationale": "Benchmark skepticism and abstraction discipline create strong defensive critique.",
+          "evidenceUrls": [
+            "https://fchollet.com/"
+          ],
+          "confidence": 0.7
+        },
+        "SPD": {
+          "rationale": "The wildcard operates on research cadence, not product cadence.",
+          "evidenceUrls": [
+            "https://fchollet.com/"
+          ],
+          "confidence": 0.7
+        },
+        "COMBO": {
+          "rationale": "Keras, ARC, and reasoning critique combine into a high-combo evaluation weapon.",
+          "evidenceUrls": [
+            "https://fchollet.com/"
+          ],
+          "confidence": 0.7
+        },
+        "HP": {
+          "rationale": "Durable developer and research influence keeps the wildcard relevant.",
+          "evidenceUrls": [
+            "https://fchollet.com/"
+          ],
+          "confidence": 0.7
+        }
+      },
+      "threatScore": {
+        "rationale": "Threat is parody-weighted: he punishes shallow benchmark narratives.",
+        "evidenceUrls": [
+          "https://fchollet.com/"
+        ],
+        "confidence": 0.7
+      }
+    }
+  },
+  {
+    "id": "sutton",
+    "name": "RICHARD",
+    "surname": "SUTTON",
+    "handle": "@realtalkrl",
+    "cls": "THE RL ELDER",
+    "stats": {
+      "ATK": 84,
+      "DEF": 94,
+      "SPD": 68,
+      "COMBO": 90,
+      "HP": 96
+    },
+    "special": "BITTER LESSON",
+    "combo": [
+      "REWARD",
+      "SEARCH",
+      "SCALE"
+    ],
+    "lore": "A patient reinforcement wildcard who refuses flashy combos and still collects the reward at the end of the episode.",
+    "threatScore": 93,
+    "lastActivity": "bonus",
+    "contenderId": "wildcards",
+    "side": "neutral",
+    "displayName": "RICHARD SUTTON",
+    "roleClass": "THE RL ELDER",
+    "scoreRationale": {
+      "rubricVersion": "2026-05-20",
+      "stats": {
+        "ATK": {
+          "rationale": "Reinforcement-learning doctrine creates pressure at the research-foundation level.",
+          "evidenceUrls": [
+            "http://incompleteideas.net/"
+          ],
+          "confidence": 0.7
+        },
+        "DEF": {
+          "rationale": "Long-horizon theory and discipline make the wildcard hard to knock out.",
+          "evidenceUrls": [
+            "http://incompleteideas.net/"
+          ],
+          "confidence": 0.7
+        },
+        "SPD": {
+          "rationale": "Academic time constants make speed intentionally low.",
+          "evidenceUrls": [
+            "http://incompleteideas.net/"
+          ],
+          "confidence": 0.7
+        },
+        "COMBO": {
+          "rationale": "The bitter-lesson frame combos with every scaling and agent debate.",
+          "evidenceUrls": [
+            "http://incompleteideas.net/"
+          ],
+          "confidence": 0.7
+        },
+        "HP": {
+          "rationale": "Foundational RL influence gives maximum durability.",
+          "evidenceUrls": [
+            "http://incompleteideas.net/"
+          ],
+          "confidence": 0.7
+        }
+      },
+      "threatScore": {
+        "rationale": "Threat is parody-weighted: he buffs whichever side remembers the bitter lesson.",
+        "evidenceUrls": [
+          "http://incompleteideas.net/"
+        ],
+        "confidence": 0.7
+      }
+    }
+  },
+  {
+    "id": "schmidhuber",
+    "name": "JURGEN",
+    "surname": "SCHMIDHUBER",
+    "handle": "@SchmidhuberAI",
+    "cls": "THE MEMORY BOSS",
+    "stats": {
+      "ATK": 99,
+      "DEF": 99,
+      "SPD": 99,
+      "COMBO": 99,
+      "HP": 99
+    },
+    "special": "LSTM LOCK",
+    "specialRule": "lstm-lock",
+    "combo": [
+      "LONG",
+      "SHORT",
+      "MEMORY"
+    ],
+    "lore": "An ultra-rare boss popup. If he appears, the arena remembers the entire fight tree and the round is effectively over.",
+    "threatScore": 100,
+    "lastActivity": "legendary",
+    "contenderId": "wildcards",
+    "side": "neutral",
+    "displayName": "JURGEN SCHMIDHUBER",
+    "roleClass": "THE MEMORY BOSS",
+    "scoreRationale": {
+      "rubricVersion": "2026-05-20",
+      "stats": {
+        "ATK": {
+          "rationale": "The bonus boss is intentionally overpowered as a comedy interrupt.",
+          "evidenceUrls": [
+            "https://people.idsia.ch/~juergen/"
+          ],
+          "confidence": 0.7
+        },
+        "DEF": {
+          "rationale": "Parody durability reflects decades of priority-claim stamina.",
+          "evidenceUrls": [
+            "https://people.idsia.ch/~juergen/"
+          ],
+          "confidence": 0.7
+        },
+        "SPD": {
+          "rationale": "The LSTM-lock gag gives him unrealistic arcade speed.",
+          "evidenceUrls": [
+            "https://people.idsia.ch/~juergen/"
+          ],
+          "confidence": 0.7
+        },
+        "COMBO": {
+          "rationale": "Every historical callback chains into another callback.",
+          "evidenceUrls": [
+            "https://people.idsia.ch/~juergen/"
+          ],
+          "confidence": 0.7
+        },
+        "HP": {
+          "rationale": "The wildcard is a joke boss with intentionally absurd staying power.",
+          "evidenceUrls": [
+            "https://people.idsia.ch/~juergen/"
+          ],
+          "confidence": 0.7
+        }
+      },
+      "threatScore": {
+        "rationale": "Threat is intentionally maxed by the LSTM-lock rule in the battle engine.",
+        "evidenceUrls": [
+          "https://people.idsia.ch/~juergen/"
+        ],
+        "confidence": 0.7
+      }
+    }
+  }
+]

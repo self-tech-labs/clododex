@@ -1,0 +1,40 @@
+{
+  "id": "mobile-push-digest",
+  "kind": "mobile",
+  "title": "Mobile Push Digest",
+  "description": "Describe iOS widgets, daily recaps, and push-worthy signals as reusable surfaces for a future mobile app.",
+  "entities": [
+    {
+      "id": "digest-item",
+      "type": "notification",
+      "fields": [
+        "signalId",
+        "urgency",
+        "headline",
+        "deepLink"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "from": "digest-item",
+      "to": "signal",
+      "type": "summarizes"
+    }
+  ],
+  "surfaces": [
+    {
+      "id": "ios-widget",
+      "slot": "daily-recap",
+      "label": "Daily Agent Arena"
+    }
+  ],
+  "dataSources": [
+    {
+      "id": "arena-snapshot",
+      "kind": "snapshot",
+      "description": "Generated arena snapshots supply ranked digest candidates."
+    }
+  ],
+  "status": "dormant"
+}

@@ -1,0 +1,933 @@
+{
+  "schemaVersion": 1,
+  "version": 1,
+  "id": "agent-arena",
+  "title": "Agent Arena",
+  "summary": "A file-first arcade intelligence engine for remixable AI-agent competition concepts.",
+  "dashboard": {
+    "maxSignals": 12,
+    "lowConfidenceThreshold": 0.72,
+    "announcements": [
+      {
+        "date": "MAY 19",
+        "c1": {
+          "tag": "CUSTOMER",
+          "title": "KPMG rolls Claude across 276K+ workforce",
+          "impact": "Professional-services scale",
+          "rationale": "KPMG gives Claude a tax, legal, cyber, and private-equity deployment proof point with global workforce reach.",
+          "evidenceUrls": [
+            "https://www.anthropic.com/news/anthropic-kpmg?s=08"
+          ],
+          "confidence": 0.94
+        },
+        "c2": null
+      },
+      {
+        "date": "MAY 18",
+        "c1": {
+          "tag": "ACQUIRE",
+          "title": "Anthropic acquires Stainless",
+          "impact": "Agent connectivity stack",
+          "rationale": "Stainless strengthens SDK, CLI, and MCP server tooling: exactly the connective tissue agents need.",
+          "evidenceUrls": [
+            "https://www.anthropic.com/news/anthropic-acquires-stainless?s=09"
+          ],
+          "confidence": 0.94
+        },
+        "c2": {
+          "tag": "PARTNER",
+          "title": "OpenAI x Dell targets hybrid Codex",
+          "impact": "Enterprise deployment path",
+          "rationale": "Dell packaging pushes Codex toward enterprise data-center and on-prem workflows instead of only cloud delegation.",
+          "evidenceUrls": [
+            "https://openai.com/index/dell-codex-enterprise-partnership/"
+          ],
+          "confidence": 0.9
+        }
+      },
+      {
+        "date": "MAY 16",
+        "c1": null,
+        "c2": {
+          "tag": "GA",
+          "title": "Codex becomes generally available",
+          "impact": "Developer workflow expansion",
+          "rationale": "GA turns Codex from research-preview hype into a broadly sellable OpenAI developer workflow.",
+          "evidenceUrls": [
+            "https://openai.com/index/codex-now-generally-available/"
+          ],
+          "confidence": 0.94
+        }
+      },
+      {
+        "date": "MAY 14",
+        "c1": {
+          "tag": "CUSTOMER",
+          "title": "PwC expands Claude deployment",
+          "impact": "Deal and finance wedge",
+          "rationale": "PwC gives Claude a finance, deals, and enterprise-transformation lane with training/certification scale.",
+          "evidenceUrls": [
+            "https://www.anthropic.com/news/pwc-expanded-partnership?gspk=dGFyYXNrcmFzbm92MjY1NA&gsxid=oyxgI6EUao8iLv&ps_partner_key=dGFyYXNrcmFzbm92MjY1NA&ps_xid=oyxgI6EUao8iLv&pscd=partners.triplewhale.com&source=taraskrasnov2654"
+          ],
+          "confidence": 0.9
+        },
+        "c2": {
+          "tag": "UPGRADE",
+          "title": "OpenAI ships Codex workflow upgrades",
+          "impact": "More surfaces to assign work",
+          "rationale": "Codex upgrades reinforce the thesis that OpenAI is converging CLI, ChatGPT, GitHub, and app workflows.",
+          "evidenceUrls": [
+            "https://openai.com/index/introducing-upgrades-to-codex/"
+          ],
+          "confidence": 0.9
+        }
+      },
+      {
+        "date": "MAY 13",
+        "c1": {
+          "tag": "LEGAL",
+          "title": "Claude connects to CoCounsel Legal",
+          "impact": "Legal workflow wedge",
+          "rationale": "The Thomson Reuters partnership makes Claude legible to lawyers through an existing legal work surface.",
+          "evidenceUrls": [
+            "https://www.thomsonreuters.com/en/press-releases/2026/may/thomson-reuters-and-anthropic-expand-partnership-to-connect-claude-with-cocounsel-legal"
+          ],
+          "confidence": 0.9
+        },
+        "c2": {
+          "tag": "SECURITY",
+          "title": "OpenAI responds to TanStack supply-chain attack",
+          "impact": "Codex installer trust",
+          "rationale": "The response makes Codex distribution and desktop trust part of the product battlefield.",
+          "evidenceUrls": [
+            "https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack/"
+          ],
+          "confidence": 0.88
+        }
+      },
+      {
+        "date": "APR 20",
+        "c1": {
+          "tag": "COMPUTE",
+          "title": "Anthropic expands Amazon compute deal",
+          "impact": "Trainium capacity bank",
+          "rationale": "AWS/Trainium capacity gives Claude a durability stat: enough infrastructure to keep serving and training at scale.",
+          "evidenceUrls": [
+            "https://www.anthropic.com/news/anthropic-amazon-compute?pubDate=20260225"
+          ],
+          "confidence": 0.91
+        },
+        "c2": null
+      },
+      {
+        "date": "APR 07",
+        "c1": {
+          "tag": "FATALITY",
+          "title": "Mythos / Project Glasswing appears",
+          "impact": "Security boss phase",
+          "rationale": "Mythos turns Claude security capability into a coordinated defender narrative instead of a pure model benchmark.",
+          "evidenceUrls": [
+            "https://red.anthropic.com/2026/mythos-preview/"
+          ],
+          "confidence": 0.9
+        },
+        "c2": null
+      },
+      {
+        "date": "MAR 06",
+        "c1": null,
+        "c2": {
+          "tag": "FATALITY",
+          "title": "Codex Security enters preview",
+          "impact": "Validated security agent",
+          "rationale": "Codex Security gives OpenAI a threat-model, validation, and patching move for enterprise security buyers.",
+          "evidenceUrls": [
+            "https://openai.com/index/codex-security-now-in-research-preview/"
+          ],
+          "confidence": 0.92
+        }
+      }
+    ],
+    "territories": [
+      {
+        "key": "DEV",
+        "name": "DEVELOPERS",
+        "sub": "ide, cli, code review",
+        "c1": 84,
+        "c2": 92,
+        "rationale": {
+          "c1": {
+            "rationale": "Claude is strong with Claude Code, Bun, Stainless, MCP, and Labs, especially where teams want agentic coding tied to enterprise trust.",
+            "evidenceUrls": [
+              "https://www.anthropic.com/news/introducing-anthropic-labs?via=geekflare",
+              "https://www.anthropic.com/news/anthropic-acquires-bun-as-claude-code-reaches-usd1b-milestone",
+              "https://www.anthropic.com/news/anthropic-acquires-stainless?s=09"
+            ],
+            "confidence": 0.9
+          },
+          "c2": {
+            "rationale": "Codex leads developers through OpenAI distribution, Codex web/CLI, GitHub workflows, GA momentum, and the Rust-heavy open-source harness.",
+            "evidenceUrls": [
+              "https://openai.com/index/introducing-codex/?video=1084810944",
+              "https://openai.com/index/codex-now-generally-available/",
+              "https://github.com/openai/codex",
+              "https://openai.com/index/introducing-upgrades-to-codex/"
+            ],
+            "confidence": 0.92
+          }
+        }
+      },
+      {
+        "key": "LAW",
+        "name": "LEGAL",
+        "sub": "discovery, contracts",
+        "c1": 82,
+        "c2": 56,
+        "rationale": {
+          "c1": {
+            "rationale": "Claude leads legal through Thomson Reuters/CoCounsel Legal and KPMG tax/legal workflows, where accuracy and trust are explicit selling points.",
+            "evidenceUrls": [
+              "https://www.thomsonreuters.com/en/press-releases/2026/may/thomson-reuters-and-anthropic-expand-partnership-to-connect-claude-with-cocounsel-legal",
+              "https://www.anthropic.com/news/anthropic-kpmg?s=08"
+            ],
+            "confidence": 0.91
+          },
+          "c2": {
+            "rationale": "Codex legal score is mostly an enterprise-platform spillover rather than a dedicated legal launch in the baseline sources.",
+            "evidenceUrls": [
+              "https://openai.com/index/accelerating-the-next-phase-ai/",
+              "https://openai.com/index/introducing-codex/?video=1084810944"
+            ],
+            "confidence": 0.72
+          }
+        }
+      },
+      {
+        "key": "FIN",
+        "name": "FINANCE",
+        "sub": "ib, pe, hedge",
+        "c1": 84,
+        "c2": 72,
+        "rationale": {
+          "c1": {
+            "rationale": "Claude is lifted by KPMG private-equity/tax work, PwC deals and finance expertise, and Anthropic enterprise positioning.",
+            "evidenceUrls": [
+              "https://www.anthropic.com/news/anthropic-kpmg?s=08",
+              "https://www.anthropic.com/news/pwc-expanded-partnership?gspk=dGFyYXNrcmFzbm92MjY1NA&gsxid=oyxgI6EUao8iLv&ps_partner_key=dGFyYXNrcmFzbm92MjY1NA&ps_xid=oyxgI6EUao8iLv&pscd=partners.triplewhale.com&source=taraskrasnov2654"
+            ],
+            "confidence": 0.89
+          },
+          "c2": {
+            "rationale": "Codex is credible in finance through OpenAI enterprise distribution and developer automation, but the current evidence is more general than finance-specific.",
+            "evidenceUrls": [
+              "https://openai.com/index/accelerating-the-next-phase-ai/",
+              "https://openai.com/index/simplex/"
+            ],
+            "confidence": 0.78
+          }
+        }
+      },
+      {
+        "key": "MED",
+        "name": "HEALTHCARE",
+        "sub": "clinical, biotech",
+        "c1": 72,
+        "c2": 68,
+        "rationale": {
+          "c1": {
+            "rationale": "Claude healthcare is an enterprise-trust and safety-adjacent inference from Anthropic positioning, not a top current launch vector in the baseline.",
+            "evidenceUrls": [
+              "https://www.anthropic.com/company?hsLang=en",
+              "https://www.anthropic.com/news/anthropic-kpmg?s=08"
+            ],
+            "confidence": 0.74
+          },
+          "c2": {
+            "rationale": "Codex healthcare is an enterprise-distribution inference from OpenAI business reach rather than a dedicated Codex healthcare wedge.",
+            "evidenceUrls": [
+              "https://openai.com/index/accelerating-the-next-phase-ai/",
+              "https://openai.com/index/introducing-codex/?video=1084810944"
+            ],
+            "confidence": 0.72
+          }
+        }
+      },
+      {
+        "key": "EDU",
+        "name": "EDUCATION",
+        "sub": "tutoring, research",
+        "c1": 64,
+        "c2": 88,
+        "rationale": {
+          "c1": {
+            "rationale": "Claude education benefits from careful reasoning and work-assistant positioning, but the current evidence set is not education-led.",
+            "evidenceUrls": [
+              "https://www.anthropic.com/company?hsLang=en",
+              "https://www.anthropic.com/news/introducing-anthropic-labs?via=geekflare"
+            ],
+            "confidence": 0.72
+          },
+          "c2": {
+            "rationale": "Codex and OpenAI have stronger broad education/developer mindshare through ChatGPT access, Codex availability, and public developer workflows.",
+            "evidenceUrls": [
+              "https://openai.com/index/introducing-codex/?video=1084810944",
+              "https://openai.com/index/codex-now-generally-available/",
+              "https://openai.com/index/accelerating-the-next-phase-ai/"
+            ],
+            "confidence": 0.86
+          }
+        }
+      },
+      {
+        "key": "CRE",
+        "name": "CREATIVE",
+        "sub": "writing, design",
+        "c1": 66,
+        "c2": 82,
+        "rationale": {
+          "c1": {
+            "rationale": "Claude creative score is lifted by Claude for Creative Work, connectors, and Claude Design from Labs.",
+            "evidenceUrls": [
+              "https://www.anthropic.com/news/claude-for-creative-work?lang=us",
+              "https://www.anthropic.com/news/introducing-anthropic-labs?via=geekflare"
+            ],
+            "confidence": 0.86
+          },
+          "c2": {
+            "rationale": "Codex creative score comes from OpenAI distribution and app-building workflows, but this row is less Codex-specific than developer territory.",
+            "evidenceUrls": [
+              "https://openai.com/index/introducing-codex/?video=1084810944",
+              "https://openai.com/index/accelerating-the-next-phase-ai/"
+            ],
+            "confidence": 0.8
+          }
+        }
+      },
+      {
+        "key": "CS",
+        "name": "CUSTOMER OPS",
+        "sub": "support, sales",
+        "c1": 78,
+        "c2": 82,
+        "rationale": {
+          "c1": {
+            "rationale": "Claude customer-ops score reflects enterprise workflow positioning, Claude in Slack/Microsoft surfaces, and professional-services deployment proof.",
+            "evidenceUrls": [
+              "https://www.anthropic.com/news/introducing-anthropic-labs?via=geekflare",
+              "https://www.anthropic.com/news/anthropic-kpmg?s=08",
+              "https://www.anthropic.com/news/pwc-expanded-partnership?gspk=dGFyYXNrcmFzbm92MjY1NA&gsxid=oyxgI6EUao8iLv&ps_partner_key=dGFyYXNrcmFzbm92MjY1NA&ps_xid=oyxgI6EUao8iLv&pscd=partners.triplewhale.com&source=taraskrasnov2654"
+            ],
+            "confidence": 0.84
+          },
+          "c2": {
+            "rationale": "Codex customer-ops score rides OpenAI application distribution and automation workflows across ChatGPT Business and developer surfaces.",
+            "evidenceUrls": [
+              "https://openai.com/index/accelerating-the-next-phase-ai/",
+              "https://openai.com/index/introducing-codex/?video=1084810944",
+              "https://openai.com/index/introducing-upgrades-to-codex/"
+            ],
+            "confidence": 0.84
+          }
+        }
+      },
+      {
+        "key": "GOV",
+        "name": "GOVERNMENT",
+        "sub": "defense, civic",
+        "c1": 74,
+        "c2": 62,
+        "rationale": {
+          "c1": {
+            "rationale": "Claude government score is boosted by Anthropic safety framing, compliance posture, Mythos/Glasswing defensive coalition, and regulated-work evidence.",
+            "evidenceUrls": [
+              "https://www.anthropic.com/company?hsLang=en",
+              "https://red.anthropic.com/2026/mythos-preview/",
+              "https://www.anthropic.com/news/anthropic-kpmg?s=08"
+            ],
+            "confidence": 0.84
+          },
+          "c2": {
+            "rationale": "Codex government score is constrained by a developer-agent focus, with security and safe execution helping but less government-specific public proof.",
+            "evidenceUrls": [
+              "https://openai.com/index/codex-security-now-in-research-preview/",
+              "https://openai.com/index/running-codex-safely/"
+            ],
+            "confidence": 0.78
+          }
+        }
+      },
+      {
+        "key": "ENT",
+        "name": "ENTERPRISE IT",
+        "sub": "knowledge ops",
+        "c1": 84,
+        "c2": 80,
+        "rationale": {
+          "c1": {
+            "rationale": "Claude enterprise IT score reflects KPMG, PwC, Claude Code revenue, MCP, Stainless, AWS capacity, and trust-heavy enterprise posture.",
+            "evidenceUrls": [
+              "https://www.anthropic.com/news/anthropic-kpmg?s=08",
+              "https://www.anthropic.com/news/pwc-expanded-partnership?gspk=dGFyYXNrcmFzbm92MjY1NA&gsxid=oyxgI6EUao8iLv&ps_partner_key=dGFyYXNrcmFzbm92MjY1NA&ps_xid=oyxgI6EUao8iLv&pscd=partners.triplewhale.com&source=taraskrasnov2654",
+              "https://www.anthropic.com/news/introducing-anthropic-labs?via=geekflare",
+              "https://www.anthropic.com/news/anthropic-acquires-stainless?s=09",
+              "https://www.anthropic.com/news/anthropic-amazon-compute?pubDate=20260225"
+            ],
+            "confidence": 0.92
+          },
+          "c2": {
+            "rationale": "Codex enterprise IT score reflects Simplex, Dell hybrid/on-prem, Codex Security, GA, and OpenAI capital/compute distribution.",
+            "evidenceUrls": [
+              "https://openai.com/index/simplex/",
+              "https://openai.com/index/dell-codex-enterprise-partnership/",
+              "https://openai.com/index/codex-security-now-in-research-preview/",
+              "https://openai.com/index/codex-now-generally-available/",
+              "https://openai.com/index/accelerating-the-next-phase-ai/"
+            ],
+            "confidence": 0.91
+          }
+        }
+      },
+      {
+        "key": "SCI",
+        "name": "SCIENCE",
+        "sub": "research agents",
+        "c1": 82,
+        "c2": 84,
+        "rationale": {
+          "c1": {
+            "rationale": "Claude science score is boosted by frontier research posture, Karpathy joining pre-training, Opus 4.7, and Mythos security research.",
+            "evidenceUrls": [
+              "https://www.anthropic.com/company?hsLang=en",
+              "https://www.axios.com/2026/05/19/anthropic-openai-karpathy-andrej-claude",
+              "https://www.anthropic.com/news/claude-opus-4-7?source=fb-for-mobile&via=anna",
+              "https://red.anthropic.com/2026/mythos-preview/"
+            ],
+            "confidence": 0.86
+          },
+          "c2": {
+            "rationale": "Codex science score reflects OpenAI research depth, Codex-optimized models, internal SWE task benchmarks, and compute infrastructure.",
+            "evidenceUrls": [
+              "https://openai.com/index/introducing-codex/?video=1084810944",
+              "https://openai.com/index/unrolling-the-codex-agent-loop/",
+              "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age/"
+            ],
+            "confidence": 0.88
+          }
+        }
+      }
+    ],
+    "metrics": {
+      "power": {
+        "c1": {
+          "momentum": 86,
+          "mindshare": 34,
+          "enterprise": 43,
+          "ship": 15
+        },
+        "c2": {
+          "momentum": 93,
+          "mindshare": 52,
+          "enterprise": 41,
+          "ship": 23
+        },
+        "rationale": {
+          "momentum": {
+            "c1": {
+              "rationale": "Claude momentum is driven by Anthropic Labs, the Claude Code revenue milestone, recent KPMG/PwC enterprise alliances, Stainless, and Mythos/Glasswing security theater.",
+              "evidenceUrls": [
+                "https://www.anthropic.com/news/introducing-anthropic-labs?via=geekflare",
+                "https://www.anthropic.com/news/anthropic-acquires-bun-as-claude-code-reaches-usd1b-milestone",
+                "https://www.anthropic.com/news/anthropic-kpmg?s=08",
+                "https://www.anthropic.com/news/pwc-expanded-partnership?gspk=dGFyYXNrcmFzbm92MjY1NA&gsxid=oyxgI6EUao8iLv&ps_partner_key=dGFyYXNrcmFzbm92MjY1NA&ps_xid=oyxgI6EUao8iLv&pscd=partners.triplewhale.com&source=taraskrasnov2654",
+                "https://www.anthropic.com/news/anthropic-acquires-stainless?s=09",
+                "https://red.anthropic.com/2026/mythos-preview/"
+              ],
+              "confidence": 0.9
+            },
+            "c2": {
+              "rationale": "Codex momentum is driven by GA, workflow upgrades, Simplex adoption, Dell enterprise packaging, Codex Security, and the open-source CLI/repo loop.",
+              "evidenceUrls": [
+                "https://openai.com/index/codex-now-generally-available/",
+                "https://openai.com/index/introducing-upgrades-to-codex/",
+                "https://openai.com/index/simplex/",
+                "https://openai.com/index/dell-codex-enterprise-partnership/",
+                "https://openai.com/index/codex-security-now-in-research-preview/",
+                "https://github.com/openai/codex"
+              ],
+              "confidence": 0.91
+            }
+          },
+          "mindshare": {
+            "c1": {
+              "rationale": "Claude mindshare is concentrated in safety, enterprise trust, legal/tax/professional-services workflows, and Claude Code practitioners rather than broad consumer distribution.",
+              "evidenceUrls": [
+                "https://www.anthropic.com/company?hsLang=en",
+                "https://www.anthropic.com/news/anthropic-kpmg?s=08",
+                "https://www.thomsonreuters.com/en/press-releases/2026/may/thomson-reuters-and-anthropic-expand-partnership-to-connect-claude-with-cocounsel-legal",
+                "https://www.anthropic.com/news/introducing-anthropic-labs?via=geekflare"
+              ],
+              "confidence": 0.84
+            },
+            "c2": {
+              "rationale": "Codex mindshare rides OpenAI distribution, ChatGPT placement, the public Codex launch/GA sequence, GitHub-visible open source, and developer workflow coverage.",
+              "evidenceUrls": [
+                "https://openai.com/index/accelerating-the-next-phase-ai/",
+                "https://openai.com/index/introducing-codex/?video=1084810944",
+                "https://openai.com/index/codex-now-generally-available/",
+                "https://github.com/openai/codex"
+              ],
+              "confidence": 0.9
+            }
+          },
+          "enterprise": {
+            "c1": {
+              "rationale": "Claude enterprise score reflects KPMG, PwC, Thomson Reuters legal, Anthropic partner motion, and AWS/Trainium capacity for scaled customer demand.",
+              "evidenceUrls": [
+                "https://www.anthropic.com/news/anthropic-kpmg?s=08",
+                "https://www.anthropic.com/news/pwc-expanded-partnership?gspk=dGFyYXNrcmFzbm92MjY1NA&gsxid=oyxgI6EUao8iLv&ps_partner_key=dGFyYXNrcmFzbm92MjY1NA&ps_xid=oyxgI6EUao8iLv&pscd=partners.triplewhale.com&source=taraskrasnov2654",
+                "https://www.thomsonreuters.com/en/press-releases/2026/may/thomson-reuters-and-anthropic-expand-partnership-to-connect-claude-with-cocounsel-legal",
+                "https://www.anthropic.com/news/anthropic-amazon-compute?pubDate=20260225"
+              ],
+              "confidence": 0.91
+            },
+            "c2": {
+              "rationale": "Codex enterprise score reflects Simplex, ChatGPT Business/Enterprise access, Dell hybrid/on-prem positioning, and OpenAI capital/compute leverage.",
+              "evidenceUrls": [
+                "https://openai.com/index/simplex/",
+                "https://openai.com/index/introducing-codex/?video=1084810944",
+                "https://openai.com/index/dell-codex-enterprise-partnership/",
+                "https://openai.com/index/accelerating-the-next-phase-ai/"
+              ],
+              "confidence": 0.89
+            }
+          },
+          "ship": {
+            "c1": {
+              "rationale": "Claude ship score is boosted by Labs, Claude Code, Skills, MCP, Stainless, Bun, Claude Design, and security/legal vertical surfaces.",
+              "evidenceUrls": [
+                "https://www.anthropic.com/news/introducing-anthropic-labs?via=geekflare",
+                "https://www.anthropic.com/news/anthropic-acquires-stainless?s=09",
+                "https://www.anthropic.com/news/anthropic-acquires-bun-as-claude-code-reaches-usd1b-milestone",
+                "https://www.anthropic.com/news/claude-for-creative-work?lang=us",
+                "https://www.anthropic.com/news/claude-code-security?via=aitoolzs",
+                "https://www.thomsonreuters.com/en/press-releases/2026/may/thomson-reuters-and-anthropic-expand-partnership-to-connect-claude-with-cocounsel-legal"
+              ],
+              "confidence": 0.89
+            },
+            "c2": {
+              "rationale": "Codex ship score is boosted by Codex GA, upgrades, the CLI/open-source harness, SDK/workflow integrations, Codex Security, and frequent app-surface expansion.",
+              "evidenceUrls": [
+                "https://openai.com/index/codex-now-generally-available/",
+                "https://openai.com/index/introducing-upgrades-to-codex/",
+                "https://github.com/openai/codex",
+                "https://openai.com/index/codex-security-now-in-research-preview/",
+                "https://openai.com/index/introducing-codex/?video=1084810944"
+              ],
+              "confidence": 0.9
+            }
+          }
+        }
+      }
+    }
+  },
+  "sources": [
+    {
+      "id": "anthropic-company",
+      "url": "https://www.anthropic.com/company?hsLang=en",
+      "publisher": "Anthropic",
+      "title": "Company",
+      "side": "c1",
+      "notes": [
+        "Anthropic describes itself as an AI safety and research company building reliable, interpretable, and steerable AI systems.",
+        "The company page lists board and long-term benefit trust governance context."
+      ]
+    },
+    {
+      "id": "anthropic-labs",
+      "url": "https://www.anthropic.com/news/introducing-anthropic-labs",
+      "publisher": "Anthropic",
+      "title": "Introducing Labs",
+      "side": "c1",
+      "publishedAt": "2026-01-13",
+      "notes": [
+        "Anthropic expanded Labs to incubate experimental products at the frontier of Claude capabilities.",
+        "The announcement says Mike Krieger moved into Labs with Ben Mann, and Ami Vora would lead Product with Rahul Patil."
+      ]
+    },
+    {
+      "id": "openai-capital-2026",
+      "url": "https://openai.com/index/accelerating-the-next-phase-ai/",
+      "publisher": "OpenAI",
+      "title": "OpenAI raises $122 billion to accelerate the next phase of AI",
+      "side": "c2",
+      "publishedAt": "2026-03-31",
+      "notes": [
+        "OpenAI announced $122 billion in committed capital at an $852 billion post-money valuation.",
+        "The announcement positions consumer adoption, enterprise deployment, developer usage, and compute as a reinforcing flywheel."
+      ]
+    },
+    {
+      "id": "openai-simplex-codex",
+      "url": "https://openai.com/index/simplex/",
+      "publisher": "OpenAI",
+      "title": "Simplex rethinks software development with Codex",
+      "side": "c2",
+      "publishedAt": "2026-05-07",
+      "notes": [
+        "OpenAI published an enterprise case study where Simplex selected Codex as its primary coding agent.",
+        "The case study frames agentic systems as moving beyond assistive coding into delegated development work."
+      ]
+    },
+    {
+      "id": "openai-tanstack-response",
+      "url": "https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack/",
+      "publisher": "OpenAI",
+      "title": "Our response to the TanStack npm supply chain attack",
+      "side": "c2",
+      "publishedAt": "2026-05-13",
+      "notes": [
+        "OpenAI warned users to avoid unexpected OpenAI, ChatGPT, or Codex installers from third-party links.",
+        "The response adds a security/comms signal around Codex distribution and desktop app trust."
+      ]
+    },
+    {
+      "id": "axios-karpathy-anthropic",
+      "url": "https://www.axios.com/2026/05/19/anthropic-openai-karpathy-andrej-claude",
+      "publisher": "Axios",
+      "title": "OpenAI co-founder Andrej Karpathy joins Anthropic",
+      "side": "c1",
+      "publishedAt": "2026-05-19",
+      "notes": [
+        "Axios reported that Andrej Karpathy joined Anthropic and would start on the pre-training team.",
+        "The report frames the hire as a major talent win in frontier AI."
+      ]
+    },
+    {
+      "id": "jason-liu-home",
+      "url": "https://jxnl.co/",
+      "publisher": "Jason Liu",
+      "title": "Introductions",
+      "side": "c2",
+      "notes": [
+        "Jason Liu says he is a Developer Experience Engineer on the Codex team at OpenAI.",
+        "He describes himself as the creator of Instructor, a Python library for structured LLM outputs."
+      ]
+    },
+    {
+      "id": "instructor-structured-outputs",
+      "url": "https://python.useinstructor.com/blog/2024/03/05/zero-cost-abstractions/",
+      "publisher": "Instructor",
+      "title": "Why Instructor is the Best Library for Structured LLM Outputs",
+      "side": "c2",
+      "publishedAt": "2024-03-05",
+      "notes": [
+        "The Instructor article explains mapping LLM outputs into Pydantic models through a response_model parameter.",
+        "It emphasizes low-abstraction, SDK-compatible structured output workflows."
+      ]
+    },
+    {
+      "id": "wandb-structured-outputs-course",
+      "url": "https://wandb.ai/site/courses/structured-outputs/",
+      "publisher": "Weights & Biases",
+      "title": "LLM engineering course: Master structured outputs and data validation",
+      "side": "c2",
+      "notes": [
+        "Weights & Biases lists Jason Liu as course instructor and creator of the Instructor library.",
+        "The course focuses on structured outputs and data validation."
+      ]
+    },
+    {
+      "id": "techcrunch-openclaw-openai",
+      "url": "https://techcrunch.com/2026/02/15/openclaw-creator-peter-steinberger-joins-openai/",
+      "publisher": "TechCrunch",
+      "title": "OpenClaw creator Peter Steinberger joins OpenAI",
+      "side": "c2",
+      "publishedAt": "2026-02-15",
+      "notes": [
+        "TechCrunch reported that Peter Steinberger, creator of OpenClaw, joined OpenAI.",
+        "The report says Sam Altman framed the role around the next generation of personal agents."
+      ]
+    },
+    {
+      "id": "pcgamer-openclaw-codex-usage",
+      "url": "https://www.pcgamer.com/software/ai/the-creator-of-openclaw-used-usd1-300-000-of-openai-tokens-in-30-days-which-is-a-hell-of-a-perk/",
+      "publisher": "PC Gamer",
+      "title": "The creator of OpenClaw used $1,300,000+ of OpenAI tokens in 30 days",
+      "side": "c2",
+      "publishedAt": "2026-05-18",
+      "notes": [
+        "PC Gamer reported on Steinberger's posted OpenAI usage: 603 billion tokens across 7.6 million requests.",
+        "The report links the usage to around 100 Codex instances and continued OpenClaw development."
+      ]
+    },
+    {
+      "id": "anthropic-mythos-preview",
+      "url": "https://red.anthropic.com/2026/mythos-preview/",
+      "publisher": "Anthropic Red Team",
+      "title": "Assessing Claude Mythos Preview cybersecurity capabilities",
+      "side": "c1",
+      "publishedAt": "2026-04-07",
+      "notes": [
+        "Project Glasswing frames Mythos as a defensive security coalition and a major Claude capability unlock."
+      ]
+    },
+    {
+      "id": "anthropic-claude-opus-47",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7?source=fb-for-mobile&via=anna",
+      "publisher": "Anthropic",
+      "title": "Introducing Claude Opus 4.7",
+      "side": "c1",
+      "publishedAt": "2026-04-16",
+      "notes": [
+        "Anthropic positions Opus 4.7 as stronger across coding, agents, vision, and multi-step work."
+      ]
+    },
+    {
+      "id": "anthropic-claude-code-security",
+      "url": "https://www.anthropic.com/news/claude-code-security?via=aitoolzs",
+      "publisher": "Anthropic",
+      "title": "Making frontier cybersecurity capabilities available to defenders",
+      "side": "c1",
+      "publishedAt": "2026-04-07",
+      "notes": [
+        "Claude Code Security is treated as a defensive agentic security product signal."
+      ]
+    },
+    {
+      "id": "anthropic-bun-acquisition",
+      "url": "https://www.anthropic.com/news/anthropic-acquires-bun-as-claude-code-reaches-usd1b-milestone",
+      "publisher": "Anthropic",
+      "title": "Anthropic acquires Bun as Claude Code reaches $1B milestone",
+      "side": "c1",
+      "publishedAt": "2025-12-03",
+      "notes": [
+        "Anthropic says Claude Code reached a $1B run-rate milestone and that Bun strengthens AI-led software engineering infrastructure."
+      ]
+    },
+    {
+      "id": "anthropic-stainless-acquisition",
+      "url": "https://www.anthropic.com/news/anthropic-acquires-stainless?s=09",
+      "publisher": "Anthropic",
+      "title": "Anthropic acquires Stainless",
+      "side": "c1",
+      "publishedAt": "2026-05-18",
+      "notes": [
+        "Anthropic says Stainless strengthens SDK and MCP server tooling for agent connectivity."
+      ]
+    },
+    {
+      "id": "anthropic-amazon-compute",
+      "url": "https://www.anthropic.com/news/anthropic-amazon-compute?pubDate=20260225",
+      "publisher": "Anthropic",
+      "title": "Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute",
+      "side": "c1",
+      "publishedAt": "2026-04-20",
+      "notes": [
+        "Anthropic says the Amazon agreement secures up to 5GW of capacity for training and deploying Claude."
+      ]
+    },
+    {
+      "id": "thomson-reuters-claude-legal",
+      "url": "https://www.thomsonreuters.com/en/press-releases/2026/may/thomson-reuters-and-anthropic-expand-partnership-to-connect-claude-with-cocounsel-legal",
+      "publisher": "Thomson Reuters",
+      "title": "Thomson Reuters and Anthropic expand partnership to connect Claude with CoCounsel Legal",
+      "side": "c1",
+      "publishedAt": "2026-05-13",
+      "notes": [
+        "Thomson Reuters frames Claude as connected to legal workflows through CoCounsel Legal."
+      ]
+    },
+    {
+      "id": "anthropic-kpmg",
+      "url": "https://www.anthropic.com/news/anthropic-kpmg?s=08",
+      "publisher": "Anthropic",
+      "title": "KPMG integrates Claude across its core business and workforce",
+      "side": "c1",
+      "publishedAt": "2026-05-19",
+      "notes": [
+        "Anthropic says KPMG is rolling Claude out across 276,000+ employees and client work including tax, legal, cybersecurity, and private equity."
+      ]
+    },
+    {
+      "id": "anthropic-pwc-expanded-partnership",
+      "url": "https://www.anthropic.com/news/pwc-expanded-partnership?gspk=dGFyYXNrcmFzbm92MjY1NA&gsxid=oyxgI6EUao8iLv&ps_partner_key=dGFyYXNrcmFzbm92MjY1NA&ps_xid=oyxgI6EUao8iLv&pscd=partners.triplewhale.com&source=taraskrasnov2654",
+      "publisher": "Anthropic",
+      "title": "PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions",
+      "side": "c1",
+      "publishedAt": "2026-05-14",
+      "notes": [
+        "Anthropic and PwC announced Claude Code, Cowork, a Center of Excellence, and certification for 30,000 PwC professionals."
+      ]
+    },
+    {
+      "id": "anthropic-claude-creative-work",
+      "url": "https://www.anthropic.com/news/claude-for-creative-work?lang=us",
+      "publisher": "Anthropic",
+      "title": "Claude for Creative Work",
+      "side": "c1",
+      "publishedAt": "2026-04-28",
+      "notes": [
+        "Anthropic announced creative-work connectors and positioned Claude Design as a Labs product."
+      ]
+    },
+    {
+      "id": "openai-introducing-codex",
+      "url": "https://openai.com/index/introducing-codex/?video=1084810944",
+      "publisher": "OpenAI",
+      "title": "Introducing Codex",
+      "side": "c2",
+      "publishedAt": "2025-05-16",
+      "notes": [
+        "OpenAI introduced Codex as a cloud software engineering agent and open-source terminal CLI."
+      ]
+    },
+    {
+      "id": "openai-codex-ga",
+      "url": "https://openai.com/index/codex-now-generally-available/",
+      "publisher": "OpenAI",
+      "title": "Codex is now generally available",
+      "side": "c2",
+      "publishedAt": "2026-05-16",
+      "notes": [
+        "OpenAI made Codex generally available and expanded its workflow surface."
+      ]
+    },
+    {
+      "id": "openai-codex-upgrades",
+      "url": "https://openai.com/index/introducing-upgrades-to-codex/",
+      "publisher": "OpenAI",
+      "title": "Introducing upgrades to Codex",
+      "side": "c2",
+      "publishedAt": "2026-05-14",
+      "notes": [
+        "OpenAI announced Codex workflow upgrades across developer surfaces."
+      ]
+    },
+    {
+      "id": "openai-codex-agent-loop",
+      "url": "https://openai.com/index/unrolling-the-codex-agent-loop/",
+      "publisher": "OpenAI",
+      "title": "Unrolling the Codex agent loop",
+      "side": "c2",
+      "notes": [
+        "OpenAI explains Codex as an agent loop for planning, editing, running commands, and reporting evidence."
+      ]
+    },
+    {
+      "id": "openai-codex-security",
+      "url": "https://openai.com/index/codex-security-now-in-research-preview/",
+      "publisher": "OpenAI",
+      "title": "Codex Security: now in research preview",
+      "side": "c2",
+      "publishedAt": "2026-03-06",
+      "notes": [
+        "OpenAI says Codex Security scans repositories, builds threat models, validates findings, and proposes fixes."
+      ]
+    },
+    {
+      "id": "openai-codex-safety",
+      "url": "https://openai.com/index/running-codex-safely/",
+      "publisher": "OpenAI",
+      "title": "Running Codex safely at OpenAI",
+      "side": "c2",
+      "notes": [
+        "OpenAI describes internal operating practices for running Codex safely."
+      ]
+    },
+    {
+      "id": "openai-stargate-compute",
+      "url": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age/",
+      "publisher": "OpenAI",
+      "title": "Building the compute infrastructure for the Intelligence Age",
+      "side": "c2",
+      "notes": [
+        "OpenAI frames Stargate and related infrastructure as a compute platform for frontier AI."
+      ]
+    },
+    {
+      "id": "github-openai-codex",
+      "url": "https://github.com/openai/codex",
+      "publisher": "GitHub",
+      "title": "openai/codex",
+      "side": "c2",
+      "notes": [
+        "The openai/codex repository exposes the local Codex agent implementation and language mix."
+      ]
+    },
+    {
+      "id": "openai-dell-codex-enterprise",
+      "url": "https://openai.com/index/dell-codex-enterprise-partnership/",
+      "publisher": "OpenAI",
+      "title": "OpenAI and Dell Technologies partner to bring Codex to hybrid and on-premises enterprise environments",
+      "side": "c2",
+      "publishedAt": "2026-05-18",
+      "notes": [
+        "OpenAI and Dell position Codex for hybrid and on-prem enterprise environments."
+      ]
+    }
+  ],
+  "integrations": [
+    {
+      "id": "x-watchlist",
+      "kind": "social-feed",
+      "title": "X Watchlist",
+      "status": "active",
+      "description": "Monitors official and key-person X accounts for evidence-backed signals."
+    }
+  ],
+  "surfaces": [
+    {
+      "id": "dashboard",
+      "kind": "web",
+      "title": "Reference Dashboard",
+      "description": "The default Next.js rendering surface for arena snapshots."
+    },
+    {
+      "id": "extension-lab",
+      "kind": "web-panel",
+      "title": "Extension Lab",
+      "description": "Generic renderer for dormant and experimental arena concepts."
+    }
+  ],
+  "x": {
+    "sinceDays": 7,
+    "postsPerList": 40,
+    "postsPerAccount": 10,
+    "excludeRetweets": true,
+    "maxAccountsPerRun": 60,
+    "lists": [
+      {
+        "id": "2021117977790210408",
+        "name": "AI",
+        "description": "Existing mixed Codex and Claude Code watchlist",
+        "side": "mixed",
+        "weight": 1
+      }
+    ]
+  },
+  "xai": {
+    "enabled": true,
+    "model": "grok-4.3",
+    "maxSearchResults": 10,
+    "batchSize": 10
+  },
+  "lastHardenedAt": "2026-05-20",
+  "scoringRubric": {
+    "updatedAt": "2026-05-20",
+    "disclaimer": "Arcade scores are narrative indices, not scientific benchmarks. Each number should point to a public-source rationale.",
+    "characterStats": {
+      "ATK": "Product or research offensive pressure: launches, model strength, public agenda-setting, or concrete builder leverage.",
+      "DEF": "Safety, trust, compliance, security, governance, and ability to absorb scrutiny.",
+      "SPD": "Shipping speed and signal velocity: how quickly the person or surface turns capability into visible motion.",
+      "COMBO": "Platform leverage: integrations, ecosystem effects, workflow chaining, and ability to compound with other moves.",
+      "HP": "Durability: capital, compute, org depth, adoption, technical moat, and staying power."
+    },
+    "teamPower": {
+      "momentum": "Recent public signals plus strategic weight of launches, hires, partnerships, and adoption proof.",
+      "mindshare": "Share of attention in developer, enterprise, and public product narratives.",
+      "enterprise": "Evidence of paid business workflows, regulated-industry adoption, partnerships, and deployment credibility.",
+      "ship": "Visible product releases, workflow surface expansion, and cadence of concrete shipping moves."
+    },
+    "verticals": "Vertical conquest blends public product fit, enterprise proof, partner distribution, and inferred adoption pressure. Close scores are intentionally contested."
+  }
+}

@@ -4,6 +4,7 @@ import {
   buildDashboardSnapshot,
   dedupePosts,
   isVisibleIntelItem,
+  normalizeDossier,
   normalizePost,
   parseXaiIntelResponse
 } from "../scripts/intel-lib.mjs";
@@ -104,6 +105,35 @@ test("parseXaiIntelResponse tolerates malformed output", () => {
   assert.deepEqual(parseXaiIntelResponse('```json\n{"items":[{"id":"a"}]}\n```'), [{ id: "a" }]);
 });
 
+test("normalizeDossier keeps only sourced claims and clamps confidence", () => {
+  const dossier = normalizeDossier({
+    lastReviewedAt: "2026-05-19",
+    tagline: "Schema specialist",
+    background: [
+      { text: "Sourced fact", evidenceUrls: ["https://example.com/fact"], confidence: 2 },
+      { text: "Unsupported fact", evidenceUrls: [] }
+    ],
+    keyProjects: [
+      { name: "Project", description: "Sourced project", tags: ["AI", ""], evidenceUrls: ["https://example.com/project"] },
+      { name: "No source", description: "Dropped" }
+    ],
+    strengths: [
+      { label: "Strength", description: "Sourced strength", evidenceUrls: ["https://example.com/strength"] }
+    ],
+    narrative: { title: "Arc", text: "Sourced narrative", evidenceUrls: ["https://example.com/narrative"] },
+    sourceUrls: ["not-a-url", "https://example.com/source"]
+  });
+
+  assert.equal(dossier.background.length, 1);
+  assert.equal(dossier.background[0].confidence, 1);
+  assert.equal(dossier.keyProjects.length, 1);
+  assert.deepEqual(dossier.keyProjects[0].tags, ["AI"]);
+  assert.equal(dossier.strengths.length, 1);
+  assert.equal(dossier.narrative.title, "Arc");
+  assert.equal(dossier.sourceUrls.includes("not-a-url"), false);
+  assert.equal(dossier.sourceUrls.includes("https://example.com/project"), true);
+});
+
 test("buildDashboardSnapshot dedupes posts and archives low confidence items", () => {
   const snapshot = buildDashboardSnapshot({
     config,
@@ -151,4 +181,51 @@ test("buildDashboardSnapshot dedupes posts and archives low confidence items", (
   assert.equal(snapshot.codexTeam[0].lastActivity, "1h");
   assert.equal(snapshot.archive.lowConfidence.some((item) => item.id === "weak"), true);
   assert.equal(snapshot.tweets.some((tweet) => tweet.handle === "@thsottiaux"), true);
+});
+
+test("buildDashboardSnapshot preserves dossiers and corrects generated sides from known handles", () => {
+  const snapshot = buildDashboardSnapshot({
+    config,
+    backfill: {
+      ...backfill,
+      dashboard: {
+        ...backfill.dashboard,
+        codexTeam: [
+          {
+            id: "openai",
+            handle: "@OpenAI",
+            name: "OPENAI",
+            surname: "SIGNAL",
+            lastActivity: "n/a",
+            dossier: {
+              background: [
+                { text: "OpenAI sourced background", evidenceUrls: ["https://example.com/openai"], confidence: -1 }
+              ],
+              sourceUrls: ["https://example.com/openai"]
+            }
+          }
+        ]
+      }
+    },
+    xaiItems: [
+      {
+        id: "wrong-side",
+        side: "c1",
+        type: "fact",
+        confidence: 0.9,
+        author: "OpenAI",
+        handle: "@OpenAI",
+        createdAt: "2026-05-19T12:00:00.000Z",
+        text: "OpenAI published a sourced Codex developer update with enough text for display",
+        insight: "This should render on the Codex side after handle correction.",
+        evidenceUrls: ["https://example.com/openai-post"],
+        tags: [{ l: "DEVTOOLS", t: "move" }]
+      }
+    ],
+    now: new Date("2026-05-19T13:00:00.000Z"),
+    errors: []
+  });
+
+  assert.equal(snapshot.codexTeam[0].dossier.background[0].confidence, 0);
+  assert.equal(snapshot.tweets.find((tweet) => tweet.text.includes("sourced Codex developer update"))?.side, "c2");
 });

@@ -1,5 +1,7 @@
 import CurrentSnapshot from "./data/intel/current-snapshot.json";
 import Backfill from "./data/intel/backfill.json";
+import ArenaSnapshot from "./data/arena/snapshots/current.json";
+import { hasDashboardShape, toDashboardView } from "./src/arena/dashboard.mjs";
 
 /* ============================================================
    Fallback sample data for the CLAUDE vs CODEX intel dashboard.
@@ -273,19 +275,11 @@ function buildBackfillDashboard(value) {
 const BackfillGameData = buildBackfillDashboard(Backfill);
 export const GameData = hasDashboardShape(BackfillGameData) ? BackfillGameData : SampleGameData;
 
-function hasDashboardShape(value) {
-  return Boolean(
-    value &&
-      Array.isArray(value.claudeTeam) &&
-      Array.isArray(value.codexTeam) &&
-      Array.isArray(value.tweets) &&
-      Array.isArray(value.announcements) &&
-      Array.isArray(value.verticals) &&
-      value.power?.c1 &&
-      value.power?.c2
-  );
-}
-
 export function getDashboardSnapshot() {
-  return hasDashboardShape(CurrentSnapshot) ? CurrentSnapshot : GameData;
+  const arenaDashboard = toDashboardView(ArenaSnapshot);
+  if (hasDashboardShape(arenaDashboard)) {
+    return arenaDashboard;
+  }
+
+  return hasDashboardShape(CurrentSnapshot) ? toDashboardView(CurrentSnapshot) : GameData;
 }
