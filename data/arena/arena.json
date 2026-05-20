@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "version": 1,
-  "id": "agent-arena",
-  "title": "Agent Arena",
+  "id": "clododex",
+  "title": "Clododex",
   "summary": "A file-first arcade intelligence engine for remixable AI-agent competition concepts.",
   "dashboard": {
     "maxSignals": 12,

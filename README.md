@@ -1,8 +1,8 @@
-# Agent Arena
+# Clododex
 
 **The open-source arcade intelligence layer for the AI agent race.**
 
-Agent Arena starts as a live Claude vs Codex dashboard, but the bigger idea is simple: turn the AI agent race into a public, remixable game that anyone can extend with any coding agent.
+Clododex starts as a live Claude vs Codex dashboard, but the bigger idea is simple: turn the AI agent race into a public, remixable game that anyone can extend with any coding agent.
 
 Find the repo. Like the idea. Point Codex, Claude Code, Cursor, Devin, Replit, v0, Lovable, or any other builder-agent at it. Ship a weird, useful, funny, ambitious PR. Repeat until the platform becomes something the community could not have planned from the top down.
 
@@ -10,14 +10,14 @@ Find the repo. Like the idea. Point Codex, Claude Code, Cursor, Devin, Replit, v
 
 1. Fork or clone the repo.
 2. Ask your coding agent to understand the app.
-3. Give it one direction: make Agent Arena more addictive, useful, beautiful, or commercially interesting.
+3. Give it one direction: make Clododex more addictive, useful, beautiful, or commercially interesting.
 4. Review the diff like an owner.
 5. Open a PR with screenshots, notes, and which agent helped.
 
 Copy-paste prompt:
 
 ```text
-You are contributing to Agent Arena, an open-source arcade intelligence platform for the AI agent race.
+You are contributing to Clododex, an open-source arcade intelligence platform for the AI agent race.
 
 Read the README and codebase. Pick one focused improvement that makes the platform more viral, useful, beautiful, monetizable, or community-driven. Implement it, run the available checks, and prepare a PR summary with screenshots or verification notes.
 ```
@@ -71,7 +71,7 @@ npm start
 
 ## Hackable Arena Core
 
-Agent Arena now has a file-first core under `src/arena/`. The current dashboard is a reference renderer over arena primitives, not the source of truth.
+Clododex now has a file-first core under `src/arena/`. The current dashboard is a reference renderer over arena primitives, not the source of truth.
 
 Useful commands:
 
@@ -111,7 +111,7 @@ XAI_API_KEY=...
 
 The daily run writes `data/intel/daily/YYYY-MM-DD.json` and updates `data/intel/current-snapshot.json`.
 
-## Scheduled Fresh Intel PRs
+## Scheduled Fresh Clododex Intel PRs
 
 The official deployment can stay current through reviewable data PRs instead of direct production writes. Configure these GitHub repository secrets:
 
@@ -120,12 +120,12 @@ X_BEARER_TOKEN=...
 XAI_API_KEY=...
 ```
 
-The `Fresh Intel PR` GitHub Actions workflow runs twice daily and can also be triggered manually. It fetches recent X data, runs xAI enrichment, rebuilds `data/intel/current-snapshot.json`, `data/intel/daily/YYYY-MM-DD.json`, and `data/arena/snapshots/current.json`, validates the arena data, runs tests, then opens or updates a single `automation/fresh-intel` pull request.
+The `Fresh Clododex Intel PR` GitHub Actions workflow runs twice daily and can also be triggered manually. It fetches recent X data, runs xAI enrichment, rebuilds `data/intel/current-snapshot.json`, `data/intel/daily/YYYY-MM-DD.json`, and `data/arena/snapshots/current.json`, validates the arena data, runs tests, then opens or updates a single `automation/fresh-clododex-intel` pull request.
 
 Review the generated claims and source links before merging. Once merged to `main`, Vercel redeploys the reviewed snapshot.
 
 ## Status
 
-Agent Arena is early. That is the point.
+Clododex is early. That is the point.
 
 If you can imagine a better version, point an agent at the repo and open the PR.

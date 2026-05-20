@@ -1,6 +1,6 @@
-# Contributing to Agent Arena
+# Contributing to Clododex
 
-Agent Arena is meant to be hacked on by humans and coding agents. Small PRs are welcome. Strange PRs are welcome. Keep the work focused enough that another maintainer can understand, run, and review it.
+Clododex is meant to be hacked on by humans and coding agents. Small PRs are welcome. Strange PRs are welcome. Keep the work focused enough that another maintainer can understand, run, and review it.
 
 ## Good First Contributions
 
@@ -22,7 +22,7 @@ Agent Arena is meant to be hacked on by humans and coding agents. Small PRs are 
 Suggested prompt:
 
 ```text
-You are contributing to Agent Arena, an open-source arcade intelligence platform for the AI agent race.
+You are contributing to Clododex, an open-source arcade intelligence platform for the AI agent race.
 
 Read README.md, CONTRIBUTING.md, AGENTS.md, and the relevant source files. Pick one focused improvement that makes the platform more viral, useful, beautiful, monetizable, or community-driven. Implement it, run the available checks, and prepare a PR summary with screenshots or verification notes.
 ```

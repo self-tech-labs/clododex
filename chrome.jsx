@@ -52,7 +52,8 @@ export function ArcadeBar({ round, credits, highScore }) {
   return (
     <div className="arcade-bar">
       <div className="grp">
-        <span className="credit">◆ CLAUDE vs CODEX</span>
+        <span className="credit">◆ CLODODEX</span>
+        <span className="label">CLAUDE vs CODEX</span>
         <span className="label">ARCADE</span>
         <span className="label">CREDITS</span><span className="high">{credits}</span>
         <span style={{ color: "var(--fg-mid)" }}>v0.1</span>

@@ -1,10 +1,10 @@
-# Agent Arena Agent Guide
+# Clododex Agent Guide
 
 Use this guide when a coding agent is asked to work in this repository.
 
 ## Project Shape
 
-Agent Arena is a Next.js app that turns the AI agent race into a public, remixable arena. The dashboard renders data from file-first arena manifests and generated snapshots.
+Clododex is a Next.js app that turns the AI agent race into a public, remixable arena. The dashboard renders data from file-first arena manifests and generated snapshots.
 
 Key paths:
 
@@ -65,7 +65,7 @@ XAI_API_KEY=...
 
 Do not commit `.env` or fetched secrets. Commit only reviewed snapshot/data changes that should become part of the public dashboard.
 
-For scheduled updates, `.github/workflows/fresh-intel.yml` uses repository secrets to run `npm run intel:build`, validates the generated arena data, runs tests, and opens or updates a reviewable `automation/fresh-intel` pull request. Do not run `npm run arena:build` after `npm run intel:build` for fresh X updates, because `intel:build` already writes the X/xAI-backed arena snapshot.
+For scheduled updates, `.github/workflows/fresh-clododex-intel.yml` uses repository secrets to run `npm run intel:build`, validates the generated arena data, runs tests, and opens or updates a reviewable `automation/fresh-clododex-intel` pull request. Do not run `npm run arena:build` after `npm run intel:build` for fresh X updates, because `intel:build` already writes the X/xAI-backed arena snapshot.
 
 ## PR Notes
 
