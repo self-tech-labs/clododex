@@ -39,6 +39,9 @@ const getLatestBattleCard = (battle) => {
 
 const qualityText = (qualities = []) => qualities.map((quality) => quality.label).filter(Boolean).join(" / ");
 
+const getFighterSkinSide = (fighter, fallbackSide) =>
+  fighter?.originalSide === "neutral" || fighter?.contenderId === "wildcards" ? "neutral" : fallbackSide;
+
 function TeamPicker({ side, team, selectedIds, max, disabled, onChange }) {
   const toggle = (fighterId) => {
     if (disabled) return;
@@ -93,16 +96,17 @@ function FighterPanel({ battle, side }) {
   const maxHp = Math.max(1, asNumberInput(fighter.maxHp, 1));
   const hpPct = Math.max(0, Math.min(100, (hp / maxHp) * 100));
   const shield = asNumberInput(battle.shields?.[side], 0);
+  const skinSide = getFighterSkinSide(fighter, side);
 
   return (
-    <div className={`battle-fighter-panel ${side} ${battle.turnSide === side ? "turn" : ""}`}>
+    <div className={`battle-fighter-panel ${side} ${skinSide === "neutral" ? "neutral" : ""} ${battle.turnSide === side ? "turn" : ""}`}>
       <div className="battle-fighter-top">
         <span>{SIDE_LABELS[side]}</span>
         <span>{battle.turnSide === side ? "TURN" : shield > 0 ? "GUARD" : "WAIT"}</span>
       </div>
       <div className="battle-fighter-body">
-        <div className="battle-sprite-wrap">
-          <BaseFighter side={side} variant={fighter.slot} />
+        <div className={`battle-sprite-wrap ${skinSide}`}>
+          <BaseFighter side={skinSide} variant={fighter.slot} />
         </div>
         <div className="battle-fighter-copy">
           <strong>{getCharacterName(fighter)}</strong>

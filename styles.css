@@ -24,11 +24,16 @@
   --c1-deep: #7a3520;
   --c1-glow: rgba(224, 122, 83, 0.5);
 
-  /* Codex side — emerald / OpenAI green */
-  --c2: #10B981;      /* primary */
-  --c2-bright: #34E5A8;
-  --c2-deep: #0a4d3a;
-  --c2-glow: rgba(16, 185, 129, 0.5);
+  /* Codex side — electric blue */
+  --c2: #2F80ED;      /* primary */
+  --c2-bright: #7DB7FF;
+  --c2-deep: #123A7A;
+  --c2-glow: rgba(47, 128, 237, 0.5);
+
+  /* Neutral wildcard fighters */
+  --wildcard: #A66CFF;
+  --wildcard-bright: #FFCB3D;
+  --wildcard-glow: rgba(166, 108, 255, 0.45);
 
   /* Arcade accents */
   --hot: #FF2E63;     /* VS / critical / hot pink */
@@ -87,7 +92,7 @@ body::after {
     linear-gradient(var(--grid) 1px, transparent 1px) 0 0 / 48px 48px,
     linear-gradient(90deg, var(--grid) 1px, transparent 1px) 0 0 / 48px 48px,
     radial-gradient(ellipse at 20% 0%, rgba(224, 122, 83, 0.08), transparent 50%),
-    radial-gradient(ellipse at 80% 0%, rgba(16, 185, 129, 0.08), transparent 50%),
+    radial-gradient(ellipse at 80% 0%, rgba(47, 128, 237, 0.08), transparent 50%),
     var(--bg-void);
 }
 
@@ -202,7 +207,7 @@ body::after {
   display: inline-block;
 }
 .vs-tag.c1 { color: var(--c1-bright); border: 1px solid var(--c1); background: rgba(224, 122, 83, 0.08); }
-.vs-tag.c2 { color: var(--c2-bright); border: 1px solid var(--c2); background: rgba(16, 185, 129, 0.08); }
+.vs-tag.c2 { color: var(--c2-bright); border: 1px solid var(--c2); background: rgba(47, 128, 237, 0.08); }
 .vs-name {
   font-family: var(--font-pixel);
   font-size: 38px;
@@ -308,7 +313,7 @@ body::after {
   letter-spacing: 0.14em;
 }
 .team-header.c1 { border-color: var(--c1); color: var(--c1-bright); background: rgba(224, 122, 83, 0.06); }
-.team-header.c2 { border-color: var(--c2); color: var(--c2-bright); background: rgba(16, 185, 129, 0.06); }
+.team-header.c2 { border-color: var(--c2); color: var(--c2-bright); background: rgba(47, 128, 237, 0.06); }
 .team-header .roster-count { font-family: var(--font-term); font-size: 16px; color: var(--fg-mid); letter-spacing: 0.06em; }
 
 .fighter-grid {
@@ -357,7 +362,7 @@ body::after {
 .fighter.c2 .pixel-bg {
   background-image:
     radial-gradient(circle at 30% 30%, var(--c2-deep) 0 2px, transparent 2px),
-    linear-gradient(135deg, rgba(16,185,129,0.18), rgba(10,77,58,0.35));
+    linear-gradient(135deg, rgba(47,128,237,0.18), rgba(18,58,122,0.35));
 }
 .fighter-sprite {
   position: relative;
@@ -390,7 +395,7 @@ body::after {
   margin-bottom: 8px;
 }
 .fighter.c1 .fighter-class { color: var(--c1-bright); border: 1px solid var(--c1); background: rgba(224,122,83,0.08); }
-.fighter.c2 .fighter-class { color: var(--c2-bright); border: 1px solid var(--c2); background: rgba(16,185,129,0.08); }
+.fighter.c2 .fighter-class { color: var(--c2-bright); border: 1px solid var(--c2); background: rgba(47,128,237,0.08); }
 
 .stat-row {
   display: flex;
@@ -456,7 +461,7 @@ body::after {
   box-shadow: -24px 0 60px rgba(0,0,0,0.42);
 }
 .dossier-drawer.c1 { border-left-color: rgba(224,122,83,0.6); }
-.dossier-drawer.c2 { border-left-color: rgba(16,185,129,0.6); }
+.dossier-drawer.c2 { border-left-color: rgba(47,128,237,0.6); }
 .dossier-topline {
   display: flex;
   align-items: center;
@@ -491,7 +496,7 @@ body::after {
   color: var(--fg-mid);
 }
 .dossier-drawer.c1 .dossier-class { color: var(--c1-bright); border-color: rgba(224,122,83,0.55); }
-.dossier-drawer.c2 .dossier-class { color: var(--c2-bright); border-color: rgba(16,185,129,0.55); }
+.dossier-drawer.c2 .dossier-class { color: var(--c2-bright); border-color: rgba(47,128,237,0.55); }
 .dossier-hero h2 {
   margin: 0;
   font-family: var(--font-pixel);
@@ -908,7 +913,7 @@ body::after {
   color: var(--fg-mid);
 }
 .tl-cell.c1 { border-left-color: var(--c1); background: rgba(224,122,83,0.04); }
-.tl-cell.c2 { border-left-color: var(--c2); background: rgba(16,185,129,0.04); }
+.tl-cell.c2 { border-left-color: var(--c2); background: rgba(47,128,237,0.04); }
 .tl-cell.empty { opacity: 0.2; border-left-color: var(--grid-strong); }
 .tl-cell .move-tag {
   display: inline-block;
@@ -1141,7 +1146,7 @@ body::after {
   border: 1px solid var(--grid-strong);
   background:
     linear-gradient(135deg, rgba(224,122,83,0.08), transparent 30%),
-    linear-gradient(225deg, rgba(16,185,129,0.08), transparent 30%),
+    linear-gradient(225deg, rgba(47,128,237,0.08), transparent 30%),
     rgba(12,12,20,0.92);
   padding: 16px;
 }
@@ -1376,7 +1381,7 @@ body::after {
   border-color: rgba(224,122,83,0.28);
 }
 .battle-team-picker.c2 {
-  border-color: rgba(16,185,129,0.28);
+  border-color: rgba(47,128,237,0.28);
 }
 .battle-team-picker.disabled {
   opacity: 0.78;
@@ -1466,7 +1471,11 @@ body::after {
 }
 .battle-fighter-panel.c2.turn {
   border-color: var(--c2);
-  box-shadow: 0 0 22px rgba(16,185,129,0.16);
+  box-shadow: 0 0 22px rgba(47,128,237,0.16);
+}
+.battle-fighter-panel.neutral.turn {
+  border-color: var(--wildcard-bright);
+  box-shadow: 0 0 24px var(--wildcard-glow);
 }
 .battle-fighter-top {
   position: relative;
@@ -1481,6 +1490,10 @@ body::after {
 .battle-fighter-panel.c2 .battle-fighter-top span:last-child,
 .battle-fighter-panel.c2 .battle-fighter-copy em {
   color: var(--c2-bright);
+}
+.battle-fighter-panel.neutral .battle-fighter-top span:last-child,
+.battle-fighter-panel.neutral .battle-fighter-copy em {
+  color: var(--wildcard-bright);
 }
 .battle-fighter-body {
   position: relative;
@@ -1498,6 +1511,14 @@ body::after {
   background:
     linear-gradient(var(--grid) 1px, transparent 1px) 0 0 / 16px 16px,
     linear-gradient(90deg, var(--grid) 1px, transparent 1px) 0 0 / 16px 16px,
+    var(--bg-deep);
+}
+.battle-sprite-wrap.neutral {
+  border-color: rgba(255,203,61,0.48);
+  background:
+    linear-gradient(var(--grid) 1px, transparent 1px) 0 0 / 16px 16px,
+    linear-gradient(90deg, var(--grid) 1px, transparent 1px) 0 0 / 16px 16px,
+    linear-gradient(135deg, rgba(255,92,138,0.18), rgba(78,205,196,0.14), rgba(166,108,255,0.2)),
     var(--bg-deep);
 }
 .battle-fighter-copy {
@@ -1788,7 +1809,7 @@ body::after {
   border-color: rgba(224,122,83,0.38);
 }
 .fatality-card.c2 {
-  border-color: rgba(16,185,129,0.38);
+  border-color: rgba(47,128,237,0.38);
 }
 .fatality-card-head {
   display: flex;
@@ -2037,7 +2058,7 @@ body::after {
 .filter-btn:hover { color: var(--fg); border-color: var(--fg-dim); }
 .filter-btn.active { color: var(--fg); border-color: var(--fg); background: var(--bg-card); }
 .filter-btn.c1.active { color: var(--c1-bright); border-color: var(--c1); background: rgba(224,122,83,0.1); }
-.filter-btn.c2.active { color: var(--c2-bright); border-color: var(--c2); background: rgba(16,185,129,0.1); }
+.filter-btn.c2.active { color: var(--c2-bright); border-color: var(--c2); background: rgba(47,128,237,0.1); }
 
 /* ===== TWEAK MODES ===== */
 body.no-scanlines::before { display: none; }

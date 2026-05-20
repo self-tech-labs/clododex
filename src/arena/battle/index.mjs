@@ -159,7 +159,7 @@ const PERSONA_COPY = {
   greg: {
     quick: "a live demo jab with the build still running",
     heavy: "bare-metal demo pressure and a cable nobody should unplug",
-    defense: "an engineering console covered in reassuring green lights"
+    defense: "an engineering console covered in reassuring blue lights"
   },
   fidji: {
     quick: "an applications-scale elbow from the business workflow lane",

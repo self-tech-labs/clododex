@@ -2,7 +2,7 @@
   "kind": "arena.snapshot",
   "schemaVersion": 1,
   "meta": {
-    "generatedAt": "2026-05-20T11:33:49.489Z",
+    "generatedAt": "2026-05-20T11:41:45.934Z",
     "schemaVersion": 1,
     "arenaVersion": 1,
     "dataMode": "arena-manifest",
@@ -263,8 +263,8 @@
         "stance": "distribution-first",
         "teamLabel": "TEAM CODEX",
         "colors": {
-          "base": "#10B981",
-          "bright": "#34E5A8"
+          "base": "#2F80ED",
+          "bright": "#7DB7FF"
         },
         "sourceUrls": [
           "https://openai.com/index/accelerating-the-next-phase-ai/",
@@ -4481,7 +4481,7 @@
   "views": {
     "dashboard": {
       "meta": {
-        "generatedAt": "2026-05-20T11:33:49.489Z",
+        "generatedAt": "2026-05-20T11:41:45.934Z",
         "schemaVersion": 1,
         "arenaVersion": 1,
         "dataMode": "arena-manifest",
@@ -4741,8 +4741,8 @@
           "stance": "distribution-first",
           "teamLabel": "TEAM CODEX",
           "colors": {
-            "base": "#10B981",
-            "bright": "#34E5A8"
+            "base": "#2F80ED",
+            "bright": "#7DB7FF"
           },
           "sourceUrls": [
             "https://openai.com/index/accelerating-the-next-phase-ai/",

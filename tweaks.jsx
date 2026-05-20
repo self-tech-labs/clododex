@@ -11,7 +11,7 @@ const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
 }/*EDITMODE-END*/;
 
 const PALETTES = {
-  default: { c1: "#E07A53", c1b: "#FF9469", c2: "#10B981", c2b: "#34E5A8", hot: "#FF2E63" },
+  default: { c1: "#E07A53", c1b: "#FF9469", c2: "#2F80ED", c2b: "#7DB7FF", hot: "#FF2E63" },
   neon:    { c1: "#FF3E96", c1b: "#FF85C0", c2: "#00E5FF", c2b: "#66F2FF", hot: "#FFEB3B" },
   retro:   { c1: "#F2A23B", c1b: "#FFD080", c2: "#7AE582", c2b: "#B4F0A0", hot: "#FF5050" },
   mono:    { c1: "#E0E0E0", c1b: "#FFFFFF", c2: "#8A8A8A", c2b: "#BCBCBC", hot: "#FF2E63" },
