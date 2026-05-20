@@ -148,14 +148,14 @@ function SpiderChart({ verticals }) {
       {/* Codex polygon */}
       <polygon
         points={polyPoints("c2")}
-        fill="rgba(16, 185, 129, 0.16)"
-        stroke="#10B981"
+        fill="rgba(47, 128, 237, 0.16)"
+        stroke="#2F80ED"
         strokeWidth={2}
-        style={{ filter: "drop-shadow(0 0 12px rgba(16,185,129,0.45))" }}
+        style={{ filter: "drop-shadow(0 0 12px rgba(47,128,237,0.45))" }}
       />
       {verticals.map((v, i) => {
         const [x, y] = point(i, v.c2);
-        return <rect key={"c2"+i} x={x-3} y={y-3} width="6" height="6" fill="#34E5A8" />;
+        return <rect key={"c2"+i} x={x-3} y={y-3} width="6" height="6" fill="#7DB7FF" />;
       })}
 
       {/* center mark */}

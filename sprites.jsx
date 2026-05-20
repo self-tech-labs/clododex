@@ -34,18 +34,29 @@ const PAL = {
   c2: {
     skin: "#d8c3a8",
     hair: "#1a1a20",
-    coat: "#10B981",
-    coatHi: "#34E5A8",
-    coatLo: "#0a4d3a",
+    coat: "#2F80ED",
+    coatHi: "#7DB7FF",
+    coatLo: "#123A7A",
     accent: "#FFCB3D",
     eye: "#0c0c14",
-    shadow: "#06231a",
+    shadow: "#061a34",
+  },
+  neutral: {
+    skin: "#f2c9a0",
+    hair: "#252238",
+    coat: "#A66CFF",
+    coatHi: "#FFCB3D",
+    coatLo: "#2F80ED",
+    accent: "#4ECDC4",
+    eye: "#0c0c14",
+    shadow: "#150a24",
   },
 };
 
 // A base humanoid sprite — 10w × 14h pixel grid — varied by accessories
 export function BaseFighter({ side, variant }) {
-  const p = PAL[side];
+  const p = PAL[side] ?? PAL.neutral;
+  const neutral = side === "neutral";
   // variant changes hair/headgear and pose accents
   const v = variant % 4;
 
@@ -103,7 +114,24 @@ export function BaseFighter({ side, variant }) {
       {px(4, 6, 2, 1, p.skin)}
       {/* coat / body */}
       {px(2, 7, 6, 1, p.coatLo)}
-      {px(1, 8, 8, 3, p.coat)}
+      {neutral ? (
+        <>
+          {px(1, 8, 2, 1, "#FF5C8A", "rb1")}
+          {px(3, 8, 2, 1, "#FFCB3D", "rb2")}
+          {px(5, 8, 2, 1, "#4ECDC4", "rb3")}
+          {px(7, 8, 2, 1, "#A66CFF", "rb4")}
+          {px(1, 9, 2, 1, "#FFCB3D", "rb5")}
+          {px(3, 9, 2, 1, "#4ECDC4", "rb6")}
+          {px(5, 9, 2, 1, "#2F80ED", "rb7")}
+          {px(7, 9, 2, 1, "#FF5C8A", "rb8")}
+          {px(1, 10, 2, 1, "#4ECDC4", "rb9")}
+          {px(3, 10, 2, 1, "#2F80ED", "rb10")}
+          {px(5, 10, 2, 1, "#A66CFF", "rb11")}
+          {px(7, 10, 2, 1, "#FFCB3D", "rb12")}
+        </>
+      ) : (
+        px(1, 8, 8, 3, p.coat)
+      )}
       {/* coat highlights (left lapel) */}
       {px(2, 8, 1, 3, p.coatHi)}
       {/* accent badge */}
