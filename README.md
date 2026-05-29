@@ -111,18 +111,33 @@ XAI_API_KEY=...
 
 The daily run writes `data/intel/daily/YYYY-MM-DD.json` and updates `data/intel/current-snapshot.json`.
 
-## Scheduled Fresh Clododex Intel PRs
+## Scheduled Fresh Clododex Intel Publishing
 
-The official deployment can stay current through reviewable data PRs instead of direct production writes. Configure these GitHub repository secrets:
+The official deployment can stay current through scheduled data commits to `main`. Configure these GitHub repository secrets:
 
 ```bash
 X_BEARER_TOKEN=...
 XAI_API_KEY=...
 ```
 
-The `Fresh Clododex Intel PR` GitHub Actions workflow runs twice daily and can also be triggered manually. It fetches recent X data, runs xAI enrichment, rebuilds `data/intel/current-snapshot.json`, `data/intel/daily/YYYY-MM-DD.json`, and `data/arena/snapshots/current.json`, validates the arena data, runs tests, then opens or updates a single `automation/fresh-clododex-intel` pull request.
+The `Fresh Clododex Intel Publish` GitHub Actions workflow runs twice daily and can also be triggered manually. It fetches recent X data, runs xAI enrichment, rebuilds `data/intel/current-snapshot.json`, `data/intel/daily/YYYY-MM-DD.json`, and `data/arena/snapshots/current.json`, asserts that at least one fresh X post was pulled, validates the arena data, runs tests, then commits and pushes the reviewed generated files directly to `main`.
 
-Review the generated claims and source links before merging. Once merged to `main`, Vercel redeploys the reviewed snapshot.
+If the X API is degraded, unauthorized, quota-depleted, or returns zero fresh posts, the workflow fails before publishing. Vercel redeploys after a successful `main` push.
+
+## Newsletter
+
+The dashboard includes a newsletter signup for Intel Feed and Power Moves updates. Neon is the canonical subscriber store and Resend handles contacts, segment membership, and the welcome email.
+
+Configure these Vercel environment variables:
+
+```bash
+DATABASE_URL=...
+RESEND_API_KEY=...
+RESEND_FROM="Clododex <intel@yourdomain.com>"
+RESEND_SEGMENT_ID=...
+```
+
+The subscribe endpoint is `POST /api/newsletter/subscribe` with `{ "email": "...", "source": "...", "website": "" }`. The `website` field is a honeypot and should stay empty in normal submissions.
 
 ## Status
 

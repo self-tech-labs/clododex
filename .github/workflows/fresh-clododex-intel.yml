@@ -1,4 +1,4 @@
-name: Fresh Clododex Intel PR
+name: Fresh Clododex Intel Publish
 
 on:
   workflow_dispatch:
@@ -7,10 +7,9 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
 
 concurrency:
-  group: fresh-intel-pr
+  group: fresh-intel-publish
   cancel-in-progress: false
 
 jobs:
@@ -21,7 +20,6 @@ jobs:
       NEXT_TELEMETRY_DISABLED: "1"
       X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
       XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
-      REFRESH_BRANCH: automation/fresh-clododex-intel
       BASE_BRANCH: main
 
     steps:
@@ -53,11 +51,11 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Create refresh branch
-        run: git checkout -B "$REFRESH_BRANCH"
-
       - name: Fetch X data and rebuild snapshots
         run: npm run intel:build
+
+      - name: Assert fresh X intel
+        run: npm run intel:assert-fresh
 
       - name: Validate generated arena data
         run: npm run arena:validate
@@ -65,7 +63,7 @@ jobs:
       - name: Run tests
         run: npm run test
 
-      - name: Commit generated intel changes
+      - name: Publish generated intel changes
         id: commit
         run: |
           git config user.name "github-actions[bot]"
@@ -80,51 +78,6 @@ jobs:
           fi
 
           git commit -m "Refresh X intel snapshot"
-          git push --force-with-lease origin "HEAD:$REFRESH_BRANCH"
+          git pull --rebase origin "$BASE_BRANCH"
+          git push origin "HEAD:$BASE_BRANCH"
           echo "changed=true" >> "$GITHUB_OUTPUT"
-
-      - name: Open or update pull request
-        if: steps.commit.outputs.changed == 'true'
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          pr_number="$(gh pr list \
-            --repo "$GITHUB_REPOSITORY" \
-            --head "$REFRESH_BRANCH" \
-            --base "$BASE_BRANCH" \
-            --state open \
-            --json number \
-            --jq '.[0].number // empty')"
-
-          body_file="$(mktemp)"
-          cat > "$body_file" <<'BODY'
-          ## Summary
-          - refreshes Clododex intel from X
-          - runs xAI enrichment
-          - rebuilds the dashboard and arena snapshots
-
-          ## Validation
-          - npm run intel:build
-          - npm run arena:validate
-          - npm run test
-
-          ## Review notes
-          Please review the generated claims, source links, and archived low-confidence items before merging.
-          BODY
-
-          if [ -n "$pr_number" ]; then
-            gh pr edit "$pr_number" \
-              --repo "$GITHUB_REPOSITORY" \
-              --title "Refresh Clododex intel" \
-              --body-file "$body_file"
-            gh pr comment "$pr_number" \
-              --repo "$GITHUB_REPOSITORY" \
-              --body "Fresh intel snapshot updated by scheduled automation for run $GITHUB_RUN_ID."
-          else
-            gh pr create \
-              --repo "$GITHUB_REPOSITORY" \
-              --base "$BASE_BRANCH" \
-              --head "$REFRESH_BRANCH" \
-              --title "Refresh Clododex intel" \
-              --body-file "$body_file"
-          fi
