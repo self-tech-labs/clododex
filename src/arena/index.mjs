@@ -2,6 +2,7 @@ export * from "./core.mjs";
 export * from "./dashboard.mjs";
 export * from "./evidence.mjs";
 export * from "./files.mjs";
+export * from "./freshness.mjs";
 export * from "./metrics.mjs";
 export * from "./registry.mjs";
 export * from "./signals.mjs";

@@ -43,6 +43,17 @@ function ScoreWhy({ left, right }) {
   );
 }
 
+function MetricHelp({ label, text }) {
+  return (
+    <span className="metric-help">
+      <button type="button" className="metric-help-trigger" aria-label={`${label} explanation`}>
+        ?
+      </button>
+      <span className="metric-help-card" role="tooltip">{text}</span>
+    </span>
+  );
+}
+
 export function ArcadeBar({ round, credits, highScore }) {
   const [timeText, setTimeText] = React.useState("--:--:--");
   React.useEffect(() => {
@@ -150,16 +161,55 @@ export function PowerStats({ power }) {
   const trends = power.trends || {};
   const rationale = power.rationale || {};
   const items = [
-    { key: "momentum", label: "MOMENTUM Δ 7D", v1: power.c1.momentum, v2: power.c2.momentum, unit: "", trendC1: trends.c1?.momentum || "+0", trendC2: trends.c2?.momentum || "+0" },
-    { key: "mindshare", label: "MINDSHARE %",   v1: power.c1.mindshare, v2: power.c2.mindshare, unit: "%", trendC1: trends.c1?.mindshare || "+0", trendC2: trends.c2?.mindshare || "+0" },
-    { key: "enterprise", label: "ENT WINS QTD",  v1: power.c1.enterprise, v2: power.c2.enterprise, unit: "", trendC1: trends.c1?.enterprise || "+0", trendC2: trends.c2?.enterprise || "+0" },
-    { key: "ship", label: "SHIPS / MO",    v1: power.c1.ship, v2: power.c2.ship, unit: "", trendC1: trends.c1?.ship || "+0", trendC2: trends.c2?.ship || "+0" },
+    {
+      key: "momentum",
+      label: "MOMENTUM Δ 7D",
+      help: "Rolling signal pressure from visible intel, fresh X activity, and engagement-weighted posts.",
+      v1: power.c1.momentum,
+      v2: power.c2.momentum,
+      unit: "",
+      trendC1: trends.c1?.momentum || "+0",
+      trendC2: trends.c2?.momentum || "+0"
+    },
+    {
+      key: "mindshare",
+      label: "MINDSHARE %",
+      help: "Relative attention index from public signal volume and engagement; it is not market share.",
+      v1: power.c1.mindshare,
+      v2: power.c2.mindshare,
+      unit: "%",
+      trendC1: trends.c1?.mindshare || "+0",
+      trendC2: trends.c2?.mindshare || "+0"
+    },
+    {
+      key: "enterprise",
+      label: "ENT WINS QTD",
+      help: "Quarter-to-date enterprise proof points inferred from sourced customer, deployment, and partner signals.",
+      v1: power.c1.enterprise,
+      v2: power.c2.enterprise,
+      unit: "",
+      trendC1: trends.c1?.enterprise || "+0",
+      trendC2: trends.c2?.enterprise || "+0"
+    },
+    {
+      key: "ship",
+      label: "SHIPS / MO",
+      help: "Monthly shipping tempo from product, release, developer-tooling, and launch signals.",
+      v1: power.c1.ship,
+      v2: power.c2.ship,
+      unit: "",
+      trendC1: trends.c1?.ship || "+0",
+      trendC2: trends.c2?.ship || "+0"
+    },
   ];
   return (
     <div className="power-stats">
       {items.map((it, i) => (
         <div className="pstat" key={i}>
-          <div className="pstat-label">{it.label}</div>
+          <div className="pstat-label">
+            <span>{it.label}</span>
+            <MetricHelp label={it.label} text={it.help} />
+          </div>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: 8 }}>
             <div>
               <span className="pstat-value c1">{it.v1}{it.unit}</span>
@@ -179,17 +229,31 @@ export function PowerStats({ power }) {
 }
 
 export function StatusBar({ status, meta }) {
+  const [now, setNow] = React.useState(null);
   const snapshotStatus = status || {};
   const generatedAt = meta?.generatedAt ? new Date(meta.generatedAt) : null;
   const generatedStamp = generatedAt && !Number.isNaN(generatedAt.getTime())
     ? generatedAt.toISOString().slice(11, 16) + " UTC"
     : "SEED";
+  React.useEffect(() => {
+    const tick = () => setNow(Date.now());
+    const first = setTimeout(tick, 0);
+    const id = setInterval(tick, 60 * 1000);
+    return () => {
+      clearTimeout(first);
+      clearInterval(id);
+    };
+  }, []);
+  const stale = generatedAt && !Number.isNaN(generatedAt.getTime())
+    ? now && now - generatedAt.getTime() > 36 * 60 * 60 * 1000
+    : false;
+  const streamDegraded = snapshotStatus.streamOk === false || (snapshotStatus.xPostsToday || 0) < 1 || stale;
 
   return (
     <div className="status-bar">
       <div className="grp">
-        <span className={snapshotStatus.streamOk === false ? "bad" : "ok"}>
-          {snapshotStatus.streamOk === false ? "● STREAM DEGRADED" : "● STREAM OK"}
+        <span className={streamDegraded ? "bad" : "ok"}>
+          {streamDegraded ? "● STREAM DEGRADED" : "● STREAM OK"}
         </span>
         <span className="stream">X / API · {snapshotStatus.xPostsToday || 0} posts</span>
         <span>WATCHLIST · {snapshotStatus.xAccounts || 0} accounts</span>
