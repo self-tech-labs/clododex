@@ -51,6 +51,8 @@ const isCreditError = (message) => /CreditsDepleted|402 Payment Required|problem
 
 const isPermissionError = (message) => /disabled|permission|403|api key/i.test(message);
 
+const isTransientXStatus = (status) => status === 429 || status >= 500;
+
 const sanitizeError = (message) =>
   asString(message)
     .replace(/xai-[^"'\s]+/g, "xai-...redacted")
@@ -77,20 +79,35 @@ const monitoredHandles = () => {
   return unique.slice(0, asNumber(config.x?.maxAccountsPerRun, 60));
 };
 
-const xApiGet = async (urlPath, token) => {
-  const url = new URL(urlPath, "https://api.x.com");
-  const response = await fetch(url, {
-    headers: {
-      Authorization: `Bearer ${token}`
-    }
-  });
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
-  if (!response.ok) {
+const xApiGet = async (urlPath, token, options = {}) => {
+  const url = new URL(urlPath, "https://api.x.com");
+  const maxAttempts = Math.max(1, asNumber(options.maxAttempts, 3));
+  let lastError;
+
+  for (let attempt = 1; attempt <= maxAttempts; attempt += 1) {
+    const response = await fetch(url, {
+      headers: {
+        Authorization: `Bearer ${token}`
+      }
+    });
+
+    if (response.ok) {
+      return response.json();
+    }
+
     const body = await response.text();
-    throw new Error(`X API ${response.status} ${response.statusText}: ${body.slice(0, 300)}`);
+    lastError = new Error(`X API ${response.status} ${response.statusText}: ${body.slice(0, 300)}`);
+    if (!isTransientXStatus(response.status) || attempt === maxAttempts) {
+      throw lastError;
+    }
+
+    const retryAfter = Number(response.headers.get("retry-after"));
+    await sleep(Number.isFinite(retryAfter) ? retryAfter * 1000 : 1000 * attempt);
   }
 
-  return response.json();
+  throw lastError;
 };
 
 const fetchUsersByHandle = async (handles, token) => {
@@ -126,7 +143,8 @@ const fetchAccountPosts = async (token, errors) => {
       errors.push("Skipping X account timeline fetch because the X API account has no remaining credits.");
       return [];
     }
-    throw error;
+    errors.push("Skipping X account timeline fetch; continuing with list fetch and xAI analysis.");
+    return [];
   }
   const posts = [];
   const maxResults = Math.min(Math.max(asNumber(config.x?.postsPerAccount, 10), 5), 100);

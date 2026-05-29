@@ -220,7 +220,8 @@ export const createResendNewsletterMailer = (env = process.env) => {
         created = await resend.contacts.create({
           email,
           unsubscribed: false,
-          properties
+          properties,
+          segments: [segmentId]
         });
       } catch (error) {
         if (!hasDuplicateContactError(error)) {
@@ -249,20 +250,22 @@ export const createResendNewsletterMailer = (env = process.env) => {
         contactId = asString(created?.data?.id);
       }
 
-      let segmented;
-      try {
-        segmented = await resend.contacts.segments.add({
-          email,
-          segmentId
-        });
-      } catch (error) {
-        if (!hasDuplicateContactError(error)) {
-          throw toResendFailure(error, "segment add");
+      if (created?.error) {
+        let segmented;
+        try {
+          segmented = await resend.contacts.segments.add({
+            email,
+            segmentId
+          });
+        } catch (error) {
+          if (!hasDuplicateContactError(error)) {
+            throw toResendFailure(error, "segment add");
+          }
+          segmented = { error };
         }
-        segmented = { error };
-      }
-      if (segmented?.error && !hasDuplicateContactError(segmented.error)) {
-        throwIfResendError(segmented, "segment add");
+        if (segmented?.error && !hasDuplicateContactError(segmented.error)) {
+          throwIfResendError(segmented, "segment add");
+        }
       }
 
       return { contactId };
@@ -300,12 +303,13 @@ export const subscribeToNewsletter = async (input, dependencies = {}) => {
 
   const source = sanitizeNewsletterSource(input?.source);
   const store = dependencies.store ?? createNeonNewsletterStore(dependencies.env);
-  const mailer = dependencies.mailer ?? createResendNewsletterMailer(dependencies.env);
+  const logger = dependencies.logger ?? console;
   const existing = await store.get(email);
   const status = existing?.status === "subscribed" ? "already_subscribed" : "subscribed";
   const subscriber = await store.upsert({ email, source });
 
   try {
+    const mailer = dependencies.mailer ?? createResendNewsletterMailer(dependencies.env);
     const synced = await mailer.syncContact({ email, source });
     await store.markResendSynced(email, synced.contactId);
 
@@ -315,9 +319,7 @@ export const subscribeToNewsletter = async (input, dependencies = {}) => {
     }
   } catch (error) {
     await store.markError(email, error);
-    throw error instanceof NewsletterUnavailableError
-      ? error
-      : new NewsletterUnavailableError(error instanceof Error ? error.message : String(error));
+    logger.error?.("Newsletter Resend sync failed", error);
   }
 
   return { ok: true, status, email };
