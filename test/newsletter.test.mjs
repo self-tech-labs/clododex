@@ -51,7 +51,8 @@ const createFakeDependencies = () => {
       async sendWelcome() {
         calls.welcome += 1;
       }
-    }
+    },
+    logger: { error() {} }
   };
 };
 
@@ -82,6 +83,19 @@ test("newsletter subscription is idempotent and sends one welcome email", async 
   assert.equal(deps.calls.sync, 2);
   assert.equal(deps.calls.welcome, 1);
   assert.equal(deps.records.get("reader@example.com").resendContactId, "contact_123");
+});
+
+test("newsletter still succeeds when Resend sync fails after persistence", async () => {
+  const deps = createFakeDependencies();
+  deps.mailer.syncContact = async () => {
+    throw new Error("Resend temporary failure");
+  };
+
+  const result = await subscribeToNewsletter({ email: "reader@example.com" }, deps);
+
+  assert.equal(result.status, "subscribed");
+  assert.equal(deps.calls.errors, 1);
+  assert.equal(deps.records.get("reader@example.com").status, "subscribed");
 });
 
 test("newsletter rejects invalid email addresses", async () => {
