@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-05-30T07:25:52.888Z",
+    "generatedAt": "2026-05-30T18:46:06.075Z",
     "configVersion": 1,
     "backfillVersion": 1,
     "dataMode": "live-x-plus-backfill",
@@ -323,7 +323,7 @@
       ],
       "lore": "Claude Code lead and high-signal product voice. Useful for spotting workflow changes before they become official copy.",
       "threatScore": 92,
-      "lastActivity": "15h",
+      "lastActivity": "1d",
       "dossier": {
         "lastReviewedAt": "2026-05-19",
         "tagline": "Claude Code signal source for developer workflow changes.",
@@ -396,7 +396,7 @@
       ],
       "lore": "Claude Code PM. Watch for product framing, launch sequencing, and user-workflow clues.",
       "threatScore": 87,
-      "lastActivity": "1d",
+      "lastActivity": "2d",
       "dossier": {
         "lastReviewedAt": "2026-05-19",
         "tagline": "Roadmap scout for Claude Code product framing.",
@@ -543,7 +543,7 @@
       ],
       "lore": "OpenAI president and co-founder. A technical and launch-adjacent signal source for platform shifts.",
       "threatScore": 90,
-      "lastActivity": "48m",
+      "lastActivity": "11h",
       "dossier": {
         "lastReviewedAt": "2026-05-19",
         "tagline": "Launch-adjacent technical pressure source.",
@@ -614,7 +614,7 @@
       ],
       "lore": "CEO of Applications at OpenAI. Important for how Codex and ChatGPT turn research into product and business workflows.",
       "threatScore": 88,
-      "lastActivity": "8d",
+      "lastActivity": "9d",
       "dossier": {
         "lastReviewedAt": "2026-05-19",
         "tagline": "Applications-side scale operator for OpenAI products.",
@@ -687,7 +687,7 @@
       ],
       "lore": "OpenAI chief scientist. Rare posts matter because research direction changes the Codex capability curve.",
       "threatScore": 89,
-      "lastActivity": "104d",
+      "lastActivity": "105d",
       "dossier": {
         "lastReviewedAt": "2026-05-19",
         "tagline": "Research direction pressure behind the Codex curve.",
@@ -759,7 +759,7 @@
       ],
       "lore": "Codex builder at OpenAI. High-signal account for practical product direction and developer workflow changes.",
       "threatScore": 92,
-      "lastActivity": "3h",
+      "lastActivity": "4h",
       "dossier": {
         "lastReviewedAt": "2026-05-19",
         "tagline": "Practical Codex workflow builder.",
@@ -832,7 +832,7 @@
       ],
       "lore": "Head of Developer Experience at OpenAI, working on Codex and the API. Useful for developer-platform positioning.",
       "threatScore": 86,
-      "lastActivity": "2h",
+      "lastActivity": "49m",
       "dossier": {
         "lastReviewedAt": "2026-05-19",
         "tagline": "Developer-experience amplifier for OpenAI's platform surface.",
@@ -905,7 +905,7 @@
       ],
       "lore": "Developer Experience Engineer on the Codex team at OpenAI. Creator of Instructor, a Python library for structured LLM outputs.",
       "threatScore": 90,
-      "lastActivity": "3h",
+      "lastActivity": "14m",
       "dossier": {
         "lastReviewedAt": "2026-05-19",
         "tagline": "Structured-output specialist bringing schema discipline to Codex.",
@@ -996,7 +996,7 @@
       ],
       "lore": "Creator of OpenClaw, the viral AI personal assistant. TechCrunch reported he joined OpenAI to work on next-generation personal agents.",
       "threatScore": 93,
-      "lastActivity": "12h",
+      "lastActivity": "2m",
       "dossier": {
         "lastReviewedAt": "2026-05-19",
         "tagline": "Viral agent hacker turned OpenAI personal-agents builder.",
@@ -1069,152 +1069,165 @@
   "tweets": [
     {
       "side": "c2",
-      "author": "Greg Brockman",
-      "handle": "@gdb",
-      "stamp": "48m",
-      "text": "AI for accelerating research, by expanding what mathematicians and scientists dare attempt: https://t.co/8XUKsAkUD5",
-      "insight": "Watchlist signal from @gdb. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
+      "author": "jason",
+      "handle": "@jxnlco",
+      "stamp": "14m",
+      "text": "Trying to maximize spend or actually getting your work done?",
+      "insight": "OpenAI employee questions value of benchmarks where GPT-5.5 beats Opus 4.8.",
       "tags": [
         {
-          "l": "RESEARCH",
-          "t": "info"
-        }
-      ],
-      "type": "fact",
-      "confidence": 0.7679836860740519,
-      "evidenceUrls": [
-        "https://x.com/gdb/status/2060611636767998241"
-      ],
-      "impact": "Role context: President and co-founder"
-    },
-    {
-      "side": "c2",
-      "author": "Greg Brockman",
-      "handle": "@gdb",
-      "stamp": "3h",
-      "text": "it’s great to build with codex https://t.co/PwVdq0WthJ",
-      "insight": "Watchlist signal from @gdb. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
-      "tags": [
-        {
-          "l": "DEVTOOLS",
-          "t": "move"
-        }
-      ],
-      "type": "fact",
-      "confidence": 0.768,
-      "evidenceUrls": [
-        "https://x.com/gdb/status/2060581381093388430"
-      ],
-      "impact": "Role context: President and co-founder"
-    },
-    {
-      "side": "c2",
-      "author": "Andrew Ambrosino",
-      "handle": "@ajambrosino",
-      "stamp": "4h",
-      "text": "two giant shoulders we’re standing on today: - Codex Profiles use the same username space that the Sora app used. The legend lives on - Today’s app release includes a ton of tech built for Atlas that will be huge",
-      "insight": "Watchlist signal from @ajambrosino. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
-      "tags": [
-        {
-          "l": "DEVTOOLS",
-          "t": "move"
+          "l": "benchmarks",
+          "t": "warn"
         },
         {
-          "l": "PRODUCT",
+          "l": "OpenAI",
           "t": "info"
         }
       ],
       "type": "fact",
-      "confidence": 0.756,
+      "confidence": 0.9,
       "evidenceUrls": [
-        "https://x.com/ajambrosino/status/2060569417466237224"
+        "https://x.com/jxnlco/status/2060791358298968366"
       ],
-      "impact": "Role context: Codex App"
+      "rationale": "",
+      "impact": "Highlights internal focus on real utility over benchmark chasing."
     },
     {
       "side": "c2",
-      "author": "Tibo",
-      "handle": "@thsottiaux",
-      "stamp": "4h",
-      "text": "Codex dashboard number made me happy; more news soon.",
-      "insight": "Teases upcoming Codex usage or performance milestone.",
+      "author": "jason",
+      "handle": "@jxnlco",
+      "stamp": "14m",
+      "text": "Trying to maximize spend or actually getting your work done? https://t.co/zWAjlXDSxZ",
+      "insight": "Watchlist signal from @jxnlco. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
       "tags": [
         {
-          "l": "Codex",
+          "l": "SIGNAL",
+          "t": "info"
+        }
+      ],
+      "type": "fact",
+      "confidence": 0.7115681882079494,
+      "evidenceUrls": [
+        "https://x.com/jxnlco/status/2060791358298968366"
+      ],
+      "impact": "Role context: Developer Experience, Codex"
+    },
+    {
+      "side": "c2",
+      "author": "OpenAI Developers",
+      "handle": "@openaidevs",
+      "stamp": "2h",
+      "text": "🤳 Agentic OS for a Phone A voice-first mobile OS. Users talk, agents answer, and they can take action across the phone. https://t.co/cslNNbo31l https://t.co/eOS7K49o0x",
+      "insight": "Official signal from @openaidevs. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
+      "tags": [
+        {
+          "l": "SIGNAL",
+          "t": "info"
+        }
+      ],
+      "type": "fact",
+      "confidence": 0.9409485002168009,
+      "evidenceUrls": [
+        "https://x.com/OpenAIDevs/status/2060768896580452841"
+      ],
+      "impact": "Official channel update"
+    },
+    {
+      "side": "c2",
+      "author": "OpenAI Developers",
+      "handle": "@openaidevs",
+      "stamp": "2h",
+      "text": "🗣️ Wagner A multi-agent virtual meeting room for infrastructure planning. Teams can talk through plans with agents in the room. https://t.co/jv1KfOK4HO https://t.co/jCRfrRABSK",
+      "insight": "Official signal from @openaidevs. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
+      "tags": [
+        {
+          "l": "FUNDING",
           "t": "hot"
         },
         {
-          "l": "teaser",
+          "l": "TALENT",
+          "t": "warn"
+        }
+      ],
+      "type": "fact",
+      "confidence": 0.9275681882079494,
+      "evidenceUrls": [
+        "https://x.com/OpenAIDevs/status/2060768795254550966"
+      ],
+      "impact": "Official channel update"
+    },
+    {
+      "side": "c2",
+      "author": "OpenAI Developers",
+      "handle": "@openaidevs",
+      "stamp": "2h",
+      "text": "🐻 Curo A one-on-one AI tutor that helps students talk through concepts step by step, with voice as the interface. https://t.co/HeF539Drvr https://t.co/RVbLTDD9de",
+      "insight": "Official signal from @openaidevs. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
+      "tags": [
+        {
+          "l": "SIGNAL",
+          "t": "info"
+        }
+      ],
+      "type": "fact",
+      "confidence": 0.9548861802644424,
+      "evidenceUrls": [
+        "https://x.com/OpenAIDevs/status/2060768692653392065"
+      ],
+      "impact": "Official channel update"
+    },
+    {
+      "side": "c2",
+      "author": "OpenAI Developers",
+      "handle": "@openaidevs",
+      "stamp": "2h",
+      "text": "@cerebral_valley 🩺 Surgical Triage A voice-first workflow for triage: transfer requests, patient details, images, and next steps in one place. https://t.co/OVqQ5kI9rI https://t.co/q6j8tZAVwq",
+      "insight": "Official signal from @openaidevs. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
+      "tags": [
+        {
+          "l": "SIGNAL",
+          "t": "info"
+        }
+      ],
+      "type": "fact",
+      "confidence": 0.9534695003322456,
+      "evidenceUrls": [
+        "https://x.com/OpenAIDevs/status/2060768589926502638"
+      ],
+      "impact": "Official channel update"
+    },
+    {
+      "side": "c2",
+      "author": "OpenAI Developers",
+      "handle": "@OpenAIDevs",
+      "stamp": "2h",
+      "text": "Our Voice Hack Night finalists are here. 4 projects. 6 hours. Realtime voice agents in real-world builds.",
+      "insight": "Rapid prototyping of voice-first agents highlights developer momentum",
+      "tags": [
+        {
+          "l": "VOICE",
+          "t": "hot"
+        },
+        {
+          "l": "DEV",
           "t": "info"
         }
       ],
       "type": "fact",
       "confidence": 0.96,
       "evidenceUrls": [
-        "https://x.com/thsottiaux/status/2060565265906290786"
+        "https://x.com/OpenAIDevs/status/2060768476386689253"
       ],
       "rationale": "",
-      "impact": "Builds anticipation and signals strong internal momentum."
+      "impact": "tactical: surfaces early product ideas and talent for platform"
     },
     {
       "side": "c2",
-      "author": "Tibo",
-      "handle": "@thsottiaux",
-      "stamp": "4h",
-      "text": "I looked at a number today on a codex dashboard and it made me happy. More news about the number soon. 👀 Thanks to everyone who keeps adopting codex. We are still early. So early.",
-      "insight": "Watchlist signal from @thsottiaux. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
-      "tags": [
-        {
-          "l": "DEVTOOLS",
-          "t": "move"
-        },
-        {
-          "l": "PRODUCT",
-          "t": "info"
-        },
-        {
-          "l": "RESEARCH",
-          "t": "info"
-        }
-      ],
-      "type": "fact",
-      "confidence": 0.764,
-      "evidenceUrls": [
-        "https://x.com/thsottiaux/status/2060565265906290786"
-      ],
-      "impact": "Role context: Codex"
-    },
-    {
-      "side": "c2",
-      "author": "Tibo",
-      "handle": "@thsottiaux",
-      "stamp": "4h",
-      "text": "Do you still trust benchmarks or do you just listen to your friends? What makes you try a new model?",
-      "insight": "Watchlist signal from @thsottiaux. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
-      "tags": [
-        {
-          "l": "SECURITY",
-          "t": "warn"
-        },
-        {
-          "l": "RESEARCH",
-          "t": "info"
-        }
-      ],
-      "type": "fact",
-      "confidence": 0.764,
-      "evidenceUrls": [
-        "https://x.com/thsottiaux/status/2060563528596287874"
-      ],
-      "impact": "Role context: Codex"
-    },
-    {
-      "side": "c2",
-      "author": "Tibo",
-      "handle": "@thsottiaux",
-      "stamp": "6h",
-      "text": "The world is more fun with codex glasses https://t.co/HYgxSCdaks",
-      "insight": "Watchlist signal from @thsottiaux. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
+      "author": "OpenAI Developers",
+      "handle": "@openaidevs",
+      "stamp": "2h",
+      "text": "🧵 Our Voice Hack Night finalists are here. 4 projects. 6 hours. Realtime voice agents in real-world builds. Now it’s your turn to vote for your favorite. We’ll announce the winner on Monday. https://t.co/tLllqhl9Tj https://t.co/2VlOsfdPcm",
+      "insight": "Official signal from @openaidevs. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
       "tags": [
         {
           "l": "DEVTOOLS",
@@ -1226,18 +1239,38 @@
         }
       ],
       "type": "fact",
-      "confidence": 0.764,
+      "confidence": 0.96,
       "evidenceUrls": [
-        "https://x.com/thsottiaux/status/2060529970523603099"
+        "https://x.com/OpenAIDevs/status/2060768476386689253"
       ],
-      "impact": "Role context: Codex"
+      "impact": "Official channel update"
+    },
+    {
+      "side": "c2",
+      "author": "jason",
+      "handle": "@jxnlco",
+      "stamp": "2h",
+      "text": "Has anyone met me in real life https://t.co/XCr23lsH9L",
+      "insight": "Watchlist signal from @jxnlco. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
+      "tags": [
+        {
+          "l": "SIGNAL",
+          "t": "info"
+        }
+      ],
+      "type": "fact",
+      "confidence": 0.7348813545645221,
+      "evidenceUrls": [
+        "https://x.com/jxnlco/status/2060757605220504021"
+      ],
+      "impact": "Role context: Developer Experience, Codex"
     },
     {
       "side": "c2",
       "author": "Andrew Ambrosino",
       "handle": "@ajambrosino",
-      "stamp": "8h",
-      "text": "should we also mark the @thsottiaux resets on the calendar view https://t.co/uas42hGD77",
+      "stamp": "3h",
+      "text": "when was the last time you wrote regex from memory?",
       "insight": "Watchlist signal from @ajambrosino. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
       "tags": [
         {
@@ -1248,18 +1281,17 @@
       "type": "fact",
       "confidence": 0.756,
       "evidenceUrls": [
-        "https://x.com/ajambrosino/status/2060505277309608087",
-        "https://twitter.com/ajambrosino/status/2060492483247952160"
+        "https://x.com/ajambrosino/status/2060749299949134033"
       ],
       "impact": "Role context: Codex App"
     },
     {
       "side": "c2",
-      "author": "jason",
-      "handle": "@jxnlco",
-      "stamp": "8h",
-      "text": "Bigger read is I’ve worked every single day I’ve been at this company.",
-      "insight": "Watchlist signal from @jxnlco. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
+      "author": "Peter Steinberger 🦞",
+      "handle": "@steipete",
+      "stamp": "7h",
+      "text": "Autoreview: https://t.co/zbUjIS2e1i crabbox: https://t.co/SEj2XRpaD1",
+      "insight": "Watchlist signal from @steipete. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
       "tags": [
         {
           "l": "SIGNAL",
@@ -1267,19 +1299,21 @@
         }
       ],
       "type": "fact",
-      "confidence": 0.7107486673985409,
+      "confidence": 0.7489488473646585,
       "evidenceUrls": [
-        "https://x.com/jxnlco/status/2060504239319957908"
+        "https://x.com/steipete/status/2060691552486175041",
+        "https://github.com/openclaw/agent-skills/blob/main/skills/autoreview/SKILL.md",
+        "http://crabbox.sh"
       ],
-      "impact": "Role context: Developer Experience, Codex"
+      "impact": "Role context: Personal agents and OpenClaw"
     },
     {
       "side": "c2",
-      "author": "Tibo",
-      "handle": "@thsottiaux",
+      "author": "Peter Steinberger 🦞",
+      "handle": "@steipete",
       "stamp": "8h",
-      "text": "Nobody knows Codex better than itself https://t.co/lHyqMyqGHF",
-      "insight": "Watchlist signal from @thsottiaux. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
+      "text": "With GPT 5.5, /goal, autoreview and crabbox my prompts moved from ~30-60min to often 4-10h tasks and my confidence that it’s ready is much much higher. Yielding agents is a skill.",
+      "insight": "Watchlist signal from @steipete. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
       "tags": [
         {
           "l": "DEVTOOLS",
@@ -1287,56 +1321,11 @@
         }
       ],
       "type": "fact",
-      "confidence": 0.764,
+      "confidence": 0.76,
       "evidenceUrls": [
-        "https://x.com/thsottiaux/status/2060504172873793709"
+        "https://x.com/steipete/status/2060678430031597696"
       ],
-      "impact": "Role context: Codex"
-    },
-    {
-      "side": "c2",
-      "author": "jason",
-      "handle": "@jxnlco",
-      "stamp": "8h",
-      "text": "10h 45m was codex picking the 5.5 party guests codex &gt; settings &gt; profile https://t.co/1jS18DxSO0",
-      "insight": "Watchlist signal from @jxnlco. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
-      "tags": [
-        {
-          "l": "DEVTOOLS",
-          "t": "move"
-        }
-      ],
-      "type": "fact",
-      "confidence": 0.7586456001485054,
-      "evidenceUrls": [
-        "https://x.com/jxnlco/status/2060499639032545618"
-      ],
-      "impact": "Role context: Developer Experience, Codex"
-    },
-    {
-      "side": "c2",
-      "author": "Andrew Ambrosino",
-      "handle": "@ajambrosino",
-      "stamp": "9h",
-      "text": "and more!: - new subagent identicons - search previous chat content, not just titles - codex can now better control the app itself https://t.co/q3KEl80ChZ",
-      "insight": "Watchlist signal from @ajambrosino. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
-      "tags": [
-        {
-          "l": "DEVTOOLS",
-          "t": "move"
-        },
-        {
-          "l": "PRODUCT",
-          "t": "info"
-        }
-      ],
-      "type": "fact",
-      "confidence": 0.756,
-      "evidenceUrls": [
-        "https://x.com/ajambrosino/status/2060486346796576898",
-        "https://twitter.com/ajambrosino/status/2060433245158973706"
-      ],
-      "impact": "Role context: Codex App"
+      "impact": "Role context: Personal agents and OpenClaw"
     }
   ],
   "announcements": [
@@ -1408,14 +1397,14 @@
       "name": "LEGAL",
       "sub": "discovery, contracts",
       "c1": 84,
-      "c2": 65
+      "c2": 64
     },
     {
       "key": "FIN",
       "name": "FINANCE",
       "sub": "ib, pe, hedge",
       "c1": 89,
-      "c2": 92
+      "c2": 91
     },
     {
       "key": "MED",
@@ -1457,7 +1446,7 @@
       "name": "ENTERPRISE IT",
       "sub": "knowledge ops",
       "c1": 94,
-      "c2": 95
+      "c2": 94
     },
     {
       "key": "SCI",
@@ -1477,8 +1466,8 @@
     "c2": {
       "momentum": 100,
       "mindshare": 57,
-      "enterprise": 49,
-      "ship": 100
+      "enterprise": 48,
+      "ship": 99
     },
     "rationale": {},
     "trends": {
@@ -1491,23 +1480,808 @@
       "c2": {
         "momentum": "+7",
         "mindshare": "+5",
-        "enterprise": "+8",
-        "ship": "+77"
+        "enterprise": "+7",
+        "ship": "+76"
       }
     }
   },
   "status": {
     "streamOk": true,
-    "xPostsToday": 432,
+    "xPostsToday": 429,
     "xAccounts": 43,
     "xLists": 1,
     "newsSources": 11,
     "githubRepos": 0,
-    "archivedSignals": 460,
-    "visibleSignals": 260
+    "archivedSignals": 456,
+    "visibleSignals": 256
   },
   "archive": {
     "lowConfidence": [
+      {
+        "id": "post-2060794293200007471",
+        "side": "c2",
+        "contenderId": "codex",
+        "type": "fact",
+        "sourceTier": "person",
+        "confidence": 0.6638560627359832,
+        "author": "Peter Steinberger 🦞",
+        "handle": "@steipete",
+        "createdAt": "2026-05-30T18:43:41.000Z",
+        "stamp": "2m",
+        "text": "@_Sanderr I’m in engineering not biz dev",
+        "insight": "Watchlist signal from @steipete. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
+        "impact": "Role context: Personal agents and OpenClaw",
+        "tags": [
+          {
+            "l": "SIGNAL",
+            "t": "info"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/steipete/status/2060794293200007471"
+        ],
+        "sourcePostId": "2060794293200007471",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 1,
+          "quotes": 0,
+          "impressions": 8,
+          "bookmarks": 0
+        }
+      },
+      {
+        "id": "post-2060794199314702468",
+        "side": "c2",
+        "contenderId": "codex",
+        "type": "fact",
+        "sourceTier": "person",
+        "confidence": 0.6550514997831991,
+        "author": "Peter Steinberger 🦞",
+        "handle": "@steipete",
+        "createdAt": "2026-05-30T18:43:19.000Z",
+        "stamp": "3m",
+        "text": "@ohadmaor @QodoAI never heard of them",
+        "insight": "Watchlist signal from @steipete. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
+        "impact": "Role context: Personal agents and OpenClaw",
+        "tags": [
+          {
+            "l": "SIGNAL",
+            "t": "info"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/steipete/status/2060794199314702468"
+        ],
+        "sourcePostId": "2060794199314702468",
+        "metrics": {
+          "likes": 1,
+          "retweets": 0,
+          "replies": 0,
+          "quotes": 0,
+          "impressions": 13,
+          "bookmarks": 0
+        }
+      },
+      {
+        "id": "post-2060782495306584282",
+        "side": "c2",
+        "contenderId": "codex",
+        "type": "fact",
+        "sourceTier": "person",
+        "confidence": 0.6701029995663982,
+        "author": "Romain Huet",
+        "handle": "@romainhuet",
+        "createdAt": "2026-05-30T17:56:49.000Z",
+        "stamp": "49m",
+        "text": "@alxfazio @reach_vb Love to see the Codex community growing in Italy! 🇮🇹 @reach_vb is awesome indeed. I’ll float your GPT-VB suggestion 😉",
+        "insight": "Watchlist signal from @romainhuet. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
+        "impact": "Role context: Developer Experience",
+        "tags": [
+          {
+            "l": "DEVTOOLS",
+            "t": "move"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/romainhuet/status/2060782495306584282"
+        ],
+        "sourcePostId": "2060782495306584282",
+        "metrics": {
+          "likes": 3,
+          "retweets": 0,
+          "replies": 0,
+          "quotes": 0,
+          "impressions": 694,
+          "bookmarks": 0
+        }
+      },
+      {
+        "id": "post-2060774599256854945",
+        "side": "c2",
+        "contenderId": "codex",
+        "type": "fact",
+        "sourceTier": "person",
+        "confidence": 0.662948500216801,
+        "author": "Guinness Chen",
+        "handle": "@guinnesschen",
+        "createdAt": "2026-05-30T17:25:26.000Z",
+        "stamp": "1h",
+        "text": "@ah20im ❤️",
+        "insight": "Watchlist signal from @guinnesschen. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
+        "impact": "Role context: Codex",
+        "tags": [
+          {
+            "l": "SIGNAL",
+            "t": "info"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/guinnesschen/status/2060774599256854945"
+        ],
+        "sourcePostId": "2060774599256854945",
+        "metrics": {
+          "likes": 4,
+          "retweets": 0,
+          "replies": 0,
+          "quotes": 0,
+          "impressions": 282,
+          "bookmarks": 0
+        }
+      },
+      {
+        "id": "post-2060770404822843612",
+        "side": "c2",
+        "contenderId": "codex",
+        "type": "fact",
+        "sourceTier": "person",
+        "confidence": 0.6701029995663982,
+        "author": "jason",
+        "handle": "@jxnlco",
+        "createdAt": "2026-05-30T17:08:46.000Z",
+        "stamp": "2h",
+        "text": "@ajambrosino @guinnesschen @simpsoka Insane automation. Misaligned.",
+        "insight": "Watchlist signal from @jxnlco. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
+        "impact": "Role context: Developer Experience, Codex",
+        "tags": [
+          {
+            "l": "SIGNAL",
+            "t": "info"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/jxnlco/status/2060770404822843612"
+        ],
+        "sourcePostId": "2060770404822843612",
+        "metrics": {
+          "likes": 3,
+          "retweets": 0,
+          "replies": 0,
+          "quotes": 0,
+          "impressions": 267,
+          "bookmarks": 0
+        }
+      },
+      {
+        "id": "post-2060769677606003010",
+        "side": "c2",
+        "contenderId": "codex",
+        "type": "fact",
+        "sourceTier": "person",
+        "confidence": 0.6701029995663982,
+        "author": "jason",
+        "handle": "@jxnlco",
+        "createdAt": "2026-05-30T17:05:53.000Z",
+        "stamp": "2h",
+        "text": "@tiangolo @pydantic Sounds right",
+        "insight": "Watchlist signal from @jxnlco. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
+        "impact": "Role context: Developer Experience, Codex",
+        "tags": [
+          {
+            "l": "SIGNAL",
+            "t": "info"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/jxnlco/status/2060769677606003010"
+        ],
+        "sourcePostId": "2060769677606003010",
+        "metrics": {
+          "likes": 3,
+          "retweets": 0,
+          "replies": 0,
+          "quotes": 0,
+          "impressions": 301,
+          "bookmarks": 0
+        }
+      },
+      {
+        "id": "steipete-build",
+        "side": "c2",
+        "contenderId": "codex",
+        "type": "fact",
+        "sourceTier": "",
+        "confidence": 0.85,
+        "author": "Peter Steinberger",
+        "handle": "@steipete",
+        "createdAt": "2026-05-30T16:43:01Z",
+        "stamp": "2h",
+        "text": "I need to build. Too many distractions.",
+        "insight": "OpenAI-affiliated engineer prioritizes shipping over distractions.",
+        "rationale": "",
+        "impact": "Signals execution focus amid rapid AI tooling evolution.",
+        "tags": [
+          {
+            "l": "execution",
+            "t": "move"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/steipete/status/2060763924098642028"
+        ],
+        "metrics": {}
+      },
+      {
+        "id": "post-2060763924098642028",
+        "side": "c2",
+        "contenderId": "codex",
+        "type": "fact",
+        "sourceTier": "person",
+        "confidence": 0.698804562952784,
+        "author": "Peter Steinberger 🦞",
+        "handle": "@steipete",
+        "createdAt": "2026-05-30T16:43:01.000Z",
+        "stamp": "2h",
+        "text": "@mauricekleine @borvibe I need to build. Too many distractions.",
+        "insight": "Watchlist signal from @steipete. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
+        "impact": "Role context: Personal agents and OpenClaw",
+        "tags": [
+          {
+            "l": "SIGNAL",
+            "t": "info"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/steipete/status/2060763924098642028"
+        ],
+        "sourcePostId": "2060763924098642028",
+        "metrics": {
+          "likes": 4,
+          "retweets": 0,
+          "replies": 3,
+          "quotes": 1,
+          "impressions": 230,
+          "bookmarks": 0
+        }
+      },
+      {
+        "id": "post-2060763710142972146",
+        "side": "c2",
+        "contenderId": "codex",
+        "type": "fact",
+        "sourceTier": "person",
+        "confidence": 0.6638560627359832,
+        "author": "Peter Steinberger 🦞",
+        "handle": "@steipete",
+        "createdAt": "2026-05-30T16:42:10.000Z",
+        "stamp": "2h",
+        "text": "@ushaymamba no",
+        "insight": "Watchlist signal from @steipete. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
+        "impact": "Role context: Personal agents and OpenClaw",
+        "tags": [
+          {
+            "l": "SIGNAL",
+            "t": "info"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/steipete/status/2060763710142972146"
+        ],
+        "sourcePostId": "2060763710142972146",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 1,
+          "quotes": 0,
+          "impressions": 50,
+          "bookmarks": 0
+        }
+      },
+      {
+        "id": "post-2060763565116547104",
+        "side": "c2",
+        "contenderId": "codex",
+        "type": "fact",
+        "sourceTier": "person",
+        "confidence": 0.6638560627359832,
+        "author": "Peter Steinberger 🦞",
+        "handle": "@steipete",
+        "createdAt": "2026-05-30T16:41:35.000Z",
+        "stamp": "2h",
+        "text": "@adamweststack Yes, but can’t really share details.",
+        "insight": "Watchlist signal from @steipete. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
+        "impact": "Role context: Personal agents and OpenClaw",
+        "tags": [
+          {
+            "l": "SIGNAL",
+            "t": "info"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/steipete/status/2060763565116547104"
+        ],
+        "sourcePostId": "2060763565116547104",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 1,
+          "quotes": 0,
+          "impressions": 510,
+          "bookmarks": 0
+        }
+      },
+      {
+        "id": "post-2060763449555132644",
+        "side": "c2",
+        "contenderId": "codex",
+        "type": "fact",
+        "sourceTier": "person",
+        "confidence": 0.6550514997831991,
+        "author": "Peter Steinberger 🦞",
+        "handle": "@steipete",
+        "createdAt": "2026-05-30T16:41:08.000Z",
+        "stamp": "2h",
+        "text": "@TheInvestFox Yeah I tweaked it a bit to be better.",
+        "insight": "Watchlist signal from @steipete. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
+        "impact": "Role context: Personal agents and OpenClaw",
+        "tags": [
+          {
+            "l": "SIGNAL",
+            "t": "info"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/steipete/status/2060763449555132644"
+        ],
+        "sourcePostId": "2060763449555132644",
+        "metrics": {
+          "likes": 1,
+          "retweets": 0,
+          "replies": 0,
+          "quotes": 0,
+          "impressions": 72,
+          "bookmarks": 0
+        }
+      },
+      {
+        "id": "post-2060751844633415898",
+        "side": "c2",
+        "contenderId": "codex",
+        "type": "fact",
+        "sourceTier": "person",
+        "confidence": 0.6550514997831991,
+        "author": "jason",
+        "handle": "@jxnlco",
+        "createdAt": "2026-05-30T15:55:01.000Z",
+        "stamp": "3h",
+        "text": "@DuaneAdam @CuiMao @DarioAmodei 4 hours ago was still asleep",
+        "insight": "Watchlist signal from @jxnlco. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
+        "impact": "Role context: Developer Experience, Codex",
+        "tags": [
+          {
+            "l": "SIGNAL",
+            "t": "info"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/jxnlco/status/2060751844633415898"
+        ],
+        "sourcePostId": "2060751844633415898",
+        "metrics": {
+          "likes": 1,
+          "retweets": 0,
+          "replies": 0,
+          "quotes": 0,
+          "impressions": 31,
+          "bookmarks": 0
+        }
+      },
+      {
+        "id": "post-2060750992618963022",
+        "side": "c2",
+        "contenderId": "codex",
+        "type": "fact",
+        "sourceTier": "person",
+        "confidence": 0.674948500216801,
+        "author": "Peter Steinberger 🦞",
+        "handle": "@steipete",
+        "createdAt": "2026-05-30T15:51:38.000Z",
+        "stamp": "3h",
+        "text": "@budivoogt high",
+        "insight": "Watchlist signal from @steipete. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
+        "impact": "Role context: Personal agents and OpenClaw",
+        "tags": [
+          {
+            "l": "SIGNAL",
+            "t": "info"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/steipete/status/2060750992618963022"
+        ],
+        "sourcePostId": "2060750992618963022",
+        "metrics": {
+          "likes": 4,
+          "retweets": 0,
+          "replies": 0,
+          "quotes": 0,
+          "impressions": 215,
+          "bookmarks": 1
+        }
+      },
+      {
+        "id": "post-2060750907311108304",
+        "side": "c2",
+        "contenderId": "codex",
+        "type": "fact",
+        "sourceTier": "person",
+        "confidence": 0.6789075625191822,
+        "author": "Peter Steinberger 🦞",
+        "handle": "@steipete",
+        "createdAt": "2026-05-30T15:51:17.000Z",
+        "stamp": "3h",
+        "text": "@TheInvestFox It's the same",
+        "insight": "Watchlist signal from @steipete. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
+        "impact": "Role context: Personal agents and OpenClaw",
+        "tags": [
+          {
+            "l": "SIGNAL",
+            "t": "info"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/steipete/status/2060750907311108304"
+        ],
+        "sourcePostId": "2060750907311108304",
+        "metrics": {
+          "likes": 3,
+          "retweets": 0,
+          "replies": 1,
+          "quotes": 0,
+          "impressions": 371,
+          "bookmarks": 0
+        }
+      },
+      {
+        "id": "post-2060750802776461474",
+        "side": "c2",
+        "contenderId": "codex",
+        "type": "fact",
+        "sourceTier": "person",
+        "confidence": 0.6701029995663982,
+        "author": "Peter Steinberger 🦞",
+        "handle": "@steipete",
+        "createdAt": "2026-05-30T15:50:52.000Z",
+        "stamp": "3h",
+        "text": "@olvehe There is no difference.",
+        "insight": "Watchlist signal from @steipete. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
+        "impact": "Role context: Personal agents and OpenClaw",
+        "tags": [
+          {
+            "l": "SIGNAL",
+            "t": "info"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/steipete/status/2060750802776461474"
+        ],
+        "sourcePostId": "2060750802776461474",
+        "metrics": {
+          "likes": 1,
+          "retweets": 0,
+          "replies": 1,
+          "quotes": 0,
+          "impressions": 156,
+          "bookmarks": 1
+        }
+      },
+      {
+        "id": "post-2060750159051624889",
+        "side": "c2",
+        "contenderId": "codex",
+        "type": "fact",
+        "sourceTier": "person",
+        "confidence": 0.7058970004336019,
+        "author": "Andrew Ambrosino",
+        "handle": "@ajambrosino",
+        "createdAt": "2026-05-30T15:48:19.000Z",
+        "stamp": "3h",
+        "text": "@dayvough one of my favorite wallpapers",
+        "insight": "Watchlist signal from @ajambrosino. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
+        "impact": "Role context: Codex App",
+        "tags": [
+          {
+            "l": "SIGNAL",
+            "t": "info"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/ajambrosino/status/2060750159051624889"
+        ],
+        "sourcePostId": "2060750159051624889",
+        "metrics": {
+          "likes": 18,
+          "retweets": 0,
+          "replies": 3,
+          "quotes": 0,
+          "impressions": 1109,
+          "bookmarks": 0
+        }
+      },
+      {
+        "id": "post-2060744229375361125",
+        "side": "c2",
+        "contenderId": "codex",
+        "type": "fact",
+        "sourceTier": "person",
+        "confidence": 0.6999376800476415,
+        "author": "Andrew Ambrosino",
+        "handle": "@ajambrosino",
+        "createdAt": "2026-05-30T15:24:45.000Z",
+        "stamp": "3h",
+        "text": "@mweinbach “I’m a manager” or something",
+        "insight": "Watchlist signal from @ajambrosino. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
+        "impact": "Role context: Codex App",
+        "tags": [
+          {
+            "l": "SIGNAL",
+            "t": "info"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/ajambrosino/status/2060744229375361125"
+        ],
+        "sourcePostId": "2060744229375361125",
+        "metrics": {
+          "likes": 18,
+          "retweets": 0,
+          "replies": 0,
+          "quotes": 0,
+          "impressions": 450,
+          "bookmarks": 0
+        }
+      },
+      {
+        "id": "post-2060743850961035561",
+        "side": "c2",
+        "contenderId": "codex",
+        "type": "fact",
+        "sourceTier": "person",
+        "confidence": 0.6933064017839119,
+        "author": "Andrew Ambrosino",
+        "handle": "@ajambrosino",
+        "createdAt": "2026-05-30T15:23:15.000Z",
+        "stamp": "3h",
+        "text": "@theo next step- put them all in a virtual room and make them interact",
+        "insight": "Watchlist signal from @ajambrosino. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
+        "impact": "Role context: Codex App",
+        "tags": [
+          {
+            "l": "SIGNAL",
+            "t": "info"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/ajambrosino/status/2060743850961035561"
+        ],
+        "sourcePostId": "2060743850961035561",
+        "metrics": {
+          "likes": 13,
+          "retweets": 0,
+          "replies": 0,
+          "quotes": 0,
+          "impressions": 550,
+          "bookmarks": 0
+        }
+      },
+      {
+        "id": "post-2060741570308227518",
+        "side": "c2",
+        "contenderId": "codex",
+        "type": "fact",
+        "sourceTier": "person",
+        "confidence": 0.6996971676153418,
+        "author": "Tibo",
+        "handle": "@thsottiaux",
+        "createdAt": "2026-05-30T15:14:11.000Z",
+        "stamp": "4h",
+        "text": "@trifon_getsov @ajambrosino Picture I took yesterday https://t.co/2ZfulTejTM",
+        "insight": "Watchlist signal from @thsottiaux. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
+        "impact": "Role context: Codex",
+        "tags": [
+          {
+            "l": "SIGNAL",
+            "t": "info"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/thsottiaux/status/2060741570308227518"
+        ],
+        "sourcePostId": "2060741570308227518",
+        "metrics": {
+          "likes": 8,
+          "retweets": 0,
+          "replies": 2,
+          "quotes": 0,
+          "impressions": 493,
+          "bookmarks": 1
+        }
+      },
+      {
+        "id": "post-2060739590395429274",
+        "side": "c2",
+        "contenderId": "codex",
+        "type": "fact",
+        "sourceTier": "person",
+        "confidence": 0.6501029995663982,
+        "author": "Yufeng Zhang",
+        "handle": "@yuf_zh",
+        "createdAt": "2026-05-30T15:06:19.000Z",
+        "stamp": "4h",
+        "text": "@weijie444 Welcome to the team!",
+        "insight": "Watchlist signal from @yuf_zh. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
+        "impact": "Role context: Research",
+        "tags": [
+          {
+            "l": "TALENT",
+            "t": "warn"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/Yuf_Zh/status/2060739590395429274"
+        ],
+        "sourcePostId": "2060739590395429274",
+        "metrics": {
+          "likes": 1,
+          "retweets": 0,
+          "replies": 1,
+          "quotes": 0,
+          "impressions": 210,
+          "bookmarks": 0
+        }
+      },
+      {
+        "id": "post-2060736163149906295",
+        "side": "c2",
+        "contenderId": "codex",
+        "type": "fact",
+        "sourceTier": "person",
+        "confidence": 0.6749075625191822,
+        "author": "Andrew Ambrosino",
+        "handle": "@ajambrosino",
+        "createdAt": "2026-05-30T14:52:42.000Z",
+        "stamp": "4h",
+        "text": "@DevAdventur3s @OpenAIDevs excuse me",
+        "insight": "Watchlist signal from @ajambrosino. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
+        "impact": "Role context: Codex App",
+        "tags": [
+          {
+            "l": "SIGNAL",
+            "t": "info"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/ajambrosino/status/2060736163149906295"
+        ],
+        "sourcePostId": "2060736163149906295",
+        "metrics": {
+          "likes": 3,
+          "retweets": 0,
+          "replies": 1,
+          "quotes": 0,
+          "impressions": 68,
+          "bookmarks": 0
+        }
+      },
+      {
+        "id": "post-2060629252366881140",
+        "side": "c2",
+        "contenderId": "codex",
+        "type": "fact",
+        "sourceTier": "person",
+        "confidence": 0.7459520696160546,
+        "author": "Greg Brockman",
+        "handle": "@gdb",
+        "createdAt": "2026-05-30T07:47:53.000Z",
+        "stamp": "11h",
+        "text": "@weijie444 welcome to the team!",
+        "insight": "Watchlist signal from @gdb. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
+        "impact": "Role context: President and co-founder",
+        "tags": [
+          {
+            "l": "TALENT",
+            "t": "warn"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/gdb/status/2060629252366881140"
+        ],
+        "sourcePostId": "2060629252366881140",
+        "metrics": {
+          "likes": 81,
+          "retweets": 1,
+          "replies": 3,
+          "quotes": 0,
+          "impressions": 3933,
+          "bookmarks": 2
+        }
+      },
+      {
+        "id": "post-2060626383060222151",
+        "side": "c2",
+        "contenderId": "codex",
+        "type": "fact",
+        "sourceTier": "person",
+        "confidence": 0.764,
+        "author": "Tibo",
+        "handle": "@thsottiaux",
+        "createdAt": "2026-05-30T07:36:28.000Z",
+        "stamp": "11h",
+        "text": "@kimmonismus Microsoft Windows",
+        "insight": "Watchlist signal from @thsottiaux. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
+        "impact": "Role context: Codex",
+        "tags": [
+          {
+            "l": "SIGNAL",
+            "t": "info"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/thsottiaux/status/2060626383060222151"
+        ],
+        "sourcePostId": "2060626383060222151",
+        "metrics": {
+          "likes": 307,
+          "retweets": 3,
+          "replies": 26,
+          "quotes": 1,
+          "impressions": 15312,
+          "bookmarks": 4
+        }
+      },
+      {
+        "id": "post-2060624591773659386",
+        "side": "c2",
+        "contenderId": "codex",
+        "type": "fact",
+        "sourceTier": "person",
+        "confidence": 0.764,
+        "author": "Tibo",
+        "handle": "@thsottiaux",
+        "createdAt": "2026-05-30T07:29:21.000Z",
+        "stamp": "11h",
+        "text": "@mark_k One million reasons to use Codex",
+        "insight": "Watchlist signal from @thsottiaux. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
+        "impact": "Role context: Codex",
+        "tags": [
+          {
+            "l": "DEVTOOLS",
+            "t": "move"
+          }
+        ],
+        "evidenceUrls": [
+          "https://x.com/thsottiaux/status/2060624591773659386"
+        ],
+        "sourcePostId": "2060624591773659386",
+        "metrics": {
+          "likes": 439,
+          "retweets": 2,
+          "replies": 38,
+          "quotes": 0,
+          "impressions": 15537,
+          "bookmarks": 9
+        }
+      },
       {
         "id": "post-2060597470502015222",
         "side": "c2",
@@ -1518,7 +2292,7 @@
         "author": "Romain Huet",
         "handle": "@romainhuet",
         "createdAt": "2026-05-30T05:41:35.000Z",
-        "stamp": "2h",
+        "stamp": "13h",
         "text": "@itchy_est Don’t worry, we love our pets! They’re even featured on the brand new Codex profiles now!",
         "insight": "Watchlist signal from @romainhuet. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Developer Experience",
@@ -1541,41 +2315,8 @@
           "retweets": 0,
           "replies": 1,
           "quotes": 0,
-          "impressions": 31,
+          "impressions": 82,
           "bookmarks": 0
-        }
-      },
-      {
-        "id": "post-2060583487581945879",
-        "side": "c2",
-        "contenderId": "codex",
-        "type": "fact",
-        "sourceTier": "person",
-        "confidence": 0.6789075625191822,
-        "author": "jason",
-        "handle": "@jxnlco",
-        "createdAt": "2026-05-30T04:46:01.000Z",
-        "stamp": "3h",
-        "text": "@ajambrosino @guinnesschen @simpsoka yep, found Kath's too and audited the full 26.527 release. opened a follow-up for the missing public changelog items: https://t.co/le4215o1JK",
-        "insight": "Watchlist signal from @jxnlco. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
-        "impact": "Role context: Developer Experience, Codex",
-        "tags": [
-          {
-            "l": "PRODUCT",
-            "t": "info"
-          }
-        ],
-        "evidenceUrls": [
-          "https://x.com/jxnlco/status/2060583487581945879"
-        ],
-        "sourcePostId": "2060583487581945879",
-        "metrics": {
-          "likes": 3,
-          "retweets": 0,
-          "replies": 1,
-          "quotes": 0,
-          "impressions": 204,
-          "bookmarks": 1
         }
       },
       {
@@ -1584,11 +2325,11 @@
         "contenderId": "codex",
         "type": "fact",
         "sourceTier": "person",
-        "confidence": 0.7332664917505384,
+        "confidence": 0.746460901133509,
         "author": "Tibo",
         "handle": "@thsottiaux",
         "createdAt": "2026-05-30T04:42:08.000Z",
-        "stamp": "3h",
+        "stamp": "14h",
         "text": "@nicbstme Remarkable",
         "insight": "Watchlist signal from @thsottiaux. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Codex",
@@ -1603,12 +2344,12 @@
         ],
         "sourcePostId": "2060582509713486243",
         "metrics": {
-          "likes": 58,
+          "likes": 109,
           "retweets": 0,
           "replies": 1,
           "quotes": 0,
-          "impressions": 3215,
-          "bookmarks": 1
+          "impressions": 6582,
+          "bookmarks": 3
         }
       },
       {
@@ -1617,11 +2358,11 @@
         "contenderId": "codex",
         "type": "fact",
         "sourceTier": "person",
-        "confidence": 0.6880696342579112,
+        "confidence": 0.701051499783199,
         "author": "Andrew Ambrosino",
         "handle": "@ajambrosino",
         "createdAt": "2026-05-30T04:35:58.000Z",
-        "stamp": "3h",
+        "stamp": "14h",
         "text": "@JustinBleuel can I get ChatGPT on my iMac G3",
         "insight": "Watchlist signal from @ajambrosino. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Codex App",
@@ -1636,11 +2377,11 @@
         ],
         "sourcePostId": "2060580957846171927",
         "metrics": {
-          "likes": 8,
+          "likes": 17,
           "retweets": 0,
           "replies": 1,
           "quotes": 0,
-          "impressions": 1218,
+          "impressions": 2138,
           "bookmarks": 0
         }
       },
@@ -1654,7 +2395,7 @@
         "author": "Andrew Ambrosino",
         "handle": "@ajambrosino",
         "createdAt": "2026-05-30T04:35:12.000Z",
-        "stamp": "3h",
+        "stamp": "14h",
         "text": "@mhddngs @JustinBleuel yes",
         "insight": "Watchlist signal from @ajambrosino. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Codex App",
@@ -1673,7 +2414,7 @@
           "retweets": 0,
           "replies": 1,
           "quotes": 0,
-          "impressions": 40,
+          "impressions": 64,
           "bookmarks": 0
         }
       },
@@ -1683,11 +2424,11 @@
         "contenderId": "codex",
         "type": "fact",
         "sourceTier": "person",
-        "confidence": 0.6999376800476415,
+        "confidence": 0.7067486673985409,
         "author": "Andrew Ambrosino",
         "handle": "@ajambrosino",
         "createdAt": "2026-05-30T04:19:44.000Z",
-        "stamp": "3h",
+        "stamp": "14h",
         "text": "@trifon_getsov pretty sure codex didn’t get deprecated",
         "insight": "Watchlist signal from @ajambrosino. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Codex App",
@@ -1702,11 +2443,11 @@
         ],
         "sourcePostId": "2060576869553250366",
         "metrics": {
-          "likes": 12,
+          "likes": 19,
           "retweets": 0,
           "replies": 3,
           "quotes": 0,
-          "impressions": 732,
+          "impressions": 1399,
           "bookmarks": 0
         }
       },
@@ -1720,7 +2461,7 @@
         "author": "Andrew Ambrosino",
         "handle": "@ajambrosino",
         "createdAt": "2026-05-30T04:10:00.000Z",
-        "stamp": "3h",
+        "stamp": "15h",
         "text": "@DavidBalderston that looks close to the Feb 2 launch date",
         "insight": "Watchlist signal from @ajambrosino. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Codex App",
@@ -1739,7 +2480,7 @@
           "retweets": 0,
           "replies": 1,
           "quotes": 0,
-          "impressions": 85,
+          "impressions": 258,
           "bookmarks": 0
         }
       },
@@ -1749,11 +2490,11 @@
         "contenderId": "codex",
         "type": "fact",
         "sourceTier": "person",
-        "confidence": 0.6782549020007128,
+        "confidence": 0.6916971676153418,
         "author": "Andrew Ambrosino",
         "handle": "@ajambrosino",
         "createdAt": "2026-05-30T04:08:04.000Z",
-        "stamp": "3h",
+        "stamp": "15h",
         "text": "@signalxsoul we have a prototype",
         "insight": "Watchlist signal from @ajambrosino. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Codex App",
@@ -1768,44 +2509,11 @@
         ],
         "sourcePostId": "2060573936195346630",
         "metrics": {
-          "likes": 6,
+          "likes": 12,
           "retweets": 0,
           "replies": 0,
           "quotes": 0,
-          "impressions": 814,
-          "bookmarks": 0
-        }
-      },
-      {
-        "id": "post-2060573348481139005",
-        "side": "c2",
-        "contenderId": "codex",
-        "type": "fact",
-        "sourceTier": "person",
-        "confidence": 0.6916971676153418,
-        "author": "Andrew Ambrosino",
-        "handle": "@ajambrosino",
-        "createdAt": "2026-05-30T04:05:44.000Z",
-        "stamp": "3h",
-        "text": "@dasmersingh ask codex",
-        "insight": "Watchlist signal from @ajambrosino. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
-        "impact": "Role context: Codex App",
-        "tags": [
-          {
-            "l": "DEVTOOLS",
-            "t": "move"
-          }
-        ],
-        "evidenceUrls": [
-          "https://x.com/ajambrosino/status/2060573348481139005"
-        ],
-        "sourcePostId": "2060573348481139005",
-        "metrics": {
-          "likes": 10,
-          "retweets": 0,
-          "replies": 1,
-          "quotes": 0,
-          "impressions": 1115,
+          "impressions": 1456,
           "bookmarks": 0
         }
       },
@@ -1815,11 +2523,11 @@
         "contenderId": "codex",
         "type": "fact",
         "sourceTier": "person",
-        "confidence": 0.6550514997831991,
+        "confidence": 0.674948500216801,
         "author": "jason",
         "handle": "@jxnlco",
         "createdAt": "2026-05-30T04:04:08.000Z",
-        "stamp": "3h",
+        "stamp": "15h",
         "text": "@ajambrosino @guinnesschen @simpsoka appshotting this",
         "insight": "Watchlist signal from @jxnlco. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Developer Experience, Codex",
@@ -1834,44 +2542,11 @@
         ],
         "sourcePostId": "2060572947665097039",
         "metrics": {
-          "likes": 1,
+          "likes": 4,
           "retweets": 0,
           "replies": 0,
           "quotes": 0,
-          "impressions": 175,
-          "bookmarks": 0
-        }
-      },
-      {
-        "id": "post-2060572540205216042",
-        "side": "c2",
-        "contenderId": "codex",
-        "type": "fact",
-        "sourceTier": "person",
-        "confidence": 0.6661029995663982,
-        "author": "Andrew Ambrosino",
-        "handle": "@ajambrosino",
-        "createdAt": "2026-05-30T04:02:31.000Z",
-        "stamp": "3h",
-        "text": "@maddiedreese you could be mad reese",
-        "insight": "Watchlist signal from @ajambrosino. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
-        "impact": "Role context: Codex App",
-        "tags": [
-          {
-            "l": "SIGNAL",
-            "t": "info"
-          }
-        ],
-        "evidenceUrls": [
-          "https://x.com/ajambrosino/status/2060572540205216042"
-        ],
-        "sourcePostId": "2060572540205216042",
-        "metrics": {
-          "likes": 1,
-          "retweets": 0,
-          "replies": 1,
-          "quotes": 0,
-          "impressions": 178,
+          "impressions": 374,
           "bookmarks": 0
         }
       },
@@ -1881,11 +2556,11 @@
         "contenderId": "codex",
         "type": "fact",
         "sourceTier": "person",
-        "confidence": 0.6811544993495972,
+        "confidence": 0.6880696342579112,
         "author": "Andrew Ambrosino",
         "handle": "@ajambrosino",
         "createdAt": "2026-05-30T04:01:06.000Z",
-        "stamp": "3h",
+        "stamp": "15h",
         "text": "@jxnlco @guinnesschen what about @simpsoka’s subagent identicons",
         "insight": "Watchlist signal from @ajambrosino. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Codex App",
@@ -1900,11 +2575,11 @@
         ],
         "sourcePostId": "2060572180824674514",
         "metrics": {
-          "likes": 3,
+          "likes": 8,
           "retweets": 0,
-          "replies": 2,
+          "replies": 1,
           "quotes": 0,
-          "impressions": 339,
+          "impressions": 868,
           "bookmarks": 0
         }
       },
@@ -1914,11 +2589,11 @@
         "contenderId": "codex",
         "type": "fact",
         "sourceTier": "person",
-        "confidence": 0.6430514997831991,
+        "confidence": 0.6518560627359832,
         "author": "Guinness Chen",
         "handle": "@guinnesschen",
         "createdAt": "2026-05-30T03:59:34.000Z",
-        "stamp": "3h",
+        "stamp": "15h",
         "text": "@jxnlco @ajambrosino 👑",
         "insight": "Watchlist signal from @guinnesschen. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Codex",
@@ -1933,77 +2608,11 @@
         ],
         "sourcePostId": "2060571797008076990",
         "metrics": {
-          "likes": 1,
+          "likes": 2,
           "retweets": 0,
           "replies": 0,
           "quotes": 0,
-          "impressions": 79,
-          "bookmarks": 0
-        }
-      },
-      {
-        "id": "post-2060571308610761057",
-        "side": "c2",
-        "contenderId": "codex",
-        "type": "fact",
-        "sourceTier": "person",
-        "confidence": 0.6880696342579112,
-        "author": "Andrew Ambrosino",
-        "handle": "@ajambrosino",
-        "createdAt": "2026-05-30T03:57:38.000Z",
-        "stamp": "3h",
-        "text": "@0xRaduan 👀🦉",
-        "insight": "Watchlist signal from @ajambrosino. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
-        "impact": "Role context: Codex App",
-        "tags": [
-          {
-            "l": "SIGNAL",
-            "t": "info"
-          }
-        ],
-        "evidenceUrls": [
-          "https://x.com/ajambrosino/status/2060571308610761057"
-        ],
-        "sourcePostId": "2060571308610761057",
-        "metrics": {
-          "likes": 10,
-          "retweets": 0,
-          "replies": 0,
-          "quotes": 0,
-          "impressions": 874,
-          "bookmarks": 0
-        }
-      },
-      {
-        "id": "post-2060571262091776032",
-        "side": "c2",
-        "contenderId": "codex",
-        "type": "fact",
-        "sourceTier": "person",
-        "confidence": 0.6661029995663982,
-        "author": "Andrew Ambrosino",
-        "handle": "@ajambrosino",
-        "createdAt": "2026-05-30T03:57:27.000Z",
-        "stamp": "3h",
-        "text": "@maddiedreese different accounts?",
-        "insight": "Watchlist signal from @ajambrosino. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
-        "impact": "Role context: Codex App",
-        "tags": [
-          {
-            "l": "SIGNAL",
-            "t": "info"
-          }
-        ],
-        "evidenceUrls": [
-          "https://x.com/ajambrosino/status/2060571262091776032"
-        ],
-        "sourcePostId": "2060571262091776032",
-        "metrics": {
-          "likes": 1,
-          "retweets": 0,
-          "replies": 1,
-          "quotes": 0,
-          "impressions": 845,
+          "impressions": 207,
           "bookmarks": 0
         }
       },
@@ -2013,11 +2622,11 @@
         "contenderId": "codex",
         "type": "fact",
         "sourceTier": "person",
-        "confidence": 0.6920696342579112,
+        "confidence": 0.7071211340411103,
         "author": "jason",
         "handle": "@jxnlco",
         "createdAt": "2026-05-30T03:55:40.000Z",
-        "stamp": "4h",
+        "stamp": "15h",
         "text": "@ajambrosino @guinnesschen i added https://t.co/88TXzIkRjc",
         "insight": "Watchlist signal from @jxnlco. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Developer Experience, Codex",
@@ -2032,12 +2641,12 @@
         ],
         "sourcePostId": "2060570815050231919",
         "metrics": {
-          "likes": 6,
-          "retweets": 0,
+          "likes": 14,
+          "retweets": 1,
           "replies": 2,
           "quotes": 0,
-          "impressions": 483,
-          "bookmarks": 3
+          "impressions": 1290,
+          "bookmarks": 12
         }
       },
       {
@@ -2046,11 +2655,11 @@
         "contenderId": "codex",
         "type": "fact",
         "sourceTier": "person",
-        "confidence": 0.7434242509439325,
+        "confidence": 0.7494691888842605,
         "author": "Greg Brockman",
         "handle": "@gdb",
         "createdAt": "2026-05-30T03:28:30.000Z",
-        "stamp": "4h",
+        "stamp": "15h",
         "text": "@nicdunz team is cooking!",
         "insight": "Watchlist signal from @gdb. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: President and co-founder",
@@ -2065,12 +2674,12 @@
         ],
         "sourcePostId": "2060563978695455058",
         "metrics": {
-          "likes": 62,
+          "likes": 84,
           "retweets": 2,
-          "replies": 6,
+          "replies": 8,
           "quotes": 0,
-          "impressions": 5692,
-          "bookmarks": 1
+          "impressions": 10319,
+          "bookmarks": 2
         }
       },
       {
@@ -2083,7 +2692,7 @@
         "author": "Romain Huet",
         "handle": "@romainhuet",
         "createdAt": "2026-05-30T03:26:58.000Z",
-        "stamp": "4h",
+        "stamp": "15h",
         "text": "@brianmccallum @jxnlco https://t.co/9qTRfioqmT",
         "insight": "Watchlist signal from @romainhuet. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Developer Experience",
@@ -2102,7 +2711,7 @@
           "retweets": 0,
           "replies": 0,
           "quotes": 0,
-          "impressions": 14,
+          "impressions": 20,
           "bookmarks": 0
         }
       },
@@ -2116,7 +2725,7 @@
         "author": "Tibo",
         "handle": "@thsottiaux",
         "createdAt": "2026-05-30T03:25:23.000Z",
-        "stamp": "4h",
+        "stamp": "15h",
         "text": "@JustinBleuel is just shipping things with codex and making chatgpt better. Worth following (and complaining to)",
         "insight": "Watchlist signal from @thsottiaux. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Codex",
@@ -2135,12 +2744,12 @@
         ],
         "sourcePostId": "2060563192359907519",
         "metrics": {
-          "likes": 316,
-          "retweets": 6,
-          "replies": 31,
+          "likes": 555,
+          "retweets": 8,
+          "replies": 50,
           "quotes": 2,
-          "impressions": 27902,
-          "bookmarks": 9
+          "impressions": 66215,
+          "bookmarks": 19
         }
       },
       {
@@ -2149,11 +2758,11 @@
         "contenderId": "codex",
         "type": "fact",
         "sourceTier": "person",
-        "confidence": 0.6933064017839119,
+        "confidence": 0.7091198998949478,
         "author": "Andrew Ambrosino",
         "handle": "@ajambrosino",
         "createdAt": "2026-05-30T03:22:51.000Z",
-        "stamp": "4h",
+        "stamp": "15h",
         "text": "@jxnlco @guinnesschen can you two jam on this please",
         "insight": "Watchlist signal from @ajambrosino. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Codex App",
@@ -2168,12 +2777,12 @@
         ],
         "sourcePostId": "2060562557359026540",
         "metrics": {
-          "likes": 9,
+          "likes": 22,
           "retweets": 0,
-          "replies": 2,
+          "replies": 3,
           "quotes": 0,
-          "impressions": 835,
-          "bookmarks": 0
+          "impressions": 1867,
+          "bookmarks": 1
         }
       },
       {
@@ -2182,11 +2791,11 @@
         "contenderId": "codex",
         "type": "fact",
         "sourceTier": "person",
-        "confidence": 0.7138970004336019,
+        "confidence": 0.7218151250383644,
         "author": "Tibo",
         "handle": "@thsottiaux",
         "createdAt": "2026-05-30T03:21:49.000Z",
-        "stamp": "4h",
+        "stamp": "15h",
         "text": "@emanueledpt outcode wasn't taken",
         "insight": "Watchlist signal from @thsottiaux. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Codex",
@@ -2201,11 +2810,11 @@
         ],
         "sourcePostId": "2060562295085052360",
         "metrics": {
-          "likes": 16,
+          "likes": 25,
           "retweets": 0,
-          "replies": 4,
+          "replies": 5,
           "quotes": 0,
-          "impressions": 5819,
+          "impressions": 9687,
           "bookmarks": 0
         }
       },
@@ -2219,7 +2828,7 @@
         "author": "Romain Huet",
         "handle": "@romainhuet",
         "createdAt": "2026-05-30T03:20:56.000Z",
-        "stamp": "4h",
+        "stamp": "15h",
         "text": "@brianmccallum @jxnlco You can get started with Codex for free, then get any plans to use more of it!",
         "insight": "Watchlist signal from @romainhuet. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Developer Experience",
@@ -2238,35 +2847,9 @@
           "retweets": 0,
           "replies": 1,
           "quotes": 0,
-          "impressions": 45,
+          "impressions": 68,
           "bookmarks": 0
         }
-      },
-      {
-        "id": "jxnlco-1",
-        "side": "c2",
-        "contenderId": "codex",
-        "type": "fact",
-        "sourceTier": "",
-        "confidence": 0.72,
-        "author": "jason",
-        "handle": "@jxnlco",
-        "createdAt": "2026-05-30T02:13:52Z",
-        "stamp": "5h",
-        "text": "Out inference team is cooking",
-        "insight": "OpenAI inference team actively iterating",
-        "rationale": "",
-        "impact": "Tactical signal of ongoing model optimization work",
-        "tags": [
-          {
-            "l": "inference",
-            "t": "hot"
-          }
-        ],
-        "evidenceUrls": [
-          "https://x.com/jxnlco/status/2060545197856166315"
-        ],
-        "metrics": {}
       },
       {
         "id": "post-2060545197856166315",
@@ -2274,11 +2857,11 @@
         "contenderId": "codex",
         "type": "fact",
         "sourceTier": "person",
-        "confidence": 0.7152574989159953,
+        "confidence": 0.7253785088048968,
         "author": "jason",
         "handle": "@jxnlco",
         "createdAt": "2026-05-30T02:13:52.000Z",
-        "stamp": "5h",
+        "stamp": "17h",
         "text": "@q_yeon_gyu_kim Out inference team is cooking",
         "insight": "Watchlist signal from @jxnlco. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Developer Experience, Codex",
@@ -2293,11 +2876,11 @@
         ],
         "sourcePostId": "2060545197856166315",
         "metrics": {
-          "likes": 23,
+          "likes": 40,
           "retweets": 2,
-          "replies": 1,
+          "replies": 2,
           "quotes": 0,
-          "impressions": 1367,
+          "impressions": 2609,
           "bookmarks": 1
         }
       },
@@ -2307,11 +2890,11 @@
         "contenderId": "codex",
         "type": "fact",
         "sourceTier": "person",
-        "confidence": 0.7249075625191822,
+        "confidence": 0.7285629174359538,
         "author": "Andrew Ambrosino",
         "handle": "@ajambrosino",
         "createdAt": "2026-05-30T01:13:40.000Z",
-        "stamp": "6h",
+        "stamp": "18h",
         "text": "@thsottiaux what did he mean by this",
         "insight": "Watchlist signal from @ajambrosino. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Codex App",
@@ -2326,12 +2909,12 @@
         ],
         "sourcePostId": "2060530046645985511",
         "metrics": {
-          "likes": 41,
+          "likes": 52,
           "retweets": 0,
           "replies": 9,
           "quotes": 0,
-          "impressions": 4430,
-          "bookmarks": 1
+          "impressions": 6048,
+          "bookmarks": 2
         }
       },
       {
@@ -2340,11 +2923,11 @@
         "contenderId": "codex",
         "type": "fact",
         "sourceTier": "person",
-        "confidence": 0.7027636252551653,
+        "confidence": 0.706110964736696,
         "author": "jason",
         "handle": "@jxnlco",
         "createdAt": "2026-05-30T01:04:20.000Z",
-        "stamp": "6h",
+        "stamp": "18h",
         "text": "@ClayMalott @OpenAIDevs nice streak! make sure to take breaks",
         "insight": "Watchlist signal from @jxnlco. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Developer Experience, Codex",
@@ -2359,11 +2942,11 @@
         ],
         "sourcePostId": "2060527697105924284",
         "metrics": {
-          "likes": 11,
+          "likes": 14,
           "retweets": 0,
           "replies": 3,
           "quotes": 0,
-          "impressions": 1123,
+          "impressions": 1627,
           "bookmarks": 0
         }
       },
@@ -2373,11 +2956,11 @@
         "contenderId": "codex",
         "type": "fact",
         "sourceTier": "person",
-        "confidence": 0.7320620618687794,
+        "confidence": 0.7354094013503101,
         "author": "Greg Brockman",
         "handle": "@gdb",
         "createdAt": "2026-05-30T00:28:19.000Z",
-        "stamp": "7h",
+        "stamp": "18h",
         "text": "@HarshithLucky3 better than i would do!",
         "insight": "Watchlist signal from @gdb. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: President and co-founder",
@@ -2392,12 +2975,12 @@
         ],
         "sourcePostId": "2060518632350712263",
         "metrics": {
-          "likes": 41,
+          "likes": 49,
           "retweets": 0,
           "replies": 3,
           "quotes": 0,
-          "impressions": 3942,
-          "bookmarks": 2
+          "impressions": 5471,
+          "bookmarks": 4
         }
       },
       {
@@ -2406,11 +2989,11 @@
         "contenderId": "codex",
         "type": "fact",
         "sourceTier": "person",
-        "confidence": 0.698804562952784,
+        "confidence": 0.7002059991327962,
         "author": "jason",
         "handle": "@jxnlco",
         "createdAt": "2026-05-30T00:03:13.000Z",
-        "stamp": "7h",
+        "stamp": "19h",
         "text": "@LLMJunky Focus on yourself",
         "insight": "Watchlist signal from @jxnlco. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Developer Experience, Codex",
@@ -2425,111 +3008,12 @@
         ],
         "sourcePostId": "2060512315569791123",
         "metrics": {
-          "likes": 12,
+          "likes": 13,
           "retweets": 0,
           "replies": 1,
           "quotes": 0,
-          "impressions": 777,
+          "impressions": 1046,
           "bookmarks": 0
-        }
-      },
-      {
-        "id": "post-2060509434837971004",
-        "side": "c2",
-        "contenderId": "codex",
-        "type": "fact",
-        "sourceTier": "person",
-        "confidence": 0.705051499783199,
-        "author": "jason",
-        "handle": "@jxnlco",
-        "createdAt": "2026-05-29T23:51:46.000Z",
-        "stamp": "8h",
-        "text": "@pourteaux I think they’ll realized c is the biggest expense.",
-        "insight": "Watchlist signal from @jxnlco. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
-        "impact": "Role context: Developer Experience, Codex",
-        "tags": [
-          {
-            "l": "SIGNAL",
-            "t": "info"
-          }
-        ],
-        "evidenceUrls": [
-          "https://x.com/jxnlco/status/2060509434837971004"
-        ],
-        "sourcePostId": "2060509434837971004",
-        "metrics": {
-          "likes": 17,
-          "retweets": 0,
-          "replies": 1,
-          "quotes": 0,
-          "impressions": 2625,
-          "bookmarks": 0
-        }
-      },
-      {
-        "id": "post-2060506462489845843",
-        "side": "c2",
-        "contenderId": "codex",
-        "type": "fact",
-        "sourceTier": "person",
-        "confidence": 0.761415243152408,
-        "author": "Tibo",
-        "handle": "@thsottiaux",
-        "createdAt": "2026-05-29T23:39:57.000Z",
-        "stamp": "8h",
-        "text": "@HarshithLucky3 Beautiful. Could be employed at OpenAI",
-        "insight": "Watchlist signal from @thsottiaux. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
-        "impact": "Role context: Codex",
-        "tags": [
-          {
-            "l": "SIGNAL",
-            "t": "info"
-          }
-        ],
-        "evidenceUrls": [
-          "https://x.com/thsottiaux/status/2060506462489845843"
-        ],
-        "sourcePostId": "2060506462489845843",
-        "metrics": {
-          "likes": 199,
-          "retweets": 1,
-          "replies": 8,
-          "quotes": 1,
-          "impressions": 8675,
-          "bookmarks": 2
-        }
-      },
-      {
-        "id": "post-2060503303767896176",
-        "side": "c2",
-        "contenderId": "codex",
-        "type": "fact",
-        "sourceTier": "person",
-        "confidence": 0.7418635647827883,
-        "author": "Andrew Ambrosino",
-        "handle": "@ajambrosino",
-        "createdAt": "2026-05-29T23:27:24.000Z",
-        "stamp": "8h",
-        "text": "ChatGPT Chewsdays is a good idea innit @JustinBleuel",
-        "insight": "Watchlist signal from @ajambrosino. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
-        "impact": "Role context: Codex App",
-        "tags": [
-          {
-            "l": "SIGNAL",
-            "t": "info"
-          }
-        ],
-        "evidenceUrls": [
-          "https://x.com/ajambrosino/status/2060503303767896176"
-        ],
-        "sourcePostId": "2060503303767896176",
-        "metrics": {
-          "likes": 104,
-          "retweets": 0,
-          "replies": 11,
-          "quotes": 1,
-          "impressions": 12980,
-          "bookmarks": 3
         }
       },
       {
@@ -2538,11 +3022,11 @@
         "contenderId": "codex",
         "type": "fact",
         "sourceTier": "person",
-        "confidence": 0.6975224460689137,
+        "confidence": 0.6999376800476415,
         "author": "pash",
         "handle": "@pashmerepat",
         "createdAt": "2026-05-29T23:21:19.000Z",
-        "stamp": "8h",
+        "stamp": "19h",
         "text": "@ashleybchae why is there a gun to my head",
         "insight": "Watchlist signal from @pashmerepat. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Codex",
@@ -2557,11 +3041,11 @@
         ],
         "sourcePostId": "2060501773819978025",
         "metrics": {
-          "likes": 12,
+          "likes": 14,
           "retweets": 0,
           "replies": 2,
           "quotes": 0,
-          "impressions": 696,
+          "impressions": 1048,
           "bookmarks": 0
         }
       },
@@ -2571,11 +3055,11 @@
         "contenderId": "codex",
         "type": "fact",
         "sourceTier": "person",
-        "confidence": 0.6661029995663982,
+        "confidence": 0.6811544993495972,
         "author": "pash",
         "handle": "@pashmerepat",
         "createdAt": "2026-05-29T23:16:35.000Z",
-        "stamp": "8h",
+        "stamp": "19h",
         "text": "@MParakhin Will fix!",
         "insight": "Watchlist signal from @pashmerepat. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Codex",
@@ -2590,79 +3074,12 @@
         ],
         "sourcePostId": "2060500580897099959",
         "metrics": {
-          "likes": 3,
-          "retweets": 0,
-          "replies": 0,
-          "quotes": 0,
-          "impressions": 59,
-          "bookmarks": 0
-        }
-      },
-      {
-        "id": "post-2060499724046905737",
-        "side": "c2",
-        "contenderId": "codex",
-        "type": "fact",
-        "sourceTier": "person",
-        "confidence": 0.6973064017839119,
-        "author": "jason",
-        "handle": "@jxnlco",
-        "createdAt": "2026-05-29T23:13:11.000Z",
-        "stamp": "8h",
-        "text": "@ajambrosino wow I can tell when you started crushing the desktop app",
-        "insight": "Watchlist signal from @jxnlco. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
-        "impact": "Role context: Developer Experience, Codex",
-        "tags": [
-          {
-            "l": "PRODUCT",
-            "t": "info"
-          }
-        ],
-        "evidenceUrls": [
-          "https://x.com/jxnlco/status/2060499724046905737"
-        ],
-        "sourcePostId": "2060499724046905737",
-        "metrics": {
-          "likes": 13,
-          "retweets": 0,
-          "replies": 0,
-          "quotes": 0,
-          "impressions": 2018,
-          "bookmarks": 0
-        }
-      },
-      {
-        "id": "post-2060498004977877406",
-        "side": "c2",
-        "contenderId": "codex",
-        "type": "fact",
-        "sourceTier": "person",
-        "confidence": 0.756,
-        "author": "Andrew Ambrosino",
-        "handle": "@ajambrosino",
-        "createdAt": "2026-05-29T23:06:21.000Z",
-        "stamp": "8h",
-        "text": "show us yours https://t.co/uas42hGD77",
-        "insight": "Watchlist signal from @ajambrosino. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
-        "impact": "Role context: Codex App",
-        "tags": [
-          {
-            "l": "SIGNAL",
-            "t": "info"
-          }
-        ],
-        "evidenceUrls": [
-          "https://x.com/ajambrosino/status/2060498004977877406",
-          "https://twitter.com/ajambrosino/status/2060492483247952160"
-        ],
-        "sourcePostId": "2060498004977877406",
-        "metrics": {
-          "likes": 183,
+          "likes": 4,
           "retweets": 1,
-          "replies": 112,
-          "quotes": 4,
-          "impressions": 21313,
-          "bookmarks": 39
+          "replies": 0,
+          "quotes": 0,
+          "impressions": 91,
+          "bookmarks": 0
         }
       },
       {
@@ -2671,11 +3088,11 @@
         "contenderId": "codex",
         "type": "fact",
         "sourceTier": "person",
-        "confidence": 0.6782549020007128,
+        "confidence": 0.6811544993495972,
         "author": "pash",
         "handle": "@pashmerepat",
         "createdAt": "2026-05-29T23:06:19.000Z",
-        "stamp": "8h",
+        "stamp": "20h",
         "text": "@MParakhin What can we be doing better?",
         "insight": "Watchlist signal from @pashmerepat. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Codex",
@@ -2690,11 +3107,11 @@
         ],
         "sourcePostId": "2060497998111719445",
         "metrics": {
-          "likes": 4,
+          "likes": 5,
           "retweets": 0,
           "replies": 1,
           "quotes": 0,
-          "impressions": 200,
+          "impressions": 250,
           "bookmarks": 0
         }
       },
@@ -2704,11 +3121,11 @@
         "contenderId": "codex",
         "type": "fact",
         "sourceTier": "person",
-        "confidence": 0.6880696342579112,
+        "confidence": 0.6916971676153418,
         "author": "pash",
         "handle": "@pashmerepat",
         "createdAt": "2026-05-29T22:59:46.000Z",
-        "stamp": "8h",
+        "stamp": "20h",
         "text": "@ajambrosino needs more sidebar",
         "insight": "Watchlist signal from @pashmerepat. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Codex",
@@ -2723,79 +3140,12 @@
         ],
         "sourcePostId": "2060496350001897481",
         "metrics": {
-          "likes": 10,
+          "likes": 12,
           "retweets": 0,
           "replies": 0,
           "quotes": 0,
-          "impressions": 745,
+          "impressions": 977,
           "bookmarks": 0
-        }
-      },
-      {
-        "id": "post-2060492483247952160",
-        "side": "c2",
-        "contenderId": "codex",
-        "type": "fact",
-        "sourceTier": "person",
-        "confidence": 0.756,
-        "author": "Andrew Ambrosino",
-        "handle": "@ajambrosino",
-        "createdAt": "2026-05-29T22:44:24.000Z",
-        "stamp": "9h",
-        "text": "tokens https://t.co/sLXih3uAVb",
-        "insight": "Watchlist signal from @ajambrosino. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
-        "impact": "Role context: Codex App",
-        "tags": [
-          {
-            "l": "SIGNAL",
-            "t": "info"
-          }
-        ],
-        "evidenceUrls": [
-          "https://x.com/ajambrosino/status/2060492483247952160",
-          "https://x.com/ajambrosino/status/2060492483247952160/photo/1"
-        ],
-        "sourcePostId": "2060492483247952160",
-        "metrics": {
-          "likes": 512,
-          "retweets": 8,
-          "replies": 94,
-          "quotes": 40,
-          "impressions": 118974,
-          "bookmarks": 78
-        }
-      },
-      {
-        "id": "post-2060480814727725526",
-        "side": "c2",
-        "contenderId": "codex",
-        "type": "fact",
-        "sourceTier": "person",
-        "confidence": 0.736213964303094,
-        "author": "jason",
-        "handle": "@jxnlco",
-        "createdAt": "2026-05-29T21:58:02.000Z",
-        "stamp": "9h",
-        "text": "@guinnesschen What where are the docs and plugins for this",
-        "insight": "Watchlist signal from @jxnlco. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
-        "impact": "Role context: Developer Experience, Codex",
-        "tags": [
-          {
-            "l": "SIGNAL",
-            "t": "info"
-          }
-        ],
-        "evidenceUrls": [
-          "https://x.com/jxnlco/status/2060480814727725526"
-        ],
-        "sourcePostId": "2060480814727725526",
-        "metrics": {
-          "likes": 71,
-          "retweets": 0,
-          "replies": 4,
-          "quotes": 1,
-          "impressions": 8860,
-          "bookmarks": 3
         }
       },
       {
@@ -2808,7 +3158,7 @@
         "author": "Brent Traut",
         "handle": "@btraut",
         "createdAt": "2026-05-29T19:31:27.000Z",
-        "stamp": "12h",
+        "stamp": "23h",
         "text": "@HarryBarnes Big release coming soon for Windows users!",
         "insight": "Watchlist signal from @btraut. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: OpenAI engineering",
@@ -2827,242 +3177,7 @@
           "retweets": 0,
           "replies": 0,
           "quotes": 0,
-          "impressions": 9,
-          "bookmarks": 0
-        }
-      },
-      {
-        "id": "post-2060443743023464489",
-        "side": "c2",
-        "contenderId": "codex",
-        "type": "fact",
-        "sourceTier": "person",
-        "confidence": 0.6701029995663982,
-        "author": "Peter Steinberger 🦞",
-        "handle": "@steipete",
-        "createdAt": "2026-05-29T19:30:44.000Z",
-        "stamp": "12h",
-        "text": "@MayaScottHQ against weights?",
-        "insight": "Watchlist signal from @steipete. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
-        "impact": "Role context: Personal agents and OpenClaw",
-        "tags": [
-          {
-            "l": "SIGNAL",
-            "t": "info"
-          }
-        ],
-        "evidenceUrls": [
-          "https://x.com/steipete/status/2060443743023464489"
-        ],
-        "sourcePostId": "2060443743023464489",
-        "metrics": {
-          "likes": 1,
-          "retweets": 0,
-          "replies": 1,
-          "quotes": 0,
-          "impressions": 218,
-          "bookmarks": 0
-        }
-      },
-      {
-        "id": "post-2060406634615078978",
-        "side": "c2",
-        "contenderId": "codex",
-        "type": "fact",
-        "sourceTier": "person",
-        "confidence": 0.674948500216801,
-        "author": "Peter Steinberger 🦞",
-        "handle": "@steipete",
-        "createdAt": "2026-05-29T17:03:16.000Z",
-        "stamp": "14h",
-        "text": "@TheTopG33k @garrytan There’s absolute trivial hacks to use the sub.",
-        "insight": "Watchlist signal from @steipete. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
-        "impact": "Role context: Personal agents and OpenClaw",
-        "tags": [
-          {
-            "l": "SIGNAL",
-            "t": "info"
-          }
-        ],
-        "evidenceUrls": [
-          "https://x.com/steipete/status/2060406634615078978"
-        ],
-        "sourcePostId": "2060406634615078978",
-        "metrics": {
-          "likes": 0,
-          "retweets": 0,
-          "replies": 2,
-          "quotes": 0,
-          "impressions": 107,
-          "bookmarks": 0
-        }
-      },
-      {
-        "id": "post-2060406455006605459",
-        "side": "c2",
-        "contenderId": "codex",
-        "type": "fact",
-        "sourceTier": "person",
-        "confidence": 0.6638560627359832,
-        "author": "Peter Steinberger 🦞",
-        "handle": "@steipete",
-        "createdAt": "2026-05-29T17:02:34.000Z",
-        "stamp": "14h",
-        "text": "@Taylor_Deakyne @garrytan Hackable install if you want it rn, later today in the beta, end of the week on stable. We are not getting any heads up from Anthropic like other partners, so making sure everything works well with it takes a few days.",
-        "insight": "Watchlist signal from @steipete. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
-        "impact": "Role context: Personal agents and OpenClaw",
-        "tags": [
-          {
-            "l": "PRODUCT",
-            "t": "info"
-          },
-          {
-            "l": "PARTNERSHIP",
-            "t": "move"
-          }
-        ],
-        "evidenceUrls": [
-          "https://x.com/steipete/status/2060406455006605459"
-        ],
-        "sourcePostId": "2060406455006605459",
-        "metrics": {
-          "likes": 2,
-          "retweets": 0,
-          "replies": 0,
-          "quotes": 0,
-          "impressions": 121,
-          "bookmarks": 0
-        }
-      },
-      {
-        "id": "post-2060393362495029322",
-        "side": "c2",
-        "contenderId": "codex",
-        "type": "fact",
-        "sourceTier": "person",
-        "confidence": 0.7303089986991944,
-        "author": "Peter Steinberger 🦞",
-        "handle": "@steipete",
-        "createdAt": "2026-05-29T16:10:32.000Z",
-        "stamp": "15h",
-        "text": "@nikhilracha that’s model training, not a harness issue",
-        "insight": "Watchlist signal from @steipete. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
-        "impact": "Role context: Personal agents and OpenClaw",
-        "tags": [
-          {
-            "l": "RESEARCH",
-            "t": "info"
-          }
-        ],
-        "evidenceUrls": [
-          "https://x.com/steipete/status/2060393362495029322"
-        ],
-        "sourcePostId": "2060393362495029322",
-        "metrics": {
-          "likes": 51,
-          "retweets": 0,
-          "replies": 6,
-          "quotes": 0,
-          "impressions": 8474,
-          "bookmarks": 2
-        }
-      },
-      {
-        "id": "post-2060393083892560258",
-        "side": "c2",
-        "contenderId": "codex",
-        "type": "fact",
-        "sourceTier": "person",
-        "confidence": 0.6789075625191822,
-        "author": "Peter Steinberger 🦞",
-        "handle": "@steipete",
-        "createdAt": "2026-05-29T16:09:26.000Z",
-        "stamp": "15h",
-        "text": "@yash1_ @karpathy A slur against whom? weights?",
-        "insight": "Watchlist signal from @steipete. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
-        "impact": "Role context: Personal agents and OpenClaw",
-        "tags": [
-          {
-            "l": "SIGNAL",
-            "t": "info"
-          }
-        ],
-        "evidenceUrls": [
-          "https://x.com/steipete/status/2060393083892560258"
-        ],
-        "sourcePostId": "2060393083892560258",
-        "metrics": {
-          "likes": 3,
-          "retweets": 0,
-          "replies": 1,
-          "quotes": 0,
-          "impressions": 500,
-          "bookmarks": 0
-        }
-      },
-      {
-        "id": "post-2060373396785856559",
-        "side": "c2",
-        "contenderId": "codex",
-        "type": "fact",
-        "sourceTier": "person",
-        "confidence": 0.6851544993495972,
-        "author": "Peter Steinberger 🦞",
-        "handle": "@steipete",
-        "createdAt": "2026-05-29T14:51:12.000Z",
-        "stamp": "17h",
-        "text": "@jaadasss there are good slurs?",
-        "insight": "Watchlist signal from @steipete. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
-        "impact": "Role context: Personal agents and OpenClaw",
-        "tags": [
-          {
-            "l": "SIGNAL",
-            "t": "info"
-          }
-        ],
-        "evidenceUrls": [
-          "https://x.com/steipete/status/2060373396785856559"
-        ],
-        "sourcePostId": "2060373396785856559",
-        "metrics": {
-          "likes": 3,
-          "retweets": 0,
-          "replies": 2,
-          "quotes": 0,
-          "impressions": 484,
-          "bookmarks": 0
-        }
-      },
-      {
-        "id": "post-2060373344784879705",
-        "side": "c2",
-        "contenderId": "codex",
-        "type": "fact",
-        "sourceTier": "person",
-        "confidence": 0.7071211340411103,
-        "author": "Peter Steinberger 🦞",
-        "handle": "@steipete",
-        "createdAt": "2026-05-29T14:50:59.000Z",
-        "stamp": "17h",
-        "text": "@AnvithOne @OpenAI For sure I’ll spill the beans in a random X thread 😅",
-        "insight": "Watchlist signal from @steipete. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
-        "impact": "Role context: Personal agents and OpenClaw",
-        "tags": [
-          {
-            "l": "SIGNAL",
-            "t": "info"
-          }
-        ],
-        "evidenceUrls": [
-          "https://x.com/steipete/status/2060373344784879705"
-        ],
-        "sourcePostId": "2060373344784879705",
-        "metrics": {
-          "likes": 13,
-          "retweets": 0,
-          "replies": 4,
-          "quotes": 0,
-          "impressions": 618,
+          "impressions": 11,
           "bookmarks": 0
         }
       },
@@ -3076,7 +3191,7 @@
         "author": "Brent Traut",
         "handle": "@btraut",
         "createdAt": "2026-05-29T14:35:51.000Z",
-        "stamp": "17h",
+        "stamp": "1d",
         "text": "@dennis_qian /model gpt-5.5 It’s so much nicer over here.",
         "insight": "Watchlist signal from @btraut. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: OpenAI engineering",
@@ -3095,40 +3210,7 @@
           "retweets": 0,
           "replies": 0,
           "quotes": 0,
-          "impressions": 39,
-          "bookmarks": 0
-        }
-      },
-      {
-        "id": "post-2060369101608915222",
-        "side": "c2",
-        "contenderId": "codex",
-        "type": "fact",
-        "sourceTier": "person",
-        "confidence": 0.6701029995663982,
-        "author": "Peter Steinberger 🦞",
-        "handle": "@steipete",
-        "createdAt": "2026-05-29T14:34:08.000Z",
-        "stamp": "17h",
-        "text": "@PScharioth @kr0der They moved it to 5min for all not long ago IIRC?",
-        "insight": "Watchlist signal from @steipete. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
-        "impact": "Role context: Personal agents and OpenClaw",
-        "tags": [
-          {
-            "l": "SIGNAL",
-            "t": "info"
-          }
-        ],
-        "evidenceUrls": [
-          "https://x.com/steipete/status/2060369101608915222"
-        ],
-        "sourcePostId": "2060369101608915222",
-        "metrics": {
-          "likes": 1,
-          "retweets": 0,
-          "replies": 1,
-          "quotes": 0,
-          "impressions": 211,
+          "impressions": 40,
           "bookmarks": 0
         }
       },
@@ -3138,11 +3220,11 @@
         "contenderId": "codex",
         "type": "fact",
         "sourceTier": "person",
-        "confidence": 0.7201029995663981,
+        "confidence": 0.7206391928359868,
         "author": "Romain Huet",
         "handle": "@romainhuet",
         "createdAt": "2026-05-29T05:39:41.000Z",
-        "stamp": "1d",
+        "stamp": "2d",
         "text": "@paw_lean What’s Codex cooking? 👀",
         "insight": "Watchlist signal from @romainhuet. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Developer Experience",
@@ -3157,11 +3239,11 @@
         ],
         "sourcePostId": "2060234605521944667",
         "metrics": {
-          "likes": 35,
+          "likes": 36,
           "retweets": 0,
           "replies": 2,
           "quotes": 0,
-          "impressions": 2540,
+          "impressions": 2616,
           "bookmarks": 1
         }
       },
@@ -3175,7 +3257,7 @@
         "author": "Romain Huet",
         "handle": "@romainhuet",
         "createdAt": "2026-05-29T05:37:22.000Z",
-        "stamp": "1d",
+        "stamp": "2d",
         "text": "@guigotgit @thsottiaux Maybe we need @karoliskosas to hide his snake game in even more places around the app! 🐍 https://t.co/XQDcxkh88c",
         "insight": "Watchlist signal from @romainhuet. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Developer Experience",
@@ -3194,45 +3276,8 @@
           "retweets": 0,
           "replies": 0,
           "quotes": 0,
-          "impressions": 85,
+          "impressions": 89,
           "bookmarks": 0
-        }
-      },
-      {
-        "id": "post-2060201744664260835",
-        "side": "c2",
-        "contenderId": "codex",
-        "type": "fact",
-        "sourceTier": "person",
-        "confidence": 0.764,
-        "author": "Tibo",
-        "handle": "@thsottiaux",
-        "createdAt": "2026-05-29T03:29:07.000Z",
-        "stamp": "1d",
-        "text": "@sandislonjsak You'll be back after one prompt if I can trust the timeline",
-        "insight": "Watchlist signal from @thsottiaux. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
-        "impact": "Role context: Codex",
-        "tags": [
-          {
-            "l": "DEVTOOLS",
-            "t": "move"
-          },
-          {
-            "l": "SECURITY",
-            "t": "warn"
-          }
-        ],
-        "evidenceUrls": [
-          "https://x.com/thsottiaux/status/2060201744664260835"
-        ],
-        "sourcePostId": "2060201744664260835",
-        "metrics": {
-          "likes": 1392,
-          "retweets": 18,
-          "replies": 69,
-          "quotes": 9,
-          "impressions": 57715,
-          "bookmarks": 23
         }
       },
       {
@@ -3241,11 +3286,11 @@
         "contenderId": "codex",
         "type": "fact",
         "sourceTier": "person",
-        "confidence": 0.7266456678321428,
+        "confidence": 0.7285629174359538,
         "author": "pash",
         "handle": "@pashmerepat",
         "createdAt": "2026-05-29T02:48:14.000Z",
-        "stamp": "1d",
+        "stamp": "2d",
         "text": "Mood https://t.co/XRBtIvmHcz",
         "insight": "Watchlist signal from @pashmerepat. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Codex",
@@ -3260,11 +3305,11 @@
         ],
         "sourcePostId": "2060191458150486518",
         "metrics": {
-          "likes": 42,
+          "likes": 46,
           "retweets": 2,
-          "replies": 8,
+          "replies": 9,
           "quotes": 0,
-          "impressions": 2320,
+          "impressions": 2599,
           "bookmarks": 0
         }
       },
@@ -3278,7 +3323,7 @@
         "author": "pash",
         "handle": "@pashmerepat",
         "createdAt": "2026-05-29T02:15:19.000Z",
-        "stamp": "1d",
+        "stamp": "2d",
         "text": "@alightinastorm dm me your openai account email",
         "insight": "Watchlist signal from @pashmerepat. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Codex",
@@ -3297,7 +3342,7 @@
           "retweets": 0,
           "replies": 1,
           "quotes": 1,
-          "impressions": 127,
+          "impressions": 129,
           "bookmarks": 0
         }
       },
@@ -3311,7 +3356,7 @@
         "author": "pash",
         "handle": "@pashmerepat",
         "createdAt": "2026-05-29T02:13:22.000Z",
-        "stamp": "1d",
+        "stamp": "2d",
         "text": "@alightinastorm Is this a preview of gta 6?",
         "insight": "Watchlist signal from @pashmerepat. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Codex",
@@ -3334,7 +3379,7 @@
           "retweets": 0,
           "replies": 1,
           "quotes": 0,
-          "impressions": 1935,
+          "impressions": 1978,
           "bookmarks": 0
         }
       },
@@ -3348,7 +3393,7 @@
         "author": "pash",
         "handle": "@pashmerepat",
         "createdAt": "2026-05-29T02:11:57.000Z",
-        "stamp": "1d",
+        "stamp": "2d",
         "text": "@nickbaumann_ @tomgreenwald need guide on using codex to book health &amp; dental appoitnments pls",
         "insight": "Watchlist signal from @pashmerepat. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Codex",
@@ -3385,7 +3430,7 @@
         "author": "pash",
         "handle": "@pashmerepat",
         "createdAt": "2026-05-29T02:07:35.000Z",
-        "stamp": "1d",
+        "stamp": "2d",
         "text": "@danizeres Very true",
         "insight": "Watchlist signal from @pashmerepat. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Codex",
@@ -3404,41 +3449,8 @@
           "retweets": 0,
           "replies": 1,
           "quotes": 0,
-          "impressions": 1476,
+          "impressions": 1496,
           "bookmarks": 0
-        }
-      },
-      {
-        "id": "post-2060175118488531125",
-        "side": "c2",
-        "contenderId": "codex",
-        "type": "fact",
-        "sourceTier": "person",
-        "confidence": 0.764,
-        "author": "Tibo",
-        "handle": "@thsottiaux",
-        "createdAt": "2026-05-29T01:43:19.000Z",
-        "stamp": "1d",
-        "text": "@vihangadev My condolences",
-        "insight": "Watchlist signal from @thsottiaux. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
-        "impact": "Role context: Codex",
-        "tags": [
-          {
-            "l": "SIGNAL",
-            "t": "info"
-          }
-        ],
-        "evidenceUrls": [
-          "https://x.com/thsottiaux/status/2060175118488531125"
-        ],
-        "sourcePostId": "2060175118488531125",
-        "metrics": {
-          "likes": 413,
-          "retweets": 0,
-          "replies": 13,
-          "quotes": 2,
-          "impressions": 46861,
-          "bookmarks": 4
         }
       },
       {
@@ -3451,7 +3463,7 @@
         "author": "Adam Wolff",
         "handle": "@dmwlff",
         "createdAt": "2026-05-28T23:14:22.000Z",
-        "stamp": "1d",
+        "stamp": "2d",
         "text": "@gus_aragon @Neotk @trq212 this was a bad interaction between Claude Code and the new model. should be fixed if you update.",
         "insight": "Watchlist signal from @dmwlff. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Claude Code",
@@ -3474,7 +3486,7 @@
           "retweets": 1,
           "replies": 1,
           "quotes": 1,
-          "impressions": 113,
+          "impressions": 117,
           "bookmarks": 0
         }
       },
@@ -3488,7 +3500,7 @@
         "author": "Boris Cherny",
         "handle": "@bcherny",
         "createdAt": "2026-05-28T22:56:38.000Z",
-        "stamp": "1d",
+        "stamp": "2d",
         "text": "@patorenner @sidbid Agree. Shipping a small improvement to the animation",
         "insight": "Watchlist signal from @bcherny. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Claude Code",
@@ -3511,7 +3523,7 @@
           "retweets": 0,
           "replies": 0,
           "quotes": 0,
-          "impressions": 211,
+          "impressions": 229,
           "bookmarks": 0
         }
       },
@@ -3521,11 +3533,11 @@
         "contenderId": "claude",
         "type": "fact",
         "sourceTier": "person",
-        "confidence": 0.7457121254719663,
+        "confidence": 0.7461893913672778,
         "author": "Boris Cherny",
         "handle": "@bcherny",
         "createdAt": "2026-05-28T21:43:03.000Z",
-        "stamp": "1d",
+        "stamp": "2d",
         "text": "@rpenacastro @trq212 🙏",
         "insight": "Watchlist signal from @bcherny. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Claude Code",
@@ -3540,11 +3552,11 @@
         ],
         "sourcePostId": "2060114655725416481",
         "metrics": {
-          "likes": 85,
+          "likes": 87,
           "retweets": 0,
           "replies": 2,
           "quotes": 0,
-          "impressions": 8179,
+          "impressions": 8575,
           "bookmarks": 1
         }
       },
@@ -3558,7 +3570,7 @@
         "author": "Jack Clark",
         "handle": "@jackclarksf",
         "createdAt": "2026-05-28T21:17:23.000Z",
-        "stamp": "1d",
+        "stamp": "2d",
         "text": "@rSanti97 you work is valuable, comrade.",
         "insight": "Watchlist signal from @jackclarksf. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Policy and strategy",
@@ -3577,7 +3589,7 @@
           "retweets": 0,
           "replies": 0,
           "quotes": 0,
-          "impressions": 929,
+          "impressions": 986,
           "bookmarks": 0
         }
       },
@@ -3591,7 +3603,7 @@
         "author": "Noah Zweben",
         "handle": "@noahzweben",
         "createdAt": "2026-05-28T20:23:46.000Z",
-        "stamp": "1d",
+        "stamp": "2d",
         "text": "go ant go https://t.co/rePTNuE4bI",
         "insight": "Watchlist signal from @noahzweben. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Claude Code PM",
@@ -3610,7 +3622,7 @@
           "retweets": 0,
           "replies": 0,
           "quotes": 0,
-          "impressions": 4584,
+          "impressions": 4828,
           "bookmarks": 1
         }
       },
@@ -3624,7 +3636,7 @@
         "author": "pash",
         "handle": "@pashmerepat",
         "createdAt": "2026-05-28T19:26:41.000Z",
-        "stamp": "1d",
+        "stamp": "2d",
         "text": "@kimberlywtan @tszzl Aaaand it's a condo",
         "insight": "Watchlist signal from @pashmerepat. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Codex",
@@ -3643,7 +3655,7 @@
           "retweets": 0,
           "replies": 1,
           "quotes": 0,
-          "impressions": 1229,
+          "impressions": 1234,
           "bookmarks": 0
         }
       },
@@ -3676,7 +3688,7 @@
           "retweets": 1,
           "replies": 1,
           "quotes": 0,
-          "impressions": 3232,
+          "impressions": 3297,
           "bookmarks": 0
         }
       },
@@ -3709,8 +3721,8 @@
           "retweets": 1,
           "replies": 5,
           "quotes": 0,
-          "impressions": 8616,
-          "bookmarks": 14
+          "impressions": 8801,
+          "bookmarks": 15
         }
       },
       {
@@ -3742,7 +3754,7 @@
           "retweets": 0,
           "replies": 0,
           "quotes": 0,
-          "impressions": 29,
+          "impressions": 30,
           "bookmarks": 0
         }
       },
@@ -3775,7 +3787,7 @@
           "retweets": 0,
           "replies": 7,
           "quotes": 0,
-          "impressions": 8776,
+          "impressions": 8976,
           "bookmarks": 0
         }
       },
@@ -3849,7 +3861,7 @@
           "retweets": 0,
           "replies": 1,
           "quotes": 0,
-          "impressions": 422,
+          "impressions": 424,
           "bookmarks": 0
         }
       },
@@ -3863,7 +3875,7 @@
         "author": "Brent Traut",
         "handle": "@btraut",
         "createdAt": "2026-05-28T05:25:05.000Z",
-        "stamp": "2d",
+        "stamp": "3d",
         "text": "/goal fix all the bugs in Codex",
         "insight": "Watchlist signal from @btraut. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: OpenAI engineering",
@@ -3882,44 +3894,7 @@
           "retweets": 0,
           "replies": 1,
           "quotes": 0,
-          "impressions": 460,
-          "bookmarks": 0
-        }
-      },
-      {
-        "id": "post-2059860157262336419",
-        "side": "c2",
-        "contenderId": "codex",
-        "type": "fact",
-        "sourceTier": "person",
-        "confidence": 0.6851544993495972,
-        "author": "Romain Huet",
-        "handle": "@romainhuet",
-        "createdAt": "2026-05-28T04:51:46.000Z",
-        "stamp": "2d",
-        "text": "@cognition @Lux_Capital @generalcatalyst @8vc Amazing milestone! Huge congrats Scott and team! 🙌",
-        "insight": "Watchlist signal from @romainhuet. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
-        "impact": "Role context: Developer Experience",
-        "tags": [
-          {
-            "l": "FUNDING",
-            "t": "hot"
-          },
-          {
-            "l": "TALENT",
-            "t": "warn"
-          }
-        ],
-        "evidenceUrls": [
-          "https://x.com/romainhuet/status/2059860157262336419"
-        ],
-        "sourcePostId": "2059860157262336419",
-        "metrics": {
-          "likes": 7,
-          "retweets": 0,
-          "replies": 0,
-          "quotes": 0,
-          "impressions": 811,
+          "impressions": 464,
           "bookmarks": 0
         }
       },
@@ -3933,7 +3908,7 @@
         "author": "Avital Balwit",
         "handle": "@avitalbalwit",
         "createdAt": "2026-05-28T02:50:58.000Z",
-        "stamp": "2d",
+        "stamp": "3d",
         "text": "@Lazarus_Capital This is exactly how I feel. I wish they used a better picture of him.",
         "insight": "Watchlist signal from @avitalbalwit. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Chief of Staff",
@@ -3948,11 +3923,11 @@
         ],
         "sourcePostId": "2059829758167236937",
         "metrics": {
-          "likes": 307,
+          "likes": 306,
           "retweets": 2,
           "replies": 12,
           "quotes": 1,
-          "impressions": 19687,
+          "impressions": 19696,
           "bookmarks": 21
         }
       },
@@ -3985,7 +3960,7 @@
           "retweets": 4,
           "replies": 8,
           "quotes": 0,
-          "impressions": 6314,
+          "impressions": 6422,
           "bookmarks": 19
         }
       },
@@ -3999,7 +3974,7 @@
         "author": "Sam Altman",
         "handle": "@sama",
         "createdAt": "2026-05-27T04:31:15.000Z",
-        "stamp": "3d",
+        "stamp": "4d",
         "text": "🛫 https://t.co/NARtaDr0wJ",
         "insight": "Watchlist signal from @sama. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: CEO",
@@ -4014,12 +3989,12 @@
         ],
         "sourcePostId": "2059492605634007125",
         "metrics": {
-          "likes": 1389,
-          "retweets": 84,
-          "replies": 262,
+          "likes": 1426,
+          "retweets": 87,
+          "replies": 267,
           "quotes": 13,
-          "impressions": 391813,
-          "bookmarks": 124
+          "impressions": 402958,
+          "bookmarks": 128
         }
       },
       {
@@ -4032,7 +4007,7 @@
         "author": "Jack Clark",
         "handle": "@jackclarksf",
         "createdAt": "2026-05-25T19:39:37.000Z",
-        "stamp": "4d",
+        "stamp": "5d",
         "text": "@Yuanyong_Luo haha, wow. it's a good format, nice job!",
         "insight": "Watchlist signal from @jackclarksf. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Policy and strategy",
@@ -4080,11 +4055,11 @@
         ],
         "sourcePostId": "2058584498225467846",
         "metrics": {
-          "likes": 1740,
+          "likes": 1734,
           "retweets": 54,
-          "replies": 30,
+          "replies": 31,
           "quotes": 9,
-          "impressions": 361751,
+          "impressions": 362339,
           "bookmarks": 140
         }
       },
@@ -4113,12 +4088,12 @@
         ],
         "sourcePostId": "2058576120870789173",
         "metrics": {
-          "likes": 7947,
-          "retweets": 139,
-          "replies": 123,
-          "quotes": 21,
-          "impressions": 383002,
-          "bookmarks": 411
+          "likes": 7942,
+          "retweets": 140,
+          "replies": 124,
+          "quotes": 22,
+          "impressions": 383222,
+          "bookmarks": 409
         }
       },
       {
@@ -4127,7 +4102,7 @@
         "contenderId": "claude",
         "type": "fact",
         "sourceTier": "person",
-        "confidence": 0.720851666964939,
+        "confidence": 0.7216711877743475,
         "author": "Avital Balwit",
         "handle": "@avitalbalwit",
         "createdAt": "2026-05-23T14:55:30.000Z",
@@ -4149,8 +4124,8 @@
           "likes": 60,
           "retweets": 5,
           "replies": 6,
-          "quotes": 4,
-          "impressions": 9762,
+          "quotes": 5,
+          "impressions": 9832,
           "bookmarks": 51
         }
       },
@@ -4183,7 +4158,7 @@
           "retweets": 0,
           "replies": 0,
           "quotes": 0,
-          "impressions": 255,
+          "impressions": 287,
           "bookmarks": 0
         }
       },
@@ -4197,7 +4172,7 @@
         "author": "Fidji Simo",
         "handle": "@fidjissimo",
         "createdAt": "2026-05-21T22:08:28.000Z",
-        "stamp": "8d",
+        "stamp": "9d",
         "text": "@bryan_johnson @_katetolo So excited for this. Endometriosis is a terrible disease yet absolutely solvable with the right focus; will be rooting for you and breakthroughs to come.",
         "insight": "Watchlist signal from @fidjissimo. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: CEO of Applications",
@@ -4216,7 +4191,7 @@
           "retweets": 0,
           "replies": 1,
           "quotes": 0,
-          "impressions": 755,
+          "impressions": 758,
           "bookmarks": 0
         }
       },
@@ -4230,7 +4205,7 @@
         "author": "Jon Abrams 🤷‍♂️",
         "handle": "@jonathanabrams",
         "createdAt": "2026-05-21T20:46:46.000Z",
-        "stamp": "8d",
+        "stamp": "9d",
         "text": "@hankgreen @tensor_rotator Losing weight so quickly can be especially dangerous if you take any perscription drugs, since the dosages and your body's ability to handle them are dependent on your weight.",
         "insight": "Watchlist signal from @jonathanabrams. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Codex",
@@ -4263,7 +4238,7 @@
         "author": "Sam Altman",
         "handle": "@sama",
         "createdAt": "2026-05-21T20:30:38.000Z",
-        "stamp": "8d",
+        "stamp": "9d",
         "text": "new codex ships today! https://t.co/7P6g6SiGsl",
         "insight": "Watchlist signal from @sama. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: CEO",
@@ -4282,12 +4257,12 @@
         ],
         "sourcePostId": "2057559714788258003",
         "metrics": {
-          "likes": 3521,
-          "retweets": 172,
-          "replies": 495,
-          "quotes": 29,
-          "impressions": 697115,
-          "bookmarks": 472
+          "likes": 3523,
+          "retweets": 173,
+          "replies": 496,
+          "quotes": 30,
+          "impressions": 699900,
+          "bookmarks": 471
         }
       },
       {
@@ -4333,7 +4308,7 @@
         "author": "Brent Traut",
         "handle": "@btraut",
         "createdAt": "2026-05-19T23:22:25.000Z",
-        "stamp": "10d",
+        "stamp": "11d",
         "text": "@dming Thanks @dming!",
         "insight": "Watchlist signal from @btraut. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: OpenAI engineering",
@@ -4385,7 +4360,7 @@
           "retweets": 0,
           "replies": 1,
           "quotes": 1,
-          "impressions": 26101,
+          "impressions": 26120,
           "bookmarks": 3
         }
       },
@@ -4414,11 +4389,11 @@
         ],
         "sourcePostId": "2056757423105572946",
         "metrics": {
-          "likes": 304,
+          "likes": 303,
           "retweets": 5,
           "replies": 9,
           "quotes": 0,
-          "impressions": 20076,
+          "impressions": 20118,
           "bookmarks": 11
         }
       },
@@ -4521,7 +4496,7 @@
           "retweets": 0,
           "replies": 0,
           "quotes": 0,
-          "impressions": 374,
+          "impressions": 375,
           "bookmarks": 0
         }
       },
@@ -4535,7 +4510,7 @@
         "author": "Jon Abrams 🤷‍♂️",
         "handle": "@jonathanabrams",
         "createdAt": "2026-05-18T20:24:47.000Z",
-        "stamp": "11d",
+        "stamp": "12d",
         "text": "@Voultar I shelled out for a RT4k and I'm thrilled its awesomeness is available to more people. Incredible!",
         "insight": "Watchlist signal from @jonathanabrams. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Codex",
@@ -4568,7 +4543,7 @@
         "author": "Andrej Karpathy",
         "handle": "@karpathy",
         "createdAt": "2026-05-18T03:24:47.000Z",
-        "stamp": "12d",
+        "stamp": "13d",
         "text": "@jino_rohit I was recording my nanochat video when I realized that “first boot up an 8XH100 from your favorite provider!” would instantly get everyone stuck on step 1 of the video",
         "insight": "Watchlist signal from @karpathy. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Pre-training research",
@@ -4583,11 +4558,11 @@
         ],
         "sourcePostId": "2056214387980193909",
         "metrics": {
-          "likes": 1995,
+          "likes": 1994,
           "retweets": 31,
           "replies": 66,
           "quotes": 14,
-          "impressions": 211380,
+          "impressions": 211542,
           "bookmarks": 147
         }
       },
@@ -4700,7 +4675,7 @@
         "author": "Abhishek Bhardwaj",
         "handle": "@abshkbh",
         "createdAt": "2026-05-15T05:56:55.000Z",
-        "stamp": "15d",
+        "stamp": "16d",
         "text": "@guanlandai @martin_casado Fun event. Thanks for having me.",
         "insight": "Watchlist signal from @abshkbh. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Agent and RL infrastructure",
@@ -4733,7 +4708,7 @@
         "author": "Noah Zweben",
         "handle": "@noahzweben",
         "createdAt": "2026-05-15T04:12:59.000Z",
-        "stamp": "15d",
+        "stamp": "16d",
         "text": "@ericrovner @bcherny Thank you for the feedback !",
         "insight": "Watchlist signal from @noahzweben. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Claude Code PM",
@@ -4766,7 +4741,7 @@
         "author": "Ben Kuhn",
         "handle": "@benkuhn",
         "createdAt": "2026-05-15T03:25:45.000Z",
-        "stamp": "15d",
+        "stamp": "16d",
         "text": "(and ty for making my day if that was you!)",
         "insight": "Watchlist signal from @benkuhn. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: AI safety",
@@ -4785,7 +4760,7 @@
           "retweets": 0,
           "replies": 0,
           "quotes": 0,
-          "impressions": 440,
+          "impressions": 443,
           "bookmarks": 0
         }
       },
@@ -4851,7 +4826,7 @@
           "retweets": 1,
           "replies": 0,
           "quotes": 0,
-          "impressions": 126,
+          "impressions": 127,
           "bookmarks": 1
         }
       },
@@ -4964,7 +4939,7 @@
         "author": "Noah Zweben",
         "handle": "@noahzweben",
         "createdAt": "2026-05-14T04:19:34.000Z",
-        "stamp": "16d",
+        "stamp": "17d",
         "text": "@velazcod @QuangThien27 No matter how you use SDK",
         "insight": "Watchlist signal from @noahzweben. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Claude Code PM",
@@ -4997,7 +4972,7 @@
         "author": "Noah Zweben",
         "handle": "@noahzweben",
         "createdAt": "2026-05-14T04:19:19.000Z",
-        "stamp": "16d",
+        "stamp": "17d",
         "text": "@velazcod @QuangThien27 It does not touch your interactive usage limits at all. You will still get 100% of your normal rate limits",
         "insight": "Watchlist signal from @noahzweben. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Claude Code PM",
@@ -5030,7 +5005,7 @@
         "author": "Noah Zweben",
         "handle": "@noahzweben",
         "createdAt": "2026-05-13T21:26:11.000Z",
-        "stamp": "16d",
+        "stamp": "17d",
         "text": "@CasJam Additional on top - your \"regular\" interactive limits stay the same",
         "insight": "Watchlist signal from @noahzweben. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Claude Code PM",
@@ -5129,7 +5104,7 @@
         "author": "Jon Abrams 🤷‍♂️",
         "handle": "@jonathanabrams",
         "createdAt": "2026-05-11T20:29:36.000Z",
-        "stamp": "18d",
+        "stamp": "19d",
         "text": "@akio_1963 @Edensjapan Please talk about it!",
         "insight": "Watchlist signal from @jonathanabrams. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Codex",
@@ -5306,7 +5281,7 @@
         "author": "Amanda Askell",
         "handle": "@amandaaskell",
         "createdAt": "2026-05-09T03:01:18.000Z",
-        "stamp": "21d",
+        "stamp": "22d",
         "text": "@sprice354_ Perhaps the finetuning motto can be \"your good data might not save us, but your bad data might might kill us all.\" Or perhaps there's a reason I'm not in charge of the mottos.",
         "insight": "Watchlist signal from @amandaaskell. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: AI ethics",
@@ -5325,7 +5300,7 @@
           "retweets": 1,
           "replies": 3,
           "quotes": 0,
-          "impressions": 590,
+          "impressions": 593,
           "bookmarks": 1
         }
       },
@@ -5339,7 +5314,7 @@
         "author": "Abhishek Bhardwaj",
         "handle": "@abshkbh",
         "createdAt": "2026-05-08T22:02:11.000Z",
-        "stamp": "21d",
+        "stamp": "22d",
         "text": "@JinjingLiang Too cute :) Maybe the Codex Pets should dance like this when a PR merges",
         "insight": "Watchlist signal from @abshkbh. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Agent and RL infrastructure",
@@ -5372,7 +5347,7 @@
         "author": "Adam Wolff",
         "handle": "@dmwlff",
         "createdAt": "2026-05-08T21:13:15.000Z",
-        "stamp": "21d",
+        "stamp": "22d",
         "text": "@Lon @xen_studio @trq212 We are working on refining the controls for this. For now, you can opt out by setting CLAUDE_CODE_FORK_SUBAGENT=0",
         "insight": "Watchlist signal from @dmwlff. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Claude Code",
@@ -5405,7 +5380,7 @@
         "author": "Adam Wolff",
         "handle": "@dmwlff",
         "createdAt": "2026-05-08T21:12:33.000Z",
-        "stamp": "21d",
+        "stamp": "22d",
         "text": "@Lon @xen_studio @trq212 Thank you for this feedback. While forked subagents are mostly useful, there are definitely cases (like adversarial review) where you don't want it. You should be able to prompt Claude to use a non-forked subagent.",
         "insight": "Watchlist signal from @dmwlff. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Claude Code",
@@ -5438,7 +5413,7 @@
         "author": "Adam Wolff",
         "handle": "@dmwlff",
         "createdAt": "2026-05-08T20:34:01.000Z",
-        "stamp": "21d",
+        "stamp": "22d",
         "text": "@xen_studio @Lon @trq212 That is not accurate. Background/foreground does not affect cache at all. Forked agents (which are coupled with this experiment) should be _more_ cache efficient because they share cache with the parent and require less context to be...",
         "insight": "Watchlist signal from @dmwlff. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Claude Code",
@@ -5471,7 +5446,7 @@
         "author": "Adam Wolff",
         "handle": "@dmwlff",
         "createdAt": "2026-05-08T20:27:43.000Z",
-        "stamp": "21d",
+        "stamp": "22d",
         "text": "@Lon @xen_studio @trq212 The efficiency problem was fixed. Let me investigate the issue with permissions.",
         "insight": "Watchlist signal from @dmwlff. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Claude Code",
@@ -5523,7 +5498,7 @@
           "retweets": 0,
           "replies": 1,
           "quotes": 0,
-          "impressions": 579,
+          "impressions": 580,
           "bookmarks": 0
         }
       },
@@ -5556,7 +5531,7 @@
           "retweets": 0,
           "replies": 4,
           "quotes": 0,
-          "impressions": 22867,
+          "impressions": 22870,
           "bookmarks": 2
         }
       },
@@ -5570,7 +5545,7 @@
         "author": "Alexander Embiricos",
         "handle": "@embirico",
         "createdAt": "2026-05-07T23:08:01.000Z",
-        "stamp": "22d",
+        "stamp": "23d",
         "text": "@_ianwatts_ no support beyond Chrome, yet",
         "insight": "Watchlist signal from @embirico. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Codex",
@@ -5603,7 +5578,7 @@
         "author": "Alexander Embiricos",
         "handle": "@embirico",
         "createdAt": "2026-05-07T21:41:54.000Z",
-        "stamp": "22d",
+        "stamp": "23d",
         "text": "@Ixel111 Not yet sorry. Working on it",
         "insight": "Watchlist signal from @embirico. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Codex",
@@ -5636,7 +5611,7 @@
         "author": "Abhishek Bhardwaj",
         "handle": "@abshkbh",
         "createdAt": "2026-05-06T06:44:11.000Z",
-        "stamp": "24d",
+        "stamp": "25d",
         "text": "@RhysSullivan Load testing",
         "insight": "Watchlist signal from @abshkbh. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Agent and RL infrastructure",
@@ -5669,7 +5644,7 @@
         "author": "Adam Wolff",
         "handle": "@dmwlff",
         "createdAt": "2026-05-05T21:37:02.000Z",
-        "stamp": "24d",
+        "stamp": "25d",
         "text": "@tonyalphaseeker Wasn't me. This is the github user dmwlff. I'm wolffiex on github: https://t.co/cmo5gdigqy",
         "insight": "Watchlist signal from @dmwlff. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Claude Code",
@@ -5702,7 +5677,7 @@
         "author": "Mo Bavarian",
         "handle": "@mobav0",
         "createdAt": "2026-05-05T06:00:05.000Z",
-        "stamp": "25d",
+        "stamp": "26d",
         "text": "@xanderai Tbc, I have no beef with peptides. May they all triumph in RCAs and become smashing successes like GLP1’s. But until the RCAs, the grifters are gonna grift",
         "insight": "Watchlist signal from @mobav0. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: RL research",
@@ -5735,7 +5710,7 @@
         "author": "Abhishek Bhardwaj",
         "handle": "@abshkbh",
         "createdAt": "2026-05-04T21:43:39.000Z",
-        "stamp": "25d",
+        "stamp": "26d",
         "text": "@athyuttamre caffeinate -duit 3000",
         "insight": "Watchlist signal from @abshkbh. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Agent and RL infrastructure",
@@ -5787,12 +5762,12 @@
         ],
         "sourcePostId": "2051348476295000337",
         "metrics": {
-          "likes": 486,
+          "likes": 487,
           "retweets": 12,
           "replies": 24,
           "quotes": 5,
-          "impressions": 22378,
-          "bookmarks": 33
+          "impressions": 22381,
+          "bookmarks": 34
         }
       },
       {
@@ -5824,7 +5799,7 @@
           "retweets": 11,
           "replies": 18,
           "quotes": 1,
-          "impressions": 19471,
+          "impressions": 19474,
           "bookmarks": 47
         }
       },
@@ -5894,7 +5869,7 @@
           "retweets": 0,
           "replies": 18,
           "quotes": 2,
-          "impressions": 11324,
+          "impressions": 11375,
           "bookmarks": 12
         }
       },
@@ -5908,7 +5883,7 @@
         "author": "Avital Balwit",
         "handle": "@avitalbalwit",
         "createdAt": "2026-04-30T21:50:55.000Z",
-        "stamp": "29d",
+        "stamp": "30d",
         "text": "@simonsarris @justalexoki Ok, I'd be very surprised. Excited to read your piece and down to write a counter if I don't buy it. I'd be far less surprised by \"Veganism isn't healthy\" (which may well be true, just isn't the best reason to be vegan anyways imo -...",
         "insight": "Watchlist signal from @avitalbalwit. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Chief of Staff",
@@ -5960,7 +5935,7 @@
           "retweets": 21,
           "replies": 16,
           "quotes": 3,
-          "impressions": 48650,
+          "impressions": 48712,
           "bookmarks": 131
         }
       },
@@ -5970,7 +5945,7 @@
         "contenderId": "claude",
         "type": "fact",
         "sourceTier": "person",
-        "confidence": 0.7006391928359867,
+        "confidence": 0.699553230351325,
         "author": "Avital Balwit",
         "handle": "@avitalbalwit",
         "createdAt": "2026-04-30T18:05:41.000Z",
@@ -5989,7 +5964,7 @@
         ],
         "sourcePostId": "2049913091308327019",
         "metrics": {
-          "likes": 36,
+          "likes": 34,
           "retweets": 0,
           "replies": 2,
           "quotes": 0,
@@ -6007,7 +5982,7 @@
         "author": "Andrej Karpathy",
         "handle": "@karpathy",
         "createdAt": "2026-04-30T01:34:44.000Z",
-        "stamp": "30d",
+        "stamp": "31d",
         "text": "@VBarsoum “Love &gt; Logic” :D https://t.co/5HyIjHxrMz",
         "insight": "Watchlist signal from @karpathy. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Pre-training research",
@@ -6026,7 +6001,7 @@
           "retweets": 18,
           "replies": 28,
           "quotes": 14,
-          "impressions": 46245,
+          "impressions": 46304,
           "bookmarks": 32
         }
       },
@@ -6040,7 +6015,7 @@
         "author": "Mo Bavarian",
         "handle": "@mobav0",
         "createdAt": "2026-04-30T00:06:04.000Z",
-        "stamp": "30d",
+        "stamp": "31d",
         "text": "San Francisco— the birthplace of AGI",
         "insight": "Watchlist signal from @mobav0. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: RL research",
@@ -6092,7 +6067,7 @@
           "retweets": 2,
           "replies": 6,
           "quotes": 2,
-          "impressions": 11713,
+          "impressions": 11738,
           "bookmarks": 17
         }
       },
@@ -6139,7 +6114,7 @@
         "author": "Ben Kuhn",
         "handle": "@benkuhn",
         "createdAt": "2026-04-26T21:00:53.000Z",
-        "stamp": "33d",
+        "stamp": "34d",
         "text": "@edelmaned in fact for me personally the opposite is true—i have an overactive drive for excellence / novelty / constant improvement in most parts of life, but i have found that i (eventually) enjoy things more deeply when i relax it, so it is nice that contr...",
         "insight": "Watchlist signal from @benkuhn. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: AI safety",
@@ -6172,7 +6147,7 @@
         "author": "Ben Kuhn",
         "handle": "@benkuhn",
         "createdAt": "2026-04-26T20:53:55.000Z",
-        "stamp": "33d",
+        "stamp": "34d",
         "text": "@edelmaned that makes sense as an experience to have, but interestingly, it's not universal! i've been happily doing contra for 20 years and if anything i feel *less* bored, and like i have a deeper appreciation of the \"repetitive / understimulating\" parts, t...",
         "insight": "Watchlist signal from @benkuhn. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: AI safety",
@@ -6209,7 +6184,7 @@
         "author": "Ben Kuhn",
         "handle": "@benkuhn",
         "createdAt": "2026-04-25T00:57:05.000Z",
-        "stamp": "35d",
+        "stamp": "36d",
         "text": "link: https://t.co/qx2NCrXYFn",
         "insight": "Watchlist signal from @benkuhn. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: AI safety",
@@ -6242,7 +6217,7 @@
         "author": "Guinness Chen",
         "handle": "@guinnesschen",
         "createdAt": "2026-04-25T00:56:34.000Z",
-        "stamp": "35d",
+        "stamp": "36d",
         "text": "@bryceoflife Can you check if microphone access is enabled in system settings -&gt; privacy and security -&gt; microphone?",
         "insight": "Watchlist signal from @guinnesschen. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Codex",
@@ -6265,7 +6240,7 @@
           "retweets": 0,
           "replies": 1,
           "quotes": 0,
-          "impressions": 3897,
+          "impressions": 3902,
           "bookmarks": 3
         }
       },
@@ -6279,7 +6254,7 @@
         "author": "Guinness Chen",
         "handle": "@guinnesschen",
         "createdAt": "2026-04-24T23:01:34.000Z",
-        "stamp": "35d",
+        "stamp": "36d",
         "text": "@martin_shameti Yeah good point",
         "insight": "Watchlist signal from @guinnesschen. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Codex",
@@ -6298,7 +6273,7 @@
           "retweets": 0,
           "replies": 5,
           "quotes": 0,
-          "impressions": 5768,
+          "impressions": 5774,
           "bookmarks": 0
         }
       },
@@ -6312,7 +6287,7 @@
         "author": "Guinness Chen",
         "handle": "@guinnesschen",
         "createdAt": "2026-04-22T05:27:30.000Z",
-        "stamp": "38d",
+        "stamp": "39d",
         "text": "@Millanphilipose https://t.co/s3FyMMCNjY",
         "insight": "Watchlist signal from @guinnesschen. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Codex",
@@ -6331,7 +6306,7 @@
           "retweets": 0,
           "replies": 1,
           "quotes": 0,
-          "impressions": 77,
+          "impressions": 79,
           "bookmarks": 0
         }
       },
@@ -6345,7 +6320,7 @@
         "author": "Jon Abrams 🤷‍♂️",
         "handle": "@jonathanabrams",
         "createdAt": "2026-04-21T23:44:35.000Z",
-        "stamp": "38d",
+        "stamp": "39d",
         "text": "@theo @FrameworkPuter Replace caps lock with cmd and it's perfect",
         "insight": "Watchlist signal from @jonathanabrams. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Codex",
@@ -6411,7 +6386,7 @@
         "author": "Guinness Chen",
         "handle": "@guinnesschen",
         "createdAt": "2026-04-19T03:42:49.000Z",
-        "stamp": "41d",
+        "stamp": "42d",
         "text": "@RhysSullivan @thsottiaux Great idea",
         "insight": "Watchlist signal from @guinnesschen. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Codex",
@@ -6430,7 +6405,7 @@
           "retweets": 0,
           "replies": 0,
           "quotes": 0,
-          "impressions": 165,
+          "impressions": 166,
           "bookmarks": 0
         }
       },
@@ -6444,7 +6419,7 @@
         "author": "Sulman Choudhry",
         "handle": "@sulmanrc",
         "createdAt": "2026-04-18T01:47:56.000Z",
-        "stamp": "42d",
+        "stamp": "43d",
         "text": "@billpeeb Going to miss you Bill! Congrats on an epic run.",
         "insight": "Watchlist signal from @sulmanrc. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Head of engineering, ChatGPT",
@@ -6477,7 +6452,7 @@
         "author": "Sulman Choudhry",
         "handle": "@sulmanrc",
         "createdAt": "2026-04-18T01:47:23.000Z",
-        "stamp": "42d",
+        "stamp": "43d",
         "text": "@snsf Thanks for taking a chance on me and for all the support throughout my time here. Going to miss you. And wish you the best.",
         "insight": "Watchlist signal from @sulmanrc. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Head of engineering, ChatGPT",
@@ -6496,7 +6471,7 @@
           "retweets": 0,
           "replies": 0,
           "quotes": 0,
-          "impressions": 3812,
+          "impressions": 3813,
           "bookmarks": 0
         }
       },
@@ -6510,7 +6485,7 @@
         "author": "Sulman Choudhry",
         "handle": "@sulmanrc",
         "createdAt": "2026-04-18T01:46:14.000Z",
-        "stamp": "42d",
+        "stamp": "43d",
         "text": "@kevinweil Going to miss you Kevin!! Thanks for everything you did here and friendship over the years.",
         "insight": "Watchlist signal from @sulmanrc. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Head of engineering, ChatGPT",
@@ -6543,7 +6518,7 @@
         "author": "Fidji Simo",
         "handle": "@fidjissimo",
         "createdAt": "2026-04-18T00:46:18.000Z",
-        "stamp": "42d",
+        "stamp": "43d",
         "text": "@RonConway So sorry to read this Ron. Cancer picked the wrong person. May all the good you’ve put out in the world be returned to you 100-fold during this time. There’s a large army of people rooting for you.",
         "insight": "Watchlist signal from @fidjissimo. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: CEO of Applications",
@@ -6562,7 +6537,7 @@
           "retweets": 1,
           "replies": 1,
           "quotes": 0,
-          "impressions": 7161,
+          "impressions": 7165,
           "bookmarks": 7
         }
       },
@@ -6576,7 +6551,7 @@
         "author": "Jon Abrams 🤷‍♂️",
         "handle": "@jonathanabrams",
         "createdAt": "2026-04-17T23:14:24.000Z",
-        "stamp": "42d",
+        "stamp": "43d",
         "text": "@heavenisatrux @PixelCNinja @topapate @furrtek It means they’re using Jotego’s core source code to create the chips.",
         "insight": "Watchlist signal from @jonathanabrams. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Codex",
@@ -6782,7 +6757,7 @@
         "author": "Fidji Simo",
         "handle": "@fidjissimo",
         "createdAt": "2026-04-06T02:18:49.000Z",
-        "stamp": "54d",
+        "stamp": "55d",
         "text": "@LetsGoCure @CODA_research Amazing! When do you think you’ll be able to release what you’re working on?",
         "insight": "Watchlist signal from @fidjissimo. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: CEO of Applications",
@@ -6819,7 +6794,7 @@
         "author": "Fidji Simo",
         "handle": "@fidjissimo",
         "createdAt": "2026-04-06T02:03:27.000Z",
-        "stamp": "54d",
+        "stamp": "55d",
         "text": "@bartonsmith I’m so sorry to read this Barton, these conditions are absolutely awful :( Wishing her to find a path back to health ❤️‍🩹",
         "insight": "Watchlist signal from @fidjissimo. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: CEO of Applications",
@@ -6852,7 +6827,7 @@
         "author": "Yufeng Zhang",
         "handle": "@yuf_zh",
         "createdAt": "2026-04-01T19:33:50.000Z",
-        "stamp": "58d",
+        "stamp": "59d",
         "text": "@percyliang Congrats!",
         "insight": "Watchlist signal from @yuf_zh. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Research",
@@ -6885,7 +6860,7 @@
         "author": "Gav Verma",
         "handle": "@gavverma",
         "createdAt": "2026-03-07T23:27:22.000Z",
-        "stamp": "83d",
+        "stamp": "84d",
         "text": "@robertobmello @steipete Soon🪝",
         "insight": "Watchlist signal from @gavverma. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Codex",
@@ -6951,7 +6926,7 @@
         "author": "Yufeng Zhang",
         "handle": "@yuf_zh",
         "createdAt": "2026-03-04T03:03:33.000Z",
-        "stamp": "87d",
+        "stamp": "88d",
         "text": "@max_a_schwarzer @MillionInt @polynoamial So sad to see you leave 😭 grateful for all of your work. Best of luck with your new journey!",
         "insight": "Watchlist signal from @yuf_zh. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Research",
@@ -7017,7 +6992,7 @@
         "author": "Ben Kuhn",
         "handle": "@benkuhn",
         "createdAt": "2026-02-28T22:08:06.000Z",
-        "stamp": "90d",
+        "stamp": "91d",
         "text": "@EpistemicHope It’s a standard part of the dialogue tree in an interview we give to ~every hire, but I don’t know exactly how often that branch of the dialogue tree gets taken.",
         "insight": "Watchlist signal from @benkuhn. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: AI safety",
@@ -7050,7 +7025,7 @@
         "author": "Gav Verma",
         "handle": "@gavverma",
         "createdAt": "2026-02-24T06:30:24.000Z",
-        "stamp": "95d",
+        "stamp": "96d",
         "text": "@rohanvarma Welcome to the team! 🙌",
         "insight": "Watchlist signal from @gavverma. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Codex",
@@ -7083,7 +7058,7 @@
         "author": "David Chouinard",
         "handle": "@davidchouinard",
         "createdAt": "2026-02-23T01:17:20.000Z",
-        "stamp": "96d",
+        "stamp": "97d",
         "text": "@mnedoszytko @shack15 @AnthropicAI Congrats!",
         "insight": "Watchlist signal from @davidchouinard. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Claude Code",
@@ -7102,7 +7077,7 @@
           "retweets": 0,
           "replies": 0,
           "quotes": 0,
-          "impressions": 77,
+          "impressions": 78,
           "bookmarks": 0
         }
       },
@@ -7182,7 +7157,7 @@
         "author": "David Chouinard",
         "handle": "@davidchouinard",
         "createdAt": "2026-02-20T23:11:16.000Z",
-        "stamp": "98d",
+        "stamp": "99d",
         "text": "@DerekCedarbaum @bcherny Yep! Please apply here and include the project name under the company/organization field: https://t.co/da0AGP8kXt",
         "insight": "Watchlist signal from @davidchouinard. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Claude Code",
@@ -7223,7 +7198,7 @@
         "author": "David Chouinard",
         "handle": "@davidchouinard",
         "createdAt": "2026-02-20T21:46:23.000Z",
-        "stamp": "98d",
+        "stamp": "99d",
         "text": "@ericabrescia Thanks for taking a look!",
         "insight": "Watchlist signal from @davidchouinard. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Claude Code",
@@ -7388,7 +7363,7 @@
         "author": "Yufeng Zhang",
         "handle": "@yuf_zh",
         "createdAt": "2026-02-15T21:54:47.000Z",
-        "stamp": "103d",
+        "stamp": "104d",
         "text": "🦞🦞🦞 https://t.co/YIWrJFXm4H",
         "insight": "Watchlist signal from @yuf_zh. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Research",
@@ -7421,7 +7396,7 @@
         "author": "Jakub Pachocki",
         "handle": "@merettm",
         "createdAt": "2026-02-15T06:44:44.000Z",
-        "stamp": "104d",
+        "stamp": "105d",
         "text": "@Knikct Hi Nikhil! We will aim to publish more information next week, but as I noted above, this was a quite chaotic sprint (you caught us by surprise! please give us time to prepare next time!). We will not be able to gather all the transcripts as they are q...",
         "insight": "Watchlist signal from @merettm. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Chief Scientist",
@@ -7487,7 +7462,7 @@
         "author": "andy jones",
         "handle": "@andy_l_jones",
         "createdAt": "2026-02-12T19:44:48.000Z",
-        "stamp": "106d",
+        "stamp": "107d",
         "text": "invisible hand pulling the fire alarm dot jpeg",
         "insight": "Watchlist signal from @andy_l_jones. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Engineering and research",
@@ -7506,7 +7481,7 @@
           "retweets": 2,
           "replies": 1,
           "quotes": 0,
-          "impressions": 9864,
+          "impressions": 9866,
           "bookmarks": 2
         }
       },
@@ -7520,7 +7495,7 @@
         "author": "Gav Verma",
         "handle": "@gavverma",
         "createdAt": "2026-02-09T00:20:22.000Z",
-        "stamp": "110d",
+        "stamp": "111d",
         "text": "Come build on Codex! https://t.co/xmeO13m0b7",
         "insight": "Watchlist signal from @gavverma. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Codex",
@@ -7553,7 +7528,7 @@
         "author": "Sulman Choudhry",
         "handle": "@sulmanrc",
         "createdAt": "2026-02-07T03:22:10.000Z",
-        "stamp": "112d",
+        "stamp": "113d",
         "text": "@brendangregg Welcome! So excited to work with you.",
         "insight": "Watchlist signal from @sulmanrc. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Head of engineering, ChatGPT",
@@ -7586,7 +7561,7 @@
         "author": "andy jones",
         "handle": "@andy_l_jones",
         "createdAt": "2026-02-03T20:49:55.000Z",
-        "stamp": "115d",
+        "stamp": "116d",
         "text": "@MaskedTorah all of RL is in scope, but i think it's low-competition because most of what we incentivize right now is a sort of assistance/collaboration. rather than what i expect to be incentivized in future, which will be stuff like 'outcompete that other A...",
         "insight": "Watchlist signal from @andy_l_jones. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Engineering and research",
@@ -7619,7 +7594,7 @@
         "author": "andy jones",
         "handle": "@andy_l_jones",
         "createdAt": "2026-02-03T20:30:51.000Z",
-        "stamp": "115d",
+        "stamp": "116d",
         "text": "as ever: see also corporations/states.",
         "insight": "Watchlist signal from @andy_l_jones. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Engineering and research",
@@ -7638,7 +7613,7 @@
           "retweets": 0,
           "replies": 1,
           "quotes": 0,
-          "impressions": 1642,
+          "impressions": 1644,
           "bookmarks": 0
         }
       },
@@ -7652,7 +7627,7 @@
         "author": "Sulman Choudhry",
         "handle": "@sulmanrc",
         "createdAt": "2026-01-18T00:07:17.000Z",
-        "stamp": "132d",
+        "stamp": "133d",
         "text": "@mxstbr @OpenAI welcome!",
         "insight": "Watchlist signal from @sulmanrc. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Head of engineering, ChatGPT",
@@ -7685,7 +7660,7 @@
         "author": "Sulman Choudhry",
         "handle": "@sulmanrc",
         "createdAt": "2025-12-25T23:14:11.000Z",
-        "stamp": "155d",
+        "stamp": "156d",
         "text": "@oxranga https://t.co/e8kPIwmfGC",
         "insight": "Watchlist signal from @sulmanrc. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Head of engineering, ChatGPT",
@@ -7755,7 +7730,7 @@
         "author": "niki parmar",
         "handle": "@nikiparmar09",
         "createdAt": "2025-12-04T19:28:39.000Z",
-        "stamp": "176d",
+        "stamp": "177d",
         "text": "@Azaliamirh @annadgoldie @RicursiveAI Congratulations @Azaliamirh and @annadgoldie! Excited to see progress on chip design and new models.",
         "insight": "Watchlist signal from @nikiparmar09. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Research",
@@ -7825,7 +7800,7 @@
         "author": "niki parmar",
         "handle": "@nikiparmar09",
         "createdAt": "2025-06-11T21:29:05.000Z",
-        "stamp": "352d",
+        "stamp": "353d",
         "text": "@realSharonZhou @LisaSu @AMD @LaminiAI Wonderful news! Congratulations, Sharon!!",
         "insight": "Watchlist signal from @nikiparmar09. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Research",
@@ -7906,11 +7881,11 @@
         ],
         "sourcePostId": "1840447732827431106",
         "metrics": {
-          "likes": 1235,
-          "retweets": 165,
+          "likes": 1234,
+          "retweets": 164,
           "replies": 24,
           "quotes": 19,
-          "impressions": 211302,
+          "impressions": 211304,
           "bookmarks": 40
         }
       },
@@ -7924,7 +7899,7 @@
         "author": "Kiriti Badam",
         "handle": "@kiritibadam",
         "createdAt": "2024-03-07T03:45:30.000Z",
-        "stamp": "814d",
+        "stamp": "815d",
         "text": "@elonmusk Lol. Typical childlike response from Elon!",
         "insight": "Watchlist signal from @kiritibadam. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Codex",
@@ -7957,7 +7932,7 @@
         "author": "Kiriti Badam",
         "handle": "@kiritibadam",
         "createdAt": "2024-03-05T01:58:22.000Z",
-        "stamp": "816d",
+        "stamp": "817d",
         "text": "@airfrance does it again! Cancelled our original flight, booked us to Lufthansa and now that flight is also cancelled. They want us to downgrade from business class without refunding anything! Customer rep says I should care about traveling instead of complai...",
         "insight": "Watchlist signal from @kiritibadam. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Codex",
@@ -8027,7 +8002,7 @@
         "author": "Kiriti Badam",
         "handle": "@kiritibadam",
         "createdAt": "2022-01-08T20:22:09.000Z",
-        "stamp": "1602d",
+        "stamp": "1603d",
         "text": "@airindiain @rajan_2992 @rajan_2992 Did they get back to you? Or they just ignored as everytime?",
         "insight": "Watchlist signal from @kiritibadam. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Codex",
@@ -8093,7 +8068,7 @@
         "author": "Kiriti Badam",
         "handle": "@kiritibadam",
         "createdAt": "2022-01-07T20:35:47.000Z",
-        "stamp": "1603d",
+        "stamp": "1604d",
         "text": "@airindiain I had to wait 30 mins on call multiple times to reschedule my ticket. They just simply disconnect the call without any notification. What a sham/scam of airlines that's supposed to help Indians during the tough times! #badcustomerservice #neglect...",
         "insight": "Watchlist signal from @kiritibadam. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: Codex",
@@ -8130,7 +8105,7 @@
         "author": "Daniela Amodei",
         "handle": "@danielaamodei",
         "createdAt": "2021-05-29T00:38:48.000Z",
-        "stamp": "1827d",
+        "stamp": "1828d",
         "text": "@usmannk @AnthropicAI @nottombrown Thanks for the catch! We've fixed that email alias now, should be working. :)",
         "insight": "Watchlist signal from @danielaamodei. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: President",
@@ -8163,7 +8138,7 @@
         "author": "Daniela Amodei",
         "handle": "@danielaamodei",
         "createdAt": "2019-10-07T20:32:32.000Z",
-        "stamp": "2426d",
+        "stamp": "2427d",
         "text": "@gdb YAY congrats!!! &lt;3 &lt;3 &lt;3",
         "insight": "Watchlist signal from @danielaamodei. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: President",
@@ -8196,7 +8171,7 @@
         "author": "Daniela Amodei",
         "handle": "@danielaamodei",
         "createdAt": "2019-06-24T03:54:21.000Z",
-        "stamp": "2532d",
+        "stamp": "2533d",
         "text": "@patrickc Congrats!!",
         "insight": "Watchlist signal from @danielaamodei. Treat as evidence-backed activity, and promote to roadmap signal only when it repeats across sources.",
         "impact": "Role context: President",
@@ -8220,7 +8195,7 @@
         }
       }
     ],
-    "rawPostCount": 432
+    "rawPostCount": 429
   },
   "arena": {
     "id": "clododex",
